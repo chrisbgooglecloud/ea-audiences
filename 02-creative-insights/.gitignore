@@ -1,0 +1,17 @@
+node_modules
+dist
+public/data/configuration/*_run.json
+.DS_Store
+.env
+
+# Python virtual environments
+venv_311/
+venv/
+.venv/
+
+# Python cache & compiled files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/

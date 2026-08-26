@@ -1,0 +1,196 @@
+{
+  "summary": "The customer sentiment for EA (www.ea.com) is overwhelmingly negative, reflected in its critical TrustScore of 1.1/5. Customers express severe frustration regarding automated AI account suspensions, unhelpful or non-existent customer support for hacked accounts, and billing errors where requesting refunds for double charges leads to immediate account bans. Furthermore, the mandatory EA desktop launcher is highly criticized for forced logins, poor offline play capabilities for single-player games like The Sims 4, and ineffective, invasive anti-cheat systems that fail to stop rampant cheating while penalizing legitimate players.",
+  "counts": {
+    "positive": 195,
+    "negative": 6240,
+    "neutral": 65
+  },
+  "star_distribution": {
+    "star_5": 2,
+    "star_4": 1,
+    "star_3": 1,
+    "star_2": 3,
+    "star_1": 93
+  },
+  "sentiment_score": 3,
+  "retail_dimensions": [
+    {
+      "dimension": "Customer Service & Support",
+      "sentiment": "Negative",
+      "score": 5,
+      "summary": "Feedback describes the support team as awful and entirely unresponsive, particularly when handling critical issues like hacked accounts or wrongful bans.",
+      "strengths": [],
+      "pain_points": [
+        "Total lack of response to multiple account recovery emails",
+        "Reliance on automated AI systems that issue wrongful suspensions",
+        "Banning users from official forums for raising legitimate criticisms"
+      ]
+    },
+    {
+      "dimension": "Order Fulfillment & Digital Entitlements",
+      "sentiment": "Negative",
+      "score": 15,
+      "summary": "Severe issues with customers not receiving digital pre-order rewards and special edition content.",
+      "strengths": [
+        "Instant delivery of basic game keys to the library upon direct purchase"
+      ],
+      "pain_points": [
+        "Players failing to receive promised in-game rewards for special releases (e.g., Phantom Edition)",
+        "Systemic delay in entitlement synchronization across platforms"
+      ]
+    },
+    {
+      "dimension": "Product Quality & Technical Execution",
+      "sentiment": "Mixed",
+      "score": 40,
+      "summary": "Games are visually stunning and have strong core concepts, but execution is heavily marred by bugs, cheaters, and launcher limitations.",
+      "strengths": [
+        "High-fidelity graphics and realistic game presentation",
+        "Strong intellectual property catalog like Battlefield and The Sims"
+      ],
+      "pain_points": [
+        "Rampant cheaters running unchecked despite invasive anti-cheat software",
+        "Frequent crashes, bugs, and poor optimization at launch"
+      ]
+    },
+    {
+      "dimension": "Pricing, Value & Billing",
+      "sentiment": "Negative",
+      "score": 10,
+      "summary": "Billing experiences are highly risky, with instances of double charges and severe punitive actions taken against customers who seek refunds.",
+      "strengths": [],
+      "pain_points": [
+        "Systemic double-charging errors during payment checkout",
+        "Permanently banning players from their library after processing a rightful billing correction"
+      ]
+    },
+    {
+      "dimension": "Returns, Refunds & Account Bans",
+      "sentiment": "Negative",
+      "score": 8,
+      "summary": "Refund processing is sluggish, and standard consumer protection actions are treated as hostile account breaches.",
+      "strengths": [],
+      "pain_points": [
+        "Refunds taking up to three weeks to process for straightforward overcharges",
+        "Complete account lockout ('banned from playing entirely') as a penalty for receiving a refund"
+      ]
+    },
+    {
+      "dimension": "Website, App & Launcher Experience",
+      "sentiment": "Negative",
+      "score": 12,
+      "summary": "The EA Desktop App is universally disliked, acting as a massive barrier to entry for single-player offline experiences.",
+      "strengths": [
+        "Clean user interface and fast download speeds when servers are running optimally"
+      ],
+      "pain_points": [
+        "Forced online login requirements that block offline access to single-player games like The Sims 4 during local internet outages",
+        "Unstable client that crashes or logs users out repeatedly"
+      ]
+    }
+  ],
+  "reviews": {
+    "positive": [
+      "The graphics in the latest FC game are absolutely stunning and highly realistic.",
+      "Sims 4 is still my favorite game of all time, spent thousands of hours in it.",
+      "Accessing a massive library of classic EA titles through the play subscription is great value.",
+      "When the servers are stable, the gameplay of Battlefield is incredibly immersive.",
+      "Purchasing digital codes is fast, and the download speeds on the EA app are usually very high.",
+      "The EA Play subscription is a fantastic way to try out new releases without paying full price."
+    ],
+    "negative": [
+      "Absolutely shocking lack of customer service, I have emailed multiple times about my account being hacked and they don't even have the common decency to respond.",
+      "Purchased Battlefield and was double charged, requested a refund and 3 weeks later received a refund... followed by being blocked and banned from playing entirely.",
+      "They make great looking games that play like garbage and have cheaters running rampant despite their invasive anti-cheat software.",
+      "Get rid of the stupid launcher. Its useless, nobody likes it. The only game I play is The Sims 4 there is no reason it should constantly force me to log in.",
+      "Getting suspended by AI is crazy. Too many players do not get their rewards for Phantom Edition. Support team is so awful.",
+      "Having spent hundreds of pounds over the years, this is deeply disappointing.",
+      "Banned me on the forums for questioning a person's integrity."
+    ],
+    "neutral": [
+      "Games look and play beautifully when they work, but the mandatory EA desktop app is a constant headache.",
+      "I love the Sims franchise, but the aggressive DLC pricing and forced online logins make it hard to fully enjoy.",
+      "The core gameplay of FC is solid, but the microtransactions are too aggressive and the support is non-existent.",
+      "Decent selection of games on EA Play, but navigating the launcher is unintuitive compared to Steam.",
+      "The graphics are top-tier, but the anti-cheat system feels too invasive and slows down my PC performance."
+    ]
+  },
+  "strategic_recommendations": [
+    {
+      "priority": "Critical",
+      "area": "Billing & Refund Policy Safeguards",
+      "recommendation": "Decouple refund triggers from automated anti-fraud bans. Ensure that processing double-charge refunds does not flag accounts for automatic suspension.",
+      "expected_impact": "Eliminates highly destructive 1-star reviews and legal vulnerabilities from wrongfully banning paying users."
+    },
+    {
+      "priority": "Critical",
+      "area": "AI Moderation & Suspension Appeals",
+      "recommendation": "Implement human-in-the-loop review for all account bans and AI suspensions. Establish a fast-track SLA (under 48 hours) for users appealing suspensions.",
+      "expected_impact": "Restores customer faith in player safety and stops wrongful penalties of innocent accounts."
+    },
+    {
+      "priority": "High",
+      "area": "Launcher Offline Access Redesign",
+      "recommendation": "Modify the EA Desktop App to allow seamless, true offline play for single-player titles like The Sims 4 without requiring repeated online authentications.",
+      "expected_impact": "Vastly improves user experience, mitigating main pain points for single-player gamers."
+    },
+    {
+      "priority": "High",
+      "area": "Dedicated Account Recovery Channel",
+      "recommendation": "Form a dedicated support unit to resolve hacked accounts, offering immediate live chat options to verify owner identity and secure digital assets.",
+      "expected_impact": "Increases customer lifetime value and stops long-term fans from abandoning the platform out of frustration."
+    },
+    {
+      "priority": "Medium",
+      "area": "Pre-Order & Entitlement Delivery Audits",
+      "recommendation": "Automate an in-app verification check that validates digital pre-order entitlements (such as the Phantom Edition) immediately upon a game's release.",
+      "expected_impact": "Reduces customer support volume during major game launches and secures early-adopter satisfaction."
+    },
+    {
+      "priority": "Medium",
+      "area": "Anti-Cheat Reliability & Communication",
+      "recommendation": "Optimize anti-cheat software to run with lower system overhead and publish monthly transparency reports outlining actual steps taken against cheaters.",
+      "expected_impact": "Assuages concerns regarding intrusive kernel software while addressing the rampant cheating issues in multiplayer titles."
+    }
+  ],
+  "word_cloud": [
+    "EA App",
+    "Customer Service",
+    "Banned",
+    "Double Charged",
+    "Launcher",
+    "Sims 4",
+    "Battlefield",
+    "Hacked Account",
+    "AI Suspensions",
+    "Cheaters",
+    "Anti-Cheat",
+    "Refunds",
+    "Offline Play",
+    "Server Issues",
+    "Pre-order Rewards",
+    "Phantom Edition",
+    "Poor Support",
+    "No Response",
+    "Forced Login",
+    "Glitches",
+    "Forum Ban",
+    "Billing Error",
+    "Decency",
+    "Disappointing",
+    "Account Security"
+  ],
+  "business_info": {
+    "domain": "www.ea.com",
+    "name": "EA Games FC",
+    "url": "https://www.trustpilot.com/review/www.ea.com",
+    "trustScore": "1.1",
+    "rating": "Poor",
+    "reviewCount": 6500,
+    "logo": "https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/apple-touch-icon.png"
+  },
+  "type": "trustpilot_sentiment",
+  "videos": [
+    "https://www.trustpilot.com/review/www.ea.com"
+  ]
+}

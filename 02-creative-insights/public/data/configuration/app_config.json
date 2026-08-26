@@ -1,0 +1,71 @@
+{
+  "branding": {
+    "companyName": "EA Games FC",
+    "logo": "/images/unnamed.png",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#111827",
+      "accent": "#339DD4"
+    },
+    "metaTitle": "Brand Sentiment and Reputation Monitoring",
+    "logoHeight": 49,
+    "industryType": "Gaming"
+  },
+  "navigation": [
+    {
+      "id": "HOME",
+      "label": "Home",
+      "icon": "Home"
+    },
+    {
+      "id": "INSIGHTS",
+      "label": "Insights",
+      "icon": "Film"
+    },
+    {
+      "id": "CONTENT_HUB",
+      "label": "Create Content",
+      "icon": "FolderHeart"
+    },
+    {
+      "id": "AGENT_PLAYGROUND",
+      "label": "Agent Playground",
+      "icon": "Bot"
+    }
+  ],
+  "pages": {
+    "MARKETING_BRIEF": {
+      "defaultGoal": "To drive engagement and sales globally for EA Games after the world cup.",
+      "heroImage": "/images/generated/brief_hero.webp"
+    },
+    "CONTENT_STUDIO": {
+      "primaryProductImage": "/images/screenshot_2026_08_11_at_2.54.07_pm.png",
+      "secondaryStyleReference": "",
+      "multiImageReferences": [
+        "/images/screenshot_2026_04_29_at_2.57.49_pm.png"
+      ],
+      "contentVersioningReference": "/images/download.jpg",
+      "productSpinReferences": [
+        "/images/download_1.jpg",
+        "/images/download_2.jpg"
+      ],
+      "sketchToRealityReference": "/images/gapsketch.png",
+      "disabledTabs": [
+        "NEW_PRODUCT",
+        "YOUTUBE_BANNER",
+        "MULTI_IMAGE",
+        "PERSONALIZATION"
+      ],
+      "youtubeBannerTemplate": "/images/screenshot_2026_04_29_at_7.39.51_am.png",
+      "multiImagePersona": "younger Gen-Z woman in her 30s",
+      "multiImageProduct": "candle",
+      "multiImageLocations": [
+        "At Home on the kitchen counter",
+        "In an office",
+        "on a nightstand in a bedroom"
+      ]
+    }
+  },
+  "adAnalysisVideos": [],
+  "metadataVideos": []
+}

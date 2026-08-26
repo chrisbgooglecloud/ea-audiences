@@ -1,0 +1,23 @@
+{
+  "deployment_target": "cloud_run",
+  "registration_type": "a2a",
+  "project_id": "eagames-ebc-demo-app",
+  "location": "global",
+  "region": "us-central1",
+  "gemini_enterprise_app_id": "projects/eagames-ebc-demo-app/locations/global/collections/default_collection/engines/eagames-ebc-demo-ge-app",
+  "agent_name": "eagames-ebc-demo-ge-app",
+  "display_name": "EA Creative Intelligence & Agentic Measurement Fleet",
+  "description": "Production ADK Multi-Agent Fleet for Multimodal Creative Feature Tagging, Tactical 9-Grid Attribution, Spatial Geo-Spine MLOps, and Equimarginal Hill Saturation Budget Pacing.",
+  "agent_card_url": "https://eagames-ebc-demo-ge-app.us-central1.run.app/.well-known/agent-card.json",
+  "service_name": "ea-measurement-agents",
+  "container_image": "us-central1-docker.pkg.dev/eagames-ebc-demo-app/ea-measurement-docker/ea-measurement-agents:latest",
+  "sub_agents": [
+    "TaggingAgent",
+    "AnalyticsAgent",
+    "MediaBuyingAgent"
+  ],
+  "protocols": [
+    "A2A (Agent-to-Agent)",
+    "A2UI (Agent-to-User-Interface v0.8+)"
+  ]
+}

@@ -1,0 +1,1263 @@
+{
+  "type": "social_intelligence",
+  "query": "fc26",
+  "tag": "fc26",
+  "hashtag": "#fc26",
+  "timeframe": "1y",
+  "timeRange": "Last Year",
+  "summary": "The cross-channel sentiment for #fc26 remains highly polarized, characterized by a stark contrast between viral, high-energy TikTok content and deeply critical, systemic complaints on Reddit, Steam, and Trustpilot. While core excitement is driven by tactical overhauls, visual upgrades, and the social appeal of the new Rush mode, primary player friction points heavily dominate the discourse. These include persistent server instability, perceived pay-to-win mechanics in Ultimate Team, legacy gameplay bugs, and a lack of meaningful innovation in Career Mode. This dichotomy is reflected in a Mixed (57%) Steam rating and a critical 1.1/5 Trustpilot score, indicating that while the game maintains massive engagement, community frustration with live-ops and monetization remains at an all-time high.",
+  "sentiment_score": 41,
+  "counts": {
+    "positive": 15,
+    "negative": 22,
+    "neutral": 4
+  },
+  "sampleSize": 41,
+  "totalViews": "28.5M+",
+  "totalPostsFound": 47,
+  "activeChannels": [
+    "TikTok",
+    "Reddit",
+    "YouTube",
+    "Steam",
+    "Trustpilot"
+  ],
+  "channels": {
+    "tiktok": {
+      "topVideos": [
+        {
+          "creatorHandle": "@geografifa",
+          "creatorName": "Geografifa",
+          "verified": true,
+          "title": "The One Button That Will Ruin Your FC 26 Career Mode Save",
+          "views": "345K",
+          "likes": "28.4K",
+          "commentsCount": "1.2K",
+          "soundName": "Original Sound - Geografifa",
+          "keyHook": "There is one button in career mode that will ruin every single save you ever do if you press it...",
+          "sentiment": "neutral",
+          "videoUrl": "https://www.tiktok.com/@geografifa"
+        },
+        {
+          "creatorHandle": "@favelamarek",
+          "creatorName": "Favela Marek",
+          "verified": false,
+          "title": "BENZ 奔驰 - Sheng (FC26 Soundtrack is actually a bop!)",
+          "views": "145K",
+          "likes": "2.1K",
+          "commentsCount": "67",
+          "soundName": "BENZ 奔驰 - Sheng",
+          "keyHook": "Is this the best song on the new EA Sports FC 26 soundtrack?",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/@favelamarek"
+        },
+        {
+          "creatorHandle": "@fcconcepts",
+          "creatorName": "FC Concepts",
+          "verified": false,
+          "title": "Why Player Ratings in FC26 Career Mode are Completely Broken",
+          "views": "98K",
+          "likes": "7.2K",
+          "commentsCount": "412",
+          "soundName": "Synth Trap Type Beat - GOING",
+          "keyHook": "Player ratings in FC26 Career Mode are completely broken and it's ruining realism...",
+          "sentiment": "negative",
+          "videoUrl": "https://www.tiktok.com/@fcconcepts"
+        },
+        {
+          "creatorHandle": "@easportsfc",
+          "creatorName": "EA SPORTS FC",
+          "verified": true,
+          "title": "Experience The World's Game Like Never Before in FC 26",
+          "views": "1.2M",
+          "likes": "115K",
+          "commentsCount": "4.8K",
+          "soundName": "Original Sound - EA SPORTS",
+          "keyHook": "The World's Game update is here. Play with 48 national teams in the brand new international tournament mode!",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/@easportsfc"
+        }
+      ],
+      "audio_trends": [
+        {
+          "soundName": "BENZ 奔驰 - Sheng",
+          "creator": "Sheng",
+          "uses": "45.2K",
+          "mood": "Energetic / Hype"
+        },
+        {
+          "soundName": "Gut Genug",
+          "creator": "KITSCHKRIEG (feat. Blumengarten & Shirin David)",
+          "uses": "12.8K",
+          "mood": "Chill / Melancholic"
+        }
+      ],
+      "comments": [
+        {
+          "author": "fut_grinder99",
+          "text": "High press is the main problem with this game its too overpowered they chase you so fast",
+          "sentiment": "negative",
+          "likes": "342",
+          "videoTitle": "Experience The World's Game Like Never Before in FC 26"
+        },
+        {
+          "author": "career_mode_king",
+          "text": "The difficulty settings in career mode are absolutely crazy this year",
+          "sentiment": "negative",
+          "likes": "189",
+          "videoTitle": "The One Button That Will Ruin Your FC 26 Career Mode Save"
+        },
+        {
+          "author": "sheng_fan_china",
+          "text": "One of the best songs on eafc26. EA actually got the soundtrack right this time",
+          "sentiment": "positive",
+          "likes": "512",
+          "videoTitle": "BENZ 奔驰 - Sheng (FC26 Soundtrack is actually a bop!)"
+        },
+        {
+          "author": "tactics_guru",
+          "text": "I literally rage-quit because the ball vanished from under my feet and teleported to the opponent's right-back",
+          "sentiment": "negative",
+          "likes": "1.2K",
+          "videoTitle": "Experience The World's Game Like Never Before in FC 26"
+        },
+        {
+          "author": "charlie_b",
+          "text": "I have commentary off for years, but now I hear menu noises during gameplay. It's driving me mad",
+          "sentiment": "negative",
+          "likes": "94",
+          "videoTitle": "Experience The World's Game Like Never Before in FC 26"
+        },
+        {
+          "author": "fc_concept_enjoyer",
+          "text": "Strikers and goalkeepers are so overrated while defenders are completely underrated in the database",
+          "sentiment": "negative",
+          "likes": "215",
+          "videoTitle": "Why Player Ratings in FC26 Career Mode are Completely Broken"
+        },
+        {
+          "author": "casual_gamer_07",
+          "text": "The last time I played was FIFA 11, and with FC 26, a lot has changed and it's really a good game to play with friends",
+          "sentiment": "positive",
+          "likes": "430",
+          "videoTitle": "Experience The World's Game Like Never Before in FC 26"
+        },
+        {
+          "author": "no_restart_guy",
+          "text": "Pressing restart match really does cheat you out of the feeling of satisfaction at the end of a long season",
+          "sentiment": "positive",
+          "likes": "89",
+          "videoTitle": "The One Button That Will Ruin Your FC 26 Career Mode Save"
+        }
+      ]
+    },
+    "reddit": {
+      "threads": [
+        {
+          "title": "What do you find fun about the gameplay of FC26?",
+          "subreddit": "r/EASportsFC",
+          "upvotes": 42,
+          "commentCount": 28,
+          "sentiment": "neutral",
+          "threadUrl": "https://www.reddit.com/r/EASportsFC/comments/fc26_gameplay_discussion",
+          "summary": "Players discuss the transition to EA Sports FC 26, highlighting improvements in dribbling responsiveness and animation cancellation, while expressing frustration over the game's defensive AI and arcade-like momentum shifts."
+        },
+        {
+          "title": "Zlatan confirmed to be the coverstar for FC26. Trailer out Wednesday",
+          "subreddit": "r/EASportsFC",
+          "upvotes": 63,
+          "commentCount": 30,
+          "sentiment": "positive",
+          "threadUrl": "https://www.reddit.com/r/EASportsFC/comments/zlatan_coverstar_fc26",
+          "summary": "The community reacts with high excitement to the official announcement of Zlatan Ibrahimović as the Ultimate Edition cover star and his return as a highly-rated Icon card in FC 26."
+        },
+        {
+          "title": "Zlatan is affordable for once in FC26 go pick him up",
+          "subreddit": "r/FC_26",
+          "upvotes": 72,
+          "commentCount": 15,
+          "sentiment": "positive",
+          "threadUrl": "https://www.reddit.com/r/FC_26/comments/zlatan_affordable_fc26",
+          "summary": "A thread celebrating the accessibility of Zlatan Ibrahimović's Icon card in Ultimate Team, sparking a debate on whether his physical, aerial-focused playstyle fits the current pace-heavy meta."
+        },
+        {
+          "title": "PS5 überhitzt bei FC26 (PS5 overheating with FC 26)",
+          "subreddit": "r/PlaystationDE",
+          "upvotes": 18,
+          "commentCount": 21,
+          "sentiment": "negative",
+          "threadUrl": "https://www.reddit.com/r/PlaystationDE/comments/ps5_uberhitzt_fc26",
+          "summary": "German-speaking console players report severe optimization issues specific to FC 26 on the PlayStation 5, causing console overheating warnings and sudden shutdowns that do not occur with other demanding titles."
+        }
+      ],
+      "comments": [
+        {
+          "author": "racha",
+          "text": "I don't think there is one single online game as broken as FC 26. Simply nothing about this game is even remotely functional. The game keeps throwing so much random sh*t at you which your mind could never have foreseen.",
+          "sentiment": "negative",
+          "likes": 23,
+          "subreddit": "r/gaming",
+          "threadTitle": "EA SPORTS FC 26 Steam Reviews"
+        },
+        {
+          "author": "Redzer7",
+          "text": "Competitive gameplay mode for FUT, wins given if the opponent disconnects in the second half... relegation in Rivals if you go on a losing streak... are all things that have caught my eye.",
+          "sentiment": "positive",
+          "likes": 14,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "EA Sports FC 26 - Ultimate Team Thread"
+        },
+        {
+          "author": "thenotoriousbigc",
+          "text": "I try to proceed back to the menu and I get an error message pop up on my screen 'ea was unable to process your match results'. This turns into me having to restart the entire FC game... premature disconnect message from the absolute moronic crew that made the game.",
+          "sentiment": "negative",
+          "likes": 19,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "Issues with My Connection"
+        },
+        {
+          "author": "AcuminF",
+          "text": "FC26 ExitType 95 Crash: NVIDIA DPC Deadlock Triggered by EA Javelin. EA Javelin Anti-Cheat's kernel-mode hooks trigger a spinlock deadlock inside the NVIDIA display driver, causing a 5.7-second DPC hang that freezes the entire system.",
+          "sentiment": "negative",
+          "likes": 34,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "FC 26 Technical Issues & Bug Reports"
+        },
+        {
+          "author": "Dubziie_0",
+          "text": "Edit Teams and Kick Off mode are broken functions of EA FC26. We play locally and edit teams to make custom squads... the game crashes after you edited teams and tried to play.",
+          "sentiment": "negative",
+          "likes": 9,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "FC 26 Bug Reports"
+        },
+        {
+          "author": "ElPalabra787",
+          "text": "Why waste time making a new game when u guys can't fix FC 26 also this game u can't report hackers at all during gameplay I will not buy FC 27 because the beta is trash.",
+          "sentiment": "negative",
+          "likes": 12,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "Broken game mechanics"
+        },
+        {
+          "author": "FUT_Grinder_99",
+          "text": "The only thing I like is actually holding the ball, dribbling responsiveness seems improved as well as how early you can interrupt animations. Everything else is DIRE.",
+          "sentiment": "neutral",
+          "likes": 28,
+          "subreddit": "r/EASportsFC",
+          "threadTitle": "What do you find fun about the gameplay of FC26?"
+        },
+        {
+          "author": "Zlatan_Fan_Sweden",
+          "text": "This card feels like nothing else in FC 26. The LENGTHY AcceleRATE type means Zlatan accelerates slowly but hits a higher top speed once he gets going. His 5-star skills + 195cm physical combo is insane.",
+          "sentiment": "positive",
+          "likes": 45,
+          "subreddit": "r/FC_26",
+          "threadTitle": "Zlatan is affordable for once in FC26 go pick him up"
+        }
+      ],
+      "debates": [
+        {
+          "topic": "EA Javelin Anti-Cheat & PC Performance Crashes (ExitType 95)",
+          "consensus": "PC players are highly frustrated with kernel-level crashes (ExitType 95) triggered by EA's Javelin Anti-Cheat, which causes DPC latency deadlocks with NVIDIA drivers and random desktop crashes.",
+          "urgency": "high"
+        },
+        {
+          "topic": "Zlatan Ibrahimović Icon Meta Viability",
+          "consensus": "While casuals and skill-move enthusiasts love Zlatan's unique 5-star skill and physical profile, competitive players find his 81 acceleration and clunky balance too punishing in the high-pace meta.",
+          "urgency": "medium"
+        },
+        {
+          "topic": "Local Kick-Off & Custom Squad Crashes",
+          "consensus": "Offline and local co-op players are highly annoyed that editing rosters or custom team sheets causes the game to crash when loading into Kick-Off mode, a bug carried over from previous editions.",
+          "urgency": "high"
+        }
+      ]
+    },
+    "youtube": {
+      "videos": [
+        {
+          "channelName": "Team Gullit",
+          "title": "EA FC 26- Best 4-4-1-1 Custom Tactics",
+          "views": "21,000",
+          "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+          "publishedAgo": "4 months ago",
+          "sentiment": "Positive",
+          "keyTakeaway": "The 4-4-1-1 formation is highly effective and considered 'broken' in the current meta after the latest patch, offering an incredibly easy way to counterattack opponents using a CAM and ST staying upfront."
+        },
+        {
+          "channelName": "Snark Benchmark",
+          "title": "EA FC 26 Gameplay | Manchester City vs Manchester United (Xbox Series S)",
+          "views": "2,100",
+          "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+          "publishedAgo": "10 months ago",
+          "sentiment": "Neutral",
+          "keyTakeaway": "Showcases the overhauled gameplay experience powered by community feedback, highlighting the visual fidelity and performance on the Xbox Series S."
+        },
+        {
+          "channelName": "Snark Benchmark",
+          "title": "EA FC 26 - RTX 3050 Laptop - I5 12500H - 16 GB Ram",
+          "views": "932",
+          "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+          "publishedAgo": "1 month ago",
+          "sentiment": "Neutral",
+          "keyTakeaway": "Tests the game's performance on budget-friendly laptop hardware, addressing optimization and settings adjustments to maintain stable framerates."
+        },
+        {
+          "channelName": "Team Gullit",
+          "title": "EA FC 26 - The New Meta Explained",
+          "views": "12,000",
+          "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+          "publishedAgo": "9 days ago",
+          "sentiment": "Positive",
+          "keyTakeaway": "Breaks down the latest major meta shifts, gameplay changes, and mechanic updates as the competitive season progresses."
+        }
+      ],
+      "comments": [
+        {
+          "author": "@chriswiggin-g2v",
+          "text": "This is hands down the best tactics I have ever tried! My games have improved 1000%! Thank you for this!",
+          "sentiment": "positive",
+          "likes": 142
+        },
+        {
+          "author": "@nathaneaglesham",
+          "text": "Just shows how ass this game really is. You want your striker to basically be a cam to get anywhere in this game ☠️",
+          "sentiment": "negative",
+          "likes": 89
+        },
+        {
+          "author": "@RozzaMac",
+          "text": "These are op 🎉",
+          "sentiment": "positive",
+          "likes": 34
+        },
+        {
+          "author": "@Lil_Red_Samurai",
+          "text": "442 or 4411 is better imo 🎉",
+          "sentiment": "neutral",
+          "likes": 12
+        },
+        {
+          "author": "@UnstoppableMindset-4k",
+          "text": "The game is trash  u should critic those issue",
+          "sentiment": "negative",
+          "likes": 56
+        },
+        {
+          "author": "@claytondowdall6029",
+          "text": "How is the middle cm like a no.10 if he’s holding???",
+          "sentiment": "neutral",
+          "likes": 8
+        },
+        {
+          "author": "@cosmicbrain1990",
+          "text": "0-6 in champs. Please pray this saves me",
+          "sentiment": "neutral",
+          "likes": 21
+        },
+        {
+          "author": "@edge9380",
+          "text": "this one is really good!",
+          "sentiment": "positive",
+          "likes": 45
+        },
+        {
+          "author": "@movelikemodo",
+          "text": "Can we have gameplay against realistic  elite players because you do not get that much runners into space in my experience",
+          "sentiment": "negative",
+          "likes": 27
+        },
+        {
+          "author": "@VPub",
+          "text": "this formation is terrible 9-1 loss never have i seen something this bad",
+          "sentiment": "negative",
+          "likes": 63
+        },
+        {
+          "author": "@Auokii",
+          "text": "IVE WON 4GAMES IN A ROW WITH THIS FORMATION WOW",
+          "sentiment": "positive",
+          "likes": 110
+        }
+      ],
+      "creatorSentimentScore": 72
+    },
+    "steam": {
+      "appId": "3405690",
+      "appName": "EA SPORTS FC™ 26",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1785772769",
+      "positivePercentage": 57,
+      "ratingCategory": "Mixed",
+      "totalReviewsEstimate": "100+ Live Steam Reviews",
+      "reviewQuotes": [
+        {
+          "author": "Steam Verified Player #1",
+          "text": "get the game on sale its abs worth it and dont EVER PLAY ULTIMATE TEAM UR GON CRASHOUT",
+          "sentiment": "positive",
+          "voted_up": true
+        },
+        {
+          "author": "Steam Verified Player #2",
+          "text": "i love playing this game ",
+          "sentiment": "positive",
+          "voted_up": true
+        },
+        {
+          "author": "Steam Verified Player #3",
+          "text": "it is soo fun",
+          "sentiment": "positive",
+          "voted_up": true
+        },
+        {
+          "author": "Steam Verified Player #4",
+          "text": "Cannot connect to internet",
+          "sentiment": "negative",
+          "voted_up": false
+        },
+        {
+          "author": "Steam Verified Player #5",
+          "text": "same ♥♥♥♥ every year",
+          "sentiment": "positive",
+          "voted_up": true
+        },
+        {
+          "author": "Steam Verified Player #6",
+          "text": "so gooodddd",
+          "sentiment": "positive",
+          "voted_up": true
+        },
+        {
+          "author": "Steam Verified Player #7",
+          "text": "bug bug and bug,always force close",
+          "sentiment": "negative",
+          "voted_up": false
+        },
+        {
+          "author": "Steam Verified Player #8",
+          "text": "absolute trash of a game",
+          "sentiment": "negative",
+          "voted_up": false
+        },
+        {
+          "author": "Steam Verified Player #9",
+          "text": "10+ years have I not played FIFA. Decided to give it a shot because I remembered it as a fun game. 300 tiki taka passes later and 60 first touches by the AI I genuinely think EA has no longer any actual DEVs working on this title and simply delegated everything to the most braindead AI on the face o",
+          "sentiment": "negative",
+          "voted_up": false
+        },
+        {
+          "author": "Steam Verified Player #10",
+          "text": "it good",
+          "sentiment": "positive",
+          "voted_up": true
+        }
+      ],
+      "source": "Steam Official API"
+    },
+    "trustpilot": {
+      "trustScore": 1.1,
+      "ratingCategory": "Bad",
+      "totalReviews": "7,000+",
+      "keyThemes": [
+        "Frustrating AI gameplay mechanics (overpowered AI defending, uncreative AI attacking)",
+        "Perceived scripting and momentum manipulation during matches",
+        "Aggressive monetization, microtransactions, and pay-to-win structures",
+        "Severe lack of responsive customer support, especially regarding hacked accounts and billing issues",
+        "Unresolved bugs, server instability, and poor regional connection quality"
+      ],
+      "reviewQuotes": [
+        {
+          "author": "Alfred Spångberg",
+          "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "2026-08-10"
+        },
+        {
+          "author": "Tommy",
+          "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "2026-08-05"
+        },
+        {
+          "author": "Jordan C.",
+          "text": "Absolutely shocking lack of customer service, I have emailed multiple times about my account being hacked and they don't even have the common decency to respond.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "2026-01-24"
+        },
+        {
+          "author": "customer",
+          "text": "Purchased Battlefield 6 and was double charged, requested a refund and 3 weeks later received a refund for the double charge which is what i requested, followed by being blocked and banned from playing...",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "2026-01-13"
+        }
+      ]
+    }
+  },
+  "topVideos": [
+    {
+      "creatorHandle": "@geografifa",
+      "creatorName": "Geografifa",
+      "verified": true,
+      "title": "The One Button That Will Ruin Your FC 26 Career Mode Save",
+      "views": "345K",
+      "likes": "28.4K",
+      "commentsCount": "1.2K",
+      "soundName": "Original Sound - Geografifa",
+      "keyHook": "There is one button in career mode that will ruin every single save you ever do if you press it...",
+      "sentiment": "neutral",
+      "videoUrl": "https://www.tiktok.com/@geografifa"
+    },
+    {
+      "creatorHandle": "@favelamarek",
+      "creatorName": "Favela Marek",
+      "verified": false,
+      "title": "BENZ 奔驰 - Sheng (FC26 Soundtrack is actually a bop!)",
+      "views": "145K",
+      "likes": "2.1K",
+      "commentsCount": "67",
+      "soundName": "BENZ 奔驰 - Sheng",
+      "keyHook": "Is this the best song on the new EA Sports FC 26 soundtrack?",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/@favelamarek"
+    },
+    {
+      "creatorHandle": "@fcconcepts",
+      "creatorName": "FC Concepts",
+      "verified": false,
+      "title": "Why Player Ratings in FC26 Career Mode are Completely Broken",
+      "views": "98K",
+      "likes": "7.2K",
+      "commentsCount": "412",
+      "soundName": "Synth Trap Type Beat - GOING",
+      "keyHook": "Player ratings in FC26 Career Mode are completely broken and it's ruining realism...",
+      "sentiment": "negative",
+      "videoUrl": "https://www.tiktok.com/@fcconcepts"
+    },
+    {
+      "creatorHandle": "@easportsfc",
+      "creatorName": "EA SPORTS FC",
+      "verified": true,
+      "title": "Experience The World's Game Like Never Before in FC 26",
+      "views": "1.2M",
+      "likes": "115K",
+      "commentsCount": "4.8K",
+      "soundName": "Original Sound - EA SPORTS",
+      "keyHook": "The World's Game update is here. Play with 48 national teams in the brand new international tournament mode!",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/@easportsfc"
+    }
+  ],
+  "audio_trends": [
+    {
+      "soundName": "BENZ 奔驰 - Sheng",
+      "creator": "Sheng",
+      "uses": "45.2K",
+      "mood": "Energetic / Hype"
+    },
+    {
+      "soundName": "Gut Genug",
+      "creator": "KITSCHKRIEG (feat. Blumengarten & Shirin David)",
+      "uses": "12.8K",
+      "mood": "Chill / Melancholic"
+    }
+  ],
+  "redditThreads": [
+    {
+      "title": "What do you find fun about the gameplay of FC26?",
+      "subreddit": "r/EASportsFC",
+      "upvotes": 42,
+      "commentCount": 28,
+      "sentiment": "neutral",
+      "threadUrl": "https://www.reddit.com/r/EASportsFC/comments/fc26_gameplay_discussion",
+      "summary": "Players discuss the transition to EA Sports FC 26, highlighting improvements in dribbling responsiveness and animation cancellation, while expressing frustration over the game's defensive AI and arcade-like momentum shifts."
+    },
+    {
+      "title": "Zlatan confirmed to be the coverstar for FC26. Trailer out Wednesday",
+      "subreddit": "r/EASportsFC",
+      "upvotes": 63,
+      "commentCount": 30,
+      "sentiment": "positive",
+      "threadUrl": "https://www.reddit.com/r/EASportsFC/comments/zlatan_coverstar_fc26",
+      "summary": "The community reacts with high excitement to the official announcement of Zlatan Ibrahimović as the Ultimate Edition cover star and his return as a highly-rated Icon card in FC 26."
+    },
+    {
+      "title": "Zlatan is affordable for once in FC26 go pick him up",
+      "subreddit": "r/FC_26",
+      "upvotes": 72,
+      "commentCount": 15,
+      "sentiment": "positive",
+      "threadUrl": "https://www.reddit.com/r/FC_26/comments/zlatan_affordable_fc26",
+      "summary": "A thread celebrating the accessibility of Zlatan Ibrahimović's Icon card in Ultimate Team, sparking a debate on whether his physical, aerial-focused playstyle fits the current pace-heavy meta."
+    },
+    {
+      "title": "PS5 überhitzt bei FC26 (PS5 overheating with FC 26)",
+      "subreddit": "r/PlaystationDE",
+      "upvotes": 18,
+      "commentCount": 21,
+      "sentiment": "negative",
+      "threadUrl": "https://www.reddit.com/r/PlaystationDE/comments/ps5_uberhitzt_fc26",
+      "summary": "German-speaking console players report severe optimization issues specific to FC 26 on the PlayStation 5, causing console overheating warnings and sudden shutdowns that do not occur with other demanding titles."
+    }
+  ],
+  "youtubeVideos": [
+    {
+      "channelName": "Team Gullit",
+      "title": "EA FC 26- Best 4-4-1-1 Custom Tactics",
+      "views": "21,000",
+      "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+      "publishedAgo": "4 months ago",
+      "sentiment": "Positive",
+      "keyTakeaway": "The 4-4-1-1 formation is highly effective and considered 'broken' in the current meta after the latest patch, offering an incredibly easy way to counterattack opponents using a CAM and ST staying upfront."
+    },
+    {
+      "channelName": "Snark Benchmark",
+      "title": "EA FC 26 Gameplay | Manchester City vs Manchester United (Xbox Series S)",
+      "views": "2,100",
+      "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+      "publishedAgo": "10 months ago",
+      "sentiment": "Neutral",
+      "keyTakeaway": "Showcases the overhauled gameplay experience powered by community feedback, highlighting the visual fidelity and performance on the Xbox Series S."
+    },
+    {
+      "channelName": "Snark Benchmark",
+      "title": "EA FC 26 - RTX 3050 Laptop - I5 12500H - 16 GB Ram",
+      "views": "932",
+      "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+      "publishedAgo": "1 month ago",
+      "sentiment": "Neutral",
+      "keyTakeaway": "Tests the game's performance on budget-friendly laptop hardware, addressing optimization and settings adjustments to maintain stable framerates."
+    },
+    {
+      "channelName": "Team Gullit",
+      "title": "EA FC 26 - The New Meta Explained",
+      "views": "12,000",
+      "videoUrl": "https://www.youtube.com/watch?v=jg0EbH_vWUw",
+      "publishedAgo": "9 days ago",
+      "sentiment": "Positive",
+      "keyTakeaway": "Breaks down the latest major meta shifts, gameplay changes, and mechanic updates as the competitive season progresses."
+    }
+  ],
+  "steamData": {
+    "appId": "3405690",
+    "appName": "EA SPORTS FC™ 26",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1785772769",
+    "positivePercentage": 57,
+    "ratingCategory": "Mixed",
+    "totalReviewsEstimate": "100+ Live Steam Reviews",
+    "reviewQuotes": [
+      {
+        "author": "Steam Verified Player #1",
+        "text": "get the game on sale its abs worth it and dont EVER PLAY ULTIMATE TEAM UR GON CRASHOUT",
+        "sentiment": "positive",
+        "voted_up": true
+      },
+      {
+        "author": "Steam Verified Player #2",
+        "text": "i love playing this game ",
+        "sentiment": "positive",
+        "voted_up": true
+      },
+      {
+        "author": "Steam Verified Player #3",
+        "text": "it is soo fun",
+        "sentiment": "positive",
+        "voted_up": true
+      },
+      {
+        "author": "Steam Verified Player #4",
+        "text": "Cannot connect to internet",
+        "sentiment": "negative",
+        "voted_up": false
+      },
+      {
+        "author": "Steam Verified Player #5",
+        "text": "same ♥♥♥♥ every year",
+        "sentiment": "positive",
+        "voted_up": true
+      },
+      {
+        "author": "Steam Verified Player #6",
+        "text": "so gooodddd",
+        "sentiment": "positive",
+        "voted_up": true
+      },
+      {
+        "author": "Steam Verified Player #7",
+        "text": "bug bug and bug,always force close",
+        "sentiment": "negative",
+        "voted_up": false
+      },
+      {
+        "author": "Steam Verified Player #8",
+        "text": "absolute trash of a game",
+        "sentiment": "negative",
+        "voted_up": false
+      },
+      {
+        "author": "Steam Verified Player #9",
+        "text": "10+ years have I not played FIFA. Decided to give it a shot because I remembered it as a fun game. 300 tiki taka passes later and 60 first touches by the AI I genuinely think EA has no longer any actual DEVs working on this title and simply delegated everything to the most braindead AI on the face o",
+        "sentiment": "negative",
+        "voted_up": false
+      },
+      {
+        "author": "Steam Verified Player #10",
+        "text": "it good",
+        "sentiment": "positive",
+        "voted_up": true
+      }
+    ],
+    "source": "Steam Official API"
+  },
+  "trustpilotData": {
+    "trustScore": 1.1,
+    "ratingCategory": "Bad",
+    "totalReviews": "7,000+",
+    "keyThemes": [
+      "Frustrating AI gameplay mechanics (overpowered AI defending, uncreative AI attacking)",
+      "Perceived scripting and momentum manipulation during matches",
+      "Aggressive monetization, microtransactions, and pay-to-win structures",
+      "Severe lack of responsive customer support, especially regarding hacked accounts and billing issues",
+      "Unresolved bugs, server instability, and poor regional connection quality"
+    ],
+    "reviewQuotes": [
+      {
+        "author": "Alfred Spångberg",
+        "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "2026-08-10"
+      },
+      {
+        "author": "Tommy",
+        "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "2026-08-05"
+      },
+      {
+        "author": "Jordan C.",
+        "text": "Absolutely shocking lack of customer service, I have emailed multiple times about my account being hacked and they don't even have the common decency to respond.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "2026-01-24"
+      },
+      {
+        "author": "customer",
+        "text": "Purchased Battlefield 6 and was double charged, requested a refund and 3 weeks later received a refund for the double charge which is what i requested, followed by being blocked and banned from playing...",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "2026-01-13"
+      }
+    ]
+  },
+  "sampledComments": [
+    {
+      "id": "comment_tiktok_0_02dj",
+      "author": "fut_grinder99",
+      "source": "TikTok",
+      "text": "High press is the main problem with this game its too overpowered they chase you so fast",
+      "sentiment": "negative",
+      "likes": "342",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "Experience The World's Game Like Never Before in FC 26",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_1_77m7",
+      "author": "career_mode_king",
+      "source": "TikTok",
+      "text": "The difficulty settings in career mode are absolutely crazy this year",
+      "sentiment": "negative",
+      "likes": "189",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "The One Button That Will Ruin Your FC 26 Career Mode Save",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_2_cld2",
+      "author": "sheng_fan_china",
+      "source": "TikTok",
+      "text": "One of the best songs on eafc26. EA actually got the soundtrack right this time",
+      "sentiment": "positive",
+      "likes": "512",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "BENZ 奔驰 - Sheng (FC26 Soundtrack is actually a bop!)",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_3_b3gr",
+      "author": "tactics_guru",
+      "source": "TikTok",
+      "text": "I literally rage-quit because the ball vanished from under my feet and teleported to the opponent's right-back",
+      "sentiment": "negative",
+      "likes": "1.2K",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "Experience The World's Game Like Never Before in FC 26",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_4_nh1n",
+      "author": "charlie_b",
+      "source": "TikTok",
+      "text": "I have commentary off for years, but now I hear menu noises during gameplay. It's driving me mad",
+      "sentiment": "negative",
+      "likes": "94",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "Experience The World's Game Like Never Before in FC 26",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_5_sqz7",
+      "author": "fc_concept_enjoyer",
+      "source": "TikTok",
+      "text": "Strikers and goalkeepers are so overrated while defenders are completely underrated in the database",
+      "sentiment": "negative",
+      "likes": "215",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "Why Player Ratings in FC26 Career Mode are Completely Broken",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_6_6azz",
+      "author": "casual_gamer_07",
+      "source": "TikTok",
+      "text": "The last time I played was FIFA 11, and with FC 26, a lot has changed and it's really a good game to play with friends",
+      "sentiment": "positive",
+      "likes": "430",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "Experience The World's Game Like Never Before in FC 26",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_7_8skt",
+      "author": "no_restart_guy",
+      "source": "TikTok",
+      "text": "Pressing restart match really does cheat you out of the feeling of satisfaction at the end of a long season",
+      "sentiment": "positive",
+      "likes": "89",
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "The One Button That Will Ruin Your FC 26 Career Mode Save",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_reddit_0_ho1s",
+      "author": "racha",
+      "source": "Reddit",
+      "text": "I don't think there is one single online game as broken as FC 26. Simply nothing about this game is even remotely functional. The game keeps throwing so much random sh*t at you which your mind could never have foreseen.",
+      "sentiment": "negative",
+      "likes": 23,
+      "publishedAt": "2026-08-14T16:59:32.151Z",
+      "videoTitle": "EA SPORTS FC 26 Steam Reviews",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_1_1aya",
+      "author": "Redzer7",
+      "source": "Reddit",
+      "text": "Competitive gameplay mode for FUT, wins given if the opponent disconnects in the second half... relegation in Rivals if you go on a losing streak... are all things that have caught my eye.",
+      "sentiment": "positive",
+      "likes": 14,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "EA Sports FC 26 - Ultimate Team Thread",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_2_2g55",
+      "author": "thenotoriousbigc",
+      "source": "Reddit",
+      "text": "I try to proceed back to the menu and I get an error message pop up on my screen 'ea was unable to process your match results'. This turns into me having to restart the entire FC game... premature disconnect message from the absolute moronic crew that made the game.",
+      "sentiment": "negative",
+      "likes": 19,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "Issues with My Connection",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_3_6pzf",
+      "author": "AcuminF",
+      "source": "Reddit",
+      "text": "FC26 ExitType 95 Crash: NVIDIA DPC Deadlock Triggered by EA Javelin. EA Javelin Anti-Cheat's kernel-mode hooks trigger a spinlock deadlock inside the NVIDIA display driver, causing a 5.7-second DPC hang that freezes the entire system.",
+      "sentiment": "negative",
+      "likes": 34,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "FC 26 Technical Issues & Bug Reports",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_4_ve73",
+      "author": "Dubziie_0",
+      "source": "Reddit",
+      "text": "Edit Teams and Kick Off mode are broken functions of EA FC26. We play locally and edit teams to make custom squads... the game crashes after you edited teams and tried to play.",
+      "sentiment": "negative",
+      "likes": 9,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "FC 26 Bug Reports",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_5_7udc",
+      "author": "ElPalabra787",
+      "source": "Reddit",
+      "text": "Why waste time making a new game when u guys can't fix FC 26 also this game u can't report hackers at all during gameplay I will not buy FC 27 because the beta is trash.",
+      "sentiment": "negative",
+      "likes": 12,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "Broken game mechanics",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_6_pe4x",
+      "author": "FUT_Grinder_99",
+      "source": "Reddit",
+      "text": "The only thing I like is actually holding the ball, dribbling responsiveness seems improved as well as how early you can interrupt animations. Everything else is DIRE.",
+      "sentiment": "neutral",
+      "likes": 28,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "What do you find fun about the gameplay of FC26?",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_reddit_7_kiz6",
+      "author": "Zlatan_Fan_Sweden",
+      "source": "Reddit",
+      "text": "This card feels like nothing else in FC 26. The LENGTHY AcceleRATE type means Zlatan accelerates slowly but hits a higher top speed once he gets going. His 5-star skills + 195cm physical combo is insane.",
+      "sentiment": "positive",
+      "likes": 45,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "Zlatan is affordable for once in FC26 go pick him up",
+      "channel": "Reddit"
+    },
+    {
+      "id": "comment_youtube_0_uozl",
+      "author": "@chriswiggin-g2v",
+      "source": "YouTube",
+      "text": "This is hands down the best tactics I have ever tried! My games have improved 1000%! Thank you for this!",
+      "sentiment": "positive",
+      "likes": 142,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_1_c94j",
+      "author": "@nathaneaglesham",
+      "source": "YouTube",
+      "text": "Just shows how ass this game really is. You want your striker to basically be a cam to get anywhere in this game ☠️",
+      "sentiment": "negative",
+      "likes": 89,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_2_h90l",
+      "author": "@RozzaMac",
+      "source": "YouTube",
+      "text": "These are op 🎉",
+      "sentiment": "positive",
+      "likes": 34,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_3_op9t",
+      "author": "@Lil_Red_Samurai",
+      "source": "YouTube",
+      "text": "442 or 4411 is better imo 🎉",
+      "sentiment": "neutral",
+      "likes": 12,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_4_935r",
+      "author": "@UnstoppableMindset-4k",
+      "source": "YouTube",
+      "text": "The game is trash  u should critic those issue",
+      "sentiment": "negative",
+      "likes": 56,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_5_ap6y",
+      "author": "@claytondowdall6029",
+      "source": "YouTube",
+      "text": "How is the middle cm like a no.10 if he’s holding???",
+      "sentiment": "neutral",
+      "likes": 8,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_6_nc24",
+      "author": "@cosmicbrain1990",
+      "source": "YouTube",
+      "text": "0-6 in champs. Please pray this saves me",
+      "sentiment": "neutral",
+      "likes": 21,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_7_tj7e",
+      "author": "@edge9380",
+      "source": "YouTube",
+      "text": "this one is really good!",
+      "sentiment": "positive",
+      "likes": 45,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_8_0595",
+      "author": "@movelikemodo",
+      "source": "YouTube",
+      "text": "Can we have gameplay against realistic  elite players because you do not get that much runners into space in my experience",
+      "sentiment": "negative",
+      "likes": 27,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_9_uv9d",
+      "author": "@VPub",
+      "source": "YouTube",
+      "text": "this formation is terrible 9-1 loss never have i seen something this bad",
+      "sentiment": "negative",
+      "likes": 63,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_10_ikif",
+      "author": "@Auokii",
+      "source": "YouTube",
+      "text": "IVE WON 4GAMES IN A ROW WITH THIS FORMATION WOW",
+      "sentiment": "positive",
+      "likes": 110,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_steam_0_u992",
+      "author": "Steam Verified Player #1",
+      "source": "Steam",
+      "text": "get the game on sale its abs worth it and dont EVER PLAY ULTIMATE TEAM UR GON CRASHOUT",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_1_y11n",
+      "author": "Steam Verified Player #2",
+      "source": "Steam",
+      "text": "i love playing this game ",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_2_0xry",
+      "author": "Steam Verified Player #3",
+      "source": "Steam",
+      "text": "it is soo fun",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_3_zbjf",
+      "author": "Steam Verified Player #4",
+      "source": "Steam",
+      "text": "Cannot connect to internet",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_4_8q7h",
+      "author": "Steam Verified Player #5",
+      "source": "Steam",
+      "text": "same ♥♥♥♥ every year",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_5_vunf",
+      "author": "Steam Verified Player #6",
+      "source": "Steam",
+      "text": "so gooodddd",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_6_5aql",
+      "author": "Steam Verified Player #7",
+      "source": "Steam",
+      "text": "bug bug and bug,always force close",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_7_n666",
+      "author": "Steam Verified Player #8",
+      "source": "Steam",
+      "text": "absolute trash of a game",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_8_41iq",
+      "author": "Steam Verified Player #9",
+      "source": "Steam",
+      "text": "10+ years have I not played FIFA. Decided to give it a shot because I remembered it as a fun game. 300 tiki taka passes later and 60 first touches by the AI I genuinely think EA has no longer any actual DEVs working on this title and simply delegated everything to the most braindead AI on the face o",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_steam_9_d39b",
+      "author": "Steam Verified Player #10",
+      "source": "Steam",
+      "text": "it good",
+      "sentiment": "positive",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "channel": "Steam"
+    },
+    {
+      "id": "comment_trustpilot_0_899s",
+      "author": "Alfred Spångberg",
+      "source": "Trustpilot",
+      "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "2026-08-10",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_1_v7uj",
+      "author": "Tommy",
+      "source": "Trustpilot",
+      "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "2026-08-05",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_2_zwiy",
+      "author": "Jordan C.",
+      "source": "Trustpilot",
+      "text": "Absolutely shocking lack of customer service, I have emailed multiple times about my account being hacked and they don't even have the common decency to respond.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "2026-01-24",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_3_jnqs",
+      "author": "customer",
+      "source": "Trustpilot",
+      "text": "Purchased Battlefield 6 and was double charged, requested a refund and 3 weeks later received a refund for the double charge which is what i requested, followed by being blocked and banned from playing...",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T16:59:32.152Z",
+      "videoTitle": "2026-01-13",
+      "channel": "Trustpilot"
+    }
+  ],
+  "viral_themes": [
+    {
+      "theme": "Rush Mode & Social Play",
+      "percentage_share": 35,
+      "sentiment": "Positive",
+      "description": "The introduction of the fast-paced, small-sided Rush mode has emerged as a major highlight, driving high engagement on TikTok and YouTube as players praise its casual, cooperative, and arcade-style fun.",
+      "resonance": "High"
+    },
+    {
+      "theme": "Pay-to-Win & Ultimate Team Monetization",
+      "percentage_share": 30,
+      "sentiment": "Negative",
+      "description": "Intense community backlash across Reddit and Steam regarding pack weight, aggressive microtransactions, and the perceived widening gap between free-to-play and paying users.",
+      "resonance": "Very High"
+    },
+    {
+      "theme": "Gameplay Mechanics & Tactical Realism",
+      "percentage_share": 20,
+      "sentiment": "Mixed",
+      "description": "Discussions surrounding the new tactical AI systems and player roles. While some appreciate the strategic depth, others criticize sluggish player movement, inconsistent passing, and legacy defensive bugs.",
+      "resonance": "Medium"
+    },
+    {
+      "theme": "Server Stability & Technical Performance",
+      "percentage_share": 15,
+      "sentiment": "Negative",
+      "description": "Widespread frustration on Trustpilot and Steam regarding input delay, mid-match disconnections, and poor PC optimization, which severely impact competitive play.",
+      "resonance": "High"
+    }
+  ],
+  "strategic_recommendations": [
+    {
+      "priority": "Critical",
+      "area": "Live-Ops & Infrastructure",
+      "recommendation": "Deploy dedicated server stability patches and optimize matchmaking queues to directly address input delay and mid-match disconnections, especially during peak weekend league hours.",
+      "expected_impact": "Will significantly reduce negative reviews on Steam and Trustpilot, restoring player trust in competitive modes."
+    },
+    {
+      "priority": "High",
+      "area": "Monetization & Economy Balance",
+      "recommendation": "Introduce more robust, grindable, non-pay-to-win reward paths in Ultimate Team, such as high-value objectives and player SBCs that reward active gameplay over store purchases.",
+      "expected_impact": "Mitigates pay-to-win criticisms on Reddit and improves long-term player retention among the casual user base."
+    },
+    {
+      "priority": "High",
+      "area": "Marketing & Community Engagement",
+      "recommendation": "Double down on Rush mode marketing by launching community tournaments, creator-led showmatches, and exclusive social rewards to capitalize on its viral momentum.",
+      "expected_impact": "Sustains positive organic reach on TikTok and YouTube, drawing in lapsed social players."
+    },
+    {
+      "priority": "Medium",
+      "area": "Product Development & Quality Assurance",
+      "recommendation": "Release a transparent developer roadmap addressing legacy Career Mode bugs and detailing upcoming tactical AI tuning based on community feedback.",
+      "expected_impact": "Demonstrates active listening, shifting the narrative from neglect to collaborative improvement."
+    }
+  ],
+  "word_cloud": [
+    "Rush",
+    "P2W",
+    "Scripting",
+    "DDA",
+    "Pack Weight",
+    "Input Delay",
+    "Tactics",
+    "FC IQ",
+    "Sweaty",
+    "Servers",
+    "Meta",
+    "Grind"
+  ],
+  "timestamp": "2026-08-14T16:59:40.504Z",
+  "videos": [
+    "fc26"
+  ]
+}

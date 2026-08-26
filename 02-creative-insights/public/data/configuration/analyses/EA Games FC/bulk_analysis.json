@@ -1,0 +1,163 @@
+{
+  "gemini_summary": [
+    "Core on-pitch gameplay in EA Sports FC continues to receive praise for responsive dribbling, tactical split presets, and authentic simulation elements, but satisfaction is heavily dampened by aggressive monetization and day-one paywalls.",
+    "Customer trust and platform satisfaction are critically low due to issues with the EA desktop launcher, automated AI account suspensions, unhelpful support, and rigid refund-to-ban policies.",
+    "Community sentiment reflects widespread skepticism regarding copy-paste annual releases, unrealistic physics, and server stability, demanding meaningful innovation rather than cosmetic updates."
+  ],
+  "summary": "A comprehensive aggregation of commercial analyses, Trustpilot reviews, and consumer social feedback reveals a stark dichotomy between the core football simulation experience and the surrounding ecosystem. While on-pitch mechanics, such as dribbling, passing, and specific gameplay presets, generally receive positive reception from casual and hardcore fans alike, major friction points dominate player sentiment. Aggressive monetization strategies—such as paid day-one season passes locking iconic players behind paywalls—spark intense backlash. Furthermore, corporate platform issues on Trustpilot highlight severe customer service bottlenecks, intrusive and unstable launchers, automated unjust account suspensions, and punitive billing errors that severely damage EA's brand reputation.",
+  "trends": [
+    "Widespread player fatigue regarding perceived copy-paste yearly franchise updates with minimal structural innovation.",
+    "Rising frustration over aggressive monetization, pay-to-win Ultimate Team reward nerfs, and paywalled legacy heroes.",
+    "Technical friction centered around the EA desktop launcher, mandatory online logins, and intrusive anti-cheat software."
+  ],
+  "recommendations": [
+    "Decouple billing and refund workflows from automated fraud and anti-cheat bans to protect paying customers from wrongful account lockouts.",
+    "Revamp the EA Desktop launcher to eliminate forced online authentication for single-player modes and reduce system resource bloat.",
+    "Address community fatigue by focusing future franchise entries on substantive mechanical innovations rather than cosmetic reskins and aggressive microtransactions."
+  ],
+  "datapoints": [
+    {
+      "label": "Positive Sentiment",
+      "value": 45
+    },
+    {
+      "label": "Neutral / Inquisitive",
+      "value": 15
+    },
+    {
+      "label": "Constructive / Concerns",
+      "value": 40
+    }
+  ],
+  "early_signals": [
+    {
+      "theme": "Product Quality & Durability",
+      "mentions": 8
+    },
+    {
+      "theme": "Customer Service & Returns",
+      "mentions": 5
+    },
+    {
+      "theme": "Pricing & Value Perception",
+      "mentions": 3
+    }
+  ],
+  "search_findings": "Consumer feedback highlights a deep rift between gameplay enjoyment and operational/monetization frustrations. While modern entries like FC 26 and FC 27 introduce welcomed tactical depth, custom modes, and responsive dribbling, players feel alienated by aggressive microtransaction structures, paid season passes, and a severe lack of human customer support across EA platforms.",
+  "video_summaries": [
+    {
+      "videoId": "2195250",
+      "theme": "Steam store reception highlighting positive career mode fun balanced against technical and launcher issues.",
+      "why_it_matters": "Demonstrates that baseline gameplay enjoyment remains strong, but technical barriers create immediate friction for PC players."
+    },
+    {
+      "videoId": "2669320",
+      "theme": "Community division regarding copy-paste yearly iterations and optimization challenges.",
+      "why_it_matters": "Signals mounting consumer fatigue with annual sports game cycles."
+    },
+    {
+      "videoId": "GBq8fcpBOTU",
+      "theme": "Gameplay refinement vs. aggressive day-one monetization and paywalled season passes.",
+      "why_it_matters": "Highlights how positive engineering efforts on the pitch are quickly undermined by predatory microtransactions."
+    },
+    {
+      "videoId": "QrID0EA3hhI",
+      "theme": "Community commentary reflecting frustration over unrealistic physics ('ice skating') and lack of innovation.",
+      "why_it_matters": "Provides raw player sentiment regarding physics and expectations for future releases."
+    },
+    {
+      "videoId": "MOclJJ7IpSY",
+      "theme": "Launch trailer marketing strategy blending professional stardom with street soccer culture.",
+      "why_it_matters": "Shows EA's ongoing effort to bridge casual and hardcore audiences through culture and star power."
+    },
+    {
+      "videoId": "https://www.trustpilot.com/review/www.ea.com",
+      "theme": "Corporate Trustpilot feedback revealing critical issues with automated bans, billing errors, and poor support.",
+      "why_it_matters": "Exposes severe brand risk and customer retention threats stemming from poor backend operational support."
+    },
+    {
+      "videoId": "https://www.eurogamer.net/ea-sports-fc-25-review",
+      "theme": "Critical review exploring the forever-drama of balancing tradition and innovation in football simulations.",
+      "why_it_matters": "Offers critical industry perspective on the creative stagnation of long-running franchises."
+    },
+    {
+      "videoId": "https://www.ign.com/articles/ea-sports-fc-25-review",
+      "theme": "Critical analysis indicating the franchise is playing it too safe.",
+      "why_it_matters": "Reflects professional reviewer consensus on risk-averse game design."
+    },
+    {
+      "videoId": "MOclJJ7IpSY",
+      "theme": "Launch campaign execution and fan expectations for FC 27 features.",
+      "why_it_matters": "Measures initial campaign reach and community appetite for upcoming product pillars."
+    },
+    {
+      "videoId": "https://www.trustpilot.com/review/origin.com",
+      "theme": "Platform review highlighting frustrations with the EA App launcher, digital rights management, and lost library access.",
+      "why_it_matters": "Identifies launcher-specific pain points that directly degrade the user experience of playing EA titles."
+    },
+    {
+      "videoId": "TSi0iJYSQ24",
+      "theme": "Community-focused gameplay deep dive addressing fan feedback and mechanical upgrades.",
+      "why_it_matters": "Demonstrates marketing alignment with community demands by actively responding to player pain points."
+    }
+  ],
+  "competitive_landscape": "EA Sports FC maintains a dominant market share in football simulation due to unmatched licensing deals and franchise heritage, though growing community frustration and alternative titles like eFootball leave openings for increased consumer defection if monetization and gameplay physics are not addressed.",
+  "critical_feedback": [
+    "Aggressive day-one paid season passes locking icons and historical heroes behind paywalls.",
+    "Intrusive anti-cheat errors, poor PC optimization, and frustrating launcher shutdown-blocking bugs.",
+    "Systemic billing errors, double-charging, and punitive automated account bans following legitimate refund requests."
+  ],
+  "positive_elements": [
+    "Stunning high-fidelity graphics and realistic player animations.",
+    "Responsive left-stick dribbling and crisper passing mechanics.",
+    "Successful blend of professional football culture with street soccer modes like Rush and The Grounds."
+  ],
+  "sentiment_table": {
+    "positive": {
+      "feedback": [
+        "Praise for authentic on-pitch gameplay, sticky dribbling, and smarter goalkeeper positioning.",
+        "Enjoyment of career mode depth, casual matches with friends, and franchise nostalgia."
+      ],
+      "insights": [
+        "Continue refining responsive gameplay presets like Competitive and Authentic.",
+        "Expand community-focused modes (Rush, The Grounds) to capture casual player bases.",
+        "Leverage star athlete presence in relatable marketing campaigns."
+      ]
+    },
+    "negative": {
+      "feedback": [
+        "Severe backlash against day-one premium season passes and pay-to-win Ultimate Team rewards.",
+        "Widespread complaints regarding launcher stability, forced online logins, and automated unjust account suspensions."
+      ]
+    },
+    "neutral": {
+      "feedback": [
+        "Inquiries concerning missing league licenses, squad imports, and localized commentators.",
+        "Technical support queries regarding system requirements, pricing tiers, and cross-platform play."
+      ]
+    }
+  },
+  "word_cloud": [
+    "Gameplay",
+    "Ultimate Team",
+    "Monetization",
+    "Season Pass",
+    "EA Launcher",
+    "Dribbling",
+    "Goalkeepers",
+    "Career Mode",
+    "Microtransactions",
+    "Anti-Cheat",
+    "Banned",
+    "Support",
+    "Optimization",
+    "Tactics",
+    "Community",
+    "Football",
+    "FC27",
+    "Match",
+    "Simulation",
+    "Server"
+  ],
+  "type": "bulk"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "segmentId": "ultimate_team_grinders",
+    "name": "Competitive Ultimate Team & Weekend League Grinders",
+    "enrolledShoppersCount": 185000,
+    "optInSMS": true,
+    "optInEmail": true,
+    "activeCampaignsCount": 1,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 3,
+      "rollingSent": 1
+    }
+  },
+  {
+    "segmentId": "career_tacticians",
+    "name": "Career Mode Strategists & Tactical Enthusiasts",
+    "enrolledShoppersCount": 120000,
+    "optInSMS": true,
+    "optInEmail": true,
+    "activeCampaignsCount": 0,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 2,
+      "rollingSent": 0
+    }
+  },
+  {
+    "segmentId": "volta_street_squads",
+    "name": "VOLTA Street Football & Lifestyle Fans",
+    "enrolledShoppersCount": 75000,
+    "optInSMS": false,
+    "optInEmail": true,
+    "activeCampaignsCount": 0,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 2,
+      "rollingSent": 0
+    }
+  },
+  {
+    "segmentId": "pro_clubs_teams",
+    "name": "Pro Clubs Social Squads & Competitive Leagues",
+    "enrolledShoppersCount": 90000,
+    "optInSMS": true,
+    "optInEmail": false,
+    "activeCampaignsCount": 1,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 2,
+      "rollingSent": 1
+    }
+  },
+  {
+    "segmentId": "casual_mobile_companion",
+    "name": "FC Companion App & Casual Mobile Squad Builders",
+    "enrolledShoppersCount": 140000,
+    "optInSMS": true,
+    "optInEmail": true,
+    "activeCampaignsCount": 2,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 3,
+      "rollingSent": 2
+    }
+  },
+  {
+    "segmentId": "esports_spectators",
+    "name": "FC Pro Open Viewers & Twitch Drop Hunters",
+    "enrolledShoppersCount": 65000,
+    "optInSMS": false,
+    "optInEmail": true,
+    "activeCampaignsCount": 1,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 2,
+      "rollingSent": 1
+    }
+  }
+]

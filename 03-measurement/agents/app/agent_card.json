@@ -1,0 +1,92 @@
+{
+  "name": "eagames-ebc-demo-ge-app",
+  "description": "EA Creative Intelligence & Agentic Measurement Fleet — Multimodal frame tagging, Meridian Bayesian attribution, Equimarginal pacing solver, and A2A/A2UI dynamic streaming.",
+  "url": "https://eagames-ebc-demo-ge-app.us-central1.run.app",
+  "version": "2.0.0",
+  "protocolVersion": "0.3.0",
+  "preferredTransport": "JSONRPC",
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/json",
+    "text/event-stream"
+  ],
+  "capabilities": {
+    "streaming": true,
+    "extensions": [
+      {
+        "uri": "https://a2ui.org/a2a-extension/a2ui/v0.8",
+        "description": "Ability to render dynamic A2UI components on Next.js dashboard",
+        "required": false,
+        "params": {
+          "supportedCatalogIds": [
+            "https://a2ui.org/specification/v0_8/standard_catalog_definition.json",
+            "ea-creative-measurement-catalog-v1"
+          ],
+          "acceptsInlineCatalogs": true
+        }
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "campaign_intake_prediction",
+      "name": "Campaign Intake & Cross-Franchise Fatigue Prediction Engine",
+      "description": "Ingests campaign brief parameters, predicts baseline performance KPIs (364,000 installs, $4.12 CPI, 3.42x D7 ROAS), and identifies cross-franchise schedule collisions (Oct 24-27 EA FC vs Apex, 42.1% EA ID overlap, 14.5% suppression penalty, $420k risk) with prescriptive timeline shift mitigations.",
+      "tags": [
+        "intake",
+        "fatigue",
+        "cross-franchise",
+        "kpi-prediction",
+        "collision-mitigation",
+        "ea-id-overlap"
+      ],
+      "examples": [
+        "Simulate campaign intake for Apex Legends Season 26 brief with $500k budget",
+        "Evaluate schedule collision and fatigue penalty between EA Sports FC 27 and Apex Legends for Oct 24-27",
+        "Apply AI timeline shift mitigation to recover $420,000 net bookings"
+      ]
+    },
+    {
+      "id": "shapley_video_analysis",
+      "name": "2D Multimodal Creative Shapley Intelligence",
+      "description": "Deconstructs 15s video trailers frame-by-frame, categorizes creative mechanics into ToFu exploration, MoFu progression, and BoFu conversion tiers, computes 2D marginal CTR vs CTI lift values (e.g., Trick Shots +41% CTR / -12% CTI vs Bellingham Walkout +4.2% CTR / +32.4% CTI), and evaluates Funnel Balance Index (FBI) for pre-flight testing.",
+      "tags": [
+        "shapley",
+        "multimodal",
+        "video-audit",
+        "ctr-lift",
+        "cti-lift",
+        "funnel-balance-index",
+        "pre-test"
+      ],
+      "examples": [
+        "Deconstruct 15s Apex Legends trailer and compute 2D Shapley CTR vs CTI trade-offs",
+        "Run pre-test video audit for Jude Bellingham FUT Pack Walkout asset",
+        "Calculate Funnel Balance Index across ToFu, MoFu, and BoFu mechanics"
+      ]
+    },
+    {
+      "id": "meridian_equimarginal_pacing",
+      "name": "Meridian Equimarginal Hill Saturation Budget Solver",
+      "description": "Calculates closed-form marginal ROAS across 25 Nielsen DMAs and media channels using Hill saturation functions, enforcing strict zero-sum portfolio budget preservation and +/-20% daily pacing clamps in under 150ms.",
+      "tags": [
+        "meridian",
+        "equimarginal",
+        "hill-saturation",
+        "budget-optimization",
+        "zero-sum",
+        "pacing-clamp",
+        "dma-reallocation"
+      ],
+      "examples": [
+        "Reallocate $500k Apex marketing budget across YouTube, Meta, and TikTok enforcing equimarginal ROAS",
+        "Solve budget pacing under strict zero-sum constraint and 20% daily shift clamp",
+        "Optimize media spend across 25 Nielsen DMAs accounting for WeatherNext indoor dwell elasticity"
+      ]
+    }
+  ]
+}

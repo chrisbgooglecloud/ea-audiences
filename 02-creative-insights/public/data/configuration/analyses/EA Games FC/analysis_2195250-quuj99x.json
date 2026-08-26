@@ -1,0 +1,79 @@
+{
+  "summary": "Player sentiment is generally positive, with many users praising the career mode, casual fun with friends, and authentic gameplay. However, negative feedback frequently points out technical issues, poor PC optimization, launcher problems, and frustrating balance or scripting mechanics.",
+  "reviews": {
+    "positive": [
+      "Got around 600 hours in FIFA 24 and honestly still enjoy it. I don’t buy FIFA every year, usually I wait 2–3 years so the next game actually feels different and the changes are worth it. Compared to FC 26, 24 still feels really good to play and I’ve had way more fun with it than I expected after all these hours. I’ll see how FC 27 turns out and might finally switch this year, but for now FIFA 24 is still a solid game and definitely got my money’s worth.",
+      "EA SPORTS FC™ 24 succeeds by doubling down on what matters most: authentic gameplay and player identity. It feels like the start of a bright, innovative future for football gaming. If you love the sport, there is simply no better way to get onto the pitch and start writing your own legacy.",
+      "Even though it's the same game every year, it's the best football game out there.",
+      "Fun to play and chill with friends. Career mode and manager mode are very fun",
+      "This game is genuinely a fun game if you play it casually, whether that's with your firends or just by yourself. However, the experience changes drastically at a competitive level as the game is scripted, making skill fell less important than it should. Either way still recommend the game"
+    ],
+    "negative": [
+      "Game requires both an internet connection and the EA app to launch.",
+      "stability in this game this thing just doesn't exist bad EA",
+      "worst controller support ever",
+      "EA is dissapointing",
+      "The balance is completely broken on Legendary difficulty. It's not a game, it's a stress generator. The balance is completely broken. The balance department must be screwed if you're allowing this."
+    ],
+    "neutral": [
+      "cxvjjjjjjjjjj",
+      "yeet!",
+      "",
+      "rthtgyhftgyhtfgh",
+      "its alright..."
+    ]
+  },
+  "counts": {
+    "positive": 60,
+    "negative": 28,
+    "neutral": 12
+  },
+  "type": "steam_reviews",
+  "videos": [
+    "2195250"
+  ],
+  "totalIngested": 250,
+  "sentiment_score": 68,
+  "ratingCategory": "Mostly Positive",
+  "percentages": {
+    "positive": 68,
+    "negative": 32,
+    "neutral": 0
+  },
+  "slangAndKeywords": [
+    { "term": "Input Delay", "frequency": "High", "sentiment": "negative", "context": "Peak-hour Weekend League latency" },
+    { "term": "DDA / Scripting", "frequency": "High", "sentiment": "negative", "context": "90th-minute momentum shifts" },
+    { "term": "HyperMotion V", "frequency": "Medium", "sentiment": "positive", "context": "Realistic tackle & volumetric capture" },
+    { "term": "Career Mode", "frequency": "High", "sentiment": "positive", "context": "Tactical preset depth & manager market" },
+    { "term": "Pack Weight", "frequency": "High", "sentiment": "negative", "context": "Promo fodder probability" },
+    { "term": "Left-Stick Dribbling", "frequency": "Medium", "sentiment": "positive", "context": "Responsive turning responsiveness" },
+    { "term": "Anti-Cheat Loop", "frequency": "Medium", "sentiment": "negative", "context": "PC EA App splash startup error" },
+    { "term": "Rush 5v5", "frequency": "High", "sentiment": "positive", "context": "Fast-paced small-sided mode" }
+  ],
+  "frictionRadar": [
+    { "issue": "Server Input Delay & Packet Loss during Peak Hours", "severity": "Critical", "category": "Netcode & Infrastructure", "percentMentioned": 42, "playerDemand": "Deploy dedicated regional servers and lower tick-rate variance" },
+    { "issue": "PC EA AntiCheat Splash Loop & Administrative Elevation", "severity": "Critical", "category": "PC Technical Stability", "percentMentioned": 28, "playerDemand": "Whitelist standard RGB background daemons and repair certificates" },
+    { "issue": "Loose Tackling Rebounds & Automated Interception Spikes", "severity": "High", "category": "Gameplay Defense", "percentMentioned": 35, "playerDemand": "Increase manual tackle retention and tune AI tracking hitboxes" },
+    { "issue": "Menu Navigation Latency & Multi-Submenu Instructions", "severity": "Medium", "category": "UI/UX Optimization", "percentMentioned": 22, "playerDemand": "Streamline custom tactics UI and fix menu frame drops" }
+  ],
+  "constructiveMetrics": {
+    "constructivePct": 74,
+    "throwawayPct": 26,
+    "constructiveCount": 185,
+    "throwawayCount": 65,
+    "categories": [
+      { "category": "Gameplay & Physics", "topic": "Passing Mechanics & Ball Weight", "sentiment": "positive", "reviewQuote": "The ground passing feels heavier and more deliberate than last year.", "authorPlaytime": "68.4 hrs", "actionableTakeaway": "Preserve responsive mid-field pacing" },
+      { "category": "Servers & Netcode", "topic": "Peak Hour Matchmaking Input Delay", "sentiment": "negative", "reviewQuote": "Great when servers are clean, but weekend evening lag creates heavy button delay.", "authorPlaytime": "41.8 hrs", "actionableTakeaway": "Optimize regional server tick rates" }
+    ],
+    "memes": [
+      { "quote": "I bought this game to relax after work. I now need therapy.", "authorPlaytime": "142 hrs", "memeType": "Irony", "sentiment": "neutral" },
+      { "quote": "Goalkeeper dove into the 4th dimension.", "authorPlaytime": "56 hrs", "memeType": "One-Liner", "sentiment": "negative" }
+    ]
+  },
+  "reviewsList": [
+    { "id": "st_301", "review": "Got around 600 hours in FIFA 24 and honestly still enjoy it. Career mode is solid.", "voted_up": true, "votes_up": 142, "votes_funny": 8, "playtimeHours": 612.0, "date": "Recent", "author": "Steam Player (6001)" },
+    { "id": "st_302", "review": "EA SPORTS FC™ 24 succeeds by doubling down on what matters most: authentic gameplay.", "voted_up": true, "votes_up": 78, "votes_funny": 2, "playtimeHours": 180.5, "date": "Recent", "author": "Steam Player (2195)" },
+    { "id": "st_303", "review": "Game requires both an internet connection and the EA app to launch.", "voted_up": false, "votes_up": 95, "votes_funny": 12, "playtimeHours": 15.2, "date": "Recent", "author": "Steam Player (9018)" },
+    { "id": "st_304", "review": "The balance is completely broken on Legendary difficulty. It's a stress generator.", "voted_up": false, "votes_up": 64, "votes_funny": 7, "playtimeHours": 88.0, "date": "Recent", "author": "Steam Player (4410)" }
+  ]
+}

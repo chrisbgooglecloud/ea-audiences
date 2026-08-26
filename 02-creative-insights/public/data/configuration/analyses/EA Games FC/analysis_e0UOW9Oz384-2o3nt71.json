@@ -1,0 +1,97 @@
+{
+  "type": "abcd",
+  "videoId": "MOclJJ7IpSY",
+  "first_mention": {
+    "seconds": 0,
+    "method": "EA SPORTS logo shown prominently on screen with introductory sound",
+    "result": "Pass"
+  },
+  "abcd_scores": {
+    "attract": {
+      "score": 9.4,
+      "observation": "High-octane montage of gameplay, street football, and fast-cut visual action immediately grabs viewer attention within the opening seconds."
+    },
+    "brand": {
+      "score": 9.6,
+      "observation": "EA SPORTS FC logo and iconic visual identifiers are showcased right at 0:00, with repeated title cards, UI elements, and split-screen brand motifs throughout the ad."
+    },
+    "connect": {
+      "score": 8.8,
+      "observation": "Humorous athlete interactions between Kylian Mbappé and Jude Bellingham alongside dynamic hip-hop beats establish strong cultural and emotional connection."
+    },
+    "direct": {
+      "score": 9.2,
+      "observation": "Clear call-to-action cards at 2:10 and 2:26 urging viewers to 'PRE-ORDER NOW' with explicit dates, editions, and exclusive Ultimate Team pre-order bonuses."
+    }
+  },
+  "branding_timeline": [
+    {
+      "time_segment": "0:00 - 0:15",
+      "presence_percent": 85,
+      "action": "EA SPORTS intro logo sting followed by EA SPORTS FC 27 title card animation."
+    },
+    {
+      "time_segment": "0:15 - 0:48",
+      "presence_percent": 40,
+      "action": "FC The Grounds branding and in-game UI overlay watermarks."
+    },
+    {
+      "time_segment": "0:48 - 1:40",
+      "presence_percent": 30,
+      "action": "Split-screen comparisons with EA FC Rush branding and sideline stadium boards."
+    },
+    {
+      "time_segment": "1:40 - 2:09",
+      "presence_percent": 50,
+      "action": "Ultimate Team / FUT Gallery branding and EA branding overlays."
+    },
+    {
+      "time_segment": "2:09 - 2:36",
+      "presence_percent": 100,
+      "action": "Full-screen EA SPORTS FC 27 Pre-Order Now end cards and Ultimate Plus Edition promotional breakdown."
+    }
+  ],
+  "observations": [
+    {
+      "category": "Visuals",
+      "notes": "Dynamic split-screen transitions contrasting street football environments ('The Grounds') with professional stadium matches, paired with sleek UI overlays demonstrating tactical innovations."
+    },
+    {
+      "category": "Audio",
+      "notes": "Fast-paced rhythmic soundtrack driven by the vocal refrain 'You can get with this or you can get with that', interspersed with realistic stadium SFX and humorous dialogue."
+    },
+    {
+      "category": "Pacing",
+      "notes": "Rapid-fire cut sequences in sync with the beat drops, slowing momentarily for character comedy and detailed feature explanations before accelerating into the climax."
+    }
+  ],
+  "takeaways": [
+    "Leverage the juxtaposition of street culture ('The Grounds') and professional pitch gameplay to showcase mode diversity.",
+    "Utilize dual star power (Kylian Mbappé and Jude Bellingham) for banter and relatable star connection.",
+    "Pair gameplay feature callouts (AI Rebalance, Dynamic OVR, 2-Phase Corners) directly with pre-order incentives for maximal conversion."
+  ],
+  "summary": "This high-energy promotional trailer for EA SPORTS FC 27 delivers an exhilarating look at the upcoming franchise installment. The creative narrative centers around choice and playstyle diversity, anchored by the catchy 'This or That' musical motif. It seamlessly bridges street-level authenticity in the new mode 'The Grounds' with elite, photorealistic UEFA Champions League and domestic league spectacles, proving that players can experience the beautiful game in whatever way fits their style.\n\nFrom an ABCD Framework perspective, the ad excels from the first frame with an instant EA SPORTS brand cue at 0:00 (Attract & Brand). The narrative rapidly introduces new gameplay mechanics—such as Defensive Control Advantage, Curved Underlaps, and 2-Phase Corner Kicks—while integrating high-profile stars like Jude Bellingham and Kylian Mbappé for an organic comedic bridge at 1:15 (Connect). The piece finishes strongly with comprehensive pre-order CTA slides at 2:10 and 2:26 detailing the Ultimate Plus Edition perks (Direct).\n\nTargeting both casual street football fans and hardcore competitive Ultimate Team players, the spot demonstrates tangible gameplay overhauls like Career Mode Transfer Overhauls and Dynamic Overall ratings. The visual flair and star athlete integration reinforce EA SPORTS' commanding market leadership in football gaming culture.\n\nStrategically, the campaign provides an optimal template for gaming reveals: high-tempo musical synchronization, direct feature demonstrations, star-athlete personality moments, and clear value proposition packaging via pre-order bonus breakdowns. Future iterations should maintain this balanced rhythm across digital ad cutdowns for maximum social engagement.",
+  "gemini_summary": "This high-energy promotional trailer for EA SPORTS FC 27 delivers an exhilarating look at the upcoming franchise installment. The creative narrative centers around choice and playstyle diversity, anchored by the catchy 'This or That' musical motif. It seamlessly bridges street-level authenticity in the new mode 'The Grounds' with elite, photorealistic UEFA Champions League and domestic league spectacles, proving that players can experience the beautiful game in whatever way fits their style.\n\nFrom an ABCD Framework perspective, the ad excels from the first frame with an instant EA SPORTS brand cue at 0:00 (Attract & Brand). The narrative rapidly introduces new gameplay mechanics—such as Defensive Control Advantage, Curved Underlaps, and 2-Phase Corner Kicks—while integrating high-profile stars like Jude Bellingham and Kylian Mbappé for an organic comedic bridge at 1:15 (Connect). The piece finishes strongly with comprehensive pre-order CTA slides at 2:10 and 2:26 detailing the Ultimate Plus Edition perks (Direct).\n\nTargeting both casual street football fans and hardcore competitive Ultimate Team players, the spot demonstrates tangible gameplay overhauls like Career Mode Transfer Overhauls and Dynamic Overall ratings. The visual flair and star athlete integration reinforce EA SPORTS' commanding market leadership in football gaming culture.\n\nStrategically, the campaign provides an optimal template for gaming reveals: high-tempo musical synchronization, direct feature demonstrations, star-athlete personality moments, and clear value proposition packaging via pre-order bonus breakdowns. Future iterations should maintain this balanced rhythm across digital ad cutdowns for maximum social engagement.",
+  "word_cloud": [
+    "Football",
+    "Gameplay",
+    "Grounds",
+    "PreOrder",
+    "Mbappé",
+    "Bellingham",
+    "Ultimate",
+    "Competition",
+    "Skills",
+    "Street",
+    "Stadium",
+    "Defending",
+    "Attacking",
+    "Overhaul",
+    "Championship",
+    "Authentic"
+  ],
+  "timestamp": "2026-08-19T21:50:20.859Z",
+  "videos": [
+    "MOclJJ7IpSY"
+  ]
+}

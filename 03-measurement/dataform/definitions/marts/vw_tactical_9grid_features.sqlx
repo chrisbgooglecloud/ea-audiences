@@ -1,0 +1,88 @@
+config {
+  type: "view",
+  schema: "ea_measurement",
+  tags: ["marts", "attribution"],
+  description: "Aggregated creative feature occurrence, mean SHAP contribution, and Tactical 9-Grid classification view.",
+  columns: {
+    franchise: "EA Franchise",
+    feature_name: "Extracted creative mechanic, hook, or surface alignment",
+    feature_category: "Feature category (GAMEPLAY_MECHANIC, VISUAL_HOOK, AUDIO_CUE, SURFACE_ALIGNMENT)",
+    funnel_stage: "Funnel stage (ToFu_Exploration, MoFu_Progression, BoFu_Conversion)",
+    surface: "Primary target surface",
+    frequency_count: "Total occurrence count in creative telemetry (X-axis)",
+    mean_shap_value: "Average SHAP value contribution",
+    marginal_roas_impact: "Marginal ROAS impact in currency multiple (Y-axis)",
+    tactical_quadrant: "9-Grid Quadrant (GOLD_MINES, CORE_DRIVERS, SATURATED_STARS, UNTAPPED, WORKHORSES, EFFICIENCY_RISKS, NOISE, UNDERPERFORMERS, MONEY_PITS)",
+    strategic_recommendation: "Prescribed strategic action",
+    latest_snapshot_date: "Most recent evaluation date"
+  }
+}
+
+WITH feature_base AS (
+  SELECT
+    franchise,
+    feature_name,
+    feature_category,
+    funnel_stage,
+    surface,
+    frequency_count,
+    mean_shap_value,
+    marginal_roas_impact,
+    snapshot_date,
+    ROW_NUMBER() OVER(PARTITION BY franchise, feature_name, surface ORDER BY snapshot_date DESC) AS rn
+  FROM ${ref("feature_attribution_shap")}
+),
+
+categorized AS (
+  SELECT
+    franchise,
+    feature_name,
+    feature_category,
+    funnel_stage,
+    surface,
+    frequency_count,
+    mean_shap_value,
+    marginal_roas_impact,
+    snapshot_date AS latest_snapshot_date,
+    CASE
+      -- High ROAS (>= 2.5)
+      WHEN marginal_roas_impact >= 2.5 AND frequency_count < 15 THEN 'GOLD_MINES'
+      WHEN marginal_roas_impact >= 2.5 AND frequency_count BETWEEN 15 AND 40 THEN 'CORE_DRIVERS'
+      WHEN marginal_roas_impact >= 2.5 AND frequency_count > 40 THEN 'SATURATED_STARS'
+      -- Medium ROAS (1.2 to 2.49)
+      WHEN marginal_roas_impact >= 1.2 AND frequency_count < 15 THEN 'UNTAPPED'
+      WHEN marginal_roas_impact >= 1.2 AND frequency_count BETWEEN 15 AND 40 THEN 'WORKHORSES'
+      WHEN marginal_roas_impact >= 1.2 AND frequency_count > 40 THEN 'EFFICIENCY_RISKS'
+      -- Low ROAS (< 1.2)
+      WHEN marginal_roas_impact < 1.2 AND frequency_count < 15 THEN 'NOISE'
+      WHEN marginal_roas_impact < 1.2 AND frequency_count BETWEEN 15 AND 40 THEN 'UNDERPERFORMERS'
+      ELSE 'MONEY_PITS'
+    END AS tactical_quadrant
+  FROM feature_base
+  WHERE rn = 1
+)
+
+SELECT
+  franchise,
+  feature_name,
+  feature_category,
+  funnel_stage,
+  surface,
+  frequency_count,
+  mean_shap_value,
+  marginal_roas_impact,
+  tactical_quadrant,
+  CASE tactical_quadrant
+    WHEN 'GOLD_MINES' THEN 'Scale Up'
+    WHEN 'CORE_DRIVERS' THEN 'Maintain'
+    WHEN 'SATURATED_STARS' THEN 'Monitor / Retire'
+    WHEN 'UNTAPPED' THEN 'Test More'
+    WHEN 'WORKHORSES' THEN 'Optimize'
+    WHEN 'EFFICIENCY_RISKS' THEN 'Trim Budget'
+    WHEN 'NOISE' THEN 'Discard'
+    WHEN 'UNDERPERFORMERS' THEN 'Pivot Creative'
+    WHEN 'MONEY_PITS' THEN 'Kill Immediately'
+    ELSE 'Evaluate'
+  END AS strategic_recommendation,
+  latest_snapshot_date
+FROM categorized

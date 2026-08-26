@@ -1,0 +1,98 @@
+{
+  "type": "abcd",
+  "videoId": "TSi0iJYSQ24",
+  "first_mention": {
+    "seconds": 3,
+    "method": "Logo shown (EA SPORTS FC 26 animated title graphic)",
+    "result": "Pass"
+  },
+  "abcd_scores": {
+    "attract": {
+      "score": 9.2,
+      "observation": "Immediately breaks the 4th wall by acknowledging fan fatigue of cinematic trailers and showing rapid community social media comments demanding real gameplay, sparking instant curiosity and attention."
+    },
+    "brand": {
+      "score": 9.4,
+      "observation": "Strong, persistent branding with the EA SPORTS FC 26 logo introducing the spot at 0:03, recurring UI overlay graphics styled as official social responses, and prominent end-card preorder screens."
+    },
+    "connect": {
+      "score": 8.9,
+      "observation": "Directly taps into the FIFA/FC gaming community's collective pain points (tackles, sluggish passing, goalkeeper deflections) and answers them with satisfying gameplay improvements, featuring a humorous cameo by Zlatan Ibrahimović."
+    },
+    "direct": {
+      "score": 8.8,
+      "observation": "Clear call to action highlighting the 'Pre-Order Now for Early Access' and detailing Ultimate Edition preorder rewards and incentives before August 26."
+    }
+  },
+  "branding_timeline": [
+    {
+      "time_segment": "0s - 5s",
+      "presence_percent": 80,
+      "action": "Intro cinematic reveals official EA SPORTS FC 26 logo and match tunnel entrance."
+    },
+    {
+      "time_segment": "6s - 15s",
+      "presence_percent": 60,
+      "action": "Social media UI speech bubbles featuring EA SPORTS FC handle '@EASPORTSFC' acknowledging community demands."
+    },
+    {
+      "time_segment": "16s - 60s",
+      "presence_percent": 75,
+      "action": "In-game gameplay capture with persistent match scoreboards, player tags, and feature text watermarks."
+    },
+    {
+      "time_segment": "61s - 110s",
+      "presence_percent": 70,
+      "action": "Feature callout titles ('Controlled Deflections', 'Fluid Dribbling', 'Be-A-Keeper Mode') along with game UI."
+    },
+    {
+      "time_segment": "111s - 144s",
+      "presence_percent": 95,
+      "action": "Official slogan 'The Club is Yours' followed by full-screen FC 26 Ultimate Edition pre-order incentives and platform branding."
+    }
+  ],
+  "observations": [
+    {
+      "category": "Visuals",
+      "notes": "High-octane mix of cinematic in-engine footage, actual gameplay HUD overlays, side-by-side agility comparisons, tactical overlays, and dynamic streamer reaction cuts."
+    },
+    {
+      "category": "Audio",
+      "notes": "Seamless blend of authentic English commentary, Spanish urban/reggaeton energetic soundtrack, stadium atmospheric roars, and distinctive voiceover from Zlatan Ibrahimović."
+    },
+    {
+      "category": "Pacing",
+      "notes": "Hyper-fast, rhythmic transitions synchronized with beat drops, matching the frenzied community feedback loop directly to tangible gameplay solutions."
+    }
+  ],
+  "takeaways": [
+    "Community-First Narrative: Framing gameplay innovations as direct answers to viral fan feedback creates unprecedented goodwill and authentic engagement.",
+    "Dual Gameplay Options: Offering distinct 'Competitive' and 'Authentic' modes satisfies both esports enthusiasts and simulation purists.",
+    "Star Power & Humor: Integrating recognizable talent like Zlatan Ibrahimović and Lewis Hamilton/Kylian Mbappé adds viral pop-culture reach."
+  ],
+  "summary": "This high-energy gameplay reveal trailer for EA SPORTS FC 26 revolutionizes sports marketing by adopting a 'Community-Led' narrative format. Rather than relying solely on polished cinematics, the creative hook opens with players walking out into the stadium while authentic fan comments flood the screen criticizing repetitive hype trailers and demanding actual gameplay ('WE WANT GAMEPLAY!'). The brand responds with a definitive 'We hear you' message, launching into a rhythmic, feature-packed demonstration of on-pitch overhauls.\n\nEvaluating the spot under the YouTube ABCD Framework reveals best-in-class execution across all pillars. Attract (9.2) hooks the viewer within 5 seconds using rapid-fire community commentary and player tunnel walkouts. Brand (9.4) establishes early visibility with the FC 26 logo at 0:03 and maintains consistent brand presence through in-game HUDs, verified social prompt overlays, and branded feature badges. Connect (8.9) creates deep resonance by addressing notorious gameplay frustrations—such as bounce-back tackles, robotic goalkeeping, and sluggish passing—before delivering a dramatic comedic interruption by Zlatan Ibrahimović at 1:54. Direct (8.8) finishes with an unmistakable call-to-action detailing pre-order benefits, early access, and bonus player picks before August 26.\n\nThe emotional resonance relies heavily on validating the gaming community's voice. By explicitly demonstrating side-by-side mechanic improvements—such as 'Controlled Deflections', 'Fluid Dribbling', 'Smarter GK Movement', and 'Manager Career Live'—EA SPORTS FC positions FC 26 as the most responsive, player-driven football simulation to date.\n\nStrategic recommendations include maintaining this transparent communication style across subsequent deep-dive trailers and leveraging short-form social cutdowns of the comparison clips across TikTok and YouTube Shorts to maximize conversion and pre-order momentum.",
+  "gemini_summary": "This high-energy gameplay reveal trailer for EA SPORTS FC 26 revolutionizes sports marketing by adopting a 'Community-Led' narrative format. Rather than relying solely on polished cinematics, the creative hook opens with players walking out into the stadium while authentic fan comments flood the screen criticizing repetitive hype trailers and demanding actual gameplay ('WE WANT GAMEPLAY!'). The brand responds with a definitive 'We hear you' message, launching into a rhythmic, feature-packed demonstration of on-pitch overhauls.\n\nEvaluating the spot under the YouTube ABCD Framework reveals best-in-class execution across all pillars. Attract (9.2) hooks the viewer within 5 seconds using rapid-fire community commentary and player tunnel walkouts. Brand (9.4) establishes early visibility with the FC 26 logo at 0:03 and maintains consistent brand presence through in-game HUDs, verified social prompt overlays, and branded feature badges. Connect (8.9) creates deep resonance by addressing notorious gameplay frustrations—such as bounce-back tackles, robotic goalkeeping, and sluggish passing—before delivering a dramatic comedic interruption by Zlatan Ibrahimović at 1:54. Direct (8.8) finishes with an unmistakable call-to-action detailing pre-order benefits, early access, and bonus player picks before August 26.\n\nThe emotional resonance relies heavily on validating the gaming community's voice. By explicitly demonstrating side-by-side mechanic improvements—such as 'Controlled Deflections', 'Fluid Dribbling', 'Smarter GK Movement', and 'Manager Career Live'—EA SPORTS FC positions FC 26 as the most responsive, player-driven football simulation to date.\n\nStrategic recommendations include maintaining this transparent communication style across subsequent deep-dive trailers and leveraging short-form social cutdowns of the comparison clips across TikTok and YouTube Shorts to maximize conversion and pre-order momentum.",
+  "word_cloud": [
+    "Gameplay",
+    "Football",
+    "Community",
+    "Agility",
+    "Passing",
+    "Tackles",
+    "Goalkeeper",
+    "PreOrder",
+    "Icons",
+    "Tactics",
+    "Responsive",
+    "Competitive",
+    "Authentic",
+    "Dribbling",
+    "Zlatan",
+    "Innovation",
+    "Ultimate"
+  ],
+  "timestamp": "2026-08-19T21:50:20.673Z",
+  "videos": [
+    "TSi0iJYSQ24"
+  ]
+}

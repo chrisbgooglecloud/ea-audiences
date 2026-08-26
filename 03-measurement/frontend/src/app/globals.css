@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap');
+@import 'katex/dist/katex.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* EA Brand Core */
+  --ea-navy-ink: #16263A;
+  --ea-ocean-blue: #0072BC;
+  --ea-ocean-blue-hover: #008BE6;
+  --ea-jet-black: #000000;
+  --ea-pure-white: #FFFFFF;
+
+  /* UI Canvas & Surfaces */
+  --ea-bg-canvas: #0E1A29;
+  --ea-bg-surface: #16263A;
+  --ea-bg-surface-elevated: #1E334D;
+  --ea-border-subtle: rgba(255, 255, 255, 0.08);
+  --ea-border-medium: #253D5B;
+  --ea-border-active: #0072BC;
+
+  /* Typography */
+  --ea-font-heading: 'Rajdhani', 'DIN Next', 'Barlow Semi Condensed', 'Montserrat', sans-serif;
+  --ea-font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --ea-text-primary: #FFFFFF;
+  --ea-text-secondary: #8FA3BC;
+  --ea-text-muted: #5C728C;
+
+  /* Status Colors */
+  --ea-status-success: #00C48C;
+  --ea-status-warning: #FFB800;
+  --ea-status-danger: #FF4560;
+  --ea-status-info: #0072BC;
+
+  /* Layout Constants */
+  --ea-radius-sm: 4px;
+  --ea-radius-md: 6px;
+  --ea-radius-lg: 8px;
+  --ea-shadow-card: 0 4px 20px rgba(0, 0, 0, 0.35);
+  --ea-glow-accent: 0 0 14px rgba(0, 114, 188, 0.35);
+
+  --background: #0E1A29;
+  --foreground: #FFFFFF;
+}
+
+body {
+  color: var(--ea-text-primary);
+  background: var(--ea-bg-canvas);
+  font-family: var(--ea-font-body);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--ea-font-heading);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom EA Executive Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0E1A29;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #253D5B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0072BC;
+}
+
+/* Smooth transitions for chart and interactive elements */
+.transition-smooth {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* EA Table row hover styling with left electric border */
+.ea-table-row {
+  transition: background-color 0.15s ease, border-left-color 0.15s ease;
+  border-left: 2px solid transparent;
+}
+.ea-table-row:hover {
+  background-color: rgba(0, 114, 188, 0.08);
+  border-left: 2px solid #0072BC;
+}
+
+/* EA Primary Action Button */
+.ea-btn-primary {
+  background-color: #0072BC;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.ea-btn-primary:hover:not(:disabled) {
+  background-color: #008BE6;
+  box-shadow: 0 0 12px rgba(0, 114, 188, 0.4);
+}
+
+/* EA Secondary Outlined Button */
+.ea-btn-secondary {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #1E334D;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.ea-btn-secondary:hover:not(:disabled) {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #0072BC;
+}
+
+/* EA Elevated Surface Card */
+.ea-card {
+  background-color: #16263A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Glowing effects */
+.glow-ea-blue {
+  box-shadow: 0 0 20px rgba(0, 114, 188, 0.3);
+}
+
+.glow-ea-teal {
+  box-shadow: 0 0 20px rgba(0, 196, 140, 0.3);
+}
+

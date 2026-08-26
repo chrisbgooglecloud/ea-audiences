@@ -1,0 +1,8 @@
+{
+  "name": "ea-measurement-dataform",
+  "version": "1.0.0",
+  "description": "Dataform data pipeline for EA Creative Intelligence & Agentic Measurement Engine",
+  "dependencies": {
+    "@dataform/core": "3.0.59"
+  }
+}

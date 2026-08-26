@@ -1,0 +1,14 @@
+{
+  "business_info": {
+    "domain": "ea.com",
+    "name": "Ea",
+    "url": "https://www.trustpilot.com/review/ea.com",
+    "trustScore": "1.1",
+    "rating": "Bad",
+    "reviewCount": 6500
+  },
+  "type": "trustpilot_sentiment",
+  "videos": [
+    "https://www.trustpilot.com/review/ea.com"
+  ]
+}

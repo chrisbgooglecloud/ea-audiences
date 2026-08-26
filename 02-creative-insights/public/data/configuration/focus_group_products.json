@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bbw_signature_body_care",
+    "name": "Signature Body Care Collection",
+    "description": "Immerse yourself in our world-famous collection of scented body lotions, fine fragrance mists, and shower gels, crafted to leave your skin feeling wonderfully fragranced and nourished.",
+    "price": "$15.50 - $18.50",
+    "category": "Body Care"
+  },
+  {
+    "id": "bbw_3wick_candles",
+    "name": "3-Wick Candles",
+    "description": "Transform your home with our exclusive 3-wick candles, made with essential oils and designed to provide room-filling fragrance from New Albany to your living space.",
+    "price": "$26.95",
+    "category": "Home Fragrance"
+  },
+  {
+    "id": "bbw_gentle_foaming_soaps",
+    "name": "Gentle Foam Hand Soaps",
+    "description": "Keep hands clean and refreshed with nourishing vitamin E, shea extract, and aloe in a rich, foaming lather that washes away germs while maintaining skin's natural barrier.",
+    "price": "$8.95",
+    "category": "Hand Soaps & Sanitizers"
+  }
+]

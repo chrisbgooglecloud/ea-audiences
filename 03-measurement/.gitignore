@@ -1,0 +1,54 @@
+# Python & Tests
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend (Next.js / Node)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts.bak
+
+# Dataform
+dataform/node_modules/
+dataform/.df-credentials.json
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
+terraform/crash.*.log
+terraform/*.tfvars
+!terraform/terraform.tfvars.example
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*sa-key*.json
+credentials.json
+
+# Local agent artifacts & logs
+.agents/
+*.log
+logs/
+tmp/

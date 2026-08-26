@@ -1,0 +1,65 @@
+[
+  {
+    "campaignName": "FC 27 Ultimate Edition Pre-Order Early Access",
+    "divisionId": "Ultimate Team & In-Game Packs",
+    "openRate": 0.58,
+    "clickRate": 0.34,
+    "clipRate": 0.28,
+    "redemptionRate": 0.26,
+    "conversionScore": 9.7
+  },
+  {
+    "campaignName": "Team of the Season (TOTS) Promo Launch",
+    "divisionId": "Ultimate Team & In-Game Packs",
+    "openRate": 0.62,
+    "clickRate": 0.39,
+    "clipRate": 0.33,
+    "redemptionRate": 0.31,
+    "conversionScore": 9.9
+  },
+  {
+    "campaignName": "FC IQ Tactical Masterclass DLC Bundle",
+    "divisionId": "Career Mode & DLC Expansions",
+    "openRate": 0.49,
+    "clickRate": 0.27,
+    "clipRate": 0.22,
+    "redemptionRate": 0.20,
+    "conversionScore": 9.2
+  },
+  {
+    "campaignName": "Nike Mercurial Virtual Boot Drop & Creator Cup",
+    "divisionId": "Brand Sponsorships & Virtual Gear",
+    "openRate": 0.54,
+    "clickRate": 0.31,
+    "clipRate": 0.26,
+    "redemptionRate": 0.24,
+    "conversionScore": 9.5
+  },
+  {
+    "campaignName": "Weekend League Double XP Boost & Founder Rewards",
+    "divisionId": "Community Drops & Free Rewards",
+    "openRate": 0.65,
+    "clickRate": 0.44,
+    "clipRate": 0.40,
+    "redemptionRate": 0.38,
+    "conversionScore": 9.8
+  },
+  {
+    "campaignName": "12,000 FC Points Holiday Bundle Flash Offer",
+    "divisionId": "FC Points & Digital Bundles",
+    "openRate": 0.51,
+    "clickRate": 0.29,
+    "clipRate": 0.24,
+    "redemptionRate": 0.22,
+    "conversionScore": 9.3
+  },
+  {
+    "campaignName": "FC Pro Open Regional Qualifiers Stream Drops",
+    "divisionId": "Esports & Live Tournaments",
+    "openRate": 0.47,
+    "clickRate": 0.25,
+    "clipRate": 0.21,
+    "redemptionRate": 0.19,
+    "conversionScore": 9.0
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "type": "website_analysis",
+  "url": "https://www.eurogamer.net/ea-sports-fc-25-review",
+  "focus": "fc gameplay review",
+  "pageTitle": "EA Sports FC 25 review - football's fitting forever-drama continues once more",
+  "pageDescription": "FC 25 is a new FC, with some genuine differences on- and off-pitch. It's also the exact same FC it's always been.",
+  "summary": "Eurogamer's review of EA Sports FC 25 delivers an in-depth, nuanced critique of on-pitch mechanics, tactical innovations, and overarching structural design. While praising the responsive new menus, the 'FC IQ' positional tactics system, and press-resistant close dribbling mechanics, it sharply critiques chronic player-switching deficiencies and aggressive microtransactions.",
+  "score": 8,
+  "findings": {
+    "positive": [
+      "Tactical innovation: Praises the new 'FC IQ' system, noting 'The success comes in the form of increased tactical complexity and nuance, and arguably a bit of extra realism too. Players now have positions, roles, and focuses.'",
+      "On-pitch mechanics: Highlights the modern dribbling mechanics, stating 'It comes to the surface best of all through the new close control dribble (from holding RB/R1), combined with other forms of dribbling at various speeds... bringing it much closer to the real thing' and reflecting modern 'press resistance.'",
+      "UI/UX improvement: Commends menu responsiveness, observing 'For the first time in as long as I can remember, this is now what they are. Minimalised and switched to a simple horizontal list and overarching dropdown, they're quick and clean.'"
+    ],
+    "negative": [
+      "Defensive switching flaw: Notes persistent frustration with player selection: 'what's somehow managed to get even worse is the inability to switch to your defensive midfielder... I will push the analog stick directly towards my CDM and find the cursor moving in the opposite direction.'",
+      "Menu friction during tactical subs: Identifies UI barriers in live play, stating 'It takes too long to make a fairly simple positional change during in-game substitutions... because of new issues of things being buried just one or two button presses too deep.'",
+      "Mode balance and monetization: Points out repetitive meta cycles and ethical concerns, calling Ultimate Team 'a deeply cynical, casino-esque engagement-bait mode' and Rush mode commentary 'the most annoying sound I have ever heard in my entire life.'"
+    ],
+    "neutral": [
+      "The review explicitly details tested platforms ('Played on PS5', available on PC, PS4, PS5, Xbox One/Series, Switch) and notes accessibility settings including colour blind modes, stick remapping, and CPU sliders.",
+      "Commercial disclosure is transparently included: 'A copy of EA Sports FC 25 was provided for review by EA.'"
+    ]
+  },
+  "comparison_to_focus": "The review provides an exhaustive, highly technical evaluation of 'fc gameplay review', thoroughly deconstructing on-pitch gameplay loops. It dissects the addition of FC IQ tactical roles (such as Stopper, Shadow Striker, Wingback), the granular RB/R1 close-control dribbling system, and how player-switching mechanics influence high-division competitive matches. However, it balances gameplay appreciation with broader franchise critiques covering Career Mode cutscene staleness, Rush mode chaos, and Ultimate Team monetization.",
+  "comparison_to_company": "For EA Games FC, this review represents a critical external perception audit from a Tier-1 gaming outlet. It validates EA's strategic investments into core simulation authenticity (FC IQ, realistic close dribbling, UI responsiveness), while exposing vulnerabilities in defensive switching controls, UI deep-nesting during quick matches, and lingering reputational headwinds surrounding pack monetization.",
+  "recommendations": [
+    "Prioritize patching defensive cursor logic and CDM right-stick switching algorithms to address core competitive player frustration highlighted in top-tier reviews.",
+    "Streamline in-match tactical submenus by reducing click-depth for in-game role and focus adjustments without forcing players into presets.",
+    "Refine Rush mode audio assets and commentary variety to mitigate negative reception around repetitive goal announcements.",
+    "Rebalance defensive midfield spatial recovery to reduce 1v1 isolation exploits and extreme rock-paper-scissors meta loops at higher competitive ranks."
+  ],
+  "word_cloud": [
+    "FC IQ",
+    "Tactics",
+    "Dribbling",
+    "Close Control",
+    "Ultimate Team",
+    "Career Mode",
+    "Rush",
+    "Player Switching",
+    "PlayStyles",
+    "Midfield",
+    "Defensive",
+    "Positions",
+    "Roles",
+    "Gameplay"
+  ],
+  "scrapedContent": {
+    "title": "EA Sports FC 25 review - football's fitting forever-drama continues once more",
+    "description": "FC 25 is a new FC, with some genuine differences on- and off-pitch. It's also the exact same FC it's always been.",
+    "headings": [
+      "H1: EA Sports FC 25 review - football&#39;s fitting forever-drama continues once more",
+      "H2: EA Sports FC 25 review",
+      "H2: EA Sports FC 25 accessibility options",
+      "H2: Read this next"
+    ],
+    "wordCount": 4148,
+    "previewText": "EA Sports FC 25 review - football's fitting forever-drama continues once more | Eurogamer.net\n\nSkip to main content\n\n2026 Release Schedule\n\nGenshin Impact Odette Build\n\nGenshin Impact Cryo Traveler\n\nPokémon Go Cramorant\n\nAnime Expeditions Tier List\n\nAnime Expeditions codes\n\nSupporters only\n\nBuy eShop codes\n\nSign in / Create account\n\nIf you click on a link and make a purchase we may receive a small commission. Read our editorial policy .\n\nEA Sports FC 25\n\nEA Sports FC 25 review - football's fitting forever-drama continues once more\n\nImage credit: EA Sports\n\nby Chris Tapsell\n\nEditor-in-Chief\n\nPublished on Oct. 25, 2024, 2:01 p.m.\n\nFollow EA Sports FC 25\n\nThis is a new FC, with some genuine differences on- and off-pitch. It's also the exact same FC it's always been.\n\nOne thing I've always admired about football journalists is their ability to keep finding something new to say about what is, ultimately, the exact same game. In one sense that's just the nature of football, a sport which seems to defy all logic in its ability to create sparkling new drama from the same, enormously well-documented scenarios. But in this case I'm really talking quite specifically about a single club, in Ma"
+  },
+  "groundedSources": [
+    {
+      "title": "EA Sports FC 25 review - football's fitting forever-drama continues once more",
+      "url": "https://www.eurogamer.net/ea-sports-fc-25-review",
+      "type": "Direct Page Ingestion"
+    }
+  ],
+  "videos": [
+    "https://www.eurogamer.net/ea-sports-fc-25-review"
+  ]
+}

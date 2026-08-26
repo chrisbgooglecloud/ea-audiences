@@ -1,0 +1,6 @@
+{
+  "defaultDatabase": "eagames-ebc-demo-app",
+  "defaultLocation": "US",
+  "defaultSchema": "ea_measurement",
+  "assertionSchema": "ea_measurement_assertions"
+}

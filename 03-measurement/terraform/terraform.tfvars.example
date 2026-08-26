@@ -1,0 +1,14 @@
+# Example configuration values for EA Creative Intelligence & Agentic Measurement Engine
+project_id         = "eagames-ebc-demo-app"
+region             = "us-central1"
+bq_location         = "US"
+firestore_location = "nam5"
+gemini_location    = "global"
+gemini_app_name    = "eagames-ebc-demo-ge-app"
+gcs_bucket_name    = "eagames-ebc-demo-app-creative-assets"
+service_account_id = "ea-measurement-sa"
+environment        = "production"
+
+backend_image  = "us-central1-docker.pkg.dev/eagames-ebc-demo-app/ea-measurement-docker/backend:latest"
+frontend_image = "us-central1-docker.pkg.dev/eagames-ebc-demo-app/ea-measurement-docker/frontend:latest"
+agents_image   = "us-central1-docker.pkg.dev/eagames-ebc-demo-app/ea-measurement-docker/agents:latest"

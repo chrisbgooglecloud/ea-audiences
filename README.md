@@ -1,73 +1,89 @@
-# EA Audiences Command Center & Intelligence Studio
+# Electronic Arts (EA) Executive Briefing Center (EBC) AI Solutions
+## Unified Closed-Loop Monorepo Architecture (`ea-ebc-demos`)
 
-> Real-time player intelligence, Spanner Property Graph traversal, lifecycle Sankey journeys, grounded synthetic focus groups, and Agent-to-Agent (A2A) campaign dispatch for EA Live Services.
+Welcome to the central repository for the Google Cloud AI Transformation (CAiT) demonstration platform built for the **Electronic Arts Executive Briefing Center (August 2026)**.
 
----
-
-## 🎯 Architecture Overview
-
-The **EA Audiences Command Center** unifies fragmented player telemetry across 5 EA franchises into a centralized intelligence platform powered by Google Cloud:
-
-1. **Cloud Spanner Property Graph**:
-   * Unified Graph connecting 5,000 master player identities, 15,663 linked telemetry nodes, and behavioral traits across EA SPORTS FC, Apex Legends, Madden NFL, Battlefield, and The Sims.
-   * Real-time traversal for loss streaks, tilt index, creator stream affinities, and cross-title gravity.
-
-2. **Player Marketing Journeys (Sankey Lifecycle Flow)**:
-   * 5-Stage dynamic lifecycle visualizer mapping *Acquisition $\rightarrow$ Core Mode $\rightarrow$ Behavioral Friction $\rightarrow$ Marketing Offer $\rightarrow$ Outcome*.
-   * Real-time Gemini 3.5 Flash-Lite path-level intelligence and macro funnel health diagnostics.
-
-3. **Grounded Synthetic Focus Groups (DeepSona Simulation)**:
-   * Real-time multi-agent persona simulations grounded in sampled graph telemetry.
-   * Tests price sensitivity, Willingness to Pay ($), and community backlash across Discord, Reddit, and 1-on-1 qualitative focus groups.
-
-4. **Agent-to-Agent (A2A) Protocol**:
-   * Dispatches machine-readable audience opportunity briefs directly to Act 2 (Creative Studio) and Act 4 (Commerce Media).
+This repository is organized as a **monorepo** housing four interconnected AI applications. Together, they demonstrate a unified, closed-loop growth engine: from sentiment detection and player identity resolution to multi-surface content generation, predictive measurement, agentic media buying, and dynamic 3D in-game monetization.
 
 ---
 
-## 🛠️ Tech Stack
+## 1. Unified Ecosystem Architecture & Flow Map
 
-* **Frontend**: Next.js 14 (App Router), React 18, Tailwind CSS, Lucide Icons, Canvas / SVG Visualizers.
-* **GCP Infrastructure**: Google Cloud Run, Cloud Spanner (Graph DB), BigQuery, Cloud Storage.
-* **Generative AI**: Google Cloud Vertex AI Gemini 3.5 Flash-Lite.
+```mermaid
+flowchart LR
+    %% Node Definitions
+    ECC["<b>ACT 1: EXECUTIVE COMMAND CENTER & AUDIENCES</b><ul><li>Player GraphDB Identity Resolution</li><li>DeepSona Synthetic Persona Testing</li></ul>"]
+
+    CI["<b>ACT 2: CREATIVE STUDIO & COMMUNITY INSIGHTS</b><ul><li>Community Sentiment Anomaly Listening</li><li>Patch Note Storyboard Parser</li><li>Multi-Surface Gen AI for 6 EA Surfaces</li><li>Automated Legal Monetization Audit</li></ul>"]
+
+    MEAS["<b>ACT 3: AGENTIC UTILITY & MEASUREMENT</b><ul><li>Multimodal Tagging to Pydantic Schema</li><li>Spatial MLOps: 210 DMA Geo-Spine, Trends, WeatherNext</li><li>Meridian MMM & Equimarginal Hill Saturation Solver</li><li>SHAP Explainability & Tactical 9-Grid Reasoning</li><li>A2A and A2UI Media Buying Agents on Cloud Run</li></ul>"]
+
+    COMM["<b>ACT 4: COMMERCE MEDIA NETWORK & 3D ADS</b><ul><li>Frostbite Middleware Programmatic Ad Engine</li><li>Dynamic 3D In-Game Stadium Billboards</li><li>IAS Multimodal Camera Dwell Time Verification</li></ul>"]
+
+    %% Connected Hand-Offs
+    ECC -->|"Audience Brief & Churn Points"| CI
+    CI -->|"Multi-Surface Asset URIs"| MEAS
+    MEAS -->|"Gold Mine Revision Directives (A2A)"| CI
+    MEAS -->|"Pre-Flight Persona Reaction Queries (A2A)"| ECC
+    MEAS -->|"Programmatic 3D Spend Allocations (A2A)"| COMM
+    COMM -.->|"Delivered Impression Telemetry (BigQuery)"| MEAS
+```
 
 ---
 
-## 🚀 Getting Started
+## 2. Monorepo Directory Structure
 
-### 1. Install Dependencies
+```text
+/ea-ebc-demos/
+├── 00-data-foundation/       # Unified Synthetic Data Engine (BQML AI.GENERATE_TABLE, 3-Yr MMM, Geo-Spine)
+│
+├── 01-audiences/             # Jamie Pourturk (Act 1: Command Center, Player Graph & DeepSona)
+│
+├── 02-creative-insights/     # Curtis Gross (Act 2: Creative Studio & Community Insights)
+│
+├── 03-measurement/           # Pat Grady (Act 3: Creative Intelligence & Agentic Measurement)
+│
+├── 04-commerce-media/        # Surya Kunju (Act 4: EA Commerce Media Network & 3D Ads)
+│
+├── DATA-STRATEGY.md          # Synthetic Data Foundation & Analytical Architecture
+├── MACRO-CONCEPT.md          # Full Executive Narrative & Presenter Run-of-Show Scripts
+├── REFACTOR_1_REQUIREMENTS.md # Track Partitioning Specifications
+└── README.md                 # System Root Documentation
+```
+
+---
+
+## 3. The 4-Act Connected Narrative
+
+| Act | Module | Presenter | EBC Session | Target EA Stakeholders | Core Narrative |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Act 1** | `01-audiences` | Jamie Pourturk | Audiences: The Foundation (11:00 AM) | Brian Baron, Christina Bumbaca, Joel Knutson | Shifting "From Who to Why" by activating the Player Graph and pre-testing battle passes with synthetic personas. |
+| **Act 2** | `02-creative-insights` | Curtis Gross | Creative: Multi-Agent Content Creation (1:45 PM) | Andrea Hopelain, Julie Foster, Evan Dexter | Turning patch notes and sentiment spikes into localized, brand-compliant creative across EA's 6 surfaces. |
+| **Act 3** | `03-measurement` | Pat Grady | Agentic Utility & Measurement (12:45 PM) | Brian Baron, Christina Bumbaca, Gabi De Rossi | Connecting creative game mechanics to CPI and D7 ROAS using Meridian MMM and SHAP 9-grid reasoning. |
+| **Act 4** | `04-commerce-media` | Surya Kunju | RMN: Identity & Data Partnerships (3:30 PM) | Andrea Hopelain, Evan Dexter, Mark Cole | Turning gameplay surfaces into a programmatic, brand-safe Commerce Media Network with IAS camera dwell scoring. |
+
+---
+
+## 4. Synthetic Data Foundation & Seeding Quickstart
+
+All four demo tracks are powered by the unified data foundation in [`00-data-foundation/`](00-data-foundation/):
+
 ```bash
-npm install
-```
+# 1. Execute the 5-step synthetic data generation pipeline against BigQuery & Firestore
+python3 00-data-foundation/orchestrator.py --live
 
-### 2. Environment Configuration
-Create a `.env.local` file or set the environment variables:
-```env
-GCP_PROJECT_ID=jamie-bq-test
-GCP_REGION=us-central1
-SPANNER_INSTANCE_ID=blackrock-spanner
-SPANNER_DATABASE_ID=ea_graph_db
-BQ_DATASET_ID=ea_marketing_intelligence
-VERTEX_MODEL=gemini-3.5-flash-lite
-```
+# 2. Seed Firestore Native collections (/campaigns, /creative_assets, /scenarios)
+python3 03-measurement/scripts/seed_firestore_and_bq.py --live
 
-### 3. Run Locally
-```bash
-npm run dev
-# or for production build
-npm run build && npm run start -p 3005
+# 3. Run full automated test suite across all modules
+PYTHONPATH="03-measurement:00-data-foundation" ./03-measurement/.venv/bin/pytest 03-measurement/tests 03-measurement/agents/tests 00-data-foundation/tests
 ```
 
 ---
 
-## 🚢 Google Cloud Run Deployment
+## 5. Contact & Track Owners
 
-```bash
-gcloud run deploy ea-audiences-studio \
-  --source . \
-  --region us-central1 \
-  --project jamie-bq-test \
-  --service-account=694576205607-compute@developer.gserviceaccount.com \
-  --allow-unauthenticated \
-  --set-env-vars="GCP_PROJECT_ID=jamie-bq-test,GCP_REGION=us-central1,SPANNER_INSTANCE_ID=blackrock-spanner,SPANNER_DATABASE_ID=ea_graph_db,BQ_DATASET_ID=ea_marketing_intelligence,VERTEX_MODEL=gemini-3.5-flash-lite"
-```
+* **`01-audiences`**: Jamie Pourturk (`jlpourt@google.com`)
+* **`02-creative-insights`**: Curtis Gross (`curtisgross@google.com`)
+* **`03-measurement`**: Pat Grady (`patrickgrady@google.com`)
+* **`04-commerce-media`**: Surya Kunju (`suryakunju@google.com`)

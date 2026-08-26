@@ -1,0 +1,114 @@
+syntax = "proto3";
+
+package ea.measurement.mmm;
+
+message CausalLiftExperiment {
+  string experiment_id = 1;
+  string channel = 2;
+  double spend = 3;
+  double incremental_revenue = 4;
+  double observed_roas = 5;
+  double standard_error = 6;
+  double confidence_interval_lower = 7;
+  double confidence_interval_upper = 8;
+  int32 sample_size_dmas = 9;
+  int32 test_period_days = 10;
+}
+
+message ChannelPrior {
+  string channel = 1;
+  double prior_mean_mu = 2;
+  double prior_std_sigma = 3;
+  double pooled_roas_estimate = 4;
+  double pooled_roas_se = 5;
+  double heterogeneity_tau_sq = 6;
+  double half_saturation_prior_s = 7;
+  double hill_slope_prior_k = 8;
+  int32 sample_experiments_count = 9;
+}
+
+message PriorCalibrationRequest {
+  string franchise = 1;
+  repeated CausalLiftExperiment experiments = 2;
+  repeated string channels = 3;
+}
+
+message PriorCalibrationResponse {
+  string franchise = 1;
+  map<string, ChannelPrior> calibrated_priors = 2;
+  string status = 3;
+  string method = 4;
+  int32 total_experiments_used = 5;
+}
+
+message ChannelSpendConstraint {
+  string channel = 1;
+  double current_spend = 2;
+  optional double min_spend = 3;
+  optional double max_spend = 4;
+  double base_roas = 5;
+  double half_saturation_s = 6;
+  double hill_slope_k = 7;
+}
+
+message SCurvePoint {
+  double spend = 1;
+  double roas = 2;
+  double marginal_roas = 3;
+  double projected_revenue = 4;
+}
+
+message ChannelOptimizationResult {
+  string channel = 1;
+  double current_spend = 2;
+  double allocated_spend = 3;
+  double spend_delta = 4;
+  double spend_delta_pct = 5;
+  double marginal_roas = 6;
+  double projected_roas = 7;
+  double projected_revenue = 8;
+  int32 projected_installs = 9;
+  repeated SCurvePoint s_curve_points = 10;
+}
+
+message EquimarginalOptimizationRequest {
+  string campaign_id = 1;
+  string franchise = 2;
+  optional double total_budget = 3;
+  repeated ChannelSpendConstraint channels = 4;
+  double max_daily_shift_pct = 5;
+  bool enforce_zero_sum = 6;
+  optional double target_d7_roas = 7;
+  optional double target_cpi = 8;
+}
+
+message EquimarginalOptimizationResponse {
+  string scenario_id = 1;
+  string campaign_id = 2;
+  string franchise = 3;
+  double total_current_budget = 4;
+  double total_allocated_budget = 5;
+  double budget_net_delta = 6;
+  double total_projected_revenue = 7;
+  double portfolio_d7_roas = 8;
+  double portfolio_cpi = 9;
+  double revenue_uplift_pct = 10;
+  bool zero_sum_satisfied = 11;
+  bool pacing_clamp_satisfied = 12;
+  double max_shift_observed_pct = 13;
+  repeated ChannelOptimizationResult channel_allocations = 14;
+  double solver_latency_ms = 15;
+  string convergence_status = 16;
+}
+
+message ScenarioState {
+  string scenario_id = 1;
+  string campaign_id = 2;
+  string title = 3;
+  string franchise = 4;
+  EquimarginalOptimizationRequest request = 5;
+  EquimarginalOptimizationResponse response = 6;
+  string active_agent_id = 7;
+  string executive_notes = 8;
+  int64 updated_at_utc = 9;
+}

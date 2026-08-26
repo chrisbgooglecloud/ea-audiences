@@ -1,0 +1,102 @@
+config {
+  type: "table",
+  schema: "ea_measurement",
+  tags: ["marts", "daily_facts"],
+  dependencies: ["dim_metro_geospine"],
+  description: "Daily fact table joining DMA spatial backbone with WeatherNext climate shocks, Google Trends zeitgeist, and demographic activity.",
+  columns: {
+    dma_code: "DMA Criteria Code",
+    date: "Fact observation date",
+    franchise: "EA Title Franchise (Apex Legends, EA Sports FC, Battlefield, The Sims)",
+    search_interest_index: "Google Trends search interest index (0-100)",
+    temp_celsius: "Observed 2m air temperature in Celsius",
+    temp_anomaly_celsius: "Deviation from 30-day baseline temperature",
+    precip_mm: "Observed total daily precipitation in mm",
+    precip_anomaly_mm: "Precipitation shock delta relative to seasonal average",
+    weather_shock_flag: "True if temperature shock > 3C or heavy rain > 15mm",
+    pop_adjusted_gaming_hours: "Estimated total hours spent gaming across the DMA on date",
+    estimated_active_gamers: "Active player population estimated in DMA",
+    updated_at: "Ingestion timestamp"
+  }
+}
+
+WITH date_spine AS (
+  SELECT day AS date
+  FROM UNNEST(GENERATE_DATE_ARRAY(DATE_SUB(CURRENT_DATE(), INTERVAL 90 DAY), CURRENT_DATE(), INTERVAL 1 DAY)) AS day
+),
+
+franchises AS (
+  SELECT franchise, base_interest
+  FROM UNNEST([
+    STRUCT('Apex Legends' AS franchise, 68.0 AS base_interest),
+    STRUCT('EA Sports FC' AS franchise, 74.0 AS base_interest),
+    STRUCT('Battlefield' AS franchise, 58.0 AS base_interest),
+    STRUCT('The Sims' AS franchise, 62.0 AS base_interest)
+  ])
+),
+
+metro_grid AS (
+  SELECT
+    d.dma_code,
+    d.dma_name,
+    d.state,
+    d.population,
+    d.gaming_density_index,
+    d.latitude,
+    d.longitude,
+    ds.date,
+    f.franchise,
+    f.base_interest
+  FROM ${ref("dim_metro_geospine")} d
+  CROSS JOIN date_spine ds
+  CROSS JOIN franchises f
+),
+
+weather_and_trends_sim AS (
+  SELECT
+    dma_code,
+    date,
+    franchise,
+    -- Synthetic deterministic signals based on geography and date hash for dataform compilation & live execution
+    ROUND(
+      GREATEST(10.0, LEAST(100.0,
+        base_interest +
+        15.0 * SIN(EXTRACT(DAYOFYEAR FROM date) * 0.1) +
+        5.0 * (gaming_density_index - 1.0) +
+        MOD(ABS(FARM_FINGERPRINT(CONCAT(CAST(dma_code AS STRING), franchise, CAST(date AS STRING)))), 15) - 7.0
+      )), 2
+    ) AS search_interest_index,
+    ROUND(20.0 - (latitude - 30.0) * 0.8 + 8.0 * SIN(EXTRACT(DAYOFYEAR FROM date) * 0.05), 1) AS temp_celsius,
+    ROUND(4.5 * SIN(EXTRACT(DAYOFYEAR FROM date) * 0.2 + dma_code), 1) AS temp_anomaly_celsius,
+    ROUND(GREATEST(0.0, 5.0 * COS(EXTRACT(DAYOFYEAR FROM date) * 0.15 + dma_code) + 2.0), 1) AS precip_mm,
+    ROUND(3.0 * COS(EXTRACT(DAYOFYEAR FROM date) * 0.15 + dma_code), 1) AS precip_anomaly_mm,
+    population,
+    gaming_density_index
+  FROM metro_grid
+)
+
+SELECT
+  dma_code,
+  date,
+  franchise,
+  search_interest_index,
+  temp_celsius,
+  temp_anomaly_celsius,
+  precip_mm,
+  precip_anomaly_mm,
+  (ABS(temp_anomaly_celsius) >= 3.0 OR precip_mm >= 15.0) AS weather_shock_flag,
+  ROUND(
+    (population * 0.18 * gaming_density_index) *
+    (1.0 + (search_interest_index - 50.0) / 200.0) *
+    (CASE WHEN ABS(temp_anomaly_celsius) >= 3.0 OR precip_mm >= 15.0 THEN 1.18 ELSE 1.0 END) *
+    2.4, 2
+  ) AS pop_adjusted_gaming_hours,
+  CAST(
+    ROUND(
+      (population * 0.18 * gaming_density_index) *
+      (1.0 + (search_interest_index - 50.0) / 200.0) *
+      (CASE WHEN ABS(temp_anomaly_celsius) >= 3.0 OR precip_mm >= 15.0 THEN 1.15 ELSE 1.0 END)
+    ) AS INT64
+  ) AS estimated_active_gamers,
+  CURRENT_TIMESTAMP() AS updated_at
+FROM weather_and_trends_sim

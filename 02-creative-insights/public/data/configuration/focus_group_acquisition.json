@@ -1,0 +1,26 @@
+[
+  {
+    "id": "offer_loyalty_rewards",
+    "title": "My Bath & Body Works Rewards",
+    "description": "Join our rewards program to earn points on every fragrance, candle, and body care purchase.",
+    "discount": "$10 Off Your Next Purchase"
+  },
+  {
+    "id": "offer_candle_savings",
+    "title": "Signature 3-Wick Candle Sale",
+    "description": "Stock up on the world's best 3-wick candles with our exclusive member pricing and seasonal promotions.",
+    "discount": "Buy 3, Get 1 Free"
+  },
+  {
+    "id": "offer_express_pickup",
+    "title": "Free Store Pickup",
+    "description": "Order your favorite scented body care and hand soaps online and pick them up in-store today.",
+    "discount": "Free In-Store Pickup"
+  },
+  {
+    "id": "offer_fragrance_bundle",
+    "title": "Complete Body Care Bundle",
+    "description": "Mix and match shower gel, body cream, and fine fragrance mist to build your signature scent routine.",
+    "discount": "20% Off Routine Bundles"
+  }
+]

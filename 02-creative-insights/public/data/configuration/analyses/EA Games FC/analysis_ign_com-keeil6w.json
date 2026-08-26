@@ -1,0 +1,86 @@
+{
+  "type": "website_analysis",
+  "url": "https://www.ign.com/articles/ea-sports-fc-25-review",
+  "focus": "fc gameplay review",
+  "pageTitle": "EA Sports FC 25 Review - IGN",
+  "pageDescription": "Apart from Rush mode, welcome but largely incremental improvements play it a bit too safe.",
+  "summary": "IGN's review of EA Sports FC 25 awards the game a 7/10, highlighting the new 5v5 Rush mode as an exceptional, high-energy addition across all core game modes. However, the review critiques on-pitch 11v11 gameplay for lingering defensive sluggishness, inconsistent visual fidelity via the Cranium system, and a cumbersome, laggy user interface.",
+  "score": 7,
+  "findings": {
+    "positive": [
+      "Praise for the new 5v5 Rush mode: 'Rush stands out as the most innovative part of the Ultimate Team experience... probably the best thing EA has added to the series in years.'",
+      "Offensive gameplay and physics improvements: 'passing is a touch snappier than last year, especially when pinging long balls across the pitch. Shooting also has a nice weight to it—smooth, responsive, and satisfying.'",
+      "Tactical positioning enhancements via FC IQ: 'attackers are a bit more useful while on the break, and no longer having to constantly trigger players’ runs in behind or down the wing with manual button presses is great.'"
+    ],
+    "negative": [
+      "Defensive gameplay mechanics remain loose and unresponsive: 'Defending is half of football, yet it currently feels like an afterthought here that needed a lot more time in the oven. No matter if you’re playing a low, medium, or high-aggression style, it just feels the same: slow, boring, and lacking tight control.'",
+      "Severe UI friction and input lag: 'the new menu system that plagues every game mode feels like it’s chugging two steps behind my inputs, making what should be an enjoyable experience feel like a chore.'",
+      "Superficial tactical depth and visual inconsistencies: 'the level of control still pales in comparison to the more tactical-heavy sims found in Football Manager' and 'more often than not everyone in FC 25 looks like they’ve been pulled from a waxy, uncanny valley hell.'"
+    ],
+    "neutral": [
+      "Standard editorial review layout including an explicit numerical score (Score: 7), author attribution (Robert Anderson), updated timestamps, and embedded previous-year review context.",
+      "Inclusion of interactive polling widgets asking user preferences on sports games and standard media navigation breadcrumbs."
+    ]
+  },
+  "comparison_to_focus": "The ingested review directly addresses the focus question 'fc gameplay review' by breaking down on-pitch mechanics into distinct offensive, defensive, tactical, and mode-specific evaluations. It validates core offensive upgrades (passing snappiness, shot weight, weather physics affecting ball roll) and introduces FC IQ's role-based run mechanics. However, it delivers a harsh assessment of core gameplay balance, explicitly reporting that defensive responsiveness is neglected, pace imbalance persists with speedsters blowing past sluggish backlines, and tactical FC IQ instructions fail to translate into effective defensive pressing.",
+  "comparison_to_company": "For EA Games FC's marketing and live-service teams, this review serves as a clear benchmark of external consumer and critic sentiment: while marketed headline features like Rush and FC IQ are recognized, the persistent critique of 'incremental improvements' and 'playing it too safe' undermines marketing claims of revolutionary year-over-year innovation. The critique of clunky menus and defensive lag directly challenges EA's premium simulator positioning.",
+  "recommendations": [
+    "Prioritize gameplay balancing title updates addressing defensive responsiveness, acceleration lag, and manual pressing instructions to counter the critique that defending feels 'slow, boring, and lacking tight control.'",
+    "Deploy immediate hotfixes to menu UI latency and navigation architecture across Career Mode and Ultimate Team to eliminate input lag complaints.",
+    "Double down marketing and live-service events on Rush mode (tournaments, dynamic objectives, and cosmetic integration) as it received near-universal acclaim as the 'freshest thing about FC 25.'",
+    "Refine Cranium system lighting and facial shaders in post-launch patches to reduce 'uncanny valley' visual anomalies on unscanned players."
+  ],
+  "word_cloud": [
+    "Rush",
+    "FC IQ",
+    "Gameplay",
+    "Defending",
+    "Ultimate Team",
+    "Career Mode",
+    "Tactics",
+    "Passing",
+    "Shooting",
+    "Cranium",
+    "Physics",
+    "Simulation",
+    "Weather"
+  ],
+  "scrapedContent": {
+    "title": "EA Sports FC 25 Review - IGN",
+    "description": "Apart from Rush mode, welcome but largely incremental improvements play it a bit too safe.",
+    "headings": [
+      "H3: News",
+      "H3: Reviews",
+      "H3: Discover",
+      "H3: Videos",
+      "H3: Account",
+      "H1: EA Sports FC 25 Review",
+      "H2: Apart from Rush mode, welcome but largely incremental improvements play it a bit too safe.",
+      "H2: What&#x27;s more important to you in a sports game?",
+      "H2: The Good, the Bad, and the Ugly",
+      "H3: FC 25 Screenshots",
+      "H2: Tweaks That Matter (And Many That Don’t)",
+      "H2: What we said about EA Sports FC 24",
+      "H2: Score: 7",
+      "H2: Let Down By The Rest",
+      "H3: Robert&#x27;s Favorite Sports Games",
+      "H3: Verdict",
+      "H3: IGN Logo Recommends",
+      "H3: In This Article",
+      "H3: EA Sports FC 25 Review",
+      "H3: More Reviews by Robert Anderson"
+    ],
+    "wordCount": 3290,
+    "previewText": "EA Sports FC 25 Review - IGN Focus Reset\n\nSkip to content\n\nIGN Daily Games\n\nPlay today's daily game and challenge your knowledge\n\nInteractive Maps\n\nIGN Daily Games\n\nAll News Columns PlayStation Xbox Nintendo PC Mobile Movies Television Comics Tech\n\nAll Reviews Editor's Choice Game Reviews Movie Reviews TV Show Reviews Tech Reviews\n\nBattlefield 6 Season 4 Audible 2026 METRO 2039 Planet Pokemon Upcoming Games Upcoming Movies Upcoming TV Shows Preorders Kingdom Come Deliverance II Video Game Trailers Movie Trailers TV Trailers Best Tech for Gaming Universal Studios Hollywood Hub Discover Universal Orlando Resort\n\nOriginal Shows Popular Trailers Gameplay All Videos\n\nProfile Login Settings Subscription Newsletters\n\nHome › Reviews › EA Sports FC 25\n\nEA Sports FC 25 Review\n\nApart from Rush mode, welcome but largely incremental improvements play it a bit too safe.\n\nBy Robert Anderson\n\nUpdated : Oct 2, 2024 4:03pm UTC\n\nEvery year, I start FIFA—sorry, EA Sports FC—with the same overly optimistic questions: What has actually changed this time around? Is it really new, or just the same old game with a fresh coat of paint? There’s always a laundry list of flashy new marketing terms designed to "
+  },
+  "groundedSources": [
+    {
+      "title": "EA Sports FC 25 Review - IGN",
+      "url": "https://www.ign.com/articles/ea-sports-fc-25-review",
+      "type": "Direct Page Ingestion"
+    }
+  ],
+  "videos": [
+    "https://www.ign.com/articles/ea-sports-fc-25-review"
+  ]
+}
