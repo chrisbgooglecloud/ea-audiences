@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080A0E;
+  --foreground: #F5F5F7;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* Apple Typography Defaults */
+h1, h2, h3, .display-text {
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.subheadline {
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+.caption-label {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Apple Press State Feedback (Kill Latency - §1 of Apple Design) */
+button, [role="button"], .apple-pressable {
+  transition: transform 100ms cubic-bezier(0.2, 0, 0, 1), opacity 100ms ease-out, background-color 150ms ease-out;
+}
+
+button:active, [role="button"]:active, .apple-pressable:active {
+  transform: scale(0.97);
+}
+
+/* Apple Translucent Glass Materials (§12 of Apple Design) */
+.apple-glass {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Light-catching top border */
+}
+
+.apple-glass-heavy {
+  background: rgba(14, 17, 24, 0.92);
+  backdrop-filter: blur(40px) saturate(190%);
+  -webkit-backdrop-filter: blur(40px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.05);
+}
+
+.apple-glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apple-glass-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+/* Subtle Apple Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Smooth Spring Motion Classes */
+@keyframes apple-spring-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.96) translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-spring-in {
+  animation: apple-spring-in 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Apple Fluid Ethereal Floating Aura Animations */
+@keyframes float-aura-primary {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(50px, -35px, 0) scale(1.08);
+  }
+  66% {
+    transform: translate3d(-35px, 25px, 0) scale(0.94);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes float-aura-secondary {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(-45px, 30px, 0) scale(0.95);
+  }
+  66% {
+    transform: translate3d(40px, -25px, 0) scale(1.06);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes float-aura-pulse {
+  0%, 100% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.12);
+  }
+}
+
+.animate-aura-1 {
+  animation: float-aura-primary 22s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-aura-2 {
+  animation: float-aura-secondary 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-aura-pulse {
+  animation: float-aura-pulse 14s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-aura-1, .animate-aura-2, .animate-aura-pulse {
+    animation: none !important;
+  }
+}
+

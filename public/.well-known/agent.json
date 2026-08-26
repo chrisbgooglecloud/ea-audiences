@@ -1,0 +1,57 @@
+{
+  "name": "Jamie_AudienceIntelligenceAgent",
+  "description": "EA SPORTS FC Audience Intelligence & DeepSona Synthetic Focus Group Engine (Google Cloud EBC Act 1)",
+  "url": "http://localhost:3000/api/a2a",
+  "version": "1.0.0",
+  "protocol_version": "0.2.0",
+  "provider": {
+    "organization": "Electronic Arts / Google Cloud CCAI",
+    "url": "https://cloud.google.com/spanner"
+  },
+  "capabilities": {
+    "streaming": true,
+    "push_notifications": true,
+    "state_machine": "FSM_SUPPORTED"
+  },
+  "skills": [
+    {
+      "id": "query_spanner_graph",
+      "name": "Query Spanner Property Graph",
+      "description": "Translates natural language to Spanner GQL and queries 2,500+ EA FC master players and 9,000+ linked identities.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "query": { "type": "string", "description": "Natural language audience query" }
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "id": "simulate_deepsona_focus_group",
+      "name": "DeepSona Synthetic Focus Group Simulation",
+      "description": "Simulates 4 authentic BARE gamer personas with FSM states, willingness-to-pay, and lift estimation before launch.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "campaign_id": { "type": "string" },
+          "franchise": { "type": "string" },
+          "creative_title": { "type": "string" },
+          "proposed_spend": { "type": "number" },
+          "target_roas": { "type": "number" }
+        },
+        "required": ["creative_title"]
+      }
+    },
+    {
+      "id": "emit_audience_brief",
+      "name": "Emit Executive Campaign Brief",
+      "description": "Compiles Spanner Graph segment insights into a structured brief and emits outbound A2A contract to Act 2 (Curtis Creative Studio) and Act 4 (Surya Commerce Media).",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "target_segment": { "type": "string" }
+        }
+      }
+    }
+  ]
+}
