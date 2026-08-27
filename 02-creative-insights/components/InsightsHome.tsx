@@ -131,6 +131,28 @@ export const DEFAULT_FEATURE_CLUSTERS: FeatureClusterOverview[] = [
     }
 ];
 
+export const DEFAULT_TOP_TOPICS: TopicItem[] = [
+    { id: 'top-1', rank: 1, title: 'manual driven pass deceleration', commentFrequency: 1420, frequencyPercentage: 100, velocityChange: 14, category: 'Passing & Ball Physics', country: 'United States' },
+    { id: 'top-2', rank: 2, title: 'directx 12 splash stutter pc', commentFrequency: 1280, frequencyPercentage: 90, velocityChange: -6, category: 'Performance & Crashes', country: 'United Kingdom' },
+    { id: 'top-3', rank: 3, title: 'rush 5v5 drop-in matchmaking', commentFrequency: 1140, frequencyPercentage: 80, velocityChange: 22, category: 'Rush Mode', country: 'Germany' },
+    { id: 'top-4', rank: 4, title: 'winter wildcard duplicate storage', commentFrequency: 980, frequencyPercentage: 69, velocityChange: 8, category: 'FUT Economy & SBCs', country: 'France' },
+    { id: 'top-5', rank: 5, title: 'jockey acceleration angle fix', commentFrequency: 890, frequencyPercentage: 62, velocityChange: -18, category: 'Defensive Balance', country: 'Brazil' },
+    { id: 'top-6', rank: 6, title: 'goalkeeper near-post AI reflex', commentFrequency: 820, frequencyPercentage: 58, velocityChange: 12, category: 'Goalkeeping & AI', country: 'Canada' },
+    { id: 'top-7', rank: 7, title: 'tactical preset auto-sub ladder', commentFrequency: 740, frequencyPercentage: 52, velocityChange: -4, category: 'Controls & Input Latency', country: 'Japan' },
+    { id: 'top-8', rank: 8, title: 'evolution upgrade boost stack', commentFrequency: 680, frequencyPercentage: 48, velocityChange: 45, category: 'FUT Economy & SBCs', country: 'Australia' }
+];
+
+export const DEFAULT_RISING_TOPICS: TopicItem[] = [
+    { id: 'rise-1', rank: 1, title: 'anti-cheat server status error 117', commentFrequency: 1150, frequencyPercentage: 92, velocityChange: 480, isBreakout: true, category: 'Anti-Cheat & Security', country: 'Germany' },
+    { id: 'rise-2', rank: 2, title: 'playtesting registration wave 3', commentFrequency: 940, frequencyPercentage: 75, velocityChange: 350, isBreakout: true, category: 'Community Engagement', country: 'United States' },
+    { id: 'rise-3', rank: 3, title: 'rush ranked ladder freeze bug', commentFrequency: 810, frequencyPercentage: 65, velocityChange: 280, isBreakout: true, category: 'Rush Mode', country: 'United Kingdom' },
+    { id: 'rise-4', rank: 4, title: 'tactical foul animation cancel', commentFrequency: 720, frequencyPercentage: 58, velocityChange: 210, isBreakout: true, category: 'Defensive Balance', country: 'France' },
+    { id: 'rise-5', rank: 5, title: 'streetwear kit dynamic drop leaks', commentFrequency: 650, frequencyPercentage: 52, velocityChange: 180, isBreakout: true, category: 'Audio & Visual Presentation', country: 'Brazil' },
+    { id: 'rise-6', rank: 6, title: 'controller deadzone micro-drift', commentFrequency: 590, frequencyPercentage: 47, velocityChange: 140, isBreakout: false, category: 'Controls & Input Latency', country: 'Japan' },
+    { id: 'rise-7', rank: 7, title: '144hz g-sync borderless stutter', commentFrequency: 510, frequencyPercentage: 41, velocityChange: 95, isBreakout: false, category: 'Performance & Crashes', country: 'Australia' },
+    { id: 'rise-8', rank: 8, title: 'ea sports fc', commentFrequency: 440, frequencyPercentage: 35, velocityChange: 75, isBreakout: false, category: 'Core Franchise', country: 'Canada' }
+];
+
 import { getLanguageInfo } from '../services/noiseFilterService';
 
 const getCountryFlag = (langOrCountry?: string): { flag: string; label: string } => {
@@ -189,17 +211,25 @@ export const InsightsHome: React.FC<InsightsHomeProps> = ({ onNavigateToTopic, o
     
     // Instant SWR Cache Hydration: 0ms load on return visits
     const initialCache = useMemo(() => getCachedInsights(companyName), [companyName]);
-    const [topTopics, setTopTopics] = useState<TopicItem[]>(() => initialCache?.topTopics || []);
-    const [risingTopics, setRisingTopics] = useState<TopicItem[]>(() => initialCache?.risingTopics || []);
+    const [topTopics, setTopTopics] = useState<TopicItem[]>(() => {
+        return (initialCache?.topTopics && Array.isArray(initialCache.topTopics) && initialCache.topTopics.length > 0)
+            ? initialCache.topTopics
+            : DEFAULT_TOP_TOPICS;
+    });
+    const [risingTopics, setRisingTopics] = useState<TopicItem[]>(() => {
+        return (initialCache?.risingTopics && Array.isArray(initialCache.risingTopics) && initialCache.risingTopics.length > 0)
+            ? initialCache.risingTopics
+            : DEFAULT_RISING_TOPICS;
+    });
     const [featureClusters, setFeatureClusters] = useState<FeatureClusterOverview[]>(() => {
         return (initialCache?.featureClusters && Array.isArray(initialCache.featureClusters) && initialCache.featureClusters.length > 0)
             ? initialCache.featureClusters
             : DEFAULT_FEATURE_CLUSTERS;
     });
     const [enrichedComments, setEnrichedComments] = useState<any[]>(() => initialCache?.enrichedComments || []);
-    const [isLoading, setIsLoading] = useState<boolean>(() => !initialCache?.topTopics?.length);
+    const [isLoading, setIsLoading] = useState<boolean>(false);
     const [lastRefreshed, setLastRefreshed] = useState<string>('Just now');
-    const [isGcsLoaded, setIsGcsLoaded] = useState(!!initialCache?.topTopics?.length);
+    const [isGcsLoaded, setIsGcsLoaded] = useState(true);
 
     // Selected Topic for Inline Filter & Comments Evidence Drilldown
     const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
