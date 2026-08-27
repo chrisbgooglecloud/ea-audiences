@@ -813,7 +813,9 @@ const getActiveCompanyName = () => {
 };
 
 const getBucketName = () => {
-    return process.env.GCS_BUCKET_NAME || 'ailab-gcs';
+    if (process.env.GCS_BUCKET_NAME) return process.env.GCS_BUCKET_NAME;
+    const project = process.env.GCP_PROJECT || process.env.GOOGLE_CLOUD_PROJECT || 'eadatademos';
+    return `${project}-ailab-gcs`;
 };
 
 
@@ -3293,7 +3295,7 @@ async function saveSnapshotToStorage(snapshotName, state) {
   try {
     const { Storage } = await import('@google-cloud/storage');
     const storage = new Storage();
-    const bucketName = 'ailab-gcs';
+    const bucketName = getBucketName();
     const bucket = storage.bucket(bucketName);
     const file = bucket.file(`${companyName}/snapshots/${snapshotName}.json`);
     await file.save(JSON.stringify(payload, null, 2), {
@@ -3321,7 +3323,7 @@ async function listSnapshotsFromStorage() {
   try {
     const { Storage } = await import('@google-cloud/storage');
     const storage = new Storage();
-    const bucketName = 'ailab-gcs';
+    const bucketName = getBucketName();
     const bucket = storage.bucket(bucketName);
     const [files] = await bucket.getFiles({ prefix: `${companyName}/snapshots/` });
     for (const file of files) {
@@ -3363,7 +3365,7 @@ async function loadSnapshotFromStorage(snapshotName) {
   try {
     const { Storage } = await import('@google-cloud/storage');
     const storage = new Storage();
-    const bucketName = 'ailab-gcs';
+    const bucketName = getBucketName();
     const bucket = storage.bucket(bucketName);
     const file = bucket.file(`${companyName}/snapshots/${snapshotName}.json`);
     const content = await safeDownloadGCSBuffer(file);
@@ -3382,7 +3384,7 @@ async function deleteSnapshotFromStorage(snapshotName) {
   try {
     const { Storage } = await import('@google-cloud/storage');
     const storage = new Storage();
-    const bucketName = 'ailab-gcs';
+    const bucketName = getBucketName();
     const bucket = storage.bucket(bucketName);
     const file = bucket.file(`${companyName}/snapshots/${snapshotName}.json`);
     const [exists] = await file.exists();
