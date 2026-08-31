@@ -3,19 +3,57 @@
 import React from "react";
 
 interface PlaystyleRadarProps {
-  spend: number;
-  churnRisk: number;
-  tilt: number;
-  archetype: string;
+  spend?: number;
+  churnRisk?: number;
+  tilt?: number;
+  archetype?: string;
 }
 
-export default function PlaystyleRadar({ spend, churnRisk, tilt, archetype }: PlaystyleRadarProps) {
+export default function PlaystyleRadar({
+  spend = 850,
+  churnRisk = 0.45,
+  tilt = 0.65,
+  archetype = "COMPETITIVE_GRINDER",
+}: PlaystyleRadarProps) {
+  const safeSpend = typeof spend === "number" && !isNaN(spend) ? spend : 850;
+  const safeChurn = typeof churnRisk === "number" && !isNaN(churnRisk) ? churnRisk : 0.45;
+  const safeTilt = typeof tilt === "number" && !isNaN(tilt) ? tilt : 0.65;
+  const safeArch = typeof archetype === "string" ? archetype : "COMPETITIVE_GRINDER";
+
+  const isComp = safeArch.toUpperCase().includes("COMPETITIVE") || safeArch.toUpperCase().includes("WHALE") || safeArch.toUpperCase().includes("GRINDER");
+  const isSocial = safeArch.toUpperCase().includes("CASUAL") || safeArch.toUpperCase().includes("SOCIAL");
+
   const metrics = [
-    { label: "LTV / Spend", value: Math.min(100, Math.round((spend / 1500) * 100)), raw: `$${spend.toFixed(0)}`, color: "bg-hud-gold" },
-    { label: "Tilt Sensitivity", value: Math.round(tilt * 100), raw: `${(tilt * 100).toFixed(0)}%`, color: "bg-ea-red" },
-    { label: "Churn Risk Score", value: Math.round(churnRisk * 100), raw: `${(churnRisk * 100).toFixed(0)}%`, color: "bg-ea-orange" },
-    { label: "Session APM", value: archetype.includes("COMPETITIVE") ? 88 : 45, raw: archetype.includes("COMPETITIVE") ? "185 APM" : "95 APM", color: "bg-cyber-cyan" },
-    { label: "Social Co-Play", value: archetype.includes("CASUAL") ? 92 : 35, raw: archetype.includes("CASUAL") ? "High" : "Solo", color: "bg-neon-green" },
+    {
+      label: "LTV / Spend",
+      value: Math.min(100, Math.max(5, Math.round((safeSpend / 1500) * 100))),
+      raw: `$${safeSpend.toFixed(0)}`,
+      color: "bg-amber-400",
+    },
+    {
+      label: "Tilt Sensitivity",
+      value: Math.min(100, Math.max(5, Math.round(safeTilt * 100))),
+      raw: `${Math.round(safeTilt * 100)}%`,
+      color: "bg-rose-500",
+    },
+    {
+      label: "Churn Risk Score",
+      value: Math.min(100, Math.max(5, Math.round(safeChurn * 100))),
+      raw: `${Math.round(safeChurn * 100)}%`,
+      color: "bg-amber-500",
+    },
+    {
+      label: "Session APM",
+      value: isComp ? 88 : 45,
+      raw: isComp ? "185 APM" : "95 APM",
+      color: "bg-cyan-400",
+    },
+    {
+      label: "Social Co-Play",
+      value: isSocial ? 92 : 35,
+      raw: isSocial ? "High (Squad)" : "Solo / Pro-Am",
+      color: "bg-emerald-400",
+    },
   ];
 
   return (
@@ -28,7 +66,7 @@ export default function PlaystyleRadar({ spend, churnRisk, tilt, archetype }: Pl
               <span className="text-gray-300">{m.label}</span>
               <span className="font-bold text-white">{m.raw}</span>
             </div>
-            <div className="w-full h-1.5 bg-surface-raised rounded-full overflow-hidden border border-surface-border">
+            <div className="w-full h-1.5 bg-black/40 rounded-full overflow-hidden border border-white/10">
               <div
                 className={`h-full ${m.color} rounded-full transition-all duration-500`}
                 style={{ width: `${m.value}%` }}

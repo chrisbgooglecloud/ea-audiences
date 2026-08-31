@@ -178,7 +178,7 @@ export default function EntityInspector({
   const isCohortView = !node;
 
   return (
-    <div className="absolute top-20 right-6 z-30 w-[380px] max-w-[calc(100vw-3rem)] max-h-[calc(100vh-160px)] apple-glass-card rounded-3xl p-5 space-y-4 animate-spring-in font-sans text-xs overflow-y-auto shadow-2xl border border-white/10">
+    <div className="fixed top-20 right-6 z-40 w-[390px] max-w-[calc(100vw-3rem)] max-h-[calc(100vh-100px)] bg-[#0D131D]/95 backdrop-blur-2xl border border-white/15 rounded-3xl p-5 space-y-4 font-sans text-xs overflow-y-auto shadow-2xl text-white pointer-events-auto">
       {/* 1. TOP NAVIGATION / BREADCRUMB */}
       {!isCohortView && playerNodes.length > 0 && (
         <button
@@ -242,7 +242,7 @@ export default function EntityInspector({
             </div>
             <div className="text-[11px] text-gray-400 font-mono mt-0.5 truncate">
               {isCohortView
-                ? `${cohortStats.count} Sampled • ${cohortStats.estimatedTotal.toLocaleString()} Addressable in Spanner`
+                ? `${cohortStats.count || 0} Sampled • ${(cohortStats.estimatedTotal || 0).toLocaleString()} Addressable in Spanner`
                 : `${node?.franchise ? `${node.franchise} • ` : ""}${node?.id}`}
             </div>
           </div>
@@ -264,16 +264,16 @@ export default function EntityInspector({
             <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/5">
               <span className="text-[10px] text-gray-500 block uppercase font-medium">Dominant Playstyle</span>
               <span className="font-semibold text-cyan-300 text-xs truncate block mt-0.5">
-                {cohortStats.dominantArchetype}
+                {cohortStats.dominantArchetype || "COMPETITIVE_GRINDER"}
               </span>
             </div>
             <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/5">
               <span className="text-[10px] text-gray-500 block uppercase font-medium">Avg Lifetime Spend</span>
               <span className="font-semibold text-amber-300 text-xs font-mono block mt-0.5">
-                ${cohortStats.avgSpend.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                ${(cohortStats.avgSpend || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
               </span>
               <span className="text-[9px] text-gray-400 block mt-0.5">
-                Est. Cohort LTV: ${(cohortStats.avgSpend * cohortStats.estimatedTotal).toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                Est. Cohort LTV: ${((cohortStats.avgSpend || 0) * (cohortStats.estimatedTotal || 1)).toLocaleString(undefined, { maximumFractionDigits: 0 })}
               </span>
             </div>
           </div>
@@ -289,19 +289,19 @@ export default function EntityInspector({
               <div className="p-2 rounded-xl bg-black/40 border border-white/5">
                 <span className="text-[9px] text-gray-400 block uppercase">Avg Tilt</span>
                 <span className="text-pink-400 font-semibold text-xs mt-0.5 block">
-                  {Math.round(cohortStats.avgTilt * 100)}%
+                  {Math.round((cohortStats.avgTilt || 0) * 100)}%
                 </span>
               </div>
               <div className="p-2 rounded-xl bg-black/40 border border-white/5">
                 <span className="text-[9px] text-gray-400 block uppercase">Avg Churn</span>
                 <span className="text-amber-400 font-semibold text-xs mt-0.5 block">
-                  {Math.round(cohortStats.avgChurn * 100)}%
+                  {Math.round((cohortStats.avgChurn || 0) * 100)}%
                 </span>
               </div>
               <div className="p-2 rounded-xl bg-black/40 border border-white/5">
                 <span className="text-[9px] text-gray-400 block uppercase">Loss Slump</span>
                 <span className="text-purple-300 font-semibold text-xs mt-0.5 block">
-                  {cohortStats.avgLossStreak.toFixed(1)} Matches
+                  {(cohortStats.avgLossStreak || 0).toFixed(1)} Matches
                 </span>
               </div>
             </div>
@@ -723,7 +723,7 @@ export default function EntityInspector({
                         </div>
                       </div>
                       <span className="font-mono text-emerald-400 font-semibold shrink-0 ml-2">
-                        ${item.price.toFixed(2)}
+                        ${(item.price || 0).toFixed(2)}
                       </span>
                     </div>
                   ))}
