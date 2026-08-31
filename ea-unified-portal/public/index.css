@@ -1,0 +1,572 @@
+/* 
+ * EA Design System & Theme Spec
+ * Aesthetic: Apple Dark Glassmorphism + Gaming HUD (Clean, high-contrast, dark-mode first)
+ * Palette Tokens from DESIGN_SYSTEM.md:
+ * - Canvas Background: #080A0E
+ * - Surface / Card: #0D131D & rgba(18, 22, 30, 0.65)
+ * - Modal / Drawer: rgba(14, 17, 24, 0.92)
+ * - Border: rgba(255, 255, 255, 0.08)
+ * - Specular Top Border: rgba(255, 255, 255, 0.20)
+ * - Franchise Neons: #E6FF00 (FC Volt), #00F0FF (Apex Cyan), #00FF88 (Madden Green), #FF7A00 (BF Orange), #A855F7 (Sims Purple)
+ * - Status Signals: #FFB800 (HUD Gold), #10B981 (Emerald), #06B6D4 (Cyan), #FF4757 (Tilt Red)
+ */
+
+/*=================================
+  Layout & Global Canvas
+=================================*/
+:root {
+  --bg-canvas: #080A0E;
+  --bg-surface: #0D131D;
+  --bg-glass: rgba(18, 22, 30, 0.65);
+  --bg-modal: rgba(14, 17, 24, 0.92);
+  --border-stroke: rgba(255, 255, 255, 0.08);
+  --border-specular: rgba(255, 255, 255, 0.20);
+  --color-fc-volt: #0AF468;
+  --color-ea-green: #0AF468;
+  --color-apex-cyan: #00F0FF;
+  --color-madden-green: #00FF88;
+  --color-bf-orange: #FF7A00;
+  --color-sims-purple: #A855F7;
+  --color-hud-gold: #FFB800;
+  --color-tilt-red: #FF4757;
+}
+
+body {
+  background-color: #080A0E;
+  color: #F8FAFC;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #080A0E;
+  color: #F8FAFC;
+  display: flex;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #080A0E;
+}
+
+.scrollable-content {
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+  z-index: 10;
+}
+
+/*=================================
+  Navigation & Headers
+=================================*/
+.nav-sidebar {
+  height: 100vh;
+  background: #080A0E;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  color: #E2E8F0;
+  width: 18rem;
+  z-index: 40;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .nav-sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    height: 100vh;
+    flex-shrink: 0;
+    z-index: 45;
+  }
+  .nav-sidebar.collapsed {
+    width: 5rem;
+  }
+}
+
+.page-header {
+  background: rgba(13, 19, 29, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  font-size: 0.75rem;
+  color: #94A3B8;
+}
+
+/*=================================
+  Apple Dark Glassmorphism Cards & Panels
+=================================*/
+.panel-dark {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 1.5rem;
+  color: #F8FAFC;
+}
+
+.panel-card {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  color: #F8FAFC;
+}
+
+.panel-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.20);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 240, 255, 0.08);
+}
+
+.glass-panel {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: 1rem;
+}
+
+.glass-modal {
+  background: rgba(14, 17, 24, 0.94);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.7);
+}
+
+/*=================================
+  Buttons & Micro-Interactions
+=================================*/
+.btn-primary {
+  background-color: #349DD4;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgba(52, 157, 212, 0.35);
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #2689be;
+  box-shadow: 0 6px 20px rgba(52, 157, 212, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background-color: #475569;
+  color: #94A3B8;
+  box-shadow: none;
+  transform: none;
+}
+
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #F8FAFC;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  font-weight: 700;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+  transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+  transform: scale(0.97);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #94A3B8;
+  padding: 0.65rem 1rem;
+  border-radius: 0.65rem;
+  transition: all 0.15s ease;
+}
+
+.btn-ghost:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.btn-ghost:active {
+  transform: scale(0.97);
+}
+
+/*=================================
+  Forms & Inputs
+=================================*/
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: rgba(13, 19, 29, 0.85);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.input-field::placeholder {
+  color: #64748B;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00F0FF;
+  box-shadow: 0 0 0 2px rgba(0, 240, 255, 0.25);
+  background-color: rgba(13, 19, 29, 0.98);
+}
+
+.form-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #94A3B8;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/*=================================
+  Typography & HUD Tokens
+=================================*/
+.text-heading {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.bg-heading {
+  background-color: #0D131D;
+}
+
+.border-heading {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-subtext {
+  font-size: 0.875rem;
+  color: #94A3B8;
+}
+
+.bg-subtext {
+  background-color: #334155;
+}
+
+.text-highlight {
+  color: #0AF468;
+  font-weight: 700;
+}
+
+.hud-metric {
+  font-family: 'JetBrains Mono', 'Geist Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/*=================================
+  Navigation Tabs
+=================================*/
+.tab-scroll-container {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;
+}
+
+.tab-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-button {
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  border-color: #349DD4;
+  color: #349DD4;
+  text-shadow: 0 0 12px rgba(52, 157, 212, 0.4);
+}
+
+.tab-button.inactive {
+  border-color: transparent;
+  color: #94A3B8;
+}
+
+.tab-button.inactive:hover {
+  color: #FFFFFF;
+}
+
+/*=================================
+  Home & Dashboard Grid
+=================================*/
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.tool-card {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tool-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 240, 255, 0.4);
+  box-shadow: 0 16px 32px -6px rgba(0, 0, 0, 0.6), 0 0 24px rgba(0, 240, 255, 0.12);
+}
+
+.tool-icon-wrapper {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover .tool-icon-wrapper {
+  transform: scale(1.08);
+  border-color: rgba(0, 240, 255, 0.4);
+}
+
+.tool-card-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.tool-card-desc {
+  color: #94A3B8;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.tool-card-action {
+  color: #00F0FF;
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover .tool-card-action {
+  transform: translateX(0.25rem);
+}
+
+/*=================================
+  Content & Data Display
+=================================*/
+.content-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-header {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.content-card {
+  background: rgba(18, 22, 30, 0.65);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.2s ease;
+}
+
+.content-card:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.data-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  background-color: rgba(13, 19, 29, 0.95);
+  color: #94A3B8;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.data-table td {
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: #F1F5F9;
+  font-size: 0.875rem;
+}
+
+.data-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.badge-gray {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #CBD5E1;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.badge-red {
+  background-color: rgba(255, 71, 87, 0.15);
+  color: #FF4757;
+  border-color: rgba(255, 71, 87, 0.3);
+}
+
+.badge-blue {
+  background-color: rgba(0, 240, 255, 0.15);
+  color: #00F0FF;
+  border-color: rgba(0, 240, 255, 0.3);
+}
+
+.badge-volt {
+  background-color: rgba(10, 244, 104, 0.15);
+  color: #0AF468;
+  border-color: rgba(10, 244, 104, 0.3);
+}
+
+/*=================================
+  Images & Media
+=================================*/
+.img-cover-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+/*=================================
+  Custom Overrides & Max Widths
+=================================*/
+.max-w-7xl {
+  max-width: 110rem !important;
+}

@@ -1,0 +1,917 @@
+{
+  "type": "youtube_sentiment",
+  "videoUrl": "https://www.youtube.com/watch?v=jQZ7mdCeeUs",
+  "videoId": "jQZ7mdCeeUs",
+  "overallScore": 4,
+  "overallScorePercent": 39,
+  "summary": "The video coverage presents standard promotional and review content for the game, yet it is met with an overwhelmingly negative and frustrated audience response. Community members heavily criticize the franchise for recycled gameplay, aggressive monetization, technical performance issues, and persistent scripting, overshadowing any minor positive excitement or neutral feature requests.",
+  "alignment": {
+    "status": "Divergent",
+    "explanation": "While the video presumably offers standard game coverage or promotional assessment, the audience's reaction is deeply critical, focusing on systemic franchise flaws, false advertising in translation, and severe performance issues.",
+    "creator_stance": "Focused on reviewing or covering upcoming game features and content updates.",
+    "audience_consensus": "Highly critical of EA's business practices, recycled annual mechanics, technical optimization, and gameplay realism."
+  },
+  "strategic_takeaways": [
+    {
+      "priority": "High",
+      "area": "Gameplay Innovation & Realism",
+      "recommendation": "Address community complaints regarding player movement physics and gameplay evolution to counter comparisons to competitors like Konami.",
+      "impact": "Reduces player churn and mitigates long-standing criticisms of copy-pasted annual releases."
+    },
+    {
+      "priority": "High",
+      "area": "Technical Optimization",
+      "recommendation": "Prioritize performance patches for platforms suffering from low frame rates (e.g., Switch optimization) and ensure promotional text accuracy.",
+      "impact": "Prevents accusations of false advertising and restores technical credibility among players."
+    },
+    {
+      "priority": "Medium",
+      "area": "Ultimate Team & Mode Structure",
+      "recommendation": "Review community feedback regarding mixed-gender divisions and consider implementing separate playlist options to appease traditionalists.",
+      "impact": "Alleviates a prominent pain point causing vocal dissatisfaction in the comment sections."
+    },
+    {
+      "priority": "Medium",
+      "area": "Feature Requests",
+      "recommendation": "Incorporate highly requested tactical formations like the 3-4-3 narrow in upcoming title updates.",
+      "impact": "Demonstrates responsiveness to constructive community feedback and boosts player goodwill."
+    }
+  ],
+  "videoSentiment": {},
+  "commentsSentiment": {
+    "counts": {
+      "positive": 10,
+      "negative": 60,
+      "neutral": 30
+    },
+    "trends": {
+      "positive": [
+        "Excitement for high-profile player cards and special items",
+        "Anticipation and hype for the upcoming game release",
+        "Appreciation for community-requested SBC (Squad Building Challenge) improvements",
+        "Positive reception of specific content creators or voice acting",
+        "General optimism about new additions"
+      ],
+      "negative": [
+        "Frustration over recycled content and lack of meaningful gameplay evolution across annual releases",
+        "Complaints about game scripting, momentum (DDA), and handicap mechanics",
+        "Criticism of aggressive monetization, store packs, and perceived gambling mechanics",
+        "Dissatisfaction with technical performance, optimization, and player ratings",
+        "Calls to alter or remove mixed-gender divisions in Ultimate Team"
+      ],
+      "neutral": [
+        "Feature requests and suggestions for Career Mode and Pro Clubs",
+        "Inquiries regarding game mechanics, UI, and the FUT Gallery",
+        "Platform-specific questions (mobile, Switch 2, FPS, crossplay)",
+        "Requests for tactical additions like specific formations and control settings",
+        "General observations, emojis, or short clarifying questions"
+      ]
+    },
+    "summary": "The overall sentiment among the community is overwhelmingly negative, driven by deep-seated frustrations regarding recycled gameplay, perceived scripting (DDA), aggressive microtransactions, and lack of innovation compared to previous titles. While a small segment of players expresses excitement for new features and hype for the upcoming release, a significant portion of comments consists of neutral feature requests, technical inquiries, and suggestions.",
+    "breakdown": [
+      {
+        "text": "You say : change in gameplay but...",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Geil wie Broski „eine ganze Menge FUT Player Picks” (a haul) sagt anstatt „Hall of FUT”. <br>Mich würd ich mal interessieren wie sowas passiert, wird der Text für Broski automatisch übersetzt ohne dass da jemand drüber guckt. Das ist ja schon false advertisement zu sagen dass man „eine ganze Menge“ picks bekommt obwohl es nur einer ist",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Untill you don&#39;t make a separate women/men division..you are disappointing",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Hey EA, how can you guys even eat comfortably right now?<br>How do you mess up the Switch 2 optimization of FC27 this badly and still sleep at night?<br>Still stuck at 30 FPS? You guys seriously had one job and completely ruined it.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You haven&#39;t changed anything from FIFA 14. The players move badly. That&#39;s not how people move in a real game. Pay attention and learn from Konami. How beautifully the player moves on the field and also how he moves the ball. You guys are just bad. I deleted FIFA 26 and I don&#39;t think I&#39;ll install FIFA 27 even though I bought it. It&#39;s just shocking to see the players move and it just looks bad and doesn&#39;t resemble real football at all. Please change that so I can go back to playing your game. Thank you.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EA please add 3-4-3 narrow to FC27🙏😭",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "EA please add 3-4-3 narrow to FC27🙏😭",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Do u lose the players if u put them in the gallery",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Another conveyor belt — year after year, they produce the same thing, only changing the label. The football is terrible; the players don’t run, they glide across the field. The graphics are at the level of 10 years ago — don’t waste your time and money on it. 🤢🤮",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Why we dont agree on something ? <br>Lets bring back fifa 21,fifa 22<br>Lets do a hashtag to let ea to see it <br>We want fifa 21,22 engine <br>Your game is losing it slowly !!!!!!!!!!!!!!!!!!!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Same game since they changed the name to fc",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Déjame subir a campeón fc pendej7",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Encore scripé comme c&#39;est pas permis?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "we need move the Goalkeeper",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "we do chem lines come back 🙏🙏",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Einfach Gamerbrother stimme 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "DDA trash",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Too many things I’m already confused",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EAFC24🔥🔥🔥🔥",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Still lottery! Never I will buy this!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "O mesmo jogo 27",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Vous pouvez ajouter une modification si les joueurs marques contres leurs anciens equipe merci",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Quest’anno non ti compro. Basta",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Great !<br>Still won&#39;t buy it.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Por qué no crean el var",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "The franchise is officially gone. It&#39;s not a football game anymore. It&#39;s a rigged gambling machine. EA has no morals and values whatsoever and this game is the result of that. FC26 definitely was the last one. Can&#39;t imagine the gameplay team is proud of what this game has become. Playing it actually is exhausting and a drag. It&#39;s just absolutely terrible. It&#39;s not worth it anymore. I do feel for the gameplay team, because I&#39;m pretty sure they don&#39;t want it to be the way it is either. This is not a game you can be somewhat proud of.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The only thing good is the new sbcs system rest im not sure lol.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Fc give more chances to the beginner players like rebound goals rebounds passes  if someone 4-0 lead he knew that opponent game is better than me he can wasting time aur leave the game in the middle time",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Cv",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "A lot of people is so happy because you made most wanted things available for us.. For example Weekend champions league 2vs2... Thank you because you always listen community and bring us so much.. Even if you struggle with money, you are Indie company and you don&#39;t earn a lot from game or from micro transactions.. 🔥",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Gonna be bringing out a store pack first week in what will cost me my house am guessing, if only fc points were not a thing",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Stop mixing man and woman on the ultimate team. It doesn&#39;t make any sense. How can you have 5&#39;3 woman midfielder slide tackle messi and get the ball?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Just letting you know, the dislikes on this video is 15K! likes are 20K as of the time of this comment. Keep disliking everyone.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "gardien sous coke",
+        "sentiment": "negative"
+      },
+      {
+        "text": "just delete this flipping momentum",
+        "sentiment": "negative"
+      },
+      {
+        "text": "squad battles aı like Ultra toxic champions players.  aı play the ball in his own half just change this",
+        "sentiment": "negative"
+      },
+      {
+        "text": "どんな回線でもストレスなくプレイできる環境ができるまで買わない",
+        "sentiment": "negative"
+      },
+      {
+        "text": "bring the 60 fps to switch 2,crossplay and that we have the same transfer market........",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "what a SITHOLE.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "We&#39;re back to basics again",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Broski als stimme goatet",
+        "sentiment": "positive"
+      },
+      {
+        "text": "When is pro club deep dive?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Quiten la cagada del handicap",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I will not buy until the Game will improve well.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ben mobilde oynuyorum bende Sneijder var",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "That’s not even Bellingham’s signature, bro",
+        "sentiment": "negative"
+      },
+      {
+        "text": "30 Wl Games 🥀🥀",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Which patch of fc 24 is this again?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "oyun tarzları yenilemesinin hepsi yalandan ibaret aynısını fc 26  için demişlerdi bi halt yapmamışlar... yani oyun alınmaz",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I hope EA Sports FC 27 adds an online Seasons Co-op mode that allows players to be randomly matched with teammates and opponents. Alternatively, it would be great if Seasons Co-op mode supported four friends playing together online.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Gave up after 22 but im tempted.  Know i&#39;ll regret it though aye",
+        "sentiment": "negative"
+      },
+      {
+        "text": "💿🎮💙",
+        "sentiment": "positive"
+      },
+      {
+        "text": "So dead we need 30 games wl back",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This is the point where ea loses the community. And the community has gone through a lot. Only for the love of the game it was, long ago. How can you destroy the beautiful game…",
+        "sentiment": "negative"
+      },
+      {
+        "text": "they should bring the youth academy market in career mode",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Que va a pasar con lor jersey de los equipos como real madrid o Barcelona, que estan extintos?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Everything in this video will be changed after two weeks",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EA, por favor escuchen a la comunidad para FC 27. El modo Carrera Jugador necesita una renovación grande: queremos poder simular partidos sin perder la titularidad, sentir que tenemos una verdadera historia como futbolistas, con entrevistas, redes sociales, premios como el Balón de Oro, récords, decisiones importantes, mejores traspasos y una IA más realista de entrenadores y clubes.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "i mean how js it possible for a game to get progressively worse graphics wise and mechanics",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I’ll consume in the same manner I’ve consumed the last five or six games: play at launch, be tired of it by Xmas and then pick it up back up in June during the summer tournaments as the game’s lifecycle comes to an end",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FAT DETAILS BTW LADS INSTEAD OF FUT DETAILS LOVE THE AI VOICE hahaaha",
+        "sentiment": "positive"
+      },
+      {
+        "text": "“Endgame SBC’s is the only reason people come on our game, so let’s change them so the squad building challenges are no longer a squad or a challenge”",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Vai ter para o celular",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Absolute Trash",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Stop crying and play the game 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Wow, Ea It&#39;s been the same game for three years. Let&#39;s keep it up!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Nico O Reilly 73 rated and Ngumoha 68 😭💀",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fhat gallery 😭",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc24 v3. Let’s go another year Same bs. No one wanted this 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The rats will be straight on the store buying packs by passing tokens lol",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bro these are just updates being sold as a whole new game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Am I the only person hyped for this game?!?!?",
+        "sentiment": "positive"
+      },
+      {
+        "text": "player Cursor ???? <br><br>I never get the player I want to select, This effect my defending big time ✋✋",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You know one simple thing I’d love to see in Player Career mode? Breaking historic records. When you break a record, you get a newspaper story about it—imagine how cool it would be to reach 1,000 career goals and be compared to Pelé.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "pls mettait la carrière abrite😢😢😢",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EA should raise the price of this game to 500 dollars so the idiots who buy player cards get screwed over; they’re the ones who ruined the game. I’m never buying it again.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "&quot;FUT Gallery&quot; being the #1 new feature is one of the most shameless things I have ever seen.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "they should make it so when adding playstyles, instead of needing to put them individually which takes a while, make it so you can select multiple at once.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "What is the point of amped it’s only 6 games it’s a waste it should be permanent",
+        "sentiment": "negative"
+      },
+      {
+        "text": "AMPS NEED TO BE PERMANENT",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Spero solo non sia ridicolo come quello di quest anno, scriptato a bestia, ogni volta che guarda caso hai la partita promozione divisione, succede qualcosa di strano, o quando devi sbloccare un obiettivo in particolare..non so ci credono stupidi forse, ma io mi accorgo di tutte queste piccole &quot;coincidenze&quot;, è un gioco assolutamente ridicolo",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Nah never again this ist eafc 24 nahhhh",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ramener nous au fifa 22",
+        "sentiment": "negative"
+      },
+      {
+        "text": "THE MPABBE SPECIAL<br>LFG 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+        "sentiment": "positive"
+      },
+      {
+        "text": "this will be best fc ever,thx EA I will buy it ❤",
+        "sentiment": "positive"
+      },
+      {
+        "text": "<a href=\"https://www.youtube.com/watch?v=jQZ7mdCeeUs&amp;t=67\">1:07</a> &quot;Highest overyard players?&quot;....  What?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Klingt nach einem netten kleinen Update . Seit fifa98 dabei . Fc26 war mein letztes . Goodbye fifa .",
+        "sentiment": "negative"
+      },
+      {
+        "text": "<a href=\"https://www.youtube.com/watch?v=jQZ7mdCeeUs&amp;t=276\">4:36</a> where Unique Riggers at? He’s out of a job 😂💀",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Wasn’t moved",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I Love the New SBC Feature that means you dont give your best cards for a Bad pack or Player Pick",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Earning, earning, earning....<br>I honestly want this mode deleted. Is just gambling.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You guys are in for a real awakening for when gta comes out 😭😭😭 copying nba with the open world is a huge mistake it won’t look with football if you guys want to copy 2k look at there career mode it’s 1billion times better than this .",
+        "sentiment": "negative"
+      },
+      {
+        "text": "⚽",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "⚽",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "120hz consola",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "You don&#39;t need all that junk; what you need are fewer events and fewer special cards—or if there are any, they should be tied to genuine achievements, plus maybe 30 Weekend League games and Red Player Picks... and ideally, they should just scrap this whole &quot;Evo&quot; nonsense entirely.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Hi, I&#39;m from Brazil and I play on an Android phone. I&#39;m asking you to add a career mode to the Android version. I want to create my number 10 and play for Barcelona. I&#39;m asking for this please. Good morning and good luck creating your FC 27.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Please can olise signature celebration and night at the R celebration controls be added to FC27",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Made by ai for ai it’s in the game 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "m flokox che  parlaew",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "sentiment": {
+    "positive": [],
+    "negative": [],
+    "neutral": []
+  },
+  "timeline": [],
+  "talking_points": [],
+  "themes": [],
+  "products": [],
+  "word_cloud": [],
+  "counts": {
+    "positive": 10,
+    "negative": 60,
+    "neutral": 30
+  },
+  "trends": {
+    "positive": [
+      "Excitement for high-profile player cards and special items",
+      "Anticipation and hype for the upcoming game release",
+      "Appreciation for community-requested SBC (Squad Building Challenge) improvements",
+      "Positive reception of specific content creators or voice acting",
+      "General optimism about new additions"
+    ],
+    "negative": [
+      "Frustration over recycled content and lack of meaningful gameplay evolution across annual releases",
+      "Complaints about game scripting, momentum (DDA), and handicap mechanics",
+      "Criticism of aggressive monetization, store packs, and perceived gambling mechanics",
+      "Dissatisfaction with technical performance, optimization, and player ratings",
+      "Calls to alter or remove mixed-gender divisions in Ultimate Team"
+    ],
+    "neutral": [
+      "Feature requests and suggestions for Career Mode and Pro Clubs",
+      "Inquiries regarding game mechanics, UI, and the FUT Gallery",
+      "Platform-specific questions (mobile, Switch 2, FPS, crossplay)",
+      "Requests for tactical additions like specific formations and control settings",
+      "General observations, emojis, or short clarifying questions"
+    ]
+  },
+  "breakdown": [
+    {
+      "text": "You say : change in gameplay but...",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Geil wie Broski „eine ganze Menge FUT Player Picks” (a haul) sagt anstatt „Hall of FUT”. <br>Mich würd ich mal interessieren wie sowas passiert, wird der Text für Broski automatisch übersetzt ohne dass da jemand drüber guckt. Das ist ja schon false advertisement zu sagen dass man „eine ganze Menge“ picks bekommt obwohl es nur einer ist",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Untill you don&#39;t make a separate women/men division..you are disappointing",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Hey EA, how can you guys even eat comfortably right now?<br>How do you mess up the Switch 2 optimization of FC27 this badly and still sleep at night?<br>Still stuck at 30 FPS? You guys seriously had one job and completely ruined it.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You haven&#39;t changed anything from FIFA 14. The players move badly. That&#39;s not how people move in a real game. Pay attention and learn from Konami. How beautifully the player moves on the field and also how he moves the ball. You guys are just bad. I deleted FIFA 26 and I don&#39;t think I&#39;ll install FIFA 27 even though I bought it. It&#39;s just shocking to see the players move and it just looks bad and doesn&#39;t resemble real football at all. Please change that so I can go back to playing your game. Thank you.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EA please add 3-4-3 narrow to FC27🙏😭",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "EA please add 3-4-3 narrow to FC27🙏😭",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Do u lose the players if u put them in the gallery",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Another conveyor belt — year after year, they produce the same thing, only changing the label. The football is terrible; the players don’t run, they glide across the field. The graphics are at the level of 10 years ago — don’t waste your time and money on it. 🤢🤮",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Why we dont agree on something ? <br>Lets bring back fifa 21,fifa 22<br>Lets do a hashtag to let ea to see it <br>We want fifa 21,22 engine <br>Your game is losing it slowly !!!!!!!!!!!!!!!!!!!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Same game since they changed the name to fc",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Déjame subir a campeón fc pendej7",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Encore scripé comme c&#39;est pas permis?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "we need move the Goalkeeper",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "we do chem lines come back 🙏🙏",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Einfach Gamerbrother stimme 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "DDA trash",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Too many things I’m already confused",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EAFC24🔥🔥🔥🔥",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Still lottery! Never I will buy this!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "O mesmo jogo 27",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Vous pouvez ajouter une modification si les joueurs marques contres leurs anciens equipe merci",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Quest’anno non ti compro. Basta",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Great !<br>Still won&#39;t buy it.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Por qué no crean el var",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "The franchise is officially gone. It&#39;s not a football game anymore. It&#39;s a rigged gambling machine. EA has no morals and values whatsoever and this game is the result of that. FC26 definitely was the last one. Can&#39;t imagine the gameplay team is proud of what this game has become. Playing it actually is exhausting and a drag. It&#39;s just absolutely terrible. It&#39;s not worth it anymore. I do feel for the gameplay team, because I&#39;m pretty sure they don&#39;t want it to be the way it is either. This is not a game you can be somewhat proud of.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The only thing good is the new sbcs system rest im not sure lol.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Fc give more chances to the beginner players like rebound goals rebounds passes  if someone 4-0 lead he knew that opponent game is better than me he can wasting time aur leave the game in the middle time",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Cv",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "A lot of people is so happy because you made most wanted things available for us.. For example Weekend champions league 2vs2... Thank you because you always listen community and bring us so much.. Even if you struggle with money, you are Indie company and you don&#39;t earn a lot from game or from micro transactions.. 🔥",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Gonna be bringing out a store pack first week in what will cost me my house am guessing, if only fc points were not a thing",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Stop mixing man and woman on the ultimate team. It doesn&#39;t make any sense. How can you have 5&#39;3 woman midfielder slide tackle messi and get the ball?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Just letting you know, the dislikes on this video is 15K! likes are 20K as of the time of this comment. Keep disliking everyone.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "gardien sous coke",
+      "sentiment": "negative"
+    },
+    {
+      "text": "just delete this flipping momentum",
+      "sentiment": "negative"
+    },
+    {
+      "text": "squad battles aı like Ultra toxic champions players.  aı play the ball in his own half just change this",
+      "sentiment": "negative"
+    },
+    {
+      "text": "どんな回線でもストレスなくプレイできる環境ができるまで買わない",
+      "sentiment": "negative"
+    },
+    {
+      "text": "bring the 60 fps to switch 2,crossplay and that we have the same transfer market........",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "what a SITHOLE.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "We&#39;re back to basics again",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Broski als stimme goatet",
+      "sentiment": "positive"
+    },
+    {
+      "text": "When is pro club deep dive?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Quiten la cagada del handicap",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I will not buy until the Game will improve well.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ben mobilde oynuyorum bende Sneijder var",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "That’s not even Bellingham’s signature, bro",
+      "sentiment": "negative"
+    },
+    {
+      "text": "30 Wl Games 🥀🥀",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Which patch of fc 24 is this again?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "oyun tarzları yenilemesinin hepsi yalandan ibaret aynısını fc 26  için demişlerdi bi halt yapmamışlar... yani oyun alınmaz",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I hope EA Sports FC 27 adds an online Seasons Co-op mode that allows players to be randomly matched with teammates and opponents. Alternatively, it would be great if Seasons Co-op mode supported four friends playing together online.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Gave up after 22 but im tempted.  Know i&#39;ll regret it though aye",
+      "sentiment": "negative"
+    },
+    {
+      "text": "💿🎮💙",
+      "sentiment": "positive"
+    },
+    {
+      "text": "So dead we need 30 games wl back",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This is the point where ea loses the community. And the community has gone through a lot. Only for the love of the game it was, long ago. How can you destroy the beautiful game…",
+      "sentiment": "negative"
+    },
+    {
+      "text": "they should bring the youth academy market in career mode",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Que va a pasar con lor jersey de los equipos como real madrid o Barcelona, que estan extintos?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Everything in this video will be changed after two weeks",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EA, por favor escuchen a la comunidad para FC 27. El modo Carrera Jugador necesita una renovación grande: queremos poder simular partidos sin perder la titularidad, sentir que tenemos una verdadera historia como futbolistas, con entrevistas, redes sociales, premios como el Balón de Oro, récords, decisiones importantes, mejores traspasos y una IA más realista de entrenadores y clubes.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "i mean how js it possible for a game to get progressively worse graphics wise and mechanics",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I’ll consume in the same manner I’ve consumed the last five or six games: play at launch, be tired of it by Xmas and then pick it up back up in June during the summer tournaments as the game’s lifecycle comes to an end",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FAT DETAILS BTW LADS INSTEAD OF FUT DETAILS LOVE THE AI VOICE hahaaha",
+      "sentiment": "positive"
+    },
+    {
+      "text": "“Endgame SBC’s is the only reason people come on our game, so let’s change them so the squad building challenges are no longer a squad or a challenge”",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Vai ter para o celular",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Absolute Trash",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Stop crying and play the game 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Wow, Ea It&#39;s been the same game for three years. Let&#39;s keep it up!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Nico O Reilly 73 rated and Ngumoha 68 😭💀",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fhat gallery 😭",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc24 v3. Let’s go another year Same bs. No one wanted this 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The rats will be straight on the store buying packs by passing tokens lol",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bro these are just updates being sold as a whole new game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Am I the only person hyped for this game?!?!?",
+      "sentiment": "positive"
+    },
+    {
+      "text": "player Cursor ???? <br><br>I never get the player I want to select, This effect my defending big time ✋✋",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You know one simple thing I’d love to see in Player Career mode? Breaking historic records. When you break a record, you get a newspaper story about it—imagine how cool it would be to reach 1,000 career goals and be compared to Pelé.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "pls mettait la carrière abrite😢😢😢",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EA should raise the price of this game to 500 dollars so the idiots who buy player cards get screwed over; they’re the ones who ruined the game. I’m never buying it again.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "&quot;FUT Gallery&quot; being the #1 new feature is one of the most shameless things I have ever seen.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "they should make it so when adding playstyles, instead of needing to put them individually which takes a while, make it so you can select multiple at once.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "What is the point of amped it’s only 6 games it’s a waste it should be permanent",
+      "sentiment": "negative"
+    },
+    {
+      "text": "AMPS NEED TO BE PERMANENT",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Spero solo non sia ridicolo come quello di quest anno, scriptato a bestia, ogni volta che guarda caso hai la partita promozione divisione, succede qualcosa di strano, o quando devi sbloccare un obiettivo in particolare..non so ci credono stupidi forse, ma io mi accorgo di tutte queste piccole &quot;coincidenze&quot;, è un gioco assolutamente ridicolo",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Nah never again this ist eafc 24 nahhhh",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ramener nous au fifa 22",
+      "sentiment": "negative"
+    },
+    {
+      "text": "THE MPABBE SPECIAL<br>LFG 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+      "sentiment": "positive"
+    },
+    {
+      "text": "this will be best fc ever,thx EA I will buy it ❤",
+      "sentiment": "positive"
+    },
+    {
+      "text": "<a href=\"https://www.youtube.com/watch?v=jQZ7mdCeeUs&amp;t=67\">1:07</a> &quot;Highest overyard players?&quot;....  What?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Klingt nach einem netten kleinen Update . Seit fifa98 dabei . Fc26 war mein letztes . Goodbye fifa .",
+      "sentiment": "negative"
+    },
+    {
+      "text": "<a href=\"https://www.youtube.com/watch?v=jQZ7mdCeeUs&amp;t=276\">4:36</a> where Unique Riggers at? He’s out of a job 😂💀",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Wasn’t moved",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I Love the New SBC Feature that means you dont give your best cards for a Bad pack or Player Pick",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Earning, earning, earning....<br>I honestly want this mode deleted. Is just gambling.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You guys are in for a real awakening for when gta comes out 😭😭😭 copying nba with the open world is a huge mistake it won’t look with football if you guys want to copy 2k look at there career mode it’s 1billion times better than this .",
+      "sentiment": "negative"
+    },
+    {
+      "text": "⚽",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "⚽",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "120hz consola",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "You don&#39;t need all that junk; what you need are fewer events and fewer special cards—or if there are any, they should be tied to genuine achievements, plus maybe 30 Weekend League games and Red Player Picks... and ideally, they should just scrap this whole &quot;Evo&quot; nonsense entirely.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Hi, I&#39;m from Brazil and I play on an Android phone. I&#39;m asking you to add a career mode to the Android version. I want to create my number 10 and play for Barcelona. I&#39;m asking for this please. Good morning and good luck creating your FC 27.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Please can olise signature celebration and night at the R celebration controls be added to FC27",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Made by ai for ai it’s in the game 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "m flokox che  parlaew",
+      "sentiment": "neutral"
+    }
+  ],
+  "videos": [
+    "jQZ7mdCeeUs"
+  ]
+}

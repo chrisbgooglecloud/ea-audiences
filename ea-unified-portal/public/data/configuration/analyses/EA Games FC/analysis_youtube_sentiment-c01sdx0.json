@@ -1,0 +1,1289 @@
+{
+  "type": "youtube_sentiment",
+  "videoUrl": "https://www.youtube.com/watch?v=4PMDAayl7gI",
+  "videoId": "4PMDAayl7gI",
+  "overallScore": 3,
+  "overallScorePercent": 27,
+  "videoScore": 50,
+  "commentsScore": 9,
+  "summary": "While the video creator delivers a highly positive 4.4/5 review of EA Sports FC 26's Career Mode, praising it as the most playable and mechanically engaging entry in years, the audience response is starkly critical and value-conscious. Viewers express deep frustration over persistent bugs, repetitive annual releases, and aggressive monetization, with positive sentiment almost exclusively reserved for when the game is acquired via deep discounts or subscription services like PS Plus. This highlights a significant disconnect between enthusiast-level feature praise and the general consumer's resistance to full-price entry.",
+  "alignment": {
+    "status": "Divergent",
+    "explanation": "The creator evaluates the game through an enthusiast lens, praising deep tactical additions and gameplay mechanics as the best in a decade. Conversely, the audience is highly cynical, focusing on bugs, monetization, and the perceived lack of value for a full-priced annual release, only showing appreciation when the game is heavily discounted or free.",
+    "creator_stance": "Highly positive (4.4/5), asserting that FC 26 Career Mode is the most playable, fun, and mechanically deep iteration since FIFA 17/19, despite some late-save transfer and regression flaws.",
+    "audience_consensus": "Predominantly negative (60%), viewing the franchise as a repetitive, bug-ridden cash grab, with positive engagement heavily gated behind deep sales ($15-$25) or subscription service availability."
+  },
+  "strategic_takeaways": [
+    {
+      "priority": "High",
+      "area": "Product Quality & Bug Fixing",
+      "recommendation": "Prioritize hotfixes for legacy Career Mode bugs, such as contract negotiations, wage glitches, and unrealistic AI transfers, early in the lifecycle to bridge the gap between reviewer praise and player frustration.",
+      "impact": "Reduces the 'lazy copy-paste' narrative and improves day-one retention among hardcore Career Mode fans."
+    },
+    {
+      "priority": "High",
+      "area": "Pricing & Subscription Strategy",
+      "recommendation": "Leverage subscription services (EA Play, Game Pass, PS Plus) and mid-cycle discounts earlier to capture the highly price-sensitive, casual audience who refuse to pay full price but enjoy the game once onboarded.",
+      "impact": "Drives a massive wave of positive sentiment and active player acquisition from players who feel the game is 'worth it' at a lower financial risk."
+    },
+    {
+      "priority": "Medium",
+      "area": "Marketing & Feature Communication",
+      "recommendation": "Shift marketing focus toward the highly praised manual gameplay settings, Youth Academy depth, and 'Manager Life' restrictions to appeal to nostalgic, returning players looking for an authentic football simulator.",
+      "impact": "Aligns promotional messaging with the actual high-performing features of the game, shifting the conversation away from monetization."
+    }
+  ],
+  "videoSentiment": {
+    "sentiment": {
+      "positive": [
+        "Gameplay is praised as the most fun and engaging it has been in years, specifically when using manual passing settings.",
+        "The Youth Academy feature is highly regarded due to improvements in playstyle mechanics and scouting options.",
+        "The introduction of 'Manager Life' challenges and custom tactical restrictions adds a fresh layer of depth.",
+        "Dynamic manager movements and tactical variety keep the career mode world feeling active and evolving."
+      ],
+      "negative": [
+        "AI squad building and transfer logic are criticized as unrealistic, with teams bidding massive amounts on unneeded positions.",
+        "Player regression is noted as too rapid, with legendary players like Lionel Messi dropping in rating and retiring too early.",
+        "Youth Academy player templates feel repetitive, limiting the generation of truly unique generational talents.",
+        "The game still suffers from unrealistic transfers, such as Harry Maguire moving to Athletic Bilbao."
+      ],
+      "neutral": [
+        "The overall menu structure and UI remain very similar to previous iterations of the franchise.",
+        "The presence of some silly bugs, like 8'5\" youth players spawning, is viewed more as a humorous quirk than a game-breaker.",
+        "Unrealistic transfer randomness is noted as sometimes making the game more fun despite the lack of realism."
+      ]
+    },
+    "timeline": [
+      {
+        "timestamp": "0:01",
+        "sentiment": "positive",
+        "note": "Expressing deep personal passion for the long-running career mode franchise."
+      },
+      {
+        "timestamp": "0:33",
+        "sentiment": "positive",
+        "note": "Confirming that FC 26's career mode is definitely playable and improved over previous years."
+      },
+      {
+        "timestamp": "0:49",
+        "sentiment": "negative",
+        "note": "Highlighting issues with AI squad building and lack of interest in youth player generation."
+      },
+      {
+        "timestamp": "1:10",
+        "sentiment": "positive",
+        "note": "Showing smooth gameplay footage and praising the core match mechanics."
+      },
+      {
+        "timestamp": "1:33",
+        "sentiment": "positive",
+        "note": "Calling out manual passing settings as a game-changer for fun gameplay."
+      },
+      {
+        "timestamp": "2:35",
+        "sentiment": "negative",
+        "note": "Critiquing the lack of transfer realism and bizarre AI transfer decisions."
+      },
+      {
+        "timestamp": "3:26",
+        "sentiment": "negative",
+        "note": "Calling out the long-standing issue of AI transfer budgets inflating too quickly."
+      },
+      {
+        "timestamp": "4:03",
+        "sentiment": "negative",
+        "note": "Criticizing the rapid progression decline and early retirement of older star players."
+      },
+      {
+        "timestamp": "4:37",
+        "sentiment": "positive",
+        "note": "Praising the Youth Academy system and the implementation of PlayStyle+ upgrades."
+      },
+      {
+        "timestamp": "5:08",
+        "sentiment": "positive",
+        "note": "Highlighting the new Manager Life features and customizable restriction settings."
+      },
+      {
+        "timestamp": "5:40",
+        "sentiment": "positive",
+        "note": "Acknowledging that major game-breaking bugs from previous years have been successfully resolved."
+      },
+      {
+        "timestamp": "6:31",
+        "sentiment": "positive",
+        "note": "Proposing creative ideas for licensing lower-division teams to improve relegation/promotion depth."
+      },
+      {
+        "timestamp": "7:30",
+        "sentiment": "positive",
+        "note": "Giving the game a solid rating of 4.4 out of 5, marking it as a steady improvement over past years."
+      }
+    ],
+    "summary": "The video presents a highly detailed and mostly positive review of the EA Sports FC 26 Career Mode. While the creator notes persistent issues with unrealistic AI transfers, quick player degradation, and repetitive youth generation templates, they heavily praise the improved gameplay mechanics, deep Youth Academy options, and new customizable Manager Life restrictions. The overall sentiment is that this is the most playable and enjoyable career mode in several years, earning a 4.4/5 rating.",
+    "products": [
+      {
+        "name": "EA Sports FC 26",
+        "description": "The latest installment in the football simulation franchise, showcasing its Career Mode, Team Management, and tactical gameplay features.",
+        "timestamp": "0:09"
+      }
+    ],
+    "themes": [
+      {
+        "name": "In-Depth Career Mode Review",
+        "description": "An analytical breakdown of the manager career mode experience, highlighting gameplay feel, transfer realism, and squad progression over multiple seasons."
+      },
+      {
+        "name": "Tactical Realism vs. Arcade Fun",
+        "description": "Exploring how customization sliders, manual controls, and manager settings can bridge the gap between realism and fun."
+      }
+    ],
+    "characters": [
+      {
+        "name": "Narrator / Reviewer",
+        "role_description": "A seasoned FIFA/FC Career Mode enthusiast providing a comprehensive breakdown of FC 26's features, pros, and cons.",
+        "appearance_timestamp": "0:01"
+      }
+    ],
+    "music": [
+      {
+        "description": "Upbeat, analytical, and steady electronic background music that keeps a consistent rhythm throughout the review.",
+        "vibe": "Focused, modern, engaging, informative",
+        "duration": "0:00 - 8:33"
+      }
+    ],
+    "talking_points": [
+      {
+        "point": "I'm a massive FIFA Career Mode fan. In fact, the first FIFA I played was FIFA 99, 26 years ago.",
+        "speaker": "Narrator",
+        "timestamp": "0:01"
+      },
+      {
+        "point": "Is FC 26 Career Mode playable this year? I would say definitely yes.",
+        "speaker": "Narrator",
+        "timestamp": "0:29"
+      },
+      {
+        "point": "The biggest problems this year are all things that happen further down the line, into season 4 or 5 of your career mode save.",
+        "speaker": "Narrator",
+        "timestamp": "0:42"
+      },
+      {
+        "point": "I think the general consensus around the community is that this year's game is pretty good... probably the best one since FIFA 19 or FIFA 17.",
+        "speaker": "Narrator",
+        "timestamp": "1:20"
+      },
+      {
+        "point": "Gameplay is probably the strongest point it has been at for nearly a decade.",
+        "speaker": "Narrator",
+        "timestamp": "1:58"
+      },
+      {
+        "point": "There's really not much realism coming from the AI. You'll still see Harry Maguire going to Athletic Bilbao.",
+        "speaker": "Narrator",
+        "timestamp": "2:38"
+      },
+      {
+        "point": "Older players still fall off too fast... You'll quite often find Messi retiring as a 74-rated player in season 3.",
+        "speaker": "Narrator",
+        "timestamp": "4:03"
+      },
+      {
+        "point": "The Youth Academy this year is still fun to use because of the changes they made on FC 24 and FC 25.",
+        "speaker": "Narrator",
+        "timestamp": "4:37"
+      },
+      {
+        "point": "The Manager Life features also allow you to have restrictions that aren't just done in your head, but are actually applied in the game.",
+        "speaker": "Narrator",
+        "timestamp": "5:08"
+      },
+      {
+        "point": "I'm pretty happy to say there aren't too many big bugs... EA has actually done a pretty good job of producing a game that works.",
+        "speaker": "Narrator",
+        "timestamp": "5:37"
+      },
+      {
+        "point": "I'd say this year is probably a 4.4 or a 4.5 rated game. I've really enjoyed playing career mode this year.",
+        "speaker": "Narrator",
+        "timestamp": "7:28"
+      },
+      {
+        "point": "What we do have now is a game that works, a game that's fun to play, and a world that changes.",
+        "speaker": "Narrator",
+        "timestamp": "8:01"
+      }
+    ],
+    "word_cloud": [
+      "Football",
+      "Career",
+      "Manager",
+      "Tactics",
+      "Gameplay",
+      "Transfers",
+      "Realism",
+      "Simulation",
+      "Academy",
+      "Youth",
+      "Rating",
+      "Review",
+      "FC26",
+      "EA",
+      "Match",
+      "Controls",
+      "Manual",
+      "Progression"
+    ]
+  },
+  "commentsSentiment": {
+    "counts": {
+      "positive": 9,
+      "negative": 60,
+      "neutral": 31
+    },
+    "trends": {
+      "positive": [
+        "Heavy discounts and sale pricing (e.g., $15-$25) dramatically improve player satisfaction and lower entry risk.",
+        "Nostalgic casual players returning after a long hiatus enjoy passing and core visual presentation mechanics.",
+        "PS Plus / Game Pass 'free' offerings are highly praised, turning skeptical players into active enjoyers.",
+        "Defenders praise the franchise as still being the best football simulator currently on the market.",
+        "Nostalgic appreciation for graphical enhancements and unique uniform options compared to older versions."
+      ],
+      "negative": [
+        "Accusations of lazy game development, referencing a 'copy-paste' model with minor graphical changes.",
+        "Severe frustration over Career Mode bugs (broken contract negotiations, wage glitches, and realistic transfer logic flaws).",
+        "Strong pushback against monetization practices and greed, emphasizing that skill has been replaced by pay-to-win elements.",
+        "Discontent with gameplay physics, calling the fast-paced, skating motion 'ping pong' and unrealistic.",
+        "In-game technical crashes, controller unresponsiveness, and the forced online/PS Plus requirements."
+      ],
+      "neutral": [
+        "Widespread price skepticism, with potential buyers actively asking if the game is worth $10, $15, or $35.",
+        "Decoupling purchasing decisions by asking if upgrading from FIFA 22, FIFA 23, or FC 25 is worthwhile.",
+        "Nostalgic comparisons to old PES titles (PES 21, PES 2013) or alternative upcoming soccer games like UFL.",
+        "Detailed feature and tactical requests aimed directly at improving the depth of Player Career and Manager Mode mechanics.",
+        "A pragmatic consensus of waiting until winter sales or free game offerings instead of buying at full launch price."
+      ]
+    },
+    "summary": "Overall sentiment towards EA Games FC is predominantly negative (60%). Players heavily criticize the franchise for repetitive annual releases, gameplay physics issues, persistent bugs in Career Mode, and aggressive monetization. Positive sentiment (9%) and neutral sentiment (31%) are heavily dependent on severe pricing discounts, waiting for the game to drop on subscription services (PS Plus/Game Pass), or casual engagement without major financial investment.",
+    "breakdown": [
+      {
+        "text": "got this game for free but still not sure if it's worth playing",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Gameplay has been shit",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I just pay 5 dollars for this game and my surprise was to find bugs in this July, it's a shame.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I was around when the first fifa was released on mega drive 🙌🏼",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I have to say that I've got it since it was  \"free\" on ps+. So I can't talk about the state of the game before. But now it is, in my opinion, the best FIFA ever. For the first time since 2012 I'm really enjoying a new FIFA/EA FC and not looking back to PES2018/2021 season update.",
+        "sentiment": "positive"
+      },
+      {
+        "text": "I can’t stand player roles. I sim most games and they just slow the game down so much",
+        "sentiment": "negative"
+      },
+      {
+        "text": "this game was okay but i think fc24 was way better",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Who is here from discount and thinking if it is worth for 10 dollar? 😄",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Have 25 and 26 is $15 now is it worth it",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "2.9 on meta critic user reviews lol",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Even if EA servers shut down, will I still be able to play career mode? I mean, for example, will I still be able to play FC 26 career mode even after 5 years?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "i just buyed it in 225inr (2.36usd ) is it worth it guys???",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Never buying an ea game again after how trash fc26 is",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc26 was nice until updates spoil everything",
+        "sentiment": "negative"
+      },
+      {
+        "text": "It’s on sale now and the last fifa I played is fifa 19. For $20, I can’t be mad!",
+        "sentiment": "positive"
+      },
+      {
+        "text": "PLEASE NOTE... if your a new player the game will ask you to do tasks before you can accesses the transfer market, However 1 of the tasks is bugged so you cannot move forward... so you don't have access to the transfer market... don't install or buy",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Just came here cause FC26 is Free on ps plus and I’m currently playing the game and having fun with it.\\n\\n\\n\\nYes. I’m a casual. My last football game is FIFA 20 but FC26 is kinda great and I’m loving the crisp passing.",
+        "sentiment": "positive"
+      },
+      {
+        "text": "is it worth upgrade from fifa 23 to fc 26?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Could do with a review from someone who has never played any FIFA game: is this accessible, confusing, easy to pick up and play etc.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I reckon the players faces..look about odd??",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Didn't even come here to watch, just to say that this game is a literal dumpster fire. Bought for 20 and still think it wasn't worth the money. Career mode is still terrible because of the absolute worst cpu AI I have ever seen in a sports game. I thought 2K was bad, but this is just unplayable.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I don’t get why everyone is hating on this game, it’s the best football/soccer game out there. Sure it may be unrealistic at times and not include every team, but EA has to take care of updating Madden, their NHL game, and other games while keeping track of FC26",
+        "sentiment": "positive"
+      },
+      {
+        "text": "I wish I watched this before buying this garbage",
+        "sentiment": "negative"
+      },
+      {
+        "text": "$20 well spent for me 😂",
+        "sentiment": "positive"
+      },
+      {
+        "text": "The most annoying and pointless review I have ever seen",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Benfica ❤",
+        "sentiment": "positive"
+      },
+      {
+        "text": "This is a person fighting desperately to keep their job. \"General consensus among the community is that this is a good FIFA\" lol. 50% recommended on Steam btw.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ummm I don't play FC much cause I don't have a console but anytime I go to my cousins place I do play a match or two so  This has been bothering me since... In manager mode they is alot of tactics and how players behave why is that not showing in player careers? like a manager might like a ball carrying defenders who like to carry the ball into midfield like John stones  or stopper like rudiger or a manager may like his wingers to be inside forwards others might wants them to hug the touch lines.... So if you play a player career no matter the position if you don't follow the manager you should be you know question by the manager and also it should affect how clubs scout players and show interest in you cause in real life a sporting director and manager philosophy has a lot of influence on how players are trained in the academy,scouted and bought so if your player whose careeer you are following is bought that does not fit the managers philosophy the manger should send you a message to retrain your playstyle or sit in the bench or something but I don't see anything like that...\\n.. I know it's long 😂😂😂 but I  hope ea officials see this though it will help alot in making the gameplay even more realistic 🙏🙏",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Is it worth it if u can buy 35 dollars",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "last time i play the fifa game was 2013 , i expected a much bigger leap in graphics , disappointment",
+        "sentiment": "negative"
+      },
+      {
+        "text": "🕊",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "No.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I play sports games from 1995. The last 10 years the gaming in general is  crap. Sports game is all about gameplay not effects and other useless things.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "\"its by full time job\", obvs not gonna say the game is shyt , or has been shyt for 5 years.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Is the new historic stats feature any good , and manager movement?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I bought.. mistake",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Would you say that EAFC 26 its better than FIFA 22 in career mode? Overall speaking.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "\"does the game work?\" man, what are we doing? I like your vids normally, but this was ridiculous",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game got fooked when they started getting greedy and replaced skills with money",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Dude needs this game for his livelihood so his opinion is clearly bias!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "off course if the best game of the market, come on mate how much year FiFa/FC have ? \\nPES is out and is crap and dont have Master League, i was big fan PES , have all games, then Konamy betrayed their fans in many ways. Personally, I hope that Konami is bought by someone who loved the Master League. Konami was great when they had other people there; then, the people changed and Konami became... well, I don't even know, maybe they're even richer now because of the mobile phone crowd. Still, that doesn't erase the fact that they betrayed their PES fans and even fans of other games.\\n\\nCareer mode player, is same crap ?  (fc25, gameplay better, the rest is 80% or 90% the same, 8 to 10€ is the right price, mroe that ... i dont buy , this year, i even dont see football on TV anymore because is same like FiFa/FC and not only that....)\\n\\ni return to FiFa on 22, then buy 23 , 24 and 25 and, yeah, 27 ? NOP ! i know what EA is doing,  fans of career modes put stuff to win, but , the community do better job, that is a fact, why the EA dont sell the game with three versions ?  career modes and multiplayer and the full game with all modes modes, for me i like career modes, that is the best solution in that way people like career modes. They can later apply the mods and addons that the community makes, just make sure the multiplayer modes are blocked. Would that be expensive? No, I know people had already talked to EA about splitting the game, but EA said it would be too expensive. So, it's simple: those who only like career modes can enter the game and play just the career modes, even with the multiplayer mods in the game but blocked, and vice versa. Is it expensive to block game modes? \\nNo, and looking at what EA has been doing with those career mode awards, it's more than obvious that they aren't thinking about doing what I suggested. Personally, I'm tired of FC; it's almost always the same thing. Simple options would make life much easier for those who enjoy, for example, the manager career mode. I personally spend hours in January and at the end or start of the season looking for good players who are without clubs. If I were to count the hours I've invested from '22 to '25, I bet I spent about 100 hours or more.\\n\\nA simple option and it would make my life a lot easier. And it's not hard to understand what EA has been doing with those rewards they offer in career modes, for me ENOUGH\\n\\nThe sad part is that there isn’t another game with offline modes like career modes. Even the new games only have multiplayer. I left multiplayer games behind years ago, but I understand what younger people enjoy. When I was younger, I loved playing multiplayer games, but now I don’t have the patience to play that games/modes.\\n\\nCareer modes, need much more, seems a basic game in the management, and career mode player, jeeezzz, what a crap mode, its so bad, i prefer stop buying and buy a REAL  NEW GAME and the future is already like said PLUS, from 22 to 25 i spend .. i dont know, 100 hours maybe, searching for players are free and good , with the damn simple option to search that annoiyng time i spend... its sad, EA is a disapoint corporation, but in first years i was a big fan, not now, Konami same thing, and a others corporations, in the end we buy games , digital games and one day they will be erase like already happeans, at least i do my part support the  community here in Europe want stop that , i rember want play one game i buy, and i dont have anymore because delet games we pay need be delet, why ?\\n\\ni start play videogames i nthe 80's , fantastic times, gold times of videogames world, now ?\\nNOP ! Ubisoft, i delet my account and create my own rules, yap, i have a list of corporations i stop buy games, people talk bad about EpicGames, at least they offer good games, well, not now, but i have cool games i dont pay nothing, ohh, i have one game dont work, NBA, is not possible play the solo modes, jeezz, YAP, 2K is in my list of corporations i stop buy games and start support little companys, indie companys, for example i have one game is develop for one dev. and the game is cool, true updates take time come out, but i dont care and i understand, is just one guy, and if i have a lot of money i give to that dev. one part of my money because i realize, little companys do much more, listen the community and i am not a guy of buying gams because of the graphics , or stop play one game because the graphics is old.\\nWhich was the game that didn’t have the teams entering the field before matches? FC24, righ ?  Do you know why EA did that? Simple, those who play multiplayer don’t see the teams entry, then they made the worst decision I’ve ever seen in a football game, they removed the teams’ entry into the field, HAHAHA, they collect data, because otherwise they wouldn’t have made such a big mistake, removing something from the game that is important, well, at least for me it is, and in real life too.\\n\\n\\nedit: wait, managers change teams ? never see that ! that i new on 26 ?\\ndevelope players is not my thing,, true i have academy and yes and have all things correct, what i do , is loan then sell.\\nwhen i return to fifa/fc never play with for example C.Ronaldo, on PES that is possible, and why never play with CR7, well, i like play with \"bad\" teams, so, is not possible play with CR7 and NO, play Arabian League, NEVER.\\n\\n\\nNOTE: English is not my main language. i learn English seeing films and series.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bought it for 15 quid. First time since 23 I've bought... Nice presentation and it is better...... But it just doesn't get me like Pes 21 with older PL patches.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Couldn't disagree more simply due to not being able to resign players when you want. And this is even more broken now when you try to do a live starting point. Terrible decision by ea",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Started playing fc 25 and it absolutely sucks , and this is coming from me playing pes 2021 for the past 5 years",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I dont even buy games anymore , i just wait untill their on game pass. They are not having my money anymore. They are just copy and pasted games with tweaked graphics.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Did my guy just said that this prototype of a game is actually a better manager simalator than FM? Like... what?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You know ever since the 90s,😂 I’ve always thought FIFA is the worst football game ever made. The gameplay and everything about it.\\nAnd today I still feel the same.\\nI’ve never understood the hype over it. I’ve never really had fun on it.\\nThere’s been far better football games that have been lost or just been forgotten.\\nInternational superstar soccer was far better. Even now International superstar soccer is better than FIFA 26.\\nBut there’s been a lot of football games that I’ve just gone bust because of this game and it’s really annoying .\\nBecause while other people spend the money on this crap, nothing will change .",
+        "sentiment": "negative"
+      },
+      {
+        "text": "it s just shit horrible cartoon unwatchable ridiculous fast skate ping pong game for children and inncompetent of football!!this ridiculous game has nothing about football,nothing!!The only real simulation of football is called Efootball 26 and it has the best gameplay ever on pc and console!!Efootball 26 is simply amazing about gameplay,amazing,it s a real simulation of football!!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The same fifa every year, the same youtubers, same voice overs, same kind of videos, same background music….what a shitty state of affairs. The game is long gone and it is good this way tbh. One can enjoy real games away from this garbage 🤡",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Don't buy the game it is a shitt game now it is so fast and bagger",
+        "sentiment": "negative"
+      },
+      {
+        "text": "No, it's crap. It's been crap for years. Everyone plays the same. Twist, turn x20, always come inside, no long shots, no crosses, no headers. Look at the gameplay...PES2013 puts it to shame and at least looks like football, unlike this mess.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Theses new gen gamers are so use to the bad stuff they don’t even know when something is really bad",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Yeah it crashes not ready you’ll be playing pause the game an then no response from your controller also the tactical view crashes it sometimes and it’s not realistic as it should be",
+        "sentiment": "negative"
+      },
+      {
+        "text": "im glad skate isnt the only one having terrible development its also with fifa LOL",
+        "sentiment": "negative"
+      },
+      {
+        "text": "No",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Still missing PES",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Games a piece of shit still theres your answer i could literally write an essay of the problems but just cant be bothered DONT BUY IT! Game requires no skill so how do you get pros on a game that dosent work😂😂😂imagine thinking your good haha",
+        "sentiment": "negative"
+      },
+      {
+        "text": "hmm.......just muted the mind bending rap music......fed up with emails and shopping......not even kicked a ball......DELETED. Way to fcku a game up EA.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You played 200 hrs and didn't realise after 2 hours it's a bag of shit",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Absolutely ridiculous not all clubs are in it when you put it on. Stuck on classic match. To download everything a joke. Wasn't like this over the years the clubs were there when you have installed it on your computer.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "No. Get FL26, it's much better",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I waited for it to be on sale. I was going to buy the ult version on sale for 50 dollars but a few days later the standard version went on sale and I paid a little under 35 dollars",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Do not buy it, its not worth it.\\n\\nI warned you. \\n\\nIt is so bad I sold it and warned the person I sold it to bc he said he is getting it for his 8 yo son. \\n\\nThis game specifically ultimate team will make your propensity towards gambling so incredibly inescapable, you just bought a ticket towards being a slave of adrenaline and dopamine. \\n\\nIf you play this game you will suddenly realize ur not having fun, not only that ur not having fun actually playing the core gameplay, u continue and ur unable to stop>\\n\\nIt goes into leveraging pain and pleasure to keep you hooked on a game that stimulates yet eats away at your sanity. This is a gradual process, it doesn’t happen immediately bc in the beginning it CAN be fun, then you will recognize how sinister EA is.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "i will buy this game when STEAM offers 90% discount",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Unpopular Opinion FC 25 wasnt that bad (Cant say compared to FC 26 simply because I havent played it yet) however FC 24 was horrible quite literally gave me a headache whenever I played the game (not joking) and alot of the career mode features were just rushed and full of bugs",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I think over the last few years EA has kept its target to beat the previour years worst game ever",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This dude either has to be paid by fifa 26 or something. This is the wackiest game I have played on PlayStation. It sucks so bad. There is no way you find this game playable. This is the worst version of a soccer game ever made. EA sports suck",
+        "sentiment": "negative"
+      },
+      {
+        "text": "You mean Pedri.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Buy the damn game now guys, it's at $25 bucks now! It wont hurt anyone on that price",
+        "sentiment": "positive"
+      },
+      {
+        "text": "It was $27 that’s why I bought it lol now on I’m just gonna wait till December to get it",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Do I still have to grind for days to unlock UT? If so, I'll never play it or even start the game.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bro try UFL. Im telling you people are sleeping on this game. Its like playing Fifa 2010 Worldcup but in a modern engine. The only downside is the content. It’s only one game mode. But if it was a full featured football game, it would be the best game",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Games the pits ,stop the lies, soon as you hit world class , the AI takes over your playets its awful",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The ultimate edition of fc26 is on sale now for 49$ instead of 99$ so guys is it worth it? Since i do own fc25",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Unfortunately the bar has been set so low for fifa games for years now that even releasing a game that works is a good thing. Awful standards for a game that costs a small fortune",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Encountering an awful glitch in career mode where someone requests more money, I give them a raise, even get the message where they say “now I can focus on my game” and immediately they request a transfer. Annoying as hell.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fifas are iPhones, every game each year and its the same crap, just the cover its different😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Guys, I have a question:\\nI'm a complete manager career mode enjoyer and I have been playing FIFA 22 since it came out, and I loved it. Played about 10 seasons. I haven't bought a newer edition of the franchise, and at times trying  FC24 and FC25, I found that the physics are just not right and as a player I kind of wasn't in control. I don't feel like that on 22. Now that the new FC26 is %50 off on Steam, do you recommend buying it?\\nPS: I hate EA.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I recall my 1 of my 1st three games I got 4 PS4 was FIFA16 back in like 2015. Was my first sport game and was fun as hell along w/ the graphics and various uniforms each team had. Looking forward to getting FC26 soon",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Jamie Vardy has no photo?????",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Just forget about Ea Fc games , becaues Ea Fc is not a football game , its a game with a ball that pretend to be a football game.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I feel like fc24 is the best career mode for both players and managers. Ik some glitches that can help my career like becoming the captain fast. It has good animation for ballon dor but they should add medals to trophy celebration",
+        "sentiment": "positive"
+      },
+      {
+        "text": "50% offer now whether to buy or wait?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Why do u need ps plus to play this fkin game bruv",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Make literally a billion a year from almost the same game, improving it in the least way possible. And still have the same bugs year after year, not even to talk about the trash issues in UT. Don't buy this shit anymore. And stop being a EA shill.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Same game again and again",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Long story short, it's not worth buying full price, wait till its 60% off or higher,....you're welcome",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Bought it today on sale for 34.99 lol",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Are you Dutch?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "\"We finally listened\" then goes ahead to released an updated version of the previous game. They need to change the game engine and overhaul the gameplay.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "As someone who only plays for career mode or against friends. No. \\n\\nIt’s worth it when it’s heavily discounted in a few weeks. 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "This game is a joke 😂 including the player career. Basically, even if you score 30 goals but then get injured for two months, when you come back you have to start from scratch like a rookie!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "U don’t like the game dont but it simple as that",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Ajax is rubbish 😂😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "horrible game dont buy it trust me you will be disappointed a waste of your money buy another game it is a rigged game for certain teams to win no matter how good you are",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All the women are stronger and faster like bruh.🤦 sH!ț game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I can give you the answer ...but first is FIRST !   What about they EA ..make FC25 work ,at first place ...i spend 60 euro,and i want my money to feel worthy...i feel stupid now. And i want go more lower than i am by bying ANOTHER BROKEN game ...year after year ..HONESTLY ,i dont understand people who spend their money just like that,by trusting GREEDY companies like EA ,Ubisoft ,Nvidia ..and some others. Once they start to RESPECT my purchase i will bye and respect their products.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "do the balon d'or awards make any sense this year in FC 26? I once scored 70 goals in one season, won UEFA, and the Premier League just to see the balon d'or go to Vini Jr who didn't even make it past the quarter finals of UEFA. Like WTF!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Is it worth buying if I only play seasons mode online? I have FC25.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "There are still some things that are really broken\\n\\nWhen you pick realistic and strict transfers, you cant buy or loan players from rival clubs yet they can offer you anything which stupid and unrealistic.. \\n\\nAlso when you play as a big club lets say man utd and you want to loan low rated playes you get offers only from big clubs and obviously its not ideal since they wont get any playtime",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "sentiment": {
+    "positive": [
+      "Gameplay is praised as the most fun and engaging it has been in years, specifically when using manual passing settings.",
+      "The Youth Academy feature is highly regarded due to improvements in playstyle mechanics and scouting options.",
+      "The introduction of 'Manager Life' challenges and custom tactical restrictions adds a fresh layer of depth.",
+      "Dynamic manager movements and tactical variety keep the career mode world feeling active and evolving."
+    ],
+    "negative": [
+      "AI squad building and transfer logic are criticized as unrealistic, with teams bidding massive amounts on unneeded positions.",
+      "Player regression is noted as too rapid, with legendary players like Lionel Messi dropping in rating and retiring too early.",
+      "Youth Academy player templates feel repetitive, limiting the generation of truly unique generational talents.",
+      "The game still suffers from unrealistic transfers, such as Harry Maguire moving to Athletic Bilbao."
+    ],
+    "neutral": [
+      "The overall menu structure and UI remain very similar to previous iterations of the franchise.",
+      "The presence of some silly bugs, like 8'5\" youth players spawning, is viewed more as a humorous quirk than a game-breaker.",
+      "Unrealistic transfer randomness is noted as sometimes making the game more fun despite the lack of realism."
+    ]
+  },
+  "timeline": [
+    {
+      "timestamp": "0:01",
+      "sentiment": "positive",
+      "note": "Expressing deep personal passion for the long-running career mode franchise."
+    },
+    {
+      "timestamp": "0:33",
+      "sentiment": "positive",
+      "note": "Confirming that FC 26's career mode is definitely playable and improved over previous years."
+    },
+    {
+      "timestamp": "0:49",
+      "sentiment": "negative",
+      "note": "Highlighting issues with AI squad building and lack of interest in youth player generation."
+    },
+    {
+      "timestamp": "1:10",
+      "sentiment": "positive",
+      "note": "Showing smooth gameplay footage and praising the core match mechanics."
+    },
+    {
+      "timestamp": "1:33",
+      "sentiment": "positive",
+      "note": "Calling out manual passing settings as a game-changer for fun gameplay."
+    },
+    {
+      "timestamp": "2:35",
+      "sentiment": "negative",
+      "note": "Critiquing the lack of transfer realism and bizarre AI transfer decisions."
+    },
+    {
+      "timestamp": "3:26",
+      "sentiment": "negative",
+      "note": "Calling out the long-standing issue of AI transfer budgets inflating too quickly."
+    },
+    {
+      "timestamp": "4:03",
+      "sentiment": "negative",
+      "note": "Criticizing the rapid progression decline and early retirement of older star players."
+    },
+    {
+      "timestamp": "4:37",
+      "sentiment": "positive",
+      "note": "Praising the Youth Academy system and the implementation of PlayStyle+ upgrades."
+    },
+    {
+      "timestamp": "5:08",
+      "sentiment": "positive",
+      "note": "Highlighting the new Manager Life features and customizable restriction settings."
+    },
+    {
+      "timestamp": "5:40",
+      "sentiment": "positive",
+      "note": "Acknowledging that major game-breaking bugs from previous years have been successfully resolved."
+    },
+    {
+      "timestamp": "6:31",
+      "sentiment": "positive",
+      "note": "Proposing creative ideas for licensing lower-division teams to improve relegation/promotion depth."
+    },
+    {
+      "timestamp": "7:30",
+      "sentiment": "positive",
+      "note": "Giving the game a solid rating of 4.4 out of 5, marking it as a steady improvement over past years."
+    }
+  ],
+  "talking_points": [
+    {
+      "point": "I'm a massive FIFA Career Mode fan. In fact, the first FIFA I played was FIFA 99, 26 years ago.",
+      "speaker": "Narrator",
+      "timestamp": "0:01"
+    },
+    {
+      "point": "Is FC 26 Career Mode playable this year? I would say definitely yes.",
+      "speaker": "Narrator",
+      "timestamp": "0:29"
+    },
+    {
+      "point": "The biggest problems this year are all things that happen further down the line, into season 4 or 5 of your career mode save.",
+      "speaker": "Narrator",
+      "timestamp": "0:42"
+    },
+    {
+      "point": "I think the general consensus around the community is that this year's game is pretty good... probably the best one since FIFA 19 or FIFA 17.",
+      "speaker": "Narrator",
+      "timestamp": "1:20"
+    },
+    {
+      "point": "Gameplay is probably the strongest point it has been at for nearly a decade.",
+      "speaker": "Narrator",
+      "timestamp": "1:58"
+    },
+    {
+      "point": "There's really not much realism coming from the AI. You'll still see Harry Maguire going to Athletic Bilbao.",
+      "speaker": "Narrator",
+      "timestamp": "2:38"
+    },
+    {
+      "point": "Older players still fall off too fast... You'll quite often find Messi retiring as a 74-rated player in season 3.",
+      "speaker": "Narrator",
+      "timestamp": "4:03"
+    },
+    {
+      "point": "The Youth Academy this year is still fun to use because of the changes they made on FC 24 and FC 25.",
+      "speaker": "Narrator",
+      "timestamp": "4:37"
+    },
+    {
+      "point": "The Manager Life features also allow you to have restrictions that aren't just done in your head, but are actually applied in the game.",
+      "speaker": "Narrator",
+      "timestamp": "5:08"
+    },
+    {
+      "point": "I'm pretty happy to say there aren't too many big bugs... EA has actually done a pretty good job of producing a game that works.",
+      "speaker": "Narrator",
+      "timestamp": "5:37"
+    },
+    {
+      "point": "I'd say this year is probably a 4.4 or a 4.5 rated game. I've really enjoyed playing career mode this year.",
+      "speaker": "Narrator",
+      "timestamp": "7:28"
+    },
+    {
+      "point": "What we do have now is a game that works, a game that's fun to play, and a world that changes.",
+      "speaker": "Narrator",
+      "timestamp": "8:01"
+    }
+  ],
+  "themes": [
+    {
+      "name": "In-Depth Career Mode Review",
+      "description": "An analytical breakdown of the manager career mode experience, highlighting gameplay feel, transfer realism, and squad progression over multiple seasons."
+    },
+    {
+      "name": "Tactical Realism vs. Arcade Fun",
+      "description": "Exploring how customization sliders, manual controls, and manager settings can bridge the gap between realism and fun."
+    }
+  ],
+  "products": [
+    {
+      "name": "EA Sports FC 26",
+      "description": "The latest installment in the football simulation franchise, showcasing its Career Mode, Team Management, and tactical gameplay features.",
+      "timestamp": "0:09"
+    }
+  ],
+  "word_cloud": [
+    "Football",
+    "Career",
+    "Manager",
+    "Tactics",
+    "Gameplay",
+    "Transfers",
+    "Realism",
+    "Simulation",
+    "Academy",
+    "Youth",
+    "Rating",
+    "Review",
+    "FC26",
+    "EA",
+    "Match",
+    "Controls",
+    "Manual",
+    "Progression"
+  ],
+  "counts": {
+    "positive": 9,
+    "negative": 60,
+    "neutral": 31
+  },
+  "trends": {
+    "positive": [
+      "Heavy discounts and sale pricing (e.g., $15-$25) dramatically improve player satisfaction and lower entry risk.",
+      "Nostalgic casual players returning after a long hiatus enjoy passing and core visual presentation mechanics.",
+      "PS Plus / Game Pass 'free' offerings are highly praised, turning skeptical players into active enjoyers.",
+      "Defenders praise the franchise as still being the best football simulator currently on the market.",
+      "Nostalgic appreciation for graphical enhancements and unique uniform options compared to older versions."
+    ],
+    "negative": [
+      "Accusations of lazy game development, referencing a 'copy-paste' model with minor graphical changes.",
+      "Severe frustration over Career Mode bugs (broken contract negotiations, wage glitches, and realistic transfer logic flaws).",
+      "Strong pushback against monetization practices and greed, emphasizing that skill has been replaced by pay-to-win elements.",
+      "Discontent with gameplay physics, calling the fast-paced, skating motion 'ping pong' and unrealistic.",
+      "In-game technical crashes, controller unresponsiveness, and the forced online/PS Plus requirements."
+    ],
+    "neutral": [
+      "Widespread price skepticism, with potential buyers actively asking if the game is worth $10, $15, or $35.",
+      "Decoupling purchasing decisions by asking if upgrading from FIFA 22, FIFA 23, or FC 25 is worthwhile.",
+      "Nostalgic comparisons to old PES titles (PES 21, PES 2013) or alternative upcoming soccer games like UFL.",
+      "Detailed feature and tactical requests aimed directly at improving the depth of Player Career and Manager Mode mechanics.",
+      "A pragmatic consensus of waiting until winter sales or free game offerings instead of buying at full launch price."
+    ]
+  },
+  "breakdown": [
+    {
+      "text": "got this game for free but still not sure if it's worth playing",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Gameplay has been shit",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I just pay 5 dollars for this game and my surprise was to find bugs in this July, it's a shame.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I was around when the first fifa was released on mega drive 🙌🏼",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I have to say that I've got it since it was  \"free\" on ps+. So I can't talk about the state of the game before. But now it is, in my opinion, the best FIFA ever. For the first time since 2012 I'm really enjoying a new FIFA/EA FC and not looking back to PES2018/2021 season update.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "I can’t stand player roles. I sim most games and they just slow the game down so much",
+      "sentiment": "negative"
+    },
+    {
+      "text": "this game was okay but i think fc24 was way better",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Who is here from discount and thinking if it is worth for 10 dollar? 😄",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Have 25 and 26 is $15 now is it worth it",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "2.9 on meta critic user reviews lol",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Even if EA servers shut down, will I still be able to play career mode? I mean, for example, will I still be able to play FC 26 career mode even after 5 years?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "i just buyed it in 225inr (2.36usd ) is it worth it guys???",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Never buying an ea game again after how trash fc26 is",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc26 was nice until updates spoil everything",
+      "sentiment": "negative"
+    },
+    {
+      "text": "It’s on sale now and the last fifa I played is fifa 19. For $20, I can’t be mad!",
+      "sentiment": "positive"
+    },
+    {
+      "text": "PLEASE NOTE... if your a new player the game will ask you to do tasks before you can accesses the transfer market, However 1 of the tasks is bugged so you cannot move forward... so you don't have access to the transfer market... don't install or buy",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Just came here cause FC26 is Free on ps plus and I’m currently playing the game and having fun with it.\\n\\n\\n\\nYes. I’m a casual. My last football game is FIFA 20 but FC26 is kinda great and I’m loving the crisp passing.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "is it worth upgrade from fifa 23 to fc 26?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Could do with a review from someone who has never played any FIFA game: is this accessible, confusing, easy to pick up and play etc.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I reckon the players faces..look about odd??",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Didn't even come here to watch, just to say that this game is a literal dumpster fire. Bought for 20 and still think it wasn't worth the money. Career mode is still terrible because of the absolute worst cpu AI I have ever seen in a sports game. I thought 2K was bad, but this is just unplayable.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I don’t get why everyone is hating on this game, it’s the best football/soccer game out there. Sure it may be unrealistic at times and not include every team, but EA has to take care of updating Madden, their NHL game, and other games while keeping track of FC26",
+      "sentiment": "positive"
+    },
+    {
+      "text": "I wish I watched this before buying this garbage",
+      "sentiment": "negative"
+    },
+    {
+      "text": "$20 well spent for me 😂",
+      "sentiment": "positive"
+    },
+    {
+      "text": "The most annoying and pointless review I have ever seen",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Benfica ❤",
+      "sentiment": "positive"
+    },
+    {
+      "text": "This is a person fighting desperately to keep their job. \"General consensus among the community is that this is a good FIFA\" lol. 50% recommended on Steam btw.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ummm I don't play FC much cause I don't have a console but anytime I go to my cousins place I do play a match or two so  This has been bothering me since... In manager mode they is alot of tactics and how players behave why is that not showing in player careers? like a manager might like a ball carrying defenders who like to carry the ball into midfield like John stones  or stopper like rudiger or a manager may like his wingers to be inside forwards others might wants them to hug the touch lines.... So if you play a player career no matter the position if you don't follow the manager you should be you know question by the manager and also it should affect how clubs scout players and show interest in you cause in real life a sporting director and manager philosophy has a lot of influence on how players are trained in the academy,scouted and bought so if your player whose careeer you are following is bought that does not fit the managers philosophy the manger should send you a message to retrain your playstyle or sit in the bench or something but I don't see anything like that...\\n.. I know it's long 😂😂😂 but I  hope ea officials see this though it will help alot in making the gameplay even more realistic 🙏🙏",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Is it worth it if u can buy 35 dollars",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "last time i play the fifa game was 2013 , i expected a much bigger leap in graphics , disappointment",
+      "sentiment": "negative"
+    },
+    {
+      "text": "🕊",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "No.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I play sports games from 1995. The last 10 years the gaming in general is  crap. Sports game is all about gameplay not effects and other useless things.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "\"its by full time job\", obvs not gonna say the game is shyt , or has been shyt for 5 years.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Is the new historic stats feature any good , and manager movement?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I bought.. mistake",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Would you say that EAFC 26 its better than FIFA 22 in career mode? Overall speaking.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "\"does the game work?\" man, what are we doing? I like your vids normally, but this was ridiculous",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game got fooked when they started getting greedy and replaced skills with money",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Dude needs this game for his livelihood so his opinion is clearly bias!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "off course if the best game of the market, come on mate how much year FiFa/FC have ? \\nPES is out and is crap and dont have Master League, i was big fan PES , have all games, then Konamy betrayed their fans in many ways. Personally, I hope that Konami is bought by someone who loved the Master League. Konami was great when they had other people there; then, the people changed and Konami became... well, I don't even know, maybe they're even richer now because of the mobile phone crowd. Still, that doesn't erase the fact that they betrayed their PES fans and even fans of other games.\\n\\nCareer mode player, is same crap ?  (fc25, gameplay better, the rest is 80% or 90% the same, 8 to 10€ is the right price, mroe that ... i dont buy , this year, i even dont see football on TV anymore because is same like FiFa/FC and not only that....)\\n\\ni return to FiFa on 22, then buy 23 , 24 and 25 and, yeah, 27 ? NOP ! i know what EA is doing,  fans of career modes put stuff to win, but , the community do better job, that is a fact, why the EA dont sell the game with three versions ?  career modes and multiplayer and the full game with all modes modes, for me i like career modes, that is the best solution in that way people like career modes. They can later apply the mods and addons that the community makes, just make sure the multiplayer modes are blocked. Would that be expensive? No, I know people had already talked to EA about splitting the game, but EA said it would be too expensive. So, it's simple: those who only like career modes can enter the game and play just the career modes, even with the multiplayer mods in the game but blocked, and vice versa. Is it expensive to block game modes? \\nNo, and looking at what EA has been doing with those career mode awards, it's more than obvious that they aren't thinking about doing what I suggested. Personally, I'm tired of FC; it's almost always the same thing. Simple options would make life much easier for those who enjoy, for example, the manager career mode. I personally spend hours in January and at the end or start of the season looking for good players who are without clubs. If I were to count the hours I've invested from '22 to '25, I bet I spent about 100 hours or more.\\n\\nA simple option and it would make my life a lot easier. And it's not hard to understand what EA has been doing with those rewards they offer in career modes, for me ENOUGH\\n\\nThe sad part is that there isn’t another game with offline modes like career modes. Even the new games only have multiplayer. I left multiplayer games behind years ago, but I understand what younger people enjoy. When I was younger, I loved playing multiplayer games, but now I don’t have the patience to play that games/modes.\\n\\nCareer modes, need much more, seems a basic game in the management, and career mode player, jeeezzz, what a crap mode, its so bad, i prefer stop buying and buy a REAL  NEW GAME and the future is already like said PLUS, from 22 to 25 i spend .. i dont know, 100 hours maybe, searching for players are free and good , with the damn simple option to search that annoiyng time i spend... its sad, EA is a disapoint corporation, but in first years i was a big fan, not now, Konami same thing, and a others corporations, in the end we buy games , digital games and one day they will be erase like already happeans, at least i do my part support the  community here in Europe want stop that , i rember want play one game i buy, and i dont have anymore because delet games we pay need be delet, why ?\\n\\ni start play videogames i nthe 80's , fantastic times, gold times of videogames world, now ?\\nNOP ! Ubisoft, i delet my account and create my own rules, yap, i have a list of corporations i stop buy games, people talk bad about EpicGames, at least they offer good games, well, not now, but i have cool games i dont pay nothing, ohh, i have one game dont work, NBA, is not possible play the solo modes, jeezz, YAP, 2K is in my list of corporations i stop buy games and start support little companys, indie companys, for example i have one game is develop for one dev. and the game is cool, true updates take time come out, but i dont care and i understand, is just one guy, and if i have a lot of money i give to that dev. one part of my money because i realize, little companys do much more, listen the community and i am not a guy of buying gams because of the graphics , or stop play one game because the graphics is old.\\nWhich was the game that didn’t have the teams entering the field before matches? FC24, righ ?  Do you know why EA did that? Simple, those who play multiplayer don’t see the teams entry, then they made the worst decision I’ve ever seen in a football game, they removed the teams’ entry into the field, HAHAHA, they collect data, because otherwise they wouldn’t have made such a big mistake, removing something from the game that is important, well, at least for me it is, and in real life too.\\n\\n\\nedit: wait, managers change teams ? never see that ! that i new on 26 ?\\ndevelope players is not my thing,, true i have academy and yes and have all things correct, what i do , is loan then sell.\\nwhen i return to fifa/fc never play with for example C.Ronaldo, on PES that is possible, and why never play with CR7, well, i like play with \"bad\" teams, so, is not possible play with CR7 and NO, play Arabian League, NEVER.\\n\\n\\nNOTE: English is not my main language. i learn English seeing films and series.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bought it for 15 quid. First time since 23 I've bought... Nice presentation and it is better...... But it just doesn't get me like Pes 21 with older PL patches.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Couldn't disagree more simply due to not being able to resign players when you want. And this is even more broken now when you try to do a live starting point. Terrible decision by ea",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Started playing fc 25 and it absolutely sucks , and this is coming from me playing pes 2021 for the past 5 years",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I dont even buy games anymore , i just wait untill their on game pass. They are not having my money anymore. They are just copy and pasted games with tweaked graphics.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Did my guy just said that this prototype of a game is actually a better manager simalator than FM? Like... what?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You know ever since the 90s,😂 I’ve always thought FIFA is the worst football game ever made. The gameplay and everything about it.\\nAnd today I still feel the same.\\nI’ve never understood the hype over it. I’ve never really had fun on it.\\nThere’s been far better football games that have been lost or just been forgotten.\\nInternational superstar soccer was far better. Even now International superstar soccer is better than FIFA 26.\\nBut there’s been a lot of football games that I’ve just gone bust because of this game and it’s really annoying .\\nBecause while other people spend the money on this crap, nothing will change .",
+      "sentiment": "negative"
+    },
+    {
+      "text": "it s just shit horrible cartoon unwatchable ridiculous fast skate ping pong game for children and inncompetent of football!!this ridiculous game has nothing about football,nothing!!The only real simulation of football is called Efootball 26 and it has the best gameplay ever on pc and console!!Efootball 26 is simply amazing about gameplay,amazing,it s a real simulation of football!!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The same fifa every year, the same youtubers, same voice overs, same kind of videos, same background music….what a shitty state of affairs. The game is long gone and it is good this way tbh. One can enjoy real games away from this garbage 🤡",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Don't buy the game it is a shitt game now it is so fast and bagger",
+      "sentiment": "negative"
+    },
+    {
+      "text": "No, it's crap. It's been crap for years. Everyone plays the same. Twist, turn x20, always come inside, no long shots, no crosses, no headers. Look at the gameplay...PES2013 puts it to shame and at least looks like football, unlike this mess.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Theses new gen gamers are so use to the bad stuff they don’t even know when something is really bad",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Yeah it crashes not ready you’ll be playing pause the game an then no response from your controller also the tactical view crashes it sometimes and it’s not realistic as it should be",
+      "sentiment": "negative"
+    },
+    {
+      "text": "im glad skate isnt the only one having terrible development its also with fifa LOL",
+      "sentiment": "negative"
+    },
+    {
+      "text": "No",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Still missing PES",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Games a piece of shit still theres your answer i could literally write an essay of the problems but just cant be bothered DONT BUY IT! Game requires no skill so how do you get pros on a game that dosent work😂😂😂imagine thinking your good haha",
+      "sentiment": "negative"
+    },
+    {
+      "text": "hmm.......just muted the mind bending rap music......fed up with emails and shopping......not even kicked a ball......DELETED. Way to fcku a game up EA.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You played 200 hrs and didn't realise after 2 hours it's a bag of shit",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Absolutely ridiculous not all clubs are in it when you put it on. Stuck on classic match. To download everything a joke. Wasn't like this over the years the clubs were there when you have installed it on your computer.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "No. Get FL26, it's much better",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I waited for it to be on sale. I was going to buy the ult version on sale for 50 dollars but a few days later the standard version went on sale and I paid a little under 35 dollars",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Do not buy it, its not worth it.\\n\\nI warned you. \\n\\nIt is so bad I sold it and warned the person I sold it to bc he said he is getting it for his 8 yo son. \\n\\nThis game specifically ultimate team will make your propensity towards gambling so incredibly inescapable, you just bought a ticket towards being a slave of adrenaline and dopamine. \\n\\nIf you play this game you will suddenly realize ur not having fun, not only that ur not having fun actually playing the core gameplay, u continue and ur unable to stop>\\n\\nIt goes into leveraging pain and pleasure to keep you hooked on a game that stimulates yet eats away at your sanity. This is a gradual process, it doesn’t happen immediately bc in the beginning it CAN be fun, then you will recognize how sinister EA is.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "i will buy this game when STEAM offers 90% discount",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Unpopular Opinion FC 25 wasnt that bad (Cant say compared to FC 26 simply because I havent played it yet) however FC 24 was horrible quite literally gave me a headache whenever I played the game (not joking) and alot of the career mode features were just rushed and full of bugs",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I think over the last few years EA has kept its target to beat the previour years worst game ever",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This dude either has to be paid by fifa 26 or something. This is the wackiest game I have played on PlayStation. It sucks so bad. There is no way you find this game playable. This is the worst version of a soccer game ever made. EA sports suck",
+      "sentiment": "negative"
+    },
+    {
+      "text": "You mean Pedri.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Buy the damn game now guys, it's at $25 bucks now! It wont hurt anyone on that price",
+      "sentiment": "positive"
+    },
+    {
+      "text": "It was $27 that’s why I bought it lol now on I’m just gonna wait till December to get it",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Do I still have to grind for days to unlock UT? If so, I'll never play it or even start the game.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bro try UFL. Im telling you people are sleeping on this game. Its like playing Fifa 2010 Worldcup but in a modern engine. The only downside is the content. It’s only one game mode. But if it was a full featured football game, it would be the best game",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Games the pits ,stop the lies, soon as you hit world class , the AI takes over your playets its awful",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The ultimate edition of fc26 is on sale now for 49$ instead of 99$ so guys is it worth it? Since i do own fc25",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Unfortunately the bar has been set so low for fifa games for years now that even releasing a game that works is a good thing. Awful standards for a game that costs a small fortune",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Encountering an awful glitch in career mode where someone requests more money, I give them a raise, even get the message where they say “now I can focus on my game” and immediately they request a transfer. Annoying as hell.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fifas are iPhones, every game each year and its the same crap, just the cover its different😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Guys, I have a question:\\nI'm a complete manager career mode enjoyer and I have been playing FIFA 22 since it came out, and I loved it. Played about 10 seasons. I haven't bought a newer edition of the franchise, and at times trying  FC24 and FC25, I found that the physics are just not right and as a player I kind of wasn't in control. I don't feel like that on 22. Now that the new FC26 is %50 off on Steam, do you recommend buying it?\\nPS: I hate EA.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I recall my 1 of my 1st three games I got 4 PS4 was FIFA16 back in like 2015. Was my first sport game and was fun as hell along w/ the graphics and various uniforms each team had. Looking forward to getting FC26 soon",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Jamie Vardy has no photo?????",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Just forget about Ea Fc games , becaues Ea Fc is not a football game , its a game with a ball that pretend to be a football game.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I feel like fc24 is the best career mode for both players and managers. Ik some glitches that can help my career like becoming the captain fast. It has good animation for ballon dor but they should add medals to trophy celebration",
+      "sentiment": "positive"
+    },
+    {
+      "text": "50% offer now whether to buy or wait?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Why do u need ps plus to play this fkin game bruv",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Make literally a billion a year from almost the same game, improving it in the least way possible. And still have the same bugs year after year, not even to talk about the trash issues in UT. Don't buy this shit anymore. And stop being a EA shill.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Same game again and again",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Long story short, it's not worth buying full price, wait till its 60% off or higher,....you're welcome",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Bought it today on sale for 34.99 lol",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Are you Dutch?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "\"We finally listened\" then goes ahead to released an updated version of the previous game. They need to change the game engine and overhaul the gameplay.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "As someone who only plays for career mode or against friends. No. \\n\\nIt’s worth it when it’s heavily discounted in a few weeks. 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "This game is a joke 😂 including the player career. Basically, even if you score 30 goals but then get injured for two months, when you come back you have to start from scratch like a rookie!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "U don’t like the game dont but it simple as that",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Ajax is rubbish 😂😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "horrible game dont buy it trust me you will be disappointed a waste of your money buy another game it is a rigged game for certain teams to win no matter how good you are",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All the women are stronger and faster like bruh.🤦 sH!ț game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I can give you the answer ...but first is FIRST !   What about they EA ..make FC25 work ,at first place ...i spend 60 euro,and i want my money to feel worthy...i feel stupid now. And i want go more lower than i am by bying ANOTHER BROKEN game ...year after year ..HONESTLY ,i dont understand people who spend their money just like that,by trusting GREEDY companies like EA ,Ubisoft ,Nvidia ..and some others. Once they start to RESPECT my purchase i will bye and respect their products.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "do the balon d'or awards make any sense this year in FC 26? I once scored 70 goals in one season, won UEFA, and the Premier League just to see the balon d'or go to Vini Jr who didn't even make it past the quarter finals of UEFA. Like WTF!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Is it worth buying if I only play seasons mode online? I have FC25.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "There are still some things that are really broken\\n\\nWhen you pick realistic and strict transfers, you cant buy or loan players from rival clubs yet they can offer you anything which stupid and unrealistic.. \\n\\nAlso when you play as a big club lets say man utd and you want to loan low rated playes you get offers only from big clubs and obviously its not ideal since they wont get any playtime",
+      "sentiment": "negative"
+    }
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=4PMDAayl7gI"
+  ]
+}

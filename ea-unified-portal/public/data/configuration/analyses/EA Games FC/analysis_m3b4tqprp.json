@@ -1,0 +1,913 @@
+{
+  "type": "youtube_sentiment",
+  "videoUrl": "https://www.youtube.com/watch?v=MOclJJ7IpSY",
+  "videoId": "MOclJJ7IpSY",
+  "overallScore": 4,
+  "overallScorePercent": 38,
+  "videoScore": 75,
+  "commentsScore": 8,
+  "summary": "While the promotional and feature reveal content attempts to generate anticipation around new features and upcoming deep dives, the audience reaction is overwhelmingly skeptical and hostile. Commenters heavily reject the proposition of incremental upgrades, citing franchise fatigue, perceived scripting, high pricing, and a lack of true innovation compared to previous iterations.",
+  "alignment": {
+    "status": "Divergent",
+    "explanation": "The promotional video materials frame upcoming additions as innovative community-driven milestones, whereas the comment section pushes back strongly with accusations of repetitive, copy-paste releases and calls for boycotts.",
+    "creator_stance": "Promotional and optimistic, highlighting new features such as Career mode transfer reworks, Ultimate Team galleries, and visual fidelity.",
+    "audience_consensus": "Extremely critical and fatigued, viewing the title as an overpriced reskin plagued by persistent gameplay flaws, aggressive monetization, and minimal core innovation."
+  },
+  "strategic_takeaways": [
+    {
+      "priority": "High",
+      "area": "Core Gameplay Transparency",
+      "recommendation": "Use the upcoming Deep Dive sessions to directly address long-standing gameplay pain points such as DDA/scripting, defensive balance, and overpowered PlayStyles rather than focusing solely on cosmetic or UI additions.",
+      "impact": "Mitigates franchise fatigue and directly confronts community skepticism regarding core mechanics."
+    },
+    {
+      "priority": "High",
+      "area": "Value Perception & Pricing Strategy",
+      "recommendation": "Clearly demonstrate tangible, generational improvements in career and gameplay modes to justify standard and ultimate edition price points against competitor offerings.",
+      "impact": "Reduces boycott rhetoric and diminishes unfavorable comparisons to free-to-play alternatives like eFootball."
+    },
+    {
+      "priority": "Medium",
+      "area": "Feature Localization & Inclusivity",
+      "recommendation": "Actively highlight and expand requested leagues, women's club additions, and authentic player face scans in upcoming marketing beats.",
+      "impact": "Capitalizes on constructive neutral/positive sentiment to drive engagement with underserved player segments."
+    }
+  ],
+  "videoSentiment": {},
+  "commentsSentiment": {
+    "counts": {
+      "positive": 8,
+      "negative": 52,
+      "neutral": 40
+    },
+    "trends": {
+      "positive": [
+        "Excitement over returning fictional characters like Alex Hunter and AFC Richmond",
+        "Praise for graphics and overall visual presentation",
+        "Appreciation for community features and promotional deep dives",
+        "Love and support expressed via positive emojis",
+        "Interest in potential soundtrack tracklists"
+      ],
+      "negative": [
+        "Complaints that the game is a repetitive copy-paste of previous editions (FC 24/25/26/FIFA 14)",
+        "Calls to boycott the game due to high pricing and perceived greed",
+        "Frustration with scripting, gameplay mechanics, and overpowered playstyles (e.g., Bruiser/Enforcer)",
+        "Unfavorable comparisons against competitor eFootball",
+        "Criticism of microtransactions, multiple ultimate editions, and lack of innovation"
+      ],
+      "neutral": [
+        "Specific feature and league licensing requests (South African league, Czech League, Liga MX, Barcelona stadium)",
+        "Player face scan and rating change requests (Victor Osimhen, Cristiano Ronaldo)",
+        "Questions and feedback regarding gender integration and ratings in Ultimate Team",
+        "Short non-contextual/spam remarks and multi-language chatter",
+        "Platform performance queries, specifically Switch 2 60 FPS support"
+      ]
+    },
+    "summary": "Sentiment across the community is overwhelmingly negative and skeptical. A significant majority of commenters criticize EA for releasing what they perceive as the same game every year with minor cosmetic updates, excessive pricing, and unaddressed gameplay issues such as scripting and unbalanced playstyles. Several users explicitly promote boycotting the game in favor of competitor eFootball. Neutral comments consist mostly of specific feature/league additions, player face scans, and rating requests. Positive sentiment is minimal, limited to excitement for returning elements like Alex Hunter, AFC Richmond, and general graphics praise.",
+    "breakdown": [
+      {
+        "text": "Community-driven Gameplay.\nThe Grounds.\nFootball Ultimate Team Gallery.\nRebuilt Transfer Market in Career.\n\nPlenty of new features coming to #FC27. Which are you most excited for? 👀\n\nDeep Dives start next week.",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Make it height pls pls pls",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Pls change Ronaldo rating",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Pls could make Ronaldo rating higher like Messi’s",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Sooo. Same game since 2021?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "2037 it was a good memories",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Add south african league betway premiership please in your next fc 28 game please 🇿🇦❤️📍",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Would be lovely if you can include more clubs and players in the women's divisions",
+        "sentiment": "positive"
+      },
+      {
+        "text": "If you guys buy ultimate plus then next years game price will be more increase don't buy ultimate plus version support for gamers",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All new differently scripted ways to lose in the last min!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc mobile has Noo goods now",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FC27 Pc and console players: the graphics are good, I love this game \n\nFC27 Mobile players: Hell nah, the graphics still trash as h*ll and the gameplay is really stinks😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bring back the Barcelona stadium",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I deleted my fc 26 this was my last fc game I enjoyed the whole fifa journey was so good but this is not competitive game for some years i invested thousands of dollars on this game but now I don't have a heart to buy again i know steamers have no choice",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Efootball is better game then fc 26",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I know some people like brusier enforcer but some of my mate and my friends don't buy fc 27 because of these playstyles",
+        "sentiment": "negative"
+      },
+      {
+        "text": "2:25 Alex Hunter??",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "ALNASSR CLUOB❤❤😊",
+        "sentiment": "positive"
+      },
+      {
+        "text": "In this game are women still rated as high as men?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "They never disappoint when it come to disappointing",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Alex Hunter returns",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Gameplay looks more unrealistic than ever. Nobody needs grounds, just a good game. And this wont be it.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Please add the Czech League to FC27",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "The same game with a new name 😂😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "今までありがとう！",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "A football game shouldn't be this expensive",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Türkler burada mı",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "SWITCH 2 no 60 FPS = NO BUY!!!!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "So they have an ultimate edition and an ultimate +? Soooooo did they forget the meaning of ultimate? 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Nespresso what else...",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Trash game played fc25 and that’s everything same since then",
+        "sentiment": "negative"
+      },
+      {
+        "text": "BOYCOT !",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Alex Hunter is back🔥🔥🔥",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Mbappe will return Avengers doomsday",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "❤❤❤",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Was wondering when fc24 was coming out thanks ea",
+        "sentiment": "negative"
+      },
+      {
+        "text": "same game, new trailer.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Its impressive how they can make a different trialer for the same game every year",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Please, can we finally get new celebration animations in single-player career mode for when teams take the pitch and when winning the championship at the end of the season? The animations have been the same since 2014, and nothing ever changes.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Efootball better 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I hope in FC27 Mobile have The grounds like this too that can be Amazing if can do like pc to in Mobile Version 😙😙",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Open world now ..?\nAnd next year you cans drive a car ..? Or pay a ref ? \nFc done ! And people still buying an update every year ..",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FIFA just like 2K I see. Pushing out the same game every year 😂😂😂😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Njk",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Who saw afc richmond",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "at this point they can't. They really gotta switch it up with game mechanics and style of play have more leagues  and even African teams and leagues as well. Stop this thing of not scanning African players face bcz yho 😂 since we are now living in the days UGC and live streams. At this point they gotta switch it. I'm not buying this game to  tbh I am sticking with 26 until 2030 and when there's a Playstation 6 or something else. Other than tht it's the same game different name 😝 I bet the Ai is more frustrating than your friend who beats you on fifa 😑",
+        "sentiment": "negative"
+      },
+      {
+        "text": "would be nice if diogo jota was a icon player",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Comment tu fais pour télécharger les gens? Bonsoir",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I played all fifa edition but now I shifted to the efootball because this game always favors good players there are no playstyle problems",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc 26 doesn't have Camera movement feature and rebound goals doesn't work for first 3 months on fc 27 and then next update rebound goals are high .because fc  want new players joins in the middle years fc gave him more chances",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I like fc 26 but the only reason I can't buy this is bruiser enforcer playstyle  it's totally unfair i man spend 3k usd in the game but one man has brusier and enforcer press proven your overall player rating is nothing",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The only thing I care about in FC 27 is the soundtrack. Anyone else? 😄just waiting for the track list on YouTube.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I'm so annoyed. \nWhy do I need to purchase this every year?\n\nWhy can't you just sell the FC27 patch instead? It's not logic to purchase the same game every year.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "What Is ted Lasso doing there😂 2:10",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Most sold game in the world and it looks like a 2005 game, features included.😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Man the FC marketing team deserve their weight in gold 🤣🤣🤣",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Trust it will be the same as fc26 just withnopen world",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Rezillik kepazeleiik iğrenç bir oyun almayın oynamayın",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Correct the rigidity in the penalty decisions; anything pointless results in a penalty, which is very stressful.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Malisimooo",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Not buying a scripted game . Time investment don’t mean getting good .\nLearnt my lesson from fc26",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Osimhen faces",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Osimhen face please",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Osimhen faces please",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Osimhen face plase",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Osimhen faces plase",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Tg",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Let’s hope EA doesn’t mix male and female players together in Ultimate Team again this season. With all due respect, it just doesn’t make sense and takes away from the realism many of us enjoy.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "My Bet---Ice skating gameplay like always😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "We want realy raising 3",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "We want realy raising 3 please",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Honestly I'd sooner EA just skip 3-4 years even 5 and just bring out an actual completely different, more realistic and more exciting game. Ive said for years if not over a decade now the only difference in any of the FIFA games (Sorry. FC games) is that they update the squads.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Well, that was boring.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Why don’t re realise fifa 21? \nDiscrase how bad this is going to be",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Alex Hunter from FC 23 nice",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Que cambiarte fc 2027 ?\n\nFc 27 : ammm... agregamos una nueva opcion de pago !!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "efootball>>>>>>>",
+        "sentiment": "negative"
+      },
+      {
+        "text": "No to racism",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Yo AFC Richmond are back",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "You haven't changed anything from FIFA 14. The players move badly. That's not how people move in a real game. Pay attention and learn from Konami. How beautifully the player moves on the field and also how he moves the ball. You guys are just bad. I deleted FIFA 26 and I don't think I'll install FIFA 27 even though I bought it. It's just shocking to see the players move and it just looks bad and doesn't resemble real football at all. Please change that so I can go back to playing your game. Thank you.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "i've never seen a comment section ALL ON THE SAME PAGE LMAO",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "No thanks. First time in about 20 years I’ll not be bothering",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Vou fazer campanha pra ninguém comprar essa porcaria 🤮🤢",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Please give me FC27.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "K",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "FC27 ❌\nGTAFC27 ✅",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "westerner consumer, please boycott this greedy EA. Give eFootball a chance",
+        "sentiment": "negative"
+      },
+      {
+        "text": "efootball better",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This looks absolutely incredible. 😱😍",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Oye cómo sease",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Looks like a phone game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FC26,is that you?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The player models and everything looks exactly like FC 24 lol 😆",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This is going to have the same bugs as FC 24",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Personally I think there are details that make the difference when it comes to show you really care about the game\nOne for example is the inclusion of the two-piece socks for the game (the \"grip socks\" underneath and the long sleeves above)\nIt's something that's part of modern football and that wouldn't take too much to add it into the game, but that shows you really care about details",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Rumour has it you can even play as Matthew, an ex-Harvard student, living with his sister and her husband, who then meets Peter, a west ham football hooligan. Soon, he becomes his good friend and gets involved in a violent football group.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Hiçbir değişiklik ve geliştirme göremiyoruz. Boşuna para vermeye değmez.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "HERE WE GO AGAIN. ITS A CIRCLE",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Is la liga MX going to be in it???",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "ea me gustaría que metieran camara de primera persona y que aparezca animaciónes cunado estás en el banco como que te mandan a calentar",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "sentiment": {
+    "positive": [],
+    "negative": [],
+    "neutral": []
+  },
+  "timeline": [],
+  "talking_points": [],
+  "themes": [],
+  "products": [],
+  "word_cloud": [],
+  "counts": {
+    "positive": 8,
+    "negative": 52,
+    "neutral": 40
+  },
+  "trends": {
+    "positive": [
+      "Excitement over returning fictional characters like Alex Hunter and AFC Richmond",
+      "Praise for graphics and overall visual presentation",
+      "Appreciation for community features and promotional deep dives",
+      "Love and support expressed via positive emojis",
+      "Interest in potential soundtrack tracklists"
+    ],
+    "negative": [
+      "Complaints that the game is a repetitive copy-paste of previous editions (FC 24/25/26/FIFA 14)",
+      "Calls to boycott the game due to high pricing and perceived greed",
+      "Frustration with scripting, gameplay mechanics, and overpowered playstyles (e.g., Bruiser/Enforcer)",
+      "Unfavorable comparisons against competitor eFootball",
+      "Criticism of microtransactions, multiple ultimate editions, and lack of innovation"
+    ],
+    "neutral": [
+      "Specific feature and league licensing requests (South African league, Czech League, Liga MX, Barcelona stadium)",
+      "Player face scan and rating change requests (Victor Osimhen, Cristiano Ronaldo)",
+      "Questions and feedback regarding gender integration and ratings in Ultimate Team",
+      "Short non-contextual/spam remarks and multi-language chatter",
+      "Platform performance queries, specifically Switch 2 60 FPS support"
+    ]
+  },
+  "breakdown": [
+    {
+      "text": "Community-driven Gameplay.\nThe Grounds.\nFootball Ultimate Team Gallery.\nRebuilt Transfer Market in Career.\n\nPlenty of new features coming to #FC27. Which are you most excited for? 👀\n\nDeep Dives start next week.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Make it height pls pls pls",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Pls change Ronaldo rating",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Pls could make Ronaldo rating higher like Messi’s",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Sooo. Same game since 2021?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "2037 it was a good memories",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Add south african league betway premiership please in your next fc 28 game please 🇿🇦❤️📍",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Would be lovely if you can include more clubs and players in the women's divisions",
+      "sentiment": "positive"
+    },
+    {
+      "text": "If you guys buy ultimate plus then next years game price will be more increase don't buy ultimate plus version support for gamers",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All new differently scripted ways to lose in the last min!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc mobile has Noo goods now",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FC27 Pc and console players: the graphics are good, I love this game \n\nFC27 Mobile players: Hell nah, the graphics still trash as h*ll and the gameplay is really stinks😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bring back the Barcelona stadium",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I deleted my fc 26 this was my last fc game I enjoyed the whole fifa journey was so good but this is not competitive game for some years i invested thousands of dollars on this game but now I don't have a heart to buy again i know steamers have no choice",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Efootball is better game then fc 26",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I know some people like brusier enforcer but some of my mate and my friends don't buy fc 27 because of these playstyles",
+      "sentiment": "negative"
+    },
+    {
+      "text": "2:25 Alex Hunter??",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ALNASSR CLUOB❤❤😊",
+      "sentiment": "positive"
+    },
+    {
+      "text": "In this game are women still rated as high as men?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "They never disappoint when it come to disappointing",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Alex Hunter returns",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Gameplay looks more unrealistic than ever. Nobody needs grounds, just a good game. And this wont be it.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Please add the Czech League to FC27",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "The same game with a new name 😂😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "今までありがとう！",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "A football game shouldn't be this expensive",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Türkler burada mı",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "SWITCH 2 no 60 FPS = NO BUY!!!!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "So they have an ultimate edition and an ultimate +? Soooooo did they forget the meaning of ultimate? 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Nespresso what else...",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Trash game played fc25 and that’s everything same since then",
+      "sentiment": "negative"
+    },
+    {
+      "text": "BOYCOT !",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Alex Hunter is back🔥🔥🔥",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Mbappe will return Avengers doomsday",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "❤❤❤",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Was wondering when fc24 was coming out thanks ea",
+      "sentiment": "negative"
+    },
+    {
+      "text": "same game, new trailer.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Its impressive how they can make a different trialer for the same game every year",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Please, can we finally get new celebration animations in single-player career mode for when teams take the pitch and when winning the championship at the end of the season? The animations have been the same since 2014, and nothing ever changes.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Efootball better 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I hope in FC27 Mobile have The grounds like this too that can be Amazing if can do like pc to in Mobile Version 😙😙",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Open world now ..?\nAnd next year you cans drive a car ..? Or pay a ref ? \nFc done ! And people still buying an update every year ..",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FIFA just like 2K I see. Pushing out the same game every year 😂😂😂😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Njk",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Who saw afc richmond",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "at this point they can't. They really gotta switch it up with game mechanics and style of play have more leagues  and even African teams and leagues as well. Stop this thing of not scanning African players face bcz yho 😂 since we are now living in the days UGC and live streams. At this point they gotta switch it. I'm not buying this game to  tbh I am sticking with 26 until 2030 and when there's a Playstation 6 or something else. Other than tht it's the same game different name 😝 I bet the Ai is more frustrating than your friend who beats you on fifa 😑",
+      "sentiment": "negative"
+    },
+    {
+      "text": "would be nice if diogo jota was a icon player",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Comment tu fais pour télécharger les gens? Bonsoir",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I played all fifa edition but now I shifted to the efootball because this game always favors good players there are no playstyle problems",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc 26 doesn't have Camera movement feature and rebound goals doesn't work for first 3 months on fc 27 and then next update rebound goals are high .because fc  want new players joins in the middle years fc gave him more chances",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I like fc 26 but the only reason I can't buy this is bruiser enforcer playstyle  it's totally unfair i man spend 3k usd in the game but one man has brusier and enforcer press proven your overall player rating is nothing",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The only thing I care about in FC 27 is the soundtrack. Anyone else? 😄just waiting for the track list on YouTube.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I'm so annoyed. \nWhy do I need to purchase this every year?\n\nWhy can't you just sell the FC27 patch instead? It's not logic to purchase the same game every year.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "What Is ted Lasso doing there😂 2:10",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Most sold game in the world and it looks like a 2005 game, features included.😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Man the FC marketing team deserve their weight in gold 🤣🤣🤣",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Trust it will be the same as fc26 just withnopen world",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Rezillik kepazeleiik iğrenç bir oyun almayın oynamayın",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Correct the rigidity in the penalty decisions; anything pointless results in a penalty, which is very stressful.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Malisimooo",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Not buying a scripted game . Time investment don’t mean getting good .\nLearnt my lesson from fc26",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Osimhen faces",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Osimhen face please",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Osimhen faces please",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Osimhen face plase",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Osimhen faces plase",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Tg",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Let’s hope EA doesn’t mix male and female players together in Ultimate Team again this season. With all due respect, it just doesn’t make sense and takes away from the realism many of us enjoy.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "My Bet---Ice skating gameplay like always😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "We want realy raising 3",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "We want realy raising 3 please",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Honestly I'd sooner EA just skip 3-4 years even 5 and just bring out an actual completely different, more realistic and more exciting game. Ive said for years if not over a decade now the only difference in any of the FIFA games (Sorry. FC games) is that they update the squads.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Well, that was boring.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Why don’t re realise fifa 21? \nDiscrase how bad this is going to be",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Alex Hunter from FC 23 nice",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Que cambiarte fc 2027 ?\n\nFc 27 : ammm... agregamos una nueva opcion de pago !!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "efootball>>>>>>>",
+      "sentiment": "negative"
+    },
+    {
+      "text": "No to racism",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Yo AFC Richmond are back",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "You haven't changed anything from FIFA 14. The players move badly. That's not how people move in a real game. Pay attention and learn from Konami. How beautifully the player moves on the field and also how he moves the ball. You guys are just bad. I deleted FIFA 26 and I don't think I'll install FIFA 27 even though I bought it. It's just shocking to see the players move and it just looks bad and doesn't resemble real football at all. Please change that so I can go back to playing your game. Thank you.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "i've never seen a comment section ALL ON THE SAME PAGE LMAO",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "No thanks. First time in about 20 years I’ll not be bothering",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Vou fazer campanha pra ninguém comprar essa porcaria 🤮🤢",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Please give me FC27.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "K",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "FC27 ❌\nGTAFC27 ✅",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "westerner consumer, please boycott this greedy EA. Give eFootball a chance",
+      "sentiment": "negative"
+    },
+    {
+      "text": "efootball better",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This looks absolutely incredible. 😱😍",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Oye cómo sease",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Looks like a phone game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FC26,is that you?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The player models and everything looks exactly like FC 24 lol 😆",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This is going to have the same bugs as FC 24",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Personally I think there are details that make the difference when it comes to show you really care about the game\nOne for example is the inclusion of the two-piece socks for the game (the \"grip socks\" underneath and the long sleeves above)\nIt's something that's part of modern football and that wouldn't take too much to add it into the game, but that shows you really care about details",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Rumour has it you can even play as Matthew, an ex-Harvard student, living with his sister and her husband, who then meets Peter, a west ham football hooligan. Soon, he becomes his good friend and gets involved in a violent football group.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Hiçbir değişiklik ve geliştirme göremiyoruz. Boşuna para vermeye değmez.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "HERE WE GO AGAIN. ITS A CIRCLE",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Is la liga MX going to be in it???",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ea me gustaría que metieran camara de primera persona y que aparezca animaciónes cunado estás en el banco como que te mandan a calentar",
+      "sentiment": "neutral"
+    }
+  ],
+  "videos": [
+    "MOclJJ7IpSY"
+  ]
+}

@@ -94,3 +94,4 @@ scratch
 
 zz_creatives
 03-measurement/frontend/public/videos/
+*.tsbuildinfo

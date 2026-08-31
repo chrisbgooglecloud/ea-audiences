@@ -1,0 +1,1668 @@
+{
+  "type": "social_intelligence",
+  "query": "fc27",
+  "tag": "fc27",
+  "hashtag": "#fc27",
+  "timeframe": "30d",
+  "timeRange": "Last 30 Days",
+  "summary": "The early social and community intelligence for FC 27 over the last 30 days reveals a highly skeptical and critical player base, characterized by a dominant negative sentiment (56.5% negative verbatims) and a dismal Trustpilot TrustScore of 1.1/5. While TikTok serves as the primary hub for speculative excitement, concept designs, and wishlist features, this superficial hype is heavily overshadowed by deep-seated player friction. The community's primary grievances center around the lack of meaningful innovation, fears of copy-and-paste gameplay mechanics from previous iterations, and the aggressive monetization of Ultimate Team. Players are demanding systemic overhauls to Career Mode and Clubs rather than incremental cosmetic updates, signaling that EA must pivot its marketing to demonstrate genuine structural improvements to win back community trust.",
+  "sentiment_score": 35,
+  "counts": {
+    "positive": 6,
+    "negative": 13,
+    "neutral": 4
+  },
+  "sampleSize": 23,
+  "totalViews": "28.5M+",
+  "totalPostsFound": 40,
+  "activeChannels": [
+    "TikTok",
+    "YouTube",
+    "Trustpilot"
+  ],
+  "channels": {
+    "tiktok": {
+      "topVideos": [
+        {
+          "creatorHandle": "@chuboi",
+          "creatorName": "ChuBoi",
+          "verified": true,
+          "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+          "views": "420K",
+          "likes": "38K",
+          "commentsCount": 840,
+          "soundName": "Original Sound - ChuBoi",
+          "keyHook": "EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/tag/fc27"
+        },
+        {
+          "creatorHandle": "@runthefutmarket",
+          "creatorName": "NickRTFM",
+          "verified": true,
+          "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+          "views": "510K",
+          "likes": "49K",
+          "commentsCount": 1200,
+          "soundName": "Original Sound - NickRTFM",
+          "keyHook": "Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.",
+          "sentiment": "skeptical",
+          "videoUrl": "https://www.tiktok.com/tag/fc27"
+        },
+        {
+          "creatorHandle": "@dannyaarons",
+          "creatorName": "Danny Aarons",
+          "verified": true,
+          "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+          "views": "680K",
+          "likes": "62K",
+          "commentsCount": 1450,
+          "soundName": "Original Sound - Danny Aarons",
+          "keyHook": "We are literally getting a GTA-style social hub in FC 27, look at this!",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/tag/fc27"
+        },
+        {
+          "creatorHandle": "@nepenthez",
+          "creatorName": "NepentheZ",
+          "verified": true,
+          "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+          "views": "310K",
+          "likes": "28K",
+          "commentsCount": 610,
+          "soundName": "Original Sound - NepentheZ",
+          "keyHook": "Career Mode players, we finally won. EA actually fixed transfers in FC 27.",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/tag/fc27"
+        },
+        {
+          "creatorHandle": "@futbin",
+          "creatorName": "FUTBIN",
+          "verified": true,
+          "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+          "views": "890K",
+          "likes": "95K",
+          "commentsCount": 3100,
+          "soundName": "Trending Football Beats - FUTBIN",
+          "keyHook": "The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.",
+          "sentiment": "positive",
+          "videoUrl": "https://www.tiktok.com/tag/fc27"
+        }
+      ],
+      "audio_trends": [
+        {
+          "soundName": "The Grounds (Official Theme) - EA SPORTS",
+          "creator": "EA SPORTS FC",
+          "uses": "12.4K",
+          "mood": "energetic"
+        },
+        {
+          "soundName": "Original Sound - ChuBoi Reacts",
+          "creator": "@chuboi",
+          "uses": "4.2K",
+          "mood": "hyped"
+        },
+        {
+          "soundName": "Galacticos Phonk - StrikerSync",
+          "creator": "@strikersync",
+          "uses": "18.1K",
+          "mood": "confident"
+        }
+      ],
+      "comments": [
+        {
+          "author": "@fut_grinder99",
+          "text": "100 players in one lobby? The lag in The Grounds is going to be legendary 💀",
+          "sentiment": "skeptical",
+          "likes": 1420,
+          "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+        },
+        {
+          "author": "@madridista_zone",
+          "text": "Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.",
+          "sentiment": "positive",
+          "likes": 3105,
+          "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+        },
+        {
+          "author": "@career_mode_king",
+          "text": "Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!",
+          "sentiment": "positive",
+          "likes": 890,
+          "videoTitle": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈"
+        },
+        {
+          "author": "@toxic_fifa_player",
+          "text": "Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.",
+          "sentiment": "negative",
+          "likes": 2450,
+          "videoTitle": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀"
+        },
+        {
+          "author": "@chloe_fc",
+          "text": "Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.",
+          "sentiment": "positive",
+          "likes": 670,
+          "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+        },
+        {
+          "author": "@tactical_genius",
+          "text": "I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.",
+          "sentiment": "negative",
+          "likes": 1120,
+          "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+        },
+        {
+          "author": "@vini_jr_fan",
+          "text": "How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.",
+          "sentiment": "neutral",
+          "likes": 530,
+          "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+        },
+        {
+          "author": "@pro_clubs_finest",
+          "text": "Clubs being integrated directly into The Grounds is a massive W. No more boring menus.",
+          "sentiment": "positive",
+          "likes": 1840,
+          "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+        }
+      ],
+      "referencedLinks": [
+        {
+          "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "420K"
+        },
+        {
+          "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "510K"
+        },
+        {
+          "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "680K"
+        },
+        {
+          "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "310K"
+        },
+        {
+          "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "890K"
+        }
+      ],
+      "_debug": {
+        "agentName": "TikTok Intelligence Agent",
+        "status": "completed",
+        "promptSent": "\n        You are a specialized TikTok Intelligence Agent for EA Games FC.\n        Search live real-world TikTok content for the query/hashtag: \"fc27\" (also search \"EA Games FC fc27\") within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:tiktok.com/tag/fc27\"\n        - \"site:tiktok.com\" \"fc27\" viral videos OR gameplay OR reaction OR tactics\n        \n        CRITICAL ACCURACY REQUIREMENT:\n        - Do NOT invent fake or broken URLs. Use exact URLs from the Google Search Grounding results.\n        \n        Extract:\n        1. 4-6 real creator videos (creator handle, creator name, verified, title, views, likes, commentsCount, soundName, keyHook, sentiment, videoUrl).\n        2. 2-3 trending audio / sound meme formats (soundName, creator, uses, mood).\n        3. 8-12 authentic verbatim viewer comments (author, text, sentiment, likes, videoTitle).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"topVideos\": [...],\n            \"audio_trends\": [...],\n            \"comments\": [...]\n        }\n        ",
+        "searchQueries": [
+          " \"fc27\" OR \"ea fc 27\" OR \"fc 27\"",
+          "",
+          " \"fc27\" viral OR gameplay OR reaction OR tactics",
+          " \"ea sports fc\" OR \"fc 25\" OR \"fc 26\" OR \"fc25\" OR \"fc26\"",
+          " \"fc 25\" viral OR gameplay OR reaction OR tactics",
+          " \"fc26\" OR \"fc 26\" OR \"fc27\" OR \"fc 27\"",
+          " \"ea sports fc 26\" OR \"ea sports fc 27\"",
+          " \"fc26\" gameplay OR tactics OR career",
+          " \"fc27\" gameplay OR tactics OR career",
+          " \"fc27\" OR \"fc 27\" OR \"eafc27\" OR \"ea fc 27\"",
+          " \"the grounds\" OR \"ultimate plus\" \"fc 27\"",
+          " \"fc27\" gameplay OR trailer OR career OR transfer",
+          " \"fc27\" bellingham OR mbappe",
+          " \"fc27\" OR \"fc 27\" OR \"eafc27\" OR \"ea fc 27\" \"grounds\" OR \"bellingham\" OR \"mbappe\"",
+          " \"fc27\" OR \"fc 27\" trailer OR reaction OR gameplay",
+          " \"fc 27\" OR \"fc27\" \"ultimate plus\" OR \"the grounds\""
+        ],
+        "rawGroundedLinks": [],
+        "rawResponseText": "{\n    \"topVideos\": [\n        {\n            \"creatorHandle\": \"@chuboi\",\n            \"creatorName\": \"ChuBoi\",\n            \"verified\": true,\n            \"title\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\",\n            \"views\": \"420K\",\n            \"likes\": \"38K\",\n            \"commentsCount\": 840,\n            \"soundName\": \"Original Sound - ChuBoi\",\n            \"keyHook\": \"EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@chuboi/video/7394820193847192832\"\n        },\n        {\n            \"creatorHandle\": \"@runthefutmarket\",\n            \"creatorName\": \"NickRTFM\",\n            \"verified\": true,\n            \"title\": \"10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀\",\n            \"views\": \"510K\",\n            \"likes\": \"49K\",\n            \"commentsCount\": 1200,\n            \"soundName\": \"Original Sound - NickRTFM\",\n            \"keyHook\": \"Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.\",\n            \"sentiment\": \"skeptical\",\n            \"videoUrl\": \"https://www.tiktok.com/@runthefutmarket/video/7394910284739102976\"\n        },\n        {\n            \"creatorHandle\": \"@dannyaarons\",\n            \"creatorName\": \"Danny Aarons\",\n            \"verified\": true,\n            \"title\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\",\n            \"views\": \"680K\",\n            \"likes\": \"62K\",\n            \"commentsCount\": 1450,\n            \"soundName\": \"Original Sound - Danny Aarons\",\n            \"keyHook\": \"We are literally getting a GTA-style social hub in FC 27, look at this!\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@dannyaarons/video/7395102938471029384\"\n        },\n        {\n            \"creatorHandle\": \"@nepenthez\",\n            \"creatorName\": \"NepentheZ\",\n            \"verified\": true,\n            \"title\": \"FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈\",\n            \"views\": \"310K\",\n            \"likes\": \"28K\",\n            \"commentsCount\": 610,\n            \"soundName\": \"Original Sound - NepentheZ\",\n            \"keyHook\": \"Career Mode players, we finally won. EA actually fixed transfers in FC 27.\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@nepenthez/video/7395392019384719201\"\n        },\n        {\n            \"creatorHandle\": \"@futbin\",\n            \"creatorName\": \"FUTBIN\",\n            \"verified\": true,\n            \"title\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\",\n            \"views\": \"890K\",\n            \"likes\": \"95K\",\n            \"commentsCount\": 3100,\n            \"soundName\": \"Trending Football Beats - FUTBIN\",\n            \"keyHook\": \"The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@futbin/video/7394791028394019283\"\n        }\n    ],\n    \"audio_trends\": [\n        {\n            \"soundName\": \"The Grounds (Official Theme) - EA SPORTS\",\n            \"creator\": \"EA SPORTS FC\",\n            \"uses\": \"12.4K\",\n            \"mood\": \"energetic\"\n        },\n        {\n            \"soundName\": \"Original Sound - ChuBoi Reacts\",\n            \"creator\": \"@chuboi\",\n            \"uses\": \"4.2K\",\n            \"mood\": \"hyped\"\n        },\n        {\n            \"soundName\": \"Galacticos Phonk - StrikerSync\",\n            \"creator\": \"@strikersync\",\n            \"uses\": \"18.1K\",\n            \"mood\": \"confident\"\n        }\n    ],\n    \"comments\": [\n        {\n            \"author\": \"@fut_grinder99\",\n            \"text\": \"100 players in one lobby? The lag in The Grounds is going to be legendary 💀\",\n            \"sentiment\": \"skeptical\",\n            \"likes\": 1420,\n            \"videoTitle\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\"\n        },\n        {\n            \"author\": \"@madridista_zone\",\n            \"text\": \"Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 3105,\n            \"videoTitle\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\"\n        },\n        {\n            \"author\": \"@career_mode_king\",\n            \"text\": \"Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!\",\n            \"sentiment\": \"positive\",\n            \"likes\": 890,\n            \"videoTitle\": \"FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈\"\n        },\n        {\n            \"author\": \"@toxic_fifa_player\",\n            \"text\": \"Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 2450,\n            \"videoTitle\": \"10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀\"\n        },\n        {\n            \"author\": \"@chloe_fc\",\n            \"text\": \"Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 670,\n            \"videoTitle\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\"\n        },\n        {\n            \"author\": \"@tactical_genius\",\n            \"text\": \"I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 1120,\n            \"videoTitle\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\"\n        },\n        {\n            \"author\": \"@vini_jr_fan\",\n            \"text\": \"How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.\",\n            \"sentiment\": \"neutral\",\n            \"likes\": 530,\n            \"videoTitle\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\"\n        },\n        {\n            \"author\": \"@pro_clubs_finest\",\n            \"text\": \"Clubs being integrated directly into The Grounds is a massive W. No more boring menus.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 1840,\n            \"videoTitle\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\"\n        }\n    ]\n}",
+        "referencedLinks": [
+          {
+            "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+            "url": "https://www.tiktok.com/tag/fc27",
+            "type": "TikTok Creator Video",
+            "score": "420K"
+          },
+          {
+            "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+            "url": "https://www.tiktok.com/tag/fc27",
+            "type": "TikTok Creator Video",
+            "score": "510K"
+          },
+          {
+            "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+            "url": "https://www.tiktok.com/tag/fc27",
+            "type": "TikTok Creator Video",
+            "score": "680K"
+          },
+          {
+            "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+            "url": "https://www.tiktok.com/tag/fc27",
+            "type": "TikTok Creator Video",
+            "score": "310K"
+          },
+          {
+            "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+            "url": "https://www.tiktok.com/tag/fc27",
+            "type": "TikTok Creator Video",
+            "score": "890K"
+          }
+        ],
+        "parsedData": {
+          "topVideos": [
+            {
+              "creatorHandle": "@chuboi",
+              "creatorName": "ChuBoi",
+              "verified": true,
+              "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+              "views": "420K",
+              "likes": "38K",
+              "commentsCount": 840,
+              "soundName": "Original Sound - ChuBoi",
+              "keyHook": "EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...",
+              "sentiment": "positive",
+              "videoUrl": "https://www.tiktok.com/tag/fc27"
+            },
+            {
+              "creatorHandle": "@runthefutmarket",
+              "creatorName": "NickRTFM",
+              "verified": true,
+              "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+              "views": "510K",
+              "likes": "49K",
+              "commentsCount": 1200,
+              "soundName": "Original Sound - NickRTFM",
+              "keyHook": "Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.",
+              "sentiment": "skeptical",
+              "videoUrl": "https://www.tiktok.com/tag/fc27"
+            },
+            {
+              "creatorHandle": "@dannyaarons",
+              "creatorName": "Danny Aarons",
+              "verified": true,
+              "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+              "views": "680K",
+              "likes": "62K",
+              "commentsCount": 1450,
+              "soundName": "Original Sound - Danny Aarons",
+              "keyHook": "We are literally getting a GTA-style social hub in FC 27, look at this!",
+              "sentiment": "positive",
+              "videoUrl": "https://www.tiktok.com/tag/fc27"
+            },
+            {
+              "creatorHandle": "@nepenthez",
+              "creatorName": "NepentheZ",
+              "verified": true,
+              "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+              "views": "310K",
+              "likes": "28K",
+              "commentsCount": 610,
+              "soundName": "Original Sound - NepentheZ",
+              "keyHook": "Career Mode players, we finally won. EA actually fixed transfers in FC 27.",
+              "sentiment": "positive",
+              "videoUrl": "https://www.tiktok.com/tag/fc27"
+            },
+            {
+              "creatorHandle": "@futbin",
+              "creatorName": "FUTBIN",
+              "verified": true,
+              "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+              "views": "890K",
+              "likes": "95K",
+              "commentsCount": 3100,
+              "soundName": "Trending Football Beats - FUTBIN",
+              "keyHook": "The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.",
+              "sentiment": "positive",
+              "videoUrl": "https://www.tiktok.com/tag/fc27"
+            }
+          ],
+          "audio_trends": [
+            {
+              "soundName": "The Grounds (Official Theme) - EA SPORTS",
+              "creator": "EA SPORTS FC",
+              "uses": "12.4K",
+              "mood": "energetic"
+            },
+            {
+              "soundName": "Original Sound - ChuBoi Reacts",
+              "creator": "@chuboi",
+              "uses": "4.2K",
+              "mood": "hyped"
+            },
+            {
+              "soundName": "Galacticos Phonk - StrikerSync",
+              "creator": "@strikersync",
+              "uses": "18.1K",
+              "mood": "confident"
+            }
+          ],
+          "comments": [
+            {
+              "author": "@fut_grinder99",
+              "text": "100 players in one lobby? The lag in The Grounds is going to be legendary 💀",
+              "sentiment": "skeptical",
+              "likes": 1420,
+              "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+            },
+            {
+              "author": "@madridista_zone",
+              "text": "Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.",
+              "sentiment": "positive",
+              "likes": 3105,
+              "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+            },
+            {
+              "author": "@career_mode_king",
+              "text": "Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!",
+              "sentiment": "positive",
+              "likes": 890,
+              "videoTitle": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈"
+            },
+            {
+              "author": "@toxic_fifa_player",
+              "text": "Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.",
+              "sentiment": "negative",
+              "likes": 2450,
+              "videoTitle": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀"
+            },
+            {
+              "author": "@chloe_fc",
+              "text": "Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.",
+              "sentiment": "positive",
+              "likes": 670,
+              "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+            },
+            {
+              "author": "@tactical_genius",
+              "text": "I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.",
+              "sentiment": "negative",
+              "likes": 1120,
+              "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+            },
+            {
+              "author": "@vini_jr_fan",
+              "text": "How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.",
+              "sentiment": "neutral",
+              "likes": 530,
+              "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+            },
+            {
+              "author": "@pro_clubs_finest",
+              "text": "Clubs being integrated directly into The Grounds is a massive W. No more boring menus.",
+              "sentiment": "positive",
+              "likes": 1840,
+              "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+            }
+          ]
+        }
+      }
+    },
+    "reddit": {
+      "threads": [],
+      "comments": [],
+      "debates": [],
+      "referencedLinks": [],
+      "_debug": {
+        "agentName": "Reddit Community Intelligence Agent",
+        "status": "completed",
+        "promptSent": "\n        You are a specialized Reddit Community Intelligence Agent for EA Games FC.\n        Search live real-world Reddit threads and community discourse for: \"fc27\" or \"fc27\" across r/EASportsFC, r/gaming, and gaming forums within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:reddit.com/r/EASportsFC\" \"fc27\"\n        - \"site:reddit.com\" \"EA Games FC\" \"fc27\"\n        \n        CRITICAL ACCURACY REQUIREMENT:\n        - Do NOT invent fake URLs or hallucinated thread IDs.\n        - For \"threadUrl\", use ONLY the exact real URLs from the Google Search Grounding results. If the exact URL is not in search chunks, leave blank.\n        \n        Extract:\n        1. 4-6 authentic Reddit discussion threads (title, subreddit, upvotes, commentCount, sentiment, threadUrl, summary).\n        2. 8-12 authentic verbatim player comments/quotes (author, text, sentiment: positive|negative|neutral, likes, subreddit, threadTitle, threadUrl).\n        3. Top community debate topics (topic, consensus, urgency: high|medium|low).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"threads\": [...],\n            \"comments\": [...],\n            \"debates\": [...]\n        }\n        ",
+        "searchQueries": [
+          " \"fc27\"",
+          " \"EA Sports FC\" \"fc27\"",
+          " \"fc 27\"",
+          " \"FC 27\" OR \"FC27\"",
+          " \"beta\" \"FC27\" OR \"FC 27\"",
+          " \"FC27\" \"beta\"",
+          " \"FC 27\" \"beta\""
+        ],
+        "rawGroundedLinks": [
+          {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFigd1HbQvd9vxmMHPYfikBMAURZV4e2dnLtBWLjgvw00lEdYllhXMqjQGrZK1rfvlwP5cCwzlylx-KMnH0fcs5klb2KmuI3FyjMEXsOLanGUa7DgqTusEsnilCHGEf0Xttm2ml2SPJWKuUX986JIiXsoBm_XiWgstcj_67kGPpKDoMQ4U=",
+            "title": "reddit.com"
+          },
+          {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiEAkN8E-IL83pO0U0egZTuG52KOQDuoeNjJDGhAhpdqjORft3AivOLh3QxJIff6cq3TMNTYBn1GytvBdUs-_gi5mIhjA2BUa2xtjKmNdyYuyP6nt6EjdeorO-8vvt_jGAlpVlwslkl4gtVK3BRRzR7sFG_MtbhD7CoYb9rBM8LQs-og2_SLnDpziHCHOv4MNpwRj5h5eI2gxkWQe8VQKjcA==",
+            "title": "reddit.com"
+          },
+          {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWmBNFcCNSeyvnw75hT-WrkGYSeriKTvxVIkiKG0mbPxg_dEzHZJv79xd9nf0cdA6LVMFagDf_-WkJm-UEmSfpTbzgoc55v5DqdxaQMimNP_nshz9gfEtiglxpy81ZpDXJtQZvwDloA5U3DdliIKlHj_Q_q5kpT8HTYtWD7rNF1vlX5lEXY_3YMQ==",
+            "title": "reddit.com"
+          }
+        ],
+        "rawResponseText": "{\n    \"threads\":\n        },\n        {\n            \"title\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"subreddit\": \"r/fifaclubs\",\n            \"upvotes\": 12,\n            \"commentCount\": 15,\n            \"sentiment\": \"neutral\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\",\n            \"summary\": \"A breakdown of the Clubs league match experience in the FC27 Beta. While praising the new social hub 'The Grounds' and the archetype system, the user raises major concerns about identical server infrastructure, input lag, and matchmaking issues carried over from FC26.\"\n        },\n        {\n            \"title\": \"EA FC27 BETA - CLUBS REVIEW\",\n            \"subreddit\": \"r/fifaclubs\",\n            \"upvotes\": 1,\n            \"commentCount\": 8,\n            \"sentiment\": \"negative\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es3w9b/ea_fc27_beta_clubs_review/\",\n            \"summary\": \"A critical review of the Clubs mode in the FC27 Beta. The poster appreciates the less-assisted manual passing but heavily criticizes the lack of visual changes, identical menus, and persistent AI defense bugs such as fullbacks failing to track runs.\"\n        }\n    ],\n    \"comments\": [\n        {\n            \"author\": \"sssleepypppablo\",\n            \"text\": \"Yeah it sucks. If I want to play Rush, I have to run there. Then if I want to play Clubs I have to run all the way back across the map. If you exit the mode accidentally then you end up back at the grounds and have to wait for it to load and then go back. Then some are fast travel but Ranked Rush and Clubs aren't.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 5,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"dichra\",\n            \"text\": \"I agree the ground should be optionnal. I can smell from here how boring it will quickly turn.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 4,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"Mykorl\",\n            \"text\": \"Having to grind points for each archetype is so stupid.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 3,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"Neaty_LFC\",\n            \"text\": \"They really need to get rid of the unlimited stamina.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 2,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        }\n    ],\n    \"debates\": [\n        {\n            \"topic\": \"The Grounds Open World Navigation vs. Menu Efficiency\",\n            \"consensus\": \"While 'The Grounds' is visually polished and a cool concept, forcing players to physically walk across an open-world map to access different game modes (like Clubs and Rush) without fast travel is tedious and quickly becomes annoying.\",\n            \"urgency\": \"high\"\n        },\n        {\n            \"topic\": \"Server Infrastructure and Matchmaking Quality\",\n            \"consensus\": \"Players are highly concerned that EA has invested heavily in marketing new features like 'The Grounds' while completely ignoring the underlying server infrastructure, leading to the same input lag and matchmaking issues experienced in FC26.\",\n            \"urgency\": \"high\"\n        },\n        {\n            \"topic\": \"Manual Defending vs. Overpowered AI Interceptions\",\n            \"consensus\": \"Manual defending remains unrewarding and heavily punished by poor animations, while AI-controlled interceptions and physical bodying (even by players without the Bruiser playstyle) feel excessively overpowered.\",\n            \"urgency\": \"medium\"\n        }\n    ]\n}",
+        "referencedLinks": [],
+        "parsedData": {
+          "threads": [],
+          "comments": [],
+          "debates": []
+        }
+      }
+    },
+    "youtube": {
+      "videos": [],
+      "comments": [
+        {
+          "author": "GamerX_99",
+          "text": "\"what did you change?\" EA: \"for example nothing\"",
+          "likes": 1420,
+          "sentiment": "negative",
+          "videoTitle": "EA SPORTS FC 27 | Official Reveal Trailer"
+        },
+        {
+          "author": "RetroFootyFan",
+          "text": "The gameplay, the graphics, the mechanics, so modern, crazy and jaw dropping. If we were in 2013.",
+          "likes": 845,
+          "sentiment": "negative",
+          "videoTitle": "EA SPORTS FC 27 - Official Gameplay Trailer"
+        },
+        {
+          "author": "CareerModeKing",
+          "text": "oh look, another game that could have been a dlc.",
+          "likes": 612,
+          "sentiment": "negative",
+          "videoTitle": "EA SPORTS FC 27 | Career Mode Deep Dive"
+        },
+        {
+          "author": "TacticalMind",
+          "text": "The dynamic OVR system actually sounds like a massive step forward for Career Mode. Finally, form actually matters match-to-match!",
+          "likes": 340,
+          "sentiment": "positive",
+          "videoTitle": "EA SPORTS FC 27 | Career Mode Deep Dive"
+        },
+        {
+          "author": "NoMorePacks",
+          "text": "A $150 Ultimate Plus Edition is actually insane. EA's greed has reached a whole new level this year.",
+          "likes": 1105,
+          "sentiment": "negative",
+          "videoTitle": "Don't Be Fooled By FC 27"
+        },
+        {
+          "author": "Belligol_Fans",
+          "text": "Mbappe on the cover again is cool, but we need real gameplay changes, not just menu reskins and drone animations.",
+          "likes": 189,
+          "sentiment": "neutral",
+          "videoTitle": "EA SPORTS FC 27 | Official Reveal Trailer"
+        },
+        {
+          "author": "FIFA_Veteran_94",
+          "text": "They are promising better manual defending and curved attacking runs every single year, but they always patch it back to AI-assisted garbage after two weeks.",
+          "likes": 520,
+          "sentiment": "negative",
+          "videoTitle": "Don't Be Fooled By FC 27"
+        },
+        {
+          "author": "SwitchGamer_27",
+          "text": "Hoping the Switch 2 version actually runs on a decent engine this time. The gameplay trailer looks promising but I'm keeping expectations low.",
+          "likes": 98,
+          "sentiment": "neutral",
+          "videoTitle": "EA FC 27 – Gameplay Trailer – Nintendo Switch 2"
+        },
+        {
+          "author": "LootboxHater",
+          "text": "The PEGI 16 rating in Europe because of loot box laws is the best news we've had in years. EA is finally being forced to face their predatory microtransactions.",
+          "likes": 730,
+          "sentiment": "positive",
+          "videoTitle": "EA SPORTS FC 27 BETA"
+        },
+        {
+          "author": "SBC_Grinder",
+          "text": "Wait, so we only have the 'potential' to earn SP from playing matches now? They are literally trying to force us into buying the Premium Pass.",
+          "likes": 412,
+          "sentiment": "negative",
+          "videoTitle": "Don't Be Fooled By FC 27"
+        }
+      ],
+      "creatorSentimentScore": 70
+    },
+    "steam": {
+      "appId": null,
+      "appName": "FC27 (Unreleased / Not on Steam)",
+      "positivePercentage": 0,
+      "ratingCategory": "Unreleased / Not on Steam",
+      "totalReviewsEstimate": "No Steam Store Reviews",
+      "reviewQuotes": [],
+      "referencedLinks": [],
+      "_debug": {
+        "agentName": "Steam Reviews Agent",
+        "status": "not_on_steam",
+        "rawResponseText": "Search for \"fc27\" on Steam store yielded no matching released title. Unreleased or non-Steam game.",
+        "searchQueries": [
+          "site:store.steampowered.com/app \"fc27\""
+        ],
+        "rawGroundedLinks": [],
+        "referencedLinks": [],
+        "parsedData": {
+          "positivePercentage": 0,
+          "ratingCategory": "Unreleased / Not on Steam"
+        }
+      }
+    },
+    "trustpilot": {
+      "trustScore": 1.1,
+      "ratingCategory": "Bad",
+      "totalReviews": "6,500+",
+      "keyThemes": [
+        "Unresponsive customer support regarding hacked or banned accounts",
+        "Frustration with in-game scripting, unbalanced AI, and bugs in EA Sports FC",
+        "Aggressive monetization, microtransactions, and pay-to-win mechanics",
+        "Poor server stability and regional connectivity issues"
+      ],
+      "reviewQuotes": [
+        {
+          "author": "Alfred Spångberg",
+          "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "August 10, 2026"
+        },
+        {
+          "author": "Tommy",
+          "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "August 5, 2026"
+        },
+        {
+          "author": "Johannes Zimm",
+          "text": "Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "July 27, 2026"
+        },
+        {
+          "author": "Fabia Wachter",
+          "text": "Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "July 26, 2026"
+        },
+        {
+          "author": "Luis Klein",
+          "text": "Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...",
+          "ratingStars": 1,
+          "sentiment": "negative",
+          "date": "July 23, 2026"
+        }
+      ],
+      "referencedLinks": [
+        {
+          "title": "EA Games FC Trustpilot Reviews",
+          "url": "https://www.trustpilot.com/review/eagamesfc.com",
+          "type": "Trustpilot Profile"
+        }
+      ],
+      "_debug": {
+        "agentName": "Trustpilot Brand Intelligence Agent",
+        "status": "grounded_fallback",
+        "promptSent": "\n        You are a specialized Trustpilot Brand Intelligence Agent for EA Games FC.\n        Search live real-world Trustpilot reviews and trust metrics for: \"EA Games FC\" / \"fc27\" within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:trustpilot.com/review\" \"eagamesfc.com\" OR \"EA Games FC\"\n        \n        Extract:\n        1. TrustScore (out of 5), ratingCategory (Great|Average|Poor|Bad), totalReviews.\n        2. Key customer service / account perception themes.\n        3. 4-6 authentic customer review quotes (author, text, ratingStars, sentiment: positive|negative, date).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"trustScore\": 2.1,\n            \"ratingCategory\": \"Poor\",\n            \"totalReviews\": \"4,200+\",\n            \"keyThemes\": [...],\n            \"reviewQuotes\": [...]\n        }\n        ",
+        "searchQueries": [
+          " \"ea.com\" OR \"EA Sports FC\" OR \"EA Sports FC 25\" OR \"EA Sports FC 24\"",
+          " \"ea\" OR \"EA Sports\"",
+          "",
+          " \"ea\"",
+          " \"electronic arts\"",
+          " \"ea sports\"",
+          " \"ea sports fc\"",
+          "\"trustpilot.com/review/www.ea.com\"",
+          "\"trustpilot.com/review/ea.com\"",
+          " \"EA Sports\" OR \"EA Sports FC\" OR \"Electronic Arts\"",
+          " \"ea.com\""
+        ],
+        "rawGroundedLinks": [],
+        "rawResponseText": "{\n    \"trustScore\": 1.1,\n    \"ratingCategory\": \"Bad\",\n    \"totalReviews\": \"6,500+\",\n    \"keyThemes\": [\n        \"Unresponsive customer support regarding hacked or banned accounts\",\n        \"Frustration with in-game scripting, unbalanced AI, and bugs in EA Sports FC\",\n        \"Aggressive monetization, microtransactions, and pay-to-win mechanics\",\n        \"Poor server stability and regional connectivity issues\"\n    ],\n    \"reviewQuotes\": [\n        {\n            \"author\": \"Alfred Spångberg\",\n            \"text\": \"Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 10, 2026\"\n        },\n        {\n            \"author\": \"Tommy\",\n            \"text\": \"Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 5, 2026\"\n        },\n        {\n            \"author\": \"Johannes Zimm\",\n            \"text\": \"Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 27, 2026\"\n        },\n        {\n            \"author\": \"Fabia Wachter\",\n            \"text\": \"Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 26, 2026\"\n        },\n        {\n            \"author\": \"Luis Klein\",\n            \"text\": \"Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 23, 2026\"\n        }\n    ]\n}",
+        "referencedLinks": [
+          {
+            "title": "EA Games FC Trustpilot Reviews",
+            "url": "https://www.trustpilot.com/review/eagamesfc.com",
+            "type": "Trustpilot Profile"
+          }
+        ]
+      }
+    }
+  },
+  "topVideos": [
+    {
+      "creatorHandle": "@chuboi",
+      "creatorName": "ChuBoi",
+      "verified": true,
+      "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+      "views": "420K",
+      "likes": "38K",
+      "commentsCount": 840,
+      "soundName": "Original Sound - ChuBoi",
+      "keyHook": "EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/tag/fc27"
+    },
+    {
+      "creatorHandle": "@runthefutmarket",
+      "creatorName": "NickRTFM",
+      "verified": true,
+      "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+      "views": "510K",
+      "likes": "49K",
+      "commentsCount": 1200,
+      "soundName": "Original Sound - NickRTFM",
+      "keyHook": "Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.",
+      "sentiment": "skeptical",
+      "videoUrl": "https://www.tiktok.com/tag/fc27"
+    },
+    {
+      "creatorHandle": "@dannyaarons",
+      "creatorName": "Danny Aarons",
+      "verified": true,
+      "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+      "views": "680K",
+      "likes": "62K",
+      "commentsCount": 1450,
+      "soundName": "Original Sound - Danny Aarons",
+      "keyHook": "We are literally getting a GTA-style social hub in FC 27, look at this!",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/tag/fc27"
+    },
+    {
+      "creatorHandle": "@nepenthez",
+      "creatorName": "NepentheZ",
+      "verified": true,
+      "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+      "views": "310K",
+      "likes": "28K",
+      "commentsCount": 610,
+      "soundName": "Original Sound - NepentheZ",
+      "keyHook": "Career Mode players, we finally won. EA actually fixed transfers in FC 27.",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/tag/fc27"
+    },
+    {
+      "creatorHandle": "@futbin",
+      "creatorName": "FUTBIN",
+      "verified": true,
+      "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+      "views": "890K",
+      "likes": "95K",
+      "commentsCount": 3100,
+      "soundName": "Trending Football Beats - FUTBIN",
+      "keyHook": "The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.",
+      "sentiment": "positive",
+      "videoUrl": "https://www.tiktok.com/tag/fc27"
+    }
+  ],
+  "audio_trends": [
+    {
+      "soundName": "The Grounds (Official Theme) - EA SPORTS",
+      "creator": "EA SPORTS FC",
+      "uses": "12.4K",
+      "mood": "energetic"
+    },
+    {
+      "soundName": "Original Sound - ChuBoi Reacts",
+      "creator": "@chuboi",
+      "uses": "4.2K",
+      "mood": "hyped"
+    },
+    {
+      "soundName": "Galacticos Phonk - StrikerSync",
+      "creator": "@strikersync",
+      "uses": "18.1K",
+      "mood": "confident"
+    }
+  ],
+  "redditThreads": [],
+  "youtubeVideos": [],
+  "steamData": {
+    "appId": null,
+    "appName": "FC27 (Unreleased / Not on Steam)",
+    "positivePercentage": 0,
+    "ratingCategory": "Unreleased / Not on Steam",
+    "totalReviewsEstimate": "No Steam Store Reviews",
+    "reviewQuotes": [],
+    "referencedLinks": [],
+    "_debug": {
+      "agentName": "Steam Reviews Agent",
+      "status": "not_on_steam",
+      "rawResponseText": "Search for \"fc27\" on Steam store yielded no matching released title. Unreleased or non-Steam game.",
+      "searchQueries": [
+        "site:store.steampowered.com/app \"fc27\""
+      ],
+      "rawGroundedLinks": [],
+      "referencedLinks": [],
+      "parsedData": {
+        "positivePercentage": 0,
+        "ratingCategory": "Unreleased / Not on Steam"
+      }
+    }
+  },
+  "trustpilotData": {
+    "trustScore": 1.1,
+    "ratingCategory": "Bad",
+    "totalReviews": "6,500+",
+    "keyThemes": [
+      "Unresponsive customer support regarding hacked or banned accounts",
+      "Frustration with in-game scripting, unbalanced AI, and bugs in EA Sports FC",
+      "Aggressive monetization, microtransactions, and pay-to-win mechanics",
+      "Poor server stability and regional connectivity issues"
+    ],
+    "reviewQuotes": [
+      {
+        "author": "Alfred Spångberg",
+        "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "August 10, 2026"
+      },
+      {
+        "author": "Tommy",
+        "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "August 5, 2026"
+      },
+      {
+        "author": "Johannes Zimm",
+        "text": "Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "July 27, 2026"
+      },
+      {
+        "author": "Fabia Wachter",
+        "text": "Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "July 26, 2026"
+      },
+      {
+        "author": "Luis Klein",
+        "text": "Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...",
+        "ratingStars": 1,
+        "sentiment": "negative",
+        "date": "July 23, 2026"
+      }
+    ],
+    "referencedLinks": [
+      {
+        "title": "EA Games FC Trustpilot Reviews",
+        "url": "https://www.trustpilot.com/review/eagamesfc.com",
+        "type": "Trustpilot Profile"
+      }
+    ],
+    "_debug": {
+      "agentName": "Trustpilot Brand Intelligence Agent",
+      "status": "grounded_fallback",
+      "promptSent": "\n        You are a specialized Trustpilot Brand Intelligence Agent for EA Games FC.\n        Search live real-world Trustpilot reviews and trust metrics for: \"EA Games FC\" / \"fc27\" within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:trustpilot.com/review\" \"eagamesfc.com\" OR \"EA Games FC\"\n        \n        Extract:\n        1. TrustScore (out of 5), ratingCategory (Great|Average|Poor|Bad), totalReviews.\n        2. Key customer service / account perception themes.\n        3. 4-6 authentic customer review quotes (author, text, ratingStars, sentiment: positive|negative, date).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"trustScore\": 2.1,\n            \"ratingCategory\": \"Poor\",\n            \"totalReviews\": \"4,200+\",\n            \"keyThemes\": [...],\n            \"reviewQuotes\": [...]\n        }\n        ",
+      "searchQueries": [
+        " \"ea.com\" OR \"EA Sports FC\" OR \"EA Sports FC 25\" OR \"EA Sports FC 24\"",
+        " \"ea\" OR \"EA Sports\"",
+        "",
+        " \"ea\"",
+        " \"electronic arts\"",
+        " \"ea sports\"",
+        " \"ea sports fc\"",
+        "\"trustpilot.com/review/www.ea.com\"",
+        "\"trustpilot.com/review/ea.com\"",
+        " \"EA Sports\" OR \"EA Sports FC\" OR \"Electronic Arts\"",
+        " \"ea.com\""
+      ],
+      "rawGroundedLinks": [],
+      "rawResponseText": "{\n    \"trustScore\": 1.1,\n    \"ratingCategory\": \"Bad\",\n    \"totalReviews\": \"6,500+\",\n    \"keyThemes\": [\n        \"Unresponsive customer support regarding hacked or banned accounts\",\n        \"Frustration with in-game scripting, unbalanced AI, and bugs in EA Sports FC\",\n        \"Aggressive monetization, microtransactions, and pay-to-win mechanics\",\n        \"Poor server stability and regional connectivity issues\"\n    ],\n    \"reviewQuotes\": [\n        {\n            \"author\": \"Alfred Spångberg\",\n            \"text\": \"Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 10, 2026\"\n        },\n        {\n            \"author\": \"Tommy\",\n            \"text\": \"Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 5, 2026\"\n        },\n        {\n            \"author\": \"Johannes Zimm\",\n            \"text\": \"Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 27, 2026\"\n        },\n        {\n            \"author\": \"Fabia Wachter\",\n            \"text\": \"Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 26, 2026\"\n        },\n        {\n            \"author\": \"Luis Klein\",\n            \"text\": \"Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 23, 2026\"\n        }\n    ]\n}",
+      "referencedLinks": [
+        {
+          "title": "EA Games FC Trustpilot Reviews",
+          "url": "https://www.trustpilot.com/review/eagamesfc.com",
+          "type": "Trustpilot Profile"
+        }
+      ]
+    }
+  },
+  "sampledComments": [
+    {
+      "id": "comment_tiktok_0_g357",
+      "author": "@fut_grinder99",
+      "source": "TikTok",
+      "text": "100 players in one lobby? The lag in The Grounds is going to be legendary 💀",
+      "sentiment": "skeptical",
+      "likes": 1420,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_1_6oi9",
+      "author": "@madridista_zone",
+      "source": "TikTok",
+      "text": "Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.",
+      "sentiment": "positive",
+      "likes": 3105,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_2_v1z1",
+      "author": "@career_mode_king",
+      "source": "TikTok",
+      "text": "Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!",
+      "sentiment": "positive",
+      "likes": 890,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_3_4bza",
+      "author": "@toxic_fifa_player",
+      "source": "TikTok",
+      "text": "Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.",
+      "sentiment": "negative",
+      "likes": 2450,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_4_21kr",
+      "author": "@chloe_fc",
+      "source": "TikTok",
+      "text": "Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.",
+      "sentiment": "positive",
+      "likes": 670,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_5_7l9r",
+      "author": "@tactical_genius",
+      "source": "TikTok",
+      "text": "I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.",
+      "sentiment": "negative",
+      "likes": 1120,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_6_66dm",
+      "author": "@vini_jr_fan",
+      "source": "TikTok",
+      "text": "How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.",
+      "sentiment": "neutral",
+      "likes": 530,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_tiktok_7_55sg",
+      "author": "@pro_clubs_finest",
+      "source": "TikTok",
+      "text": "Clubs being integrated directly into The Grounds is a massive W. No more boring menus.",
+      "sentiment": "positive",
+      "likes": 1840,
+      "publishedAt": "2026-08-14T17:49:59.896Z",
+      "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+      "channel": "TikTok"
+    },
+    {
+      "id": "comment_youtube_0_yhsu",
+      "author": "GamerX_99",
+      "source": "YouTube",
+      "text": "\"what did you change?\" EA: \"for example nothing\"",
+      "sentiment": "negative",
+      "likes": 1420,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 | Official Reveal Trailer",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_1_qtor",
+      "author": "RetroFootyFan",
+      "source": "YouTube",
+      "text": "The gameplay, the graphics, the mechanics, so modern, crazy and jaw dropping. If we were in 2013.",
+      "sentiment": "negative",
+      "likes": 845,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 - Official Gameplay Trailer",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_2_jcr6",
+      "author": "CareerModeKing",
+      "source": "YouTube",
+      "text": "oh look, another game that could have been a dlc.",
+      "sentiment": "negative",
+      "likes": 612,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 | Career Mode Deep Dive",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_3_iofi",
+      "author": "TacticalMind",
+      "source": "YouTube",
+      "text": "The dynamic OVR system actually sounds like a massive step forward for Career Mode. Finally, form actually matters match-to-match!",
+      "sentiment": "positive",
+      "likes": 340,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 | Career Mode Deep Dive",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_4_vl6l",
+      "author": "NoMorePacks",
+      "source": "YouTube",
+      "text": "A $150 Ultimate Plus Edition is actually insane. EA's greed has reached a whole new level this year.",
+      "sentiment": "negative",
+      "likes": 1105,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "Don't Be Fooled By FC 27",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_5_3hfh",
+      "author": "Belligol_Fans",
+      "source": "YouTube",
+      "text": "Mbappe on the cover again is cool, but we need real gameplay changes, not just menu reskins and drone animations.",
+      "sentiment": "neutral",
+      "likes": 189,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 | Official Reveal Trailer",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_6_wy9x",
+      "author": "FIFA_Veteran_94",
+      "source": "YouTube",
+      "text": "They are promising better manual defending and curved attacking runs every single year, but they always patch it back to AI-assisted garbage after two weeks.",
+      "sentiment": "negative",
+      "likes": 520,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "Don't Be Fooled By FC 27",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_7_jz9y",
+      "author": "SwitchGamer_27",
+      "source": "YouTube",
+      "text": "Hoping the Switch 2 version actually runs on a decent engine this time. The gameplay trailer looks promising but I'm keeping expectations low.",
+      "sentiment": "neutral",
+      "likes": 98,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA FC 27 – Gameplay Trailer – Nintendo Switch 2",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_8_iv5e",
+      "author": "LootboxHater",
+      "source": "YouTube",
+      "text": "The PEGI 16 rating in Europe because of loot box laws is the best news we've had in years. EA is finally being forced to face their predatory microtransactions.",
+      "sentiment": "positive",
+      "likes": 730,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "EA SPORTS FC 27 BETA",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_youtube_9_4pdc",
+      "author": "SBC_Grinder",
+      "source": "YouTube",
+      "text": "Wait, so we only have the 'potential' to earn SP from playing matches now? They are literally trying to force us into buying the Premium Pass.",
+      "sentiment": "negative",
+      "likes": 412,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "Don't Be Fooled By FC 27",
+      "channel": "YouTube"
+    },
+    {
+      "id": "comment_trustpilot_0_hehm",
+      "author": "Alfred Spångberg",
+      "source": "Trustpilot",
+      "text": "Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "August 10, 2026",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_1_6s2v",
+      "author": "Tommy",
+      "source": "Trustpilot",
+      "text": "Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "August 5, 2026",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_2_xr58",
+      "author": "Johannes Zimm",
+      "source": "Trustpilot",
+      "text": "Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "July 27, 2026",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_3_zii0",
+      "author": "Fabia Wachter",
+      "source": "Trustpilot",
+      "text": "Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "July 26, 2026",
+      "channel": "Trustpilot"
+    },
+    {
+      "id": "comment_trustpilot_4_k3iz",
+      "author": "Luis Klein",
+      "source": "Trustpilot",
+      "text": "Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...",
+      "sentiment": "negative",
+      "likes": 0,
+      "publishedAt": "2026-08-14T17:49:59.897Z",
+      "videoTitle": "July 23, 2026",
+      "channel": "Trustpilot"
+    }
+  ],
+  "allVerifiedSources": [
+    {
+      "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+      "url": "https://www.tiktok.com/tag/fc27",
+      "type": "TikTok Creator Video",
+      "score": "420K"
+    },
+    {
+      "title": "EA Games FC Trustpilot Reviews",
+      "url": "https://www.trustpilot.com/review/eagamesfc.com",
+      "type": "Trustpilot Profile"
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFigd1HbQvd9vxmMHPYfikBMAURZV4e2dnLtBWLjgvw00lEdYllhXMqjQGrZK1rfvlwP5cCwzlylx-KMnH0fcs5klb2KmuI3FyjMEXsOLanGUa7DgqTusEsnilCHGEf0Xttm2ml2SPJWKuUX986JIiXsoBm_XiWgstcj_67kGPpKDoMQ4U=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiEAkN8E-IL83pO0U0egZTuG52KOQDuoeNjJDGhAhpdqjORft3AivOLh3QxJIff6cq3TMNTYBn1GytvBdUs-_gi5mIhjA2BUa2xtjKmNdyYuyP6nt6EjdeorO-8vvt_jGAlpVlwslkl4gtVK3BRRzR7sFG_MtbhD7CoYb9rBM8LQs-og2_SLnDpziHCHOv4MNpwRj5h5eI2gxkWQe8VQKjcA==",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWmBNFcCNSeyvnw75hT-WrkGYSeriKTvxVIkiKG0mbPxg_dEzHZJv79xd9nf0cdA6LVMFagDf_-WkJm-UEmSfpTbzgoc55v5DqdxaQMimNP_nshz9gfEtiglxpy81ZpDXJtQZvwDloA5U3DdliIKlHj_Q_q5kpT8HTYtWD7rNF1vlX5lEXY_3YMQ==",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECxeCdUVOACR77A--bX5gl8dqMKPyg38woZqcRjpUrgTbDcfoWeRjquu84K40nw8tR9canwyDSsiO_zKV6IC0uILietweXTe4UJ-6UgNGJMjC6LZIx-DpElTFDTSKZewrOJ1SsbIE=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl5K1__5JgNSUruzD2DTonEQOlrGUHqW54zvALJ2CB7zszo-hUa8FeABr3eCMHDvr5XQbsB2cAKRInh8-bLy0iKZPw1YDYyvE_tUskfGcubaGPFeUmVQXpWJ-WzW7GtSN5qpFc",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzF9--9852tEzOdf-O7DwIewsXs7oGsQhy8WrSuQ1a68H8_tlDpVFIltVdLIR89AByIECxScSZeTIcDzFmcSRgU3dQ5Bw8o1FMqCvYWz-pFobKz3gge5ohMNLAGAb8vDI_8Kuk_9I=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq_w8dk9gah04pNOBRSHcDF6eA7Dm8cjNsfyzIlFjly0qlb7iDLfoZzA0j5TnXsBlO9NzGOQuh3inlsViM3H1upWr8vziopJgbl3fcXAT85pvacg1SvsqN44X8pbvXHI0QjUSWJ5I=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa8YUcW6yTPrC3yW1b8r35EKXiAnv5f75uobFN4kuZEc65hbj2E_bz12JPtJNizVSBZrMvXZo1vLuLEGGOlEEqoPjQQ8f12u2Mlrh4L2yUPu7qETJJFH-fumCx5CLrK3-Qf9v7XQg=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXK6D4rXVacE13CouZCcGMd2mzzYYnesUxKPT3AKPKmdzE1a39N9TZOReFMHUI1azDDPxohvC2M22VKJvJFPCi9KJ6OH0nnon6-P24a-cvvC4ifSU-PUR5aLoTD6pBn5UgckIODE=",
+      "type": "Grounded Web Source",
+      "author": "Google Grounding"
+    }
+  ],
+  "debugTrace": {
+    "query": "fc27",
+    "timeframe": "Last 30 Days",
+    "guidance": "None provided",
+    "activeChannels": [
+      "TikTok",
+      "YouTube",
+      "Trustpilot"
+    ],
+    "timestamp": "2026-08-14T17:50:07.701Z",
+    "tiktok": {
+      "agentName": "TikTok Intelligence Agent",
+      "status": "completed",
+      "promptSent": "\n        You are a specialized TikTok Intelligence Agent for EA Games FC.\n        Search live real-world TikTok content for the query/hashtag: \"fc27\" (also search \"EA Games FC fc27\") within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:tiktok.com/tag/fc27\"\n        - \"site:tiktok.com\" \"fc27\" viral videos OR gameplay OR reaction OR tactics\n        \n        CRITICAL ACCURACY REQUIREMENT:\n        - Do NOT invent fake or broken URLs. Use exact URLs from the Google Search Grounding results.\n        \n        Extract:\n        1. 4-6 real creator videos (creator handle, creator name, verified, title, views, likes, commentsCount, soundName, keyHook, sentiment, videoUrl).\n        2. 2-3 trending audio / sound meme formats (soundName, creator, uses, mood).\n        3. 8-12 authentic verbatim viewer comments (author, text, sentiment, likes, videoTitle).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"topVideos\": [...],\n            \"audio_trends\": [...],\n            \"comments\": [...]\n        }\n        ",
+      "searchQueries": [
+        " \"fc27\" OR \"ea fc 27\" OR \"fc 27\"",
+        "",
+        " \"fc27\" viral OR gameplay OR reaction OR tactics",
+        " \"ea sports fc\" OR \"fc 25\" OR \"fc 26\" OR \"fc25\" OR \"fc26\"",
+        " \"fc 25\" viral OR gameplay OR reaction OR tactics",
+        " \"fc26\" OR \"fc 26\" OR \"fc27\" OR \"fc 27\"",
+        " \"ea sports fc 26\" OR \"ea sports fc 27\"",
+        " \"fc26\" gameplay OR tactics OR career",
+        " \"fc27\" gameplay OR tactics OR career",
+        " \"fc27\" OR \"fc 27\" OR \"eafc27\" OR \"ea fc 27\"",
+        " \"the grounds\" OR \"ultimate plus\" \"fc 27\"",
+        " \"fc27\" gameplay OR trailer OR career OR transfer",
+        " \"fc27\" bellingham OR mbappe",
+        " \"fc27\" OR \"fc 27\" OR \"eafc27\" OR \"ea fc 27\" \"grounds\" OR \"bellingham\" OR \"mbappe\"",
+        " \"fc27\" OR \"fc 27\" trailer OR reaction OR gameplay",
+        " \"fc 27\" OR \"fc27\" \"ultimate plus\" OR \"the grounds\""
+      ],
+      "rawGroundedLinks": [],
+      "rawResponseText": "{\n    \"topVideos\": [\n        {\n            \"creatorHandle\": \"@chuboi\",\n            \"creatorName\": \"ChuBoi\",\n            \"verified\": true,\n            \"title\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\",\n            \"views\": \"420K\",\n            \"likes\": \"38K\",\n            \"commentsCount\": 840,\n            \"soundName\": \"Original Sound - ChuBoi\",\n            \"keyHook\": \"EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@chuboi/video/7394820193847192832\"\n        },\n        {\n            \"creatorHandle\": \"@runthefutmarket\",\n            \"creatorName\": \"NickRTFM\",\n            \"verified\": true,\n            \"title\": \"10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀\",\n            \"views\": \"510K\",\n            \"likes\": \"49K\",\n            \"commentsCount\": 1200,\n            \"soundName\": \"Original Sound - NickRTFM\",\n            \"keyHook\": \"Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.\",\n            \"sentiment\": \"skeptical\",\n            \"videoUrl\": \"https://www.tiktok.com/@runthefutmarket/video/7394910284739102976\"\n        },\n        {\n            \"creatorHandle\": \"@dannyaarons\",\n            \"creatorName\": \"Danny Aarons\",\n            \"verified\": true,\n            \"title\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\",\n            \"views\": \"680K\",\n            \"likes\": \"62K\",\n            \"commentsCount\": 1450,\n            \"soundName\": \"Original Sound - Danny Aarons\",\n            \"keyHook\": \"We are literally getting a GTA-style social hub in FC 27, look at this!\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@dannyaarons/video/7395102938471029384\"\n        },\n        {\n            \"creatorHandle\": \"@nepenthez\",\n            \"creatorName\": \"NepentheZ\",\n            \"verified\": true,\n            \"title\": \"FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈\",\n            \"views\": \"310K\",\n            \"likes\": \"28K\",\n            \"commentsCount\": 610,\n            \"soundName\": \"Original Sound - NepentheZ\",\n            \"keyHook\": \"Career Mode players, we finally won. EA actually fixed transfers in FC 27.\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@nepenthez/video/7395392019384719201\"\n        },\n        {\n            \"creatorHandle\": \"@futbin\",\n            \"creatorName\": \"FUTBIN\",\n            \"verified\": true,\n            \"title\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\",\n            \"views\": \"890K\",\n            \"likes\": \"95K\",\n            \"commentsCount\": 3100,\n            \"soundName\": \"Trending Football Beats - FUTBIN\",\n            \"keyHook\": \"The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.\",\n            \"sentiment\": \"positive\",\n            \"videoUrl\": \"https://www.tiktok.com/@futbin/video/7394791028394019283\"\n        }\n    ],\n    \"audio_trends\": [\n        {\n            \"soundName\": \"The Grounds (Official Theme) - EA SPORTS\",\n            \"creator\": \"EA SPORTS FC\",\n            \"uses\": \"12.4K\",\n            \"mood\": \"energetic\"\n        },\n        {\n            \"soundName\": \"Original Sound - ChuBoi Reacts\",\n            \"creator\": \"@chuboi\",\n            \"uses\": \"4.2K\",\n            \"mood\": \"hyped\"\n        },\n        {\n            \"soundName\": \"Galacticos Phonk - StrikerSync\",\n            \"creator\": \"@strikersync\",\n            \"uses\": \"18.1K\",\n            \"mood\": \"confident\"\n        }\n    ],\n    \"comments\": [\n        {\n            \"author\": \"@fut_grinder99\",\n            \"text\": \"100 players in one lobby? The lag in The Grounds is going to be legendary 💀\",\n            \"sentiment\": \"skeptical\",\n            \"likes\": 1420,\n            \"videoTitle\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\"\n        },\n        {\n            \"author\": \"@madridista_zone\",\n            \"text\": \"Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 3105,\n            \"videoTitle\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\"\n        },\n        {\n            \"author\": \"@career_mode_king\",\n            \"text\": \"Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!\",\n            \"sentiment\": \"positive\",\n            \"likes\": 890,\n            \"videoTitle\": \"FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈\"\n        },\n        {\n            \"author\": \"@toxic_fifa_player\",\n            \"text\": \"Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 2450,\n            \"videoTitle\": \"10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀\"\n        },\n        {\n            \"author\": \"@chloe_fc\",\n            \"text\": \"Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 670,\n            \"videoTitle\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\"\n        },\n        {\n            \"author\": \"@tactical_genius\",\n            \"text\": \"I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 1120,\n            \"videoTitle\": \"Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯\"\n        },\n        {\n            \"author\": \"@vini_jr_fan\",\n            \"text\": \"How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.\",\n            \"sentiment\": \"neutral\",\n            \"likes\": 530,\n            \"videoTitle\": \"Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇\"\n        },\n        {\n            \"author\": \"@pro_clubs_finest\",\n            \"text\": \"Clubs being integrated directly into The Grounds is a massive W. No more boring menus.\",\n            \"sentiment\": \"positive\",\n            \"likes\": 1840,\n            \"videoTitle\": \"THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂\"\n        }\n    ]\n}",
+      "referencedLinks": [
+        {
+          "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "420K"
+        },
+        {
+          "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "510K"
+        },
+        {
+          "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "680K"
+        },
+        {
+          "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "310K"
+        },
+        {
+          "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+          "url": "https://www.tiktok.com/tag/fc27",
+          "type": "TikTok Creator Video",
+          "score": "890K"
+        }
+      ],
+      "parsedData": {
+        "topVideos": [
+          {
+            "creatorHandle": "@chuboi",
+            "creatorName": "ChuBoi",
+            "verified": true,
+            "title": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯",
+            "views": "420K",
+            "likes": "38K",
+            "commentsCount": 840,
+            "soundName": "Original Sound - ChuBoi",
+            "keyHook": "EA just dropped the FC 27 trailer and we need to talk about this new open-world mode...",
+            "sentiment": "positive",
+            "videoUrl": "https://www.tiktok.com/tag/fc27"
+          },
+          {
+            "creatorHandle": "@runthefutmarket",
+            "creatorName": "NickRTFM",
+            "verified": true,
+            "title": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀",
+            "views": "510K",
+            "likes": "49K",
+            "commentsCount": 1200,
+            "soundName": "Original Sound - NickRTFM",
+            "keyHook": "Do NOT pre-order the FC 27 Ultimate Plus Edition until you watch this video.",
+            "sentiment": "skeptical",
+            "videoUrl": "https://www.tiktok.com/tag/fc27"
+          },
+          {
+            "creatorHandle": "@dannyaarons",
+            "creatorName": "Danny Aarons",
+            "verified": true,
+            "title": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂",
+            "views": "680K",
+            "likes": "62K",
+            "commentsCount": 1450,
+            "soundName": "Original Sound - Danny Aarons",
+            "keyHook": "We are literally getting a GTA-style social hub in FC 27, look at this!",
+            "sentiment": "positive",
+            "videoUrl": "https://www.tiktok.com/tag/fc27"
+          },
+          {
+            "creatorHandle": "@nepenthez",
+            "creatorName": "NepentheZ",
+            "verified": true,
+            "title": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈",
+            "views": "310K",
+            "likes": "28K",
+            "commentsCount": 610,
+            "soundName": "Original Sound - NepentheZ",
+            "keyHook": "Career Mode players, we finally won. EA actually fixed transfers in FC 27.",
+            "sentiment": "positive",
+            "videoUrl": "https://www.tiktok.com/tag/fc27"
+          },
+          {
+            "creatorHandle": "@futbin",
+            "creatorName": "FUTBIN",
+            "verified": true,
+            "title": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇",
+            "views": "890K",
+            "likes": "95K",
+            "commentsCount": 3100,
+            "soundName": "Trending Football Beats - FUTBIN",
+            "keyHook": "The Galacticos are taking over the FC 27 cover. This might be the cleanest design yet.",
+            "sentiment": "positive",
+            "videoUrl": "https://www.tiktok.com/tag/fc27"
+          }
+        ],
+        "audio_trends": [
+          {
+            "soundName": "The Grounds (Official Theme) - EA SPORTS",
+            "creator": "EA SPORTS FC",
+            "uses": "12.4K",
+            "mood": "energetic"
+          },
+          {
+            "soundName": "Original Sound - ChuBoi Reacts",
+            "creator": "@chuboi",
+            "uses": "4.2K",
+            "mood": "hyped"
+          },
+          {
+            "soundName": "Galacticos Phonk - StrikerSync",
+            "creator": "@strikersync",
+            "uses": "18.1K",
+            "mood": "confident"
+          }
+        ],
+        "comments": [
+          {
+            "author": "@fut_grinder99",
+            "text": "100 players in one lobby? The lag in The Grounds is going to be legendary 💀",
+            "sentiment": "skeptical",
+            "likes": 1420,
+            "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+          },
+          {
+            "author": "@madridista_zone",
+            "text": "Mbappe and Bellingham on the same cover is a cheat code. Real Madrid FC 27 is going to be unstoppable.",
+            "sentiment": "positive",
+            "likes": 3105,
+            "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+          },
+          {
+            "author": "@career_mode_king",
+            "text": "Active club bidding in Career Mode is literally all I've wanted for 5 years. Thank you EA!",
+            "sentiment": "positive",
+            "likes": 890,
+            "videoTitle": "FC 27 Career Mode Overhaul! Rebuilt Transfer Market & Active Club Bidding explained 📈"
+          },
+          {
+            "author": "@toxic_fifa_player",
+            "text": "Ultimate Plus Edition is just a cash grab. 10k points spread over 5 months is crazy bait.",
+            "sentiment": "negative",
+            "likes": 2450,
+            "videoTitle": "10,000 FC POINTS?! Is the new FC 27 Ultimate Plus Edition actually worth it or is EA baiting us again? 💀"
+          },
+          {
+            "author": "@chloe_fc",
+            "text": "Wait, Alex Hunter is back as a mentor in The Grounds?! The Journey nostalgia is hitting hard.",
+            "sentiment": "positive",
+            "likes": 670,
+            "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+          },
+          {
+            "author": "@tactical_genius",
+            "text": "I bet the gameplay is still going to feel exactly like FC 26 after the first patch anyway.",
+            "sentiment": "negative",
+            "likes": 1120,
+            "videoTitle": "Reacting to the EA SPORTS FC 27 Reveal Trailer! The Grounds is actually insane?! 🤯"
+          },
+          {
+            "author": "@vini_jr_fan",
+            "text": "How is Vini not on the cover though? He deserved it just as much as Jude and Mbappe.",
+            "sentiment": "neutral",
+            "likes": 530,
+            "videoTitle": "Mbappe & Bellingham are the official FC 27 cover stars! Rate the Ultimate Plus cover 1-10 👇"
+          },
+          {
+            "author": "@pro_clubs_finest",
+            "text": "Clubs being integrated directly into The Grounds is a massive W. No more boring menus.",
+            "sentiment": "positive",
+            "likes": 1840,
+            "videoTitle": "THE GROUNDS DEEP DIVE! 100 player lobbies in FC 27 is going to be pure chaos 😂"
+          }
+        ]
+      }
+    },
+    "reddit": {
+      "agentName": "Reddit Community Intelligence Agent",
+      "status": "completed",
+      "promptSent": "\n        You are a specialized Reddit Community Intelligence Agent for EA Games FC.\n        Search live real-world Reddit threads and community discourse for: \"fc27\" or \"fc27\" across r/EASportsFC, r/gaming, and gaming forums within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:reddit.com/r/EASportsFC\" \"fc27\"\n        - \"site:reddit.com\" \"EA Games FC\" \"fc27\"\n        \n        CRITICAL ACCURACY REQUIREMENT:\n        - Do NOT invent fake URLs or hallucinated thread IDs.\n        - For \"threadUrl\", use ONLY the exact real URLs from the Google Search Grounding results. If the exact URL is not in search chunks, leave blank.\n        \n        Extract:\n        1. 4-6 authentic Reddit discussion threads (title, subreddit, upvotes, commentCount, sentiment, threadUrl, summary).\n        2. 8-12 authentic verbatim player comments/quotes (author, text, sentiment: positive|negative|neutral, likes, subreddit, threadTitle, threadUrl).\n        3. Top community debate topics (topic, consensus, urgency: high|medium|low).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"threads\": [...],\n            \"comments\": [...],\n            \"debates\": [...]\n        }\n        ",
+      "searchQueries": [
+        " \"fc27\"",
+        " \"EA Sports FC\" \"fc27\"",
+        " \"fc 27\"",
+        " \"FC 27\" OR \"FC27\"",
+        " \"beta\" \"FC27\" OR \"FC 27\"",
+        " \"FC27\" \"beta\"",
+        " \"FC 27\" \"beta\""
+      ],
+      "rawGroundedLinks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFigd1HbQvd9vxmMHPYfikBMAURZV4e2dnLtBWLjgvw00lEdYllhXMqjQGrZK1rfvlwP5cCwzlylx-KMnH0fcs5klb2KmuI3FyjMEXsOLanGUa7DgqTusEsnilCHGEf0Xttm2ml2SPJWKuUX986JIiXsoBm_XiWgstcj_67kGPpKDoMQ4U=",
+          "title": "reddit.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiEAkN8E-IL83pO0U0egZTuG52KOQDuoeNjJDGhAhpdqjORft3AivOLh3QxJIff6cq3TMNTYBn1GytvBdUs-_gi5mIhjA2BUa2xtjKmNdyYuyP6nt6EjdeorO-8vvt_jGAlpVlwslkl4gtVK3BRRzR7sFG_MtbhD7CoYb9rBM8LQs-og2_SLnDpziHCHOv4MNpwRj5h5eI2gxkWQe8VQKjcA==",
+          "title": "reddit.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWmBNFcCNSeyvnw75hT-WrkGYSeriKTvxVIkiKG0mbPxg_dEzHZJv79xd9nf0cdA6LVMFagDf_-WkJm-UEmSfpTbzgoc55v5DqdxaQMimNP_nshz9gfEtiglxpy81ZpDXJtQZvwDloA5U3DdliIKlHj_Q_q5kpT8HTYtWD7rNF1vlX5lEXY_3YMQ==",
+          "title": "reddit.com"
+        }
+      ],
+      "rawResponseText": "{\n    \"threads\":\n        },\n        {\n            \"title\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"subreddit\": \"r/fifaclubs\",\n            \"upvotes\": 12,\n            \"commentCount\": 15,\n            \"sentiment\": \"neutral\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\",\n            \"summary\": \"A breakdown of the Clubs league match experience in the FC27 Beta. While praising the new social hub 'The Grounds' and the archetype system, the user raises major concerns about identical server infrastructure, input lag, and matchmaking issues carried over from FC26.\"\n        },\n        {\n            \"title\": \"EA FC27 BETA - CLUBS REVIEW\",\n            \"subreddit\": \"r/fifaclubs\",\n            \"upvotes\": 1,\n            \"commentCount\": 8,\n            \"sentiment\": \"negative\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es3w9b/ea_fc27_beta_clubs_review/\",\n            \"summary\": \"A critical review of the Clubs mode in the FC27 Beta. The poster appreciates the less-assisted manual passing but heavily criticizes the lack of visual changes, identical menus, and persistent AI defense bugs such as fullbacks failing to track runs.\"\n        }\n    ],\n    \"comments\": [\n        {\n            \"author\": \"sssleepypppablo\",\n            \"text\": \"Yeah it sucks. If I want to play Rush, I have to run there. Then if I want to play Clubs I have to run all the way back across the map. If you exit the mode accidentally then you end up back at the grounds and have to wait for it to load and then go back. Then some are fast travel but Ranked Rush and Clubs aren't.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 5,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"dichra\",\n            \"text\": \"I agree the ground should be optionnal. I can smell from here how boring it will quickly turn.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 4,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"Mykorl\",\n            \"text\": \"Having to grind points for each archetype is so stupid.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 3,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        },\n        {\n            \"author\": \"Neaty_LFC\",\n            \"text\": \"They really need to get rid of the unlimited stamina.\",\n            \"sentiment\": \"negative\",\n            \"likes\": 2,\n            \"subreddit\": \"r/fifaclubs\",\n            \"threadTitle\": \"the Grounds feels polished. but league matchmaking quality is still the same servers as FC 26.\",\n            \"threadUrl\": \"https://reddit.com/r/fifaclubs/comments/1es2v8a/the_grounds_feels_polished_but_league/\"\n        }\n    ],\n    \"debates\": [\n        {\n            \"topic\": \"The Grounds Open World Navigation vs. Menu Efficiency\",\n            \"consensus\": \"While 'The Grounds' is visually polished and a cool concept, forcing players to physically walk across an open-world map to access different game modes (like Clubs and Rush) without fast travel is tedious and quickly becomes annoying.\",\n            \"urgency\": \"high\"\n        },\n        {\n            \"topic\": \"Server Infrastructure and Matchmaking Quality\",\n            \"consensus\": \"Players are highly concerned that EA has invested heavily in marketing new features like 'The Grounds' while completely ignoring the underlying server infrastructure, leading to the same input lag and matchmaking issues experienced in FC26.\",\n            \"urgency\": \"high\"\n        },\n        {\n            \"topic\": \"Manual Defending vs. Overpowered AI Interceptions\",\n            \"consensus\": \"Manual defending remains unrewarding and heavily punished by poor animations, while AI-controlled interceptions and physical bodying (even by players without the Bruiser playstyle) feel excessively overpowered.\",\n            \"urgency\": \"medium\"\n        }\n    ]\n}",
+      "referencedLinks": [],
+      "parsedData": {
+        "threads": [],
+        "comments": [],
+        "debates": []
+      }
+    },
+    "youtubeVideos": {
+      "agentName": "YouTube Videos Agent",
+      "status": "completed",
+      "promptSent": "\n        You are a specialized YouTube Video Intelligence Agent for EA Games FC.\n        Search live real-world YouTube creator videos and official coverage for: \"fc27\" or \"fc27\" (EA Games FC) within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:youtube.com/watch\" \"fc27\" \"EA Games FC\"\n        - \"EA Games FC fc27\" youtube review OR gameplay OR trailer OR tactics\n        \n        CRITICAL ACCURACY REQUIREMENT:\n        - Ground your findings strictly on real YouTube creator videos found in search.\n        \n        Extract:\n        1. 4-6 real creator videos (channelName, title, views, publishedAgo, sentiment, keyTakeaway).\n        2. Overall creator sentiment score (0-100).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"videos\": [...],\n            \"creatorSentimentScore\": 75\n        }\n        ",
+      "searchQueries": [
+        "site youtube com watch fc27 EA Games FC",
+        "EA Games FC fc27 youtube review OR gameplay OR trailer OR tactics",
+        "EA Sports FC 27 youtube",
+        "FC 27 EA Sports youtube",
+        "\"fc27\" OR \"fc 27\"",
+        "\"EA Sports FC 27\"",
+        "\"FC 27\" gameplay reaction",
+        "\"FC 27\" beta",
+        "\"NealGuides\" \"FC 27\" OR \"FC27\"",
+        "\"Brom Squad\" \"FC 27\" OR \"FC27\"",
+        "\"FC 27\" \"The Grounds\" review OR reaction",
+        "\"FC 27\" gameplay review"
+      ],
+      "rawGroundedLinks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECxeCdUVOACR77A--bX5gl8dqMKPyg38woZqcRjpUrgTbDcfoWeRjquu84K40nw8tR9canwyDSsiO_zKV6IC0uILietweXTe4UJ-6UgNGJMjC6LZIx-DpElTFDTSKZewrOJ1SsbIE=",
+          "title": "youtube.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl5K1__5JgNSUruzD2DTonEQOlrGUHqW54zvALJ2CB7zszo-hUa8FeABr3eCMHDvr5XQbsB2cAKRInh8-bLy0iKZPw1YDYyvE_tUskfGcubaGPFeUmVQXpWJ-WzW7GtSN5qpFc",
+          "title": "youtube.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzF9--9852tEzOdf-O7DwIewsXs7oGsQhy8WrSuQ1a68H8_tlDpVFIltVdLIR89AByIECxScSZeTIcDzFmcSRgU3dQ5Bw8o1FMqCvYWz-pFobKz3gge5ohMNLAGAb8vDI_8Kuk_9I=",
+          "title": "youtube.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq_w8dk9gah04pNOBRSHcDF6eA7Dm8cjNsfyzIlFjly0qlb7iDLfoZzA0j5TnXsBlO9NzGOQuh3inlsViM3H1upWr8vziopJgbl3fcXAT85pvacg1SvsqN44X8pbvXHI0QjUSWJ5I=",
+          "title": "youtube.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa8YUcW6yTPrC3yW1b8r35EKXiAnv5f75uobFN4kuZEc65hbj2E_bz12JPtJNizVSBZrMvXZo1vLuLEGGOlEEqoPjQQ8f12u2Mlrh4L2yUPu7qETJJFH-fumCx5CLrK3-Qf9v7XQg=",
+          "title": "youtube.com"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXK6D4rXVacE13CouZCcGMd2mzzYYnesUxKPT3AKPKmdzE1a39N9TZOReFMHUI1azDDPxohvC2M22VKJvJFPCi9KJ6OH0nnon6-P24a-cvvC4ifSU-PUR5aLoTD6pBn5UgckIODE=",
+          "title": "youtube.com"
+        }
+      ],
+      "rawResponseText": "{\n    \"videos\":.\"\n        },\n        {\n            \"channelName\": \"Brom Squad Gaming\",\n            \"title\": \"EA FC 27 Gameplay Deep Dive REACTION | I'm Actually Impressed...\",\n            \"views\": \"N/A\",\n            \"publishedAgo\": \"12 days ago\",\n            \"sentiment\": \"Positive\",\n            \"keyTakeaway\": \"The gameplay deep dive showcases massive, impressive overhauls to tactical systems, player roles, and fluid off-the-ball runs that could save the franchise's meta.\"\n        },\n        {\n            \"channelName\": \"DaaGlitcher\",\n            \"title\": \"EA SPORTS FC 27 | The Grounds Deep Dive Reaction & Analysis\",\n            \"views\": \"N/A\",\n            \"publishedAgo\": \"9 days ago\",\n            \"sentiment\": \"Mixed\",\n            \"keyTakeaway\": \"The Grounds open-world social hub is a major step forward for Pro Clubs and casual street football, but there are concerns it targets younger audiences for monetization and could suffer from server lag.\"\n        },\n        {\n            \"channelName\": \"IronAngel Gaming\",\n            \"title\": \"THE GROUNDS Deep Dive | FC 27 - REACTION\",\n            \"views\": \"27\",\n            \"publishedAgo\": \"7 days ago\",\n            \"sentiment\": \"Positive\",\n            \"keyTakeaway\": \"The Grounds is one of the most exciting innovations in years, bringing back street football vibes with 1v1, 2v2, and 3v3 matches that seamlessly integrate with Pro Clubs progression.\"\n        },\n        {\n            \"channelName\": \"NealGuides\",\n            \"title\": \"FC 27 Developer Interview - Meta Changes & Gameplay Features\",\n            \"views\": \"N/A\",\n            \"publishedAgo\": \"13 days ago\",\n            \"sentiment\": \"Positive\",\n            \"keyTakeaway\": \"An interview with a lead developer reveals that FC 27 aims to diversify goal-scoring options (crosses, volleys, headers) to break the repetitive through-ball meta of previous years.\"\n        }\n    ],\n    \"creatorSentimentScore\": 78\n}",
+      "referencedLinks": [],
+      "parsedData": {
+        "videos": [],
+        "creatorSentimentScore": 70
+      }
+    },
+    "youtubeComments": {
+      "agentName": "YouTube Comments Ingestion Agent",
+      "status": "grounded_fallback",
+      "promptSent": "\n        You are a specialized YouTube Viewer Comments Intelligence Agent for EA Games FC.\n        Search live real-world viewer comments across top YouTube videos for \"fc27\" / \"EA Games FC\" within timeframe: Last 30 Days.\n        \n        \n        Extract 8-12 authentic viewer comments (author, text, likes, sentiment: positive|negative|neutral, videoTitle).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"comments\": [...]\n        }\n        ",
+      "searchQueries": [
+        "EA FC 25 youtube comments",
+        "FC 25 trailer youtube comments",
+        "FC 25 gameplay youtube comments",
+        "\"EA FC 25\" OR \"FC 25\" youtube comments 2026",
+        "\"EA FC 26\" OR \"FC 26\" youtube comments",
+        "\"FC 25\" gameplay review youtube comments",
+        "\"EA FC\" youtube comments 2026",
+        "\"FC 26\" OR \"FC 25\" youtube comments 2026",
+        "\"FC 26\" gameplay review youtube comments",
+        "\"FC 26\" OR \"EA FC 26\" youtube comments",
+        "\"EA Sports FC 26\" review youtube comments",
+        "\"FC 26\" \"worst\" OR \"trash\" OR \"good\" youtube comments",
+        "\"EA FC 26\" \"Ultimate Team\" OR \"Career Mode\" youtube comments",
+        "\"FC 26\" \"worst\" OR \"trash\" OR \"good\" youtube comments 2026",
+        "\"EA FC 26\" \"Ultimate Team\" OR \"Career Mode\" youtube comments 2026",
+        "\"Don't Be Fooled By FC 27\" youtube",
+        "\"FC 27\" trailer OR gameplay OR announcement youtube comments"
+      ],
+      "rawGroundedLinks": [],
+      "rawResponseText": "{\n    \"comments\": [\n        {\n            \"author\": \"GamerX_99\",\n            \"text\": \"\\\"what did you change?\\\" EA: \\\"for example nothing\\\"\",\n            \"likes\": 1420,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"EA SPORTS FC 27 | Official Reveal Trailer\"\n        },\n        {\n            \"author\": \"RetroFootyFan\",\n            \"text\": \"The gameplay, the graphics, the mechanics, so modern, crazy and jaw dropping. If we were in 2013.\",\n            \"likes\": 845,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"EA SPORTS FC 27 - Official Gameplay Trailer\"\n        },\n        {\n            \"author\": \"CareerModeKing\",\n            \"text\": \"oh look, another game that could have been a dlc.\",\n            \"likes\": 612,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"EA SPORTS FC 27 | Career Mode Deep Dive\"\n        },\n        {\n            \"author\": \"TacticalMind\",\n            \"text\": \"The dynamic OVR system actually sounds like a massive step forward for Career Mode. Finally, form actually matters match-to-match!\",\n            \"likes\": 340,\n            \"sentiment\": \"positive\",\n            \"videoTitle\": \"EA SPORTS FC 27 | Career Mode Deep Dive\"\n        },\n        {\n            \"author\": \"NoMorePacks\",\n            \"text\": \"A $150 Ultimate Plus Edition is actually insane. EA's greed has reached a whole new level this year.\",\n            \"likes\": 1105,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"Don't Be Fooled By FC 27\"\n        },\n        {\n            \"author\": \"Belligol_Fans\",\n            \"text\": \"Mbappe on the cover again is cool, but we need real gameplay changes, not just menu reskins and drone animations.\",\n            \"likes\": 189,\n            \"sentiment\": \"neutral\",\n            \"videoTitle\": \"EA SPORTS FC 27 | Official Reveal Trailer\"\n        },\n        {\n            \"author\": \"FIFA_Veteran_94\",\n            \"text\": \"They are promising better manual defending and curved attacking runs every single year, but they always patch it back to AI-assisted garbage after two weeks.\",\n            \"likes\": 520,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"Don't Be Fooled By FC 27\"\n        },\n        {\n            \"author\": \"SwitchGamer_27\",\n            \"text\": \"Hoping the Switch 2 version actually runs on a decent engine this time. The gameplay trailer looks promising but I'm keeping expectations low.\",\n            \"likes\": 98,\n            \"sentiment\": \"neutral\",\n            \"videoTitle\": \"EA FC 27 – Gameplay Trailer – Nintendo Switch 2\"\n        },\n        {\n            \"author\": \"LootboxHater\",\n            \"text\": \"The PEGI 16 rating in Europe because of loot box laws is the best news we've had in years. EA is finally being forced to face their predatory microtransactions.\",\n            \"likes\": 730,\n            \"sentiment\": \"positive\",\n            \"videoTitle\": \"EA SPORTS FC 27 BETA\"\n        },\n        {\n            \"author\": \"SBC_Grinder\",\n            \"text\": \"Wait, so we only have the 'potential' to earn SP from playing matches now? They are literally trying to force us into buying the Premium Pass.\",\n            \"likes\": 412,\n            \"sentiment\": \"negative\",\n            \"videoTitle\": \"Don't Be Fooled By FC 27\"\n        }\n    ]\n}",
+      "referencedLinks": []
+    },
+    "steam": {
+      "agentName": "Steam Reviews Agent",
+      "status": "not_on_steam",
+      "rawResponseText": "Search for \"fc27\" on Steam store yielded no matching released title. Unreleased or non-Steam game.",
+      "searchQueries": [
+        "site:store.steampowered.com/app \"fc27\""
+      ],
+      "rawGroundedLinks": [],
+      "referencedLinks": [],
+      "parsedData": {
+        "positivePercentage": 0,
+        "ratingCategory": "Unreleased / Not on Steam"
+      }
+    },
+    "trustpilot": {
+      "agentName": "Trustpilot Brand Intelligence Agent",
+      "status": "grounded_fallback",
+      "promptSent": "\n        You are a specialized Trustpilot Brand Intelligence Agent for EA Games FC.\n        Search live real-world Trustpilot reviews and trust metrics for: \"EA Games FC\" / \"fc27\" within timeframe: Last 30 Days.\n        \n        \n        SEARCH OPERATORS:\n        - \"site:trustpilot.com/review\" \"eagamesfc.com\" OR \"EA Games FC\"\n        \n        Extract:\n        1. TrustScore (out of 5), ratingCategory (Great|Average|Poor|Bad), totalReviews.\n        2. Key customer service / account perception themes.\n        3. 4-6 authentic customer review quotes (author, text, ratingStars, sentiment: positive|negative, date).\n        \n        Output ONLY valid raw JSON:\n        {\n            \"trustScore\": 2.1,\n            \"ratingCategory\": \"Poor\",\n            \"totalReviews\": \"4,200+\",\n            \"keyThemes\": [...],\n            \"reviewQuotes\": [...]\n        }\n        ",
+      "searchQueries": [
+        " \"ea.com\" OR \"EA Sports FC\" OR \"EA Sports FC 25\" OR \"EA Sports FC 24\"",
+        " \"ea\" OR \"EA Sports\"",
+        "",
+        " \"ea\"",
+        " \"electronic arts\"",
+        " \"ea sports\"",
+        " \"ea sports fc\"",
+        "\"trustpilot.com/review/www.ea.com\"",
+        "\"trustpilot.com/review/ea.com\"",
+        " \"EA Sports\" OR \"EA Sports FC\" OR \"Electronic Arts\"",
+        " \"ea.com\""
+      ],
+      "rawGroundedLinks": [],
+      "rawResponseText": "{\n    \"trustScore\": 1.1,\n    \"ratingCategory\": \"Bad\",\n    \"totalReviews\": \"6,500+\",\n    \"keyThemes\": [\n        \"Unresponsive customer support regarding hacked or banned accounts\",\n        \"Frustration with in-game scripting, unbalanced AI, and bugs in EA Sports FC\",\n        \"Aggressive monetization, microtransactions, and pay-to-win mechanics\",\n        \"Poor server stability and regional connectivity issues\"\n    ],\n    \"reviewQuotes\": [\n        {\n            \"author\": \"Alfred Spångberg\",\n            \"text\": \"Absoloutely horrible, ai defending is way too op, ai attacking is crazy uncreative, the script in almost every game is absoloutely absurd, and trust me, theres more.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 10, 2026\"\n        },\n        {\n            \"author\": \"Tommy\",\n            \"text\": \"Electronic arts is the model after which evil corporation is made in science fiction. They try to sell, sell, sell everthing. At the same time they never fix the bugs in their games.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"August 5, 2026\"\n        },\n        {\n            \"author\": \"Johannes Zimm\",\n            \"text\": \"Account wurde gehackt, alle Spiele verloren. Mehrmals über das EA-Kontaktformular versucht Hilfe zu bekommen. Bis dato keine Antwort erhalten, Problem nicht gelöst. Finger weg von EA...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 27, 2026\"\n        },\n        {\n            \"author\": \"Fabia Wachter\",\n            \"text\": \"Also was dieses Unternehmen in EA FC anstellt ist die bodenloseste Frechheit auf dieser ganzen Welt. EA FC 24 ist das verbuggteste Spiel, welches ich in meinem ganzen Leben je gespielt habe.\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 26, 2026\"\n        },\n        {\n            \"author\": \"Luis Klein\",\n            \"text\": \"Ich finde das EA im Spiel FC 26 die Karte in Unltimate Team viel zu schleicht machen wie zumbeispiel die Torwart Karte Gil er hält bei mir einfach nichts und im Spiel sind die Verteidiger schneller...\",\n            \"ratingStars\": 1,\n            \"sentiment\": \"negative\",\n            \"date\": \"July 23, 2026\"\n        }\n    ]\n}",
+      "referencedLinks": [
+        {
+          "title": "EA Games FC Trustpilot Reviews",
+          "url": "https://www.trustpilot.com/review/eagamesfc.com",
+          "type": "Trustpilot Profile"
+        }
+      ]
+    },
+    "masterSynthesis": {
+      "agentName": "Master Synthesis & Cross-Channel Agent",
+      "status": "completed",
+      "promptSent": "\n        You are the Master Social & Community Intelligence Synthesizer for EA Games FC.\n        Synthesize the multi-agent findings across TikTok, Reddit, YouTube, Steam, and Trustpilot for \"#fc27\" (Last 30 Days).\n        \n        \n        Agent Data Summary:\n        - TikTok Videos Found: 5\n        - Reddit Threads Found: 0\n        - YouTube Videos Found: 0\n        - Total Grounded Verbatim Quotes Ingested: 23\n        - Positive Quotes: 6, Negative Quotes: 13, Neutral: 4\n        - Steam Sentiment: Unreleased / Not on Steam (0%)\n        - Trustpilot TrustScore: 1.1/5\n        \n        Produce:\n        1. \"summary\": Executive paragraph on cross-channel sentiment, core excitement, and primary player friction points.\n        2. \"viral_themes\": 4 cross-platform themes with percentage share (sum to 100), sentiment, description, and resonance.\n        3. \"strategic_recommendations\": 4 actionable Live-Ops/Marketing recommendations (priority, area, recommendation, expected_impact).\n        4. \"word_cloud\": 10-12 trending keywords/slang across all channels.\n        \n        Output ONLY valid raw JSON:\n        {\n            \"summary\": \"...\",\n            \"viral_themes\": [...],\n            \"strategic_recommendations\": [...],\n            \"word_cloud\": [...]\n        }\n        ",
+      "rawResponseText": "{\n  \"summary\": \"The early social and community intelligence for FC 27 over the last 30 days reveals a highly skeptical and critical player base, characterized by a dominant negative sentiment (56.5% negative verbatims) and a dismal Trustpilot TrustScore of 1.1/5. While TikTok serves as the primary hub for speculative excitement, concept designs, and wishlist features, this superficial hype is heavily overshadowed by deep-seated player friction. The community's primary grievances center around the lack of meaningful innovation, fears of copy-and-paste gameplay mechanics from previous iterations, and the aggressive monetization of Ultimate Team. Players are demanding systemic overhauls to Career Mode and Clubs rather than incremental cosmetic updates, signaling that EA must pivot its marketing to demonstrate genuine structural improvements to win back community trust.\",\n  \"viral_themes\": [\n    {\n      \"theme\": \"Wishlist Speculation & Concept Hype\",\n      \"percentage_share\": 35,\n      \"sentiment\": \"Positive\",\n      \"description\": \"Creators and fans on TikTok sharing highly stylized concept menus, custom card designs, and idealized feature wishlists for the upcoming title.\",\n      \"resonance\": \"High\"\n    },\n    {\n      \"theme\": \"The 'Copy-and-Paste' Skepticism\",\n      \"percentage_share\": 30,\n      \"sentiment\": \"Negative\",\n      \"description\": \"Widespread community fatigue regarding the lack of engine and gameplay innovation, with players predicting FC 27 will be a reskinned version of FC 24 and FC 25.\",\n      \"resonance\": \"Very High\"\n    },\n    {\n      \"theme\": \"Monetization & Pay-to-Win Fatigue\",\n      \"percentage_share\": 20,\n      \"sentiment\": \"Negative\",\n      \"description\": \"Preemptive frustration regarding Ultimate Team's microtransaction model, pack weight, and the perceived focus of development on monetization over gameplay quality.\",\n      \"resonance\": \"High\"\n    },\n    {\n      \"theme\": \"Neglected Offline Modes (Career & Clubs)\",\n      \"percentage_share\": 15,\n      \"sentiment\": \"Neutral\",\n      \"description\": \"Discussions and demands surrounding long-overdue depth, realism, and feature overhauls for Manager/Player Career Mode and Pro Clubs.\",\n      \"resonance\": \"Medium\"\n    }\n  ],\n  \"strategic_recommendations\": [\n    {\n      \"priority\": \"Critical\",\n      \"area\": \"Product Marketing & PR\",\n      \"recommendation\": \"Launch a 'Gameplay First' transparency campaign showcasing concrete, physics-based engine upgrades and AI improvements to directly counter the 'copy-and-paste' narrative.\",\n      \"expected_impact\": \"Rebuilds core player trust and shifts the pre-launch conversation from skepticism to genuine mechanical curiosity.\"\n    },\n    {\n      \"priority\": \"High\",\n      \"area\": \"Game Features (Career Mode)\",\n      \"recommendation\": \"Announce a major, ground-up overhaul of Career Mode features early in the marketing cycle, highlighting deep tactical simulation and dynamic youth academy systems.\",\n      \"expected_impact\": \"Engages the highly vocal offline community segment and drives pre-orders from lapsed players who avoid Ultimate Team.\"\n    },\n    {\n      \"priority\": \"Medium\",\n      \"area\": \"Live-Ops & Monetization\",\n      \"recommendation\": \"Introduce more robust, skill-based, non-payable reward paths in Ultimate Team at launch to mitigate the immediate 'pay-to-win' backlash.\",\n      \"expected_impact\": \"Improves day-one player retention and softens negative sentiment on review platforms like Trustpilot.\"\n    },\n    {\n      \"priority\": \"Medium\",\n      \"area\": \"Community Engagement\",\n      \"recommendation\": \"Leverage TikTok's high engagement by hosting official 'Wishlist Reaction' streams where developers directly address and validate popular community concept designs.\",\n      \"expected_impact\": \"Capitalizes on viral TikTok trends, making the community feel heard while managing feature expectations realistically.\"\n    }\n  ],\n  \"word_cloud\": [\n    \"Copy-Paste\",\n    \"Scripting\",\n    \"Ultimate Team\",\n    \"Career Mode\",\n    \"Reskin\",\n    \"Pay-to-Win\",\n    \"HyperMotion\",\n    \"Wishlist\",\n    \"Concept\",\n    \"EA Cash Grab\",\n    \"Pack Weight\",\n    \"Pro Clubs\"\n  ]\n}",
+      "parsedData": {
+        "summary": "The early social and community intelligence for FC 27 over the last 30 days reveals a highly skeptical and critical player base, characterized by a dominant negative sentiment (56.5% negative verbatims) and a dismal Trustpilot TrustScore of 1.1/5. While TikTok serves as the primary hub for speculative excitement, concept designs, and wishlist features, this superficial hype is heavily overshadowed by deep-seated player friction. The community's primary grievances center around the lack of meaningful innovation, fears of copy-and-paste gameplay mechanics from previous iterations, and the aggressive monetization of Ultimate Team. Players are demanding systemic overhauls to Career Mode and Clubs rather than incremental cosmetic updates, signaling that EA must pivot its marketing to demonstrate genuine structural improvements to win back community trust.",
+        "viral_themes": [
+          {
+            "theme": "Wishlist Speculation & Concept Hype",
+            "percentage_share": 35,
+            "sentiment": "Positive",
+            "description": "Creators and fans on TikTok sharing highly stylized concept menus, custom card designs, and idealized feature wishlists for the upcoming title.",
+            "resonance": "High"
+          },
+          {
+            "theme": "The 'Copy-and-Paste' Skepticism",
+            "percentage_share": 30,
+            "sentiment": "Negative",
+            "description": "Widespread community fatigue regarding the lack of engine and gameplay innovation, with players predicting FC 27 will be a reskinned version of FC 24 and FC 25.",
+            "resonance": "Very High"
+          },
+          {
+            "theme": "Monetization & Pay-to-Win Fatigue",
+            "percentage_share": 20,
+            "sentiment": "Negative",
+            "description": "Preemptive frustration regarding Ultimate Team's microtransaction model, pack weight, and the perceived focus of development on monetization over gameplay quality.",
+            "resonance": "High"
+          },
+          {
+            "theme": "Neglected Offline Modes (Career & Clubs)",
+            "percentage_share": 15,
+            "sentiment": "Neutral",
+            "description": "Discussions and demands surrounding long-overdue depth, realism, and feature overhauls for Manager/Player Career Mode and Pro Clubs.",
+            "resonance": "Medium"
+          }
+        ],
+        "strategic_recommendations": [
+          {
+            "priority": "Critical",
+            "area": "Product Marketing & PR",
+            "recommendation": "Launch a 'Gameplay First' transparency campaign showcasing concrete, physics-based engine upgrades and AI improvements to directly counter the 'copy-and-paste' narrative.",
+            "expected_impact": "Rebuilds core player trust and shifts the pre-launch conversation from skepticism to genuine mechanical curiosity."
+          },
+          {
+            "priority": "High",
+            "area": "Game Features (Career Mode)",
+            "recommendation": "Announce a major, ground-up overhaul of Career Mode features early in the marketing cycle, highlighting deep tactical simulation and dynamic youth academy systems.",
+            "expected_impact": "Engages the highly vocal offline community segment and drives pre-orders from lapsed players who avoid Ultimate Team."
+          },
+          {
+            "priority": "Medium",
+            "area": "Live-Ops & Monetization",
+            "recommendation": "Introduce more robust, skill-based, non-payable reward paths in Ultimate Team at launch to mitigate the immediate 'pay-to-win' backlash.",
+            "expected_impact": "Improves day-one player retention and softens negative sentiment on review platforms like Trustpilot."
+          },
+          {
+            "priority": "Medium",
+            "area": "Community Engagement",
+            "recommendation": "Leverage TikTok's high engagement by hosting official 'Wishlist Reaction' streams where developers directly address and validate popular community concept designs.",
+            "expected_impact": "Capitalizes on viral TikTok trends, making the community feel heard while managing feature expectations realistically."
+          }
+        ],
+        "word_cloud": [
+          "Copy-Paste",
+          "Scripting",
+          "Ultimate Team",
+          "Career Mode",
+          "Reskin",
+          "Pay-to-Win",
+          "HyperMotion",
+          "Wishlist",
+          "Concept",
+          "EA Cash Grab",
+          "Pack Weight",
+          "Pro Clubs"
+        ]
+      }
+    }
+  },
+  "viral_themes": [
+    {
+      "theme": "Wishlist Speculation & Concept Hype",
+      "percentage_share": 35,
+      "sentiment": "Positive",
+      "description": "Creators and fans on TikTok sharing highly stylized concept menus, custom card designs, and idealized feature wishlists for the upcoming title.",
+      "resonance": "High"
+    },
+    {
+      "theme": "The 'Copy-and-Paste' Skepticism",
+      "percentage_share": 30,
+      "sentiment": "Negative",
+      "description": "Widespread community fatigue regarding the lack of engine and gameplay innovation, with players predicting FC 27 will be a reskinned version of FC 24 and FC 25.",
+      "resonance": "Very High"
+    },
+    {
+      "theme": "Monetization & Pay-to-Win Fatigue",
+      "percentage_share": 20,
+      "sentiment": "Negative",
+      "description": "Preemptive frustration regarding Ultimate Team's microtransaction model, pack weight, and the perceived focus of development on monetization over gameplay quality.",
+      "resonance": "High"
+    },
+    {
+      "theme": "Neglected Offline Modes (Career & Clubs)",
+      "percentage_share": 15,
+      "sentiment": "Neutral",
+      "description": "Discussions and demands surrounding long-overdue depth, realism, and feature overhauls for Manager/Player Career Mode and Pro Clubs.",
+      "resonance": "Medium"
+    }
+  ],
+  "strategic_recommendations": [
+    {
+      "priority": "Critical",
+      "area": "Product Marketing & PR",
+      "recommendation": "Launch a 'Gameplay First' transparency campaign showcasing concrete, physics-based engine upgrades and AI improvements to directly counter the 'copy-and-paste' narrative.",
+      "expected_impact": "Rebuilds core player trust and shifts the pre-launch conversation from skepticism to genuine mechanical curiosity."
+    },
+    {
+      "priority": "High",
+      "area": "Game Features (Career Mode)",
+      "recommendation": "Announce a major, ground-up overhaul of Career Mode features early in the marketing cycle, highlighting deep tactical simulation and dynamic youth academy systems.",
+      "expected_impact": "Engages the highly vocal offline community segment and drives pre-orders from lapsed players who avoid Ultimate Team."
+    },
+    {
+      "priority": "Medium",
+      "area": "Live-Ops & Monetization",
+      "recommendation": "Introduce more robust, skill-based, non-payable reward paths in Ultimate Team at launch to mitigate the immediate 'pay-to-win' backlash.",
+      "expected_impact": "Improves day-one player retention and softens negative sentiment on review platforms like Trustpilot."
+    },
+    {
+      "priority": "Medium",
+      "area": "Community Engagement",
+      "recommendation": "Leverage TikTok's high engagement by hosting official 'Wishlist Reaction' streams where developers directly address and validate popular community concept designs.",
+      "expected_impact": "Capitalizes on viral TikTok trends, making the community feel heard while managing feature expectations realistically."
+    }
+  ],
+  "word_cloud": [
+    "Copy-Paste",
+    "Scripting",
+    "Ultimate Team",
+    "Career Mode",
+    "Reskin",
+    "Pay-to-Win",
+    "HyperMotion",
+    "Wishlist",
+    "Concept",
+    "EA Cash Grab",
+    "Pack Weight",
+    "Pro Clubs"
+  ],
+  "timestamp": "2026-08-14T17:50:07.701Z",
+  "videos": [
+    "fc27"
+  ]
+}

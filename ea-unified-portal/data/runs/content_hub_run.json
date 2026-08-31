@@ -1,0 +1,83 @@
+{
+  "variants": [
+    {
+      "id": "var_email_a",
+      "type": "Email",
+      "title": "EA SPORTS FC 27 Ultimate Edition Pre-Order Perks",
+      "primaryText": "Secure 7-day early access, 4,600 FC Points, and an untradeable localized Hero Player Pick item.",
+      "offer": "Pre-Order & Get 4,600 FC Points",
+      "targetCategory": "Full Game & Early Access",
+      "imagePrompt": "Official EA SPORTS FC 27 Ultimate Edition video game box cover with electric emerald stadium lighting in background, 3:4 aspect ratio."
+    },
+    {
+      "id": "var_email_b",
+      "type": "Email",
+      "title": "Ultimate Team 12,000 FC Point Flash Drop",
+      "primaryText": "Power up your squad chemistry before Weekend League kick-off with exclusive point bundles.",
+      "offer": "Bonus Draft Tokens with 12K Points",
+      "targetCategory": "Ultimate Team Currency",
+      "imagePrompt": "Glowing gold and emerald green FC Points digital pack card on a sleek carbon-fiber studio background."
+    },
+    {
+      "id": "var_email_c",
+      "type": "Email",
+      "title": "FC IQ Tactical & Coaching Masterclass Expansion",
+      "primaryText": "Revamp your club's tactical identity with authentic real-world managerial playbooks and deep AI logic.",
+      "offer": "$29.99 DLC Pre-Order",
+      "targetCategory": "Career Mode Expansion",
+      "imagePrompt": "Futuristic 3D holographic tactics board with player positioning graphics inside a modern football stadium suite."
+    },
+    {
+      "id": "var_sms_a",
+      "type": "SMS",
+      "title": "Early Access Web App Launch Alert",
+      "primaryText": "EA SPORTS FC 27: The Ultimate Team Web App is now live! Open your returning loyalty packs and start building your starting 11:",
+      "offer": "Free Loyalty Welcome Pack",
+      "targetCategory": "Ultimate Team Live Ops"
+    },
+    {
+      "id": "var_sms_b",
+      "type": "SMS",
+      "title": "FC Pro Championship Double XP Weekend",
+      "primaryText": "Clubs & Ultimate Team: Earn 2x Season Pass XP on all competitive division matches this weekend only. Tap to play:",
+      "offer": "2x Season Pass XP",
+      "targetCategory": "Esports & Competitive"
+    },
+    {
+      "id": "var_sms_c",
+      "type": "SMS",
+      "title": "EA Play 10-Hour Trial Active",
+      "primaryText": "EA Play Members: Your 10-hour full game trial for EA SPORTS FC 27 is now ready to download. Jump onto the pitch today:",
+      "offer": "10-Hour Early Trial",
+      "targetCategory": "Subscriptions & Access"
+    },
+    {
+      "id": "var_web_a",
+      "type": "Web",
+      "title": "Next-Gen HypermotionV+ Volumetric Realism",
+      "primaryText": "Experience over 11,000 authentic match animations captured directly from elite UEFA Champions League fixtures.",
+      "offer": "Explore Gameplay Innovations",
+      "targetCategory": "Next-Gen Engine",
+      "imagePrompt": "World-class football player in dynamic mid-air volley pose captured with high-tech volumetric motion lines and stadium spotlights."
+    },
+    {
+      "id": "var_web_b",
+      "type": "Web",
+      "title": "Clubs & VOLTA Street Football Customization",
+      "primaryText": "Take your customized pro to the global street stages with licensed streetwear drops and custom team crests.",
+      "offer": "Claim Founder Avatar Pack",
+      "targetCategory": "Clubs & VOLTA",
+      "imagePrompt": "Trendy football streetwear jerseys, custom cleats, and branded lifestyle apparel on display inside an urban street court."
+    },
+    {
+      "id": "var_web_c",
+      "type": "Web",
+      "title": "Official Licensed Stadiums & Ultras Atmosphere",
+      "primaryText": "Feel the passion of over 120 authentic licensed stadiums with dynamic pyrotechnics, crowd tifos, and real club chants.",
+      "offer": "Free Stadium Customization Pack",
+      "targetCategory": "Immersion & Customization",
+      "imagePrompt": "Spectacular panoramic view of a packed football stadium illuminated by vibrant crowd flares and massive team tifo under the night sky."
+    }
+  ],
+  "timestamp": "8/28/2026, 12:58:24 PM"
+}

@@ -1,0 +1,2892 @@
+[
+  {
+    "player_id": "ea-usr-02885",
+    "gamer_tag": "Cruyff_Pro_915",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Tokyo, Japan",
+    "lifetime_spend_usd": 861.73,
+    "recent_loss_streak": 5,
+    "tilt_sensitivity": 0.97,
+    "telemetry": {
+      "squad_ovr": 90,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 5,
+      "favorite_club": "Manchester City",
+      "favorite_player": "Lionel Messi",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-12-28",
+        "category": "FUT Currency",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-12-14",
+        "category": "FUT Promo",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-12-09",
+        "category": "FUT Draft",
+        "type": "DRAFT_TOKEN"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Manchester City",
+      "favorite_player": "Lionel Messi",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "Cruyff_Pro_915 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Lionel Messi in Manchester City kit. Holographic card displaying gamer tag 'Cruyff_Pro_915', 90 OVR rating, and text 'Reset momentum after 5 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Manchester City banners into the dressing room. A personalized tactics board highlights Cruyff_Pro_915 in 4-3-3 Attack with Lionel Messi captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00005",
+    "gamer_tag": "ProClubsCapt_785",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Riyadh & GCC, Saudi Arabia",
+    "lifetime_spend_usd": 160.7,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.23,
+    "telemetry": {
+      "squad_ovr": 86,
+      "division": "Pro Clubs & Rush 5v5",
+      "loss_streak": 1,
+      "favorite_club": "Paris Saint-Germain",
+      "favorite_player": "Kevin De Bruyne",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Playmaker Maestro",
+      "preferred_reward_type": "Pro Clubs Skill Point XP Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-09-19",
+        "category": "Season Pass",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-09-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-10-03",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Paris Saint-Germain",
+      "favorite_player": "Kevin De Bruyne",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Playmaker Maestro",
+      "preferred_reward_type": "Pro Clubs Skill Point XP Booster",
+      "suggested_headline": "ProClubsCapt_785 \u2022 Level up your Rush 5v5 Squad tonight",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kevin De Bruyne in Paris Saint-Germain kit. Holographic card displaying gamer tag 'ProClubsCapt_785', 86 OVR rating, and text 'Rush 5v5 Captain \u2022 Next Level Playmaker'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Paris Saint-Germain banners into a neon Rush 5v5 arena. A personalized tactics board highlights ProClubsCapt_785 in 3-5-2 with Kevin De Bruyne captain card glowing electric blue."
+    }
+  },
+  {
+    "player_id": "ea-usr-00003",
+    "gamer_tag": "Cruyff_506",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_WARRIOR",
+    "location": "New York, United States",
+    "lifetime_spend_usd": 0.0,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.14,
+    "telemetry": {
+      "squad_ovr": 85,
+      "division": "Free Track Online Seasons",
+      "loss_streak": 1,
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Free Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "FC 25 Free Track / EA Play Subscription",
+        "price": 0.0,
+        "date": "2024-09-27",
+        "category": "Free-to-Play Tier",
+        "type": "FREE_TIER"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Free Draft Entry Token",
+      "suggested_headline": "Cruyff_506 \u2022 Claim your free Draft Entry Token & dominate Online Seasons",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring R9 Ronaldo in FC Barcelona kit. Holographic card displaying gamer tag 'Cruyff_506', 85 OVR rating, and text 'Free Draft Token Unlocked'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past FC Barcelona banners into Camp Nou. A personalized tactics board highlights Cruyff_506 with R9 Ronaldo icon card."
+    }
+  },
+  {
+    "player_id": "ea-usr-00439",
+    "gamer_tag": "SBCSolver_XI_91",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_TACTICIAN",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 258.86,
+    "recent_loss_streak": 3,
+    "tilt_sensitivity": 0.72,
+    "telemetry": {
+      "squad_ovr": 96,
+      "division": "Division 1 Rivals",
+      "loss_streak": 3,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "5-2-1-2 Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Jumbo Rare Players Pack"
+    },
+    "purchased_items": [
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-12-10",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-11-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "SBC Master Assistant Pass",
+        "price": 14.99,
+        "date": "2024-10-15",
+        "category": "Utility Pass",
+        "type": "PASS"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "5-2-1-2 Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Jumbo Rare Players Pack",
+      "suggested_headline": "SBCSolver_XI_91 \u2022 Push for Elite Division with Bayern's 96 OVR Tactical Pack",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring R9 Ronaldo in Bayern Munich kit. Holographic card displaying gamer tag 'SBCSolver_XI_91', 96 OVR rating, and text 'Division 1 Mastery'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into Allianz Arena. A personalized tactics board highlights SBCSolver_XI_91 in 5-2-1-2 with R9 Ronaldo captain card glowing gold."
+    }
+  },
+  {
+    "player_id": "ea-usr-01290",
+    "gamer_tag": "EliteRank_Prime_514",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Berlin, Germany",
+    "lifetime_spend_usd": 1240.5,
+    "recent_loss_streak": 2,
+    "tilt_sensitivity": 0.65,
+    "telemetry": {
+      "squad_ovr": 95,
+      "division": "Division 2 Rivals",
+      "loss_streak": 2,
+      "favorite_club": "Juventus",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Clinical Finishing & Skill Moves",
+      "preferred_reward_type": "Exclusive 88+ Icon / Hero Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-12-24",
+        "category": "FUT Currency",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-11-29",
+        "category": "FUT Currency",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Black Friday Ultimate Bundle",
+        "price": 149.99,
+        "date": "2024-11-28",
+        "category": "FUT Promo Bundle",
+        "type": "BUNDLE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Juventus",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Clinical Finishing & Skill Moves",
+      "preferred_reward_type": "Exclusive 88+ Icon / Hero Player Pick",
+      "suggested_headline": "EliteRank_Prime_514 \u2022 Exclusive VIP Hero Pick for your 95 OVR Squad",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Vin\u00edcius Jr. in Juventus kit. Holographic card displaying gamer tag 'EliteRank_Prime_514', 95 OVR rating, and text 'VIP Icon Player Pick'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Juventus banners into the Allianz Stadium VIP lounge. A personalized tactics board highlights EliteRank_Prime_514 in 4-2-3-1 with Vin\u00edcius Jr. card glowing platinum."
+    }
+  },
+  {
+    "player_id": "ea-usr-01822",
+    "gamer_tag": "VanDijk_Elite_141",
+    "franchise": "FC25",
+    "primary_archetype": "RANKED_SWEAT",
+    "location": "London, United Kingdom",
+    "lifetime_spend_usd": 429.17,
+    "recent_loss_streak": 0,
+    "tilt_sensitivity": 0.18,
+    "telemetry": {
+      "squad_ovr": 93,
+      "division": "FUT Champions Finals (Rank 1 Contender)",
+      "loss_streak": 0,
+      "favorite_club": "Arsenal",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "4-3-3 Holding",
+      "primary_playstyle": "Wing Overload & Cutbacks",
+      "preferred_reward_type": "Rank 1 Red Pick Player Item"
+    },
+    "purchased_items": [
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-12-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-11-12",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "Weekend League Re-Entry Pass",
+        "price": 4.99,
+        "date": "2024-10-25",
+        "category": "FUT In-Game Store",
+        "type": "PASS"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Arsenal",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "4-3-3 Holding",
+      "primary_playstyle": "Wing Overload & Cutbacks",
+      "preferred_reward_type": "Rank 1 Red Pick Player Item",
+      "suggested_headline": "VanDijk_Elite_141 \u2022 Unstoppable Form: Secure your Rank 1 Champions Rewards",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Bukayo Saka in Arsenal kit. Holographic card displaying gamer tag 'VanDijk_Elite_141', 93 OVR rating, and text 'Champions Finals Rank 1 Contender'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Arsenal banners into the Emirates stadium tunnel under red lights. A personalized tactics board highlights VanDijk_Elite_141 in 4-3-3 Holding with Bukayo Saka card glowing radiant gold."
+    }
+  },
+  {
+    "player_id": "ea-usr-02410",
+    "gamer_tag": "R9_JP_24",
+    "franchise": "FC25",
+    "primary_archetype": "RETURNING_VETERAN",
+    "location": "S\u00e3o Paulo, Brazil",
+    "lifetime_spend_usd": 408.75,
+    "recent_loss_streak": 0,
+    "tilt_sensitivity": 0.35,
+    "telemetry": {
+      "squad_ovr": 91,
+      "division": "Division 5 Rivals (Returning)",
+      "loss_streak": 0,
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "4-1-2-1-2 Narrow",
+      "primary_playstyle": "Direct Tiki-Taka Through Balls",
+      "preferred_reward_type": "Welcome Back Loan Icon + 4,600 FC Points"
+    },
+    "purchased_items": [
+      {
+        "title": "FC 25 Launch Edition",
+        "price": 69.99,
+        "date": "2024-09-27",
+        "category": "Game Purchase",
+        "type": "EDITION"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "4-1-2-1-2 Narrow",
+      "primary_playstyle": "Direct Tiki-Taka Through Balls",
+      "preferred_reward_type": "Welcome Back Loan Icon + 4,600 FC Points",
+      "suggested_headline": "R9_JP_24 \u2022 Welcome Back to the Pitch: Claim your 91 OVR Zidane Loan Pick",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Zinedine Zidane in Real Madrid kit. Holographic card displaying gamer tag 'R9_JP_24', 91 OVR rating, and text 'Welcome Back Veteran'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid Bernab\u00e9u banners. A personalized tactics board highlights R9_JP_24 in 4-1-2-1-2 with Zinedine Zidane icon card glowing gold."
+    }
+  },
+  {
+    "player_id": "ea-usr-00001",
+    "gamer_tag": "Wraith_282",
+    "franchise": "APEX",
+    "primary_archetype": "CASUAL_WARRIOR",
+    "location": "Dallas / Fort Worth DMA, United States",
+    "lifetime_spend_usd": 27.07,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.28,
+    "telemetry": {
+      "rank_tier": "Mixtape Pub Stomper",
+      "kd_ratio": 0.73,
+      "main_legend": "Wraith",
+      "heirloom_unlocked": false
+    },
+    "purchased_items": [
+      {
+        "title": "Standard Split Battle Pass",
+        "price": 9.99,
+        "date": "2024-11-14",
+        "category": "Seasonal Progression",
+        "type": "BATTLE_PASS"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-11-14",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Wraith_282 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'Wraith_282', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights Wraith_282 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00006",
+    "gamer_tag": "FUTWhale_God_363",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_WARRIOR",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 0,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.11,
+    "telemetry": {
+      "squad_ovr": 85,
+      "division": "Free Track Seasons",
+      "loss_streak": 0,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Erling Haaland",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "TOTY Loan Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "FC25 Free Track / EA Play Subscription",
+        "price": 0,
+        "date": "2024-09-27",
+        "category": "Free-to-Play Tier",
+        "type": "FREE_TIER"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Erling Haaland",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "TOTY Loan Player Pick",
+      "suggested_headline": "FUTWhale_God_363 \u2022 Reset momentum in Free Track Seasons",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Erling Haaland in Bayern Munich kit. Holographic card displaying gamer tag 'FUTWhale_God_363', 85 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into the dressing room. A personalized tactics board highlights FUTWhale_God_363 in 4-2-3-1 Balanced with Erling Haaland captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00008",
+    "gamer_tag": "ModEnthusiast_609",
+    "franchise": "SIMS4",
+    "primary_archetype": "BUILDER_CREATOR",
+    "location": "Los Angeles DMA, United States",
+    "lifetime_spend_usd": 353.47,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.07,
+    "telemetry": {
+      "expansion_packs_owned": 11,
+      "cc_mods_active": true,
+      "primary_focus": "Architectural Design"
+    },
+    "purchased_items": [
+      {
+        "title": "Growing Together Expansion Pack",
+        "price": 39.99,
+        "date": "2024-12-11",
+        "category": "Major Expansion DLC",
+        "type": "EXPANSION_PACK"
+      },
+      {
+        "title": "Lovestruck Expansion Pack",
+        "price": 39.99,
+        "date": "2024-09-15",
+        "category": "Major Expansion DLC",
+        "type": "EXPANSION_PACK"
+      },
+      {
+        "title": "Lovestruck Expansion Pack",
+        "price": 39.99,
+        "date": "2024-09-18",
+        "category": "Major Expansion DLC",
+        "type": "EXPANSION_PACK"
+      },
+      {
+        "title": "Horse Ranch Expansion Pack",
+        "price": 39.99,
+        "date": "2024-11-05",
+        "category": "Major Expansion DLC",
+        "type": "EXPANSION_PACK"
+      },
+      {
+        "title": "Home Chef Hustle Stuff Pack",
+        "price": 9.99,
+        "date": "2024-09-08",
+        "category": "Stuff Pack DLC",
+        "type": "STUFF_PACK"
+      },
+      {
+        "title": "Home Chef Hustle Stuff Pack",
+        "price": 9.99,
+        "date": "2024-11-06",
+        "category": "Stuff Pack DLC",
+        "type": "STUFF_PACK"
+      },
+      {
+        "title": "Cozy Bistro Creator Kit",
+        "price": 4.99,
+        "date": "2024-11-20",
+        "category": "Boutique Creator Kit",
+        "type": "CREATOR_KIT"
+      },
+      {
+        "title": "Urban Homage Fashion Kit",
+        "price": 4.99,
+        "date": "2024-09-22",
+        "category": "Fashion Creator Kit",
+        "type": "CREATOR_KIT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "ModEnthusiast_609 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'ModEnthusiast_609', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights ModEnthusiast_609 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00009",
+    "gamer_tag": "Mbappe_790",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "London Metro, United Kingdom",
+    "lifetime_spend_usd": 503.47,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.88,
+    "telemetry": {
+      "squad_ovr": 91,
+      "division": "Elite Division (Rank 1)",
+      "loss_streak": 1,
+      "favorite_club": "Juventus",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-4-2 Flat",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-11-26",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-11-07",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-09-12",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-12-20",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-10-24",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-12-26",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Juventus",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-4-2 Flat",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "Mbappe_790 \u2022 Reset momentum in Elite Division (Rank 1)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Juventus kit. Holographic card displaying gamer tag 'Mbappe_790', 91 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Juventus banners into the dressing room. A personalized tactics board highlights Mbappe_790 in 4-4-2 Flat with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00010",
+    "gamer_tag": "Mbappe_XI_899",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Dallas / Fort Worth DMA, United States",
+    "lifetime_spend_usd": 275.64,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.16,
+    "telemetry": {
+      "squad_ovr": 85,
+      "division": "Pro Clubs & Rush 5v5",
+      "loss_streak": 1,
+      "favorite_club": "Inter Miami",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-09-17",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-10-12",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-09-22",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-11-22",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-11-17",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-12-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-18",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Inter Miami",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "Mbappe_XI_899 \u2022 Reset momentum in Pro Clubs & Rush 5v5",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Zinedine Zidane in Inter Miami kit. Holographic card displaying gamer tag 'Mbappe_XI_899', 85 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Inter Miami banners into the dressing room. A personalized tactics board highlights Mbappe_XI_899 in 4-3-3 Attack with Zinedine Zidane captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00012",
+    "gamer_tag": "ReviveKing_JP_163",
+    "franchise": "BATTLEFIELD",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 107.73,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.36,
+    "telemetry": {
+      "favorite_class": "Support",
+      "spm_score": 770,
+      "vehicle_mastery_tier": "Tier 1 Attack Chopper"
+    },
+    "purchased_items": [
+      {
+        "title": "Specialist Elite Armor & Vehicle Pack",
+        "price": 29.99,
+        "date": "2024-10-09",
+        "category": "Specialist Bundle",
+        "type": "SPECIALIST_BUNDLE"
+      },
+      {
+        "title": "Specialist Elite Armor & Vehicle Pack",
+        "price": 29.99,
+        "date": "2024-11-18",
+        "category": "Specialist Bundle",
+        "type": "SPECIALIST_BUNDLE"
+      },
+      {
+        "title": "Battlefield 2042 Elite Edition Upgrade",
+        "price": 39.99,
+        "date": "2024-10-05",
+        "category": "Game Edition Upgrade",
+        "type": "EDITION_UPGRADE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "ReviveKing_JP_163 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'ReviveKing_JP_163', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights ReviveKing_JP_163 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00014",
+    "gamer_tag": "Pele_King_335",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Paris \u00cele-de-France, France",
+    "lifetime_spend_usd": 910.96,
+    "recent_loss_streak": 3,
+    "tilt_sensitivity": 0.79,
+    "telemetry": {
+      "squad_ovr": 97,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 3,
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-09-20",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-19",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-12-23",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-11-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-10-10",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-09-10",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-12-23",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Pele_King_335 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Bukayo Saka in Real Madrid kit. Holographic card displaying gamer tag 'Pele_King_335', 97 OVR rating, and text 'Reset momentum after 3 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights Pele_King_335 in 4-2-3-1 Balanced with Bukayo Saka captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00015",
+    "gamer_tag": "FutChamps_350",
+    "franchise": "FC25",
+    "primary_archetype": "LORE_SEEKER",
+    "location": "Paris \u00cele-de-France, France",
+    "lifetime_spend_usd": 7.39,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.19,
+    "telemetry": {
+      "squad_ovr": 85,
+      "division": "Manager Career Purist",
+      "loss_streak": 0,
+      "favorite_club": "Arsenal",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "FC25 Standard Retail Edition",
+        "price": 7.39,
+        "date": "2024-09-27",
+        "category": "Retail Game Purchase",
+        "type": "RETAIL_BASE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Arsenal",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token",
+      "suggested_headline": "FutChamps_350 \u2022 Reset momentum in Manager Career Purist",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Cole Palmer in Arsenal kit. Holographic card displaying gamer tag 'FutChamps_350', 85 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Arsenal banners into the dressing room. A personalized tactics board highlights FutChamps_350 in 4-2-3-1 Balanced with Cole Palmer captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00017",
+    "gamer_tag": "Rodri_310",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Berlin & DACH, Germany",
+    "lifetime_spend_usd": 186.41,
+    "recent_loss_streak": 2,
+    "tilt_sensitivity": 0.67,
+    "telemetry": {
+      "squad_ovr": 96,
+      "division": "Elite Division (Rank 1)",
+      "loss_streak": 2,
+      "favorite_club": "Manchester City",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Jumbo Rare Players Pack"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-11-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-27",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-12-16",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-09-05",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Manchester City",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Jumbo Rare Players Pack",
+      "suggested_headline": "Rodri_310 \u2022 Reset momentum in Elite Division (Rank 1)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Manchester City kit. Holographic card displaying gamer tag 'Rodri_310', 96 OVR rating, and text 'Reset momentum after 2 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Manchester City banners into the dressing room. A personalized tactics board highlights Rodri_310 in 5-2-1-2 Wingback with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00018",
+    "gamer_tag": "Tier1Armor_Elite_583",
+    "franchise": "BATTLEFIELD",
+    "primary_archetype": "LORE_SEEKER",
+    "location": "S\u00e3o Paulo, Brazil",
+    "lifetime_spend_usd": 5.95,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.2,
+    "telemetry": {
+      "favorite_class": "Assault",
+      "spm_score": 530,
+      "vehicle_mastery_tier": "Tier 1 Attack Chopper"
+    },
+    "purchased_items": [
+      {
+        "title": "500 BFC Starter Pack + 2x Squad XP",
+        "price": 4.99,
+        "date": "2024-11-14",
+        "category": "Starter Tactical Pack",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "1,100 Battlefield Coins (BFC) Pack",
+        "price": 9.99,
+        "date": "2024-11-14",
+        "category": "BFC Store Pack",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Tier1Armor_Elite_583 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'Tier1Armor_Elite_583', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights Tier1Armor_Elite_583 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00023",
+    "gamer_tag": "TrivelaKing_894",
+    "franchise": "FC25",
+    "primary_archetype": "LORE_SEEKER",
+    "location": "Dallas / Fort Worth DMA, United States",
+    "lifetime_spend_usd": 63.24,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.06,
+    "telemetry": {
+      "squad_ovr": 84,
+      "division": "Manager Career Purist",
+      "loss_streak": 0,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "TrivelaKing_894 \u2022 Reset momentum in Manager Career Purist",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Cole Palmer in Bayern Munich kit. Holographic card displaying gamer tag 'TrivelaKing_894', 84 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into the dressing room. A personalized tactics board highlights TrivelaKing_894 in 4-2-3-1 Balanced with Cole Palmer captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00026",
+    "gamer_tag": "Parsons_King_456",
+    "franchise": "MADDEN25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Manchester, United Kingdom",
+    "lifetime_spend_usd": 620.55,
+    "recent_loss_streak": 3,
+    "tilt_sensitivity": 0.79,
+    "telemetry": {
+      "mut_ovr": 97,
+      "superstar_role": "Lockdown CB",
+      "loss_streak": 3
+    },
+    "purchased_items": [
+      {
+        "title": "500 Madden Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-22",
+        "category": "MUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Legends Fantasy Bundle (4x Packs)",
+        "price": 49.99,
+        "date": "2024-09-02",
+        "category": "MUT Legends Drop",
+        "type": "MUT_BUNDLE"
+      },
+      {
+        "title": "MUT Season Field Pass Premium",
+        "price": 9.99,
+        "date": "2024-10-05",
+        "category": "MUT Progression Pass",
+        "type": "FIELD_PASS"
+      },
+      {
+        "title": "Legends Fantasy Bundle (4x Packs)",
+        "price": 49.99,
+        "date": "2024-09-27",
+        "category": "MUT Legends Drop",
+        "type": "MUT_BUNDLE"
+      },
+      {
+        "title": "Legends Fantasy Bundle (4x Packs)",
+        "price": 49.99,
+        "date": "2024-10-27",
+        "category": "MUT Legends Drop",
+        "type": "MUT_BUNDLE"
+      },
+      {
+        "title": "Legends Fantasy Bundle (4x Packs)",
+        "price": 49.99,
+        "date": "2024-11-25",
+        "category": "MUT Legends Drop",
+        "type": "MUT_BUNDLE"
+      },
+      {
+        "title": "5,850 Madden Points Pack",
+        "price": 49.99,
+        "date": "2024-09-09",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "5,850 Madden Points Pack",
+        "price": 49.99,
+        "date": "2024-10-18",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Parsons_King_456 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'Parsons_King_456', 92 OVR rating, and text 'Reset momentum after 3 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights Parsons_King_456 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00027",
+    "gamer_tag": "UserLurker_Beast_309",
+    "franchise": "MADDEN25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "New York DMA, United States",
+    "lifetime_spend_usd": 469.66,
+    "recent_loss_streak": 4,
+    "tilt_sensitivity": 0.74,
+    "telemetry": {
+      "mut_ovr": 92,
+      "superstar_role": "Field General QB",
+      "loss_streak": 4
+    },
+    "purchased_items": [
+      {
+        "title": "5,850 Madden Points Pack",
+        "price": 49.99,
+        "date": "2024-11-20",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "MUT Season Field Pass Premium",
+        "price": 9.99,
+        "date": "2024-12-20",
+        "category": "MUT Progression Pass",
+        "type": "FIELD_PASS"
+      },
+      {
+        "title": "2,800 Madden Points Pack",
+        "price": 24.99,
+        "date": "2024-12-17",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "1,050 Madden Points Pack",
+        "price": 9.99,
+        "date": "2024-09-26",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 Madden Points Vault",
+        "price": 99.99,
+        "date": "2024-10-14",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "500 Madden Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-14",
+        "category": "MUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "MUT Season Field Pass Premium",
+        "price": 9.99,
+        "date": "2024-12-13",
+        "category": "MUT Progression Pass",
+        "type": "FIELD_PASS"
+      },
+      {
+        "title": "1,050 Madden Points Pack",
+        "price": 9.99,
+        "date": "2024-09-11",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "UserLurker_Beast_309 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'UserLurker_Beast_309', 92 OVR rating, and text 'Reset momentum after 4 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights UserLurker_Beast_309 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00031",
+    "gamer_tag": "TikiTaka_Prime_779",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Los Angeles DMA, United States",
+    "lifetime_spend_usd": 768.28,
+    "recent_loss_streak": 4,
+    "tilt_sensitivity": 0.81,
+    "telemetry": {
+      "squad_ovr": 94,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 4,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Jumbo Rare Players Pack"
+    },
+    "purchased_items": [
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-09-12",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-09-10",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-12-02",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-11-27",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-09-21",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-12-15",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-09-15",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-11-20",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Jumbo Rare Players Pack",
+      "suggested_headline": "TikiTaka_Prime_779 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Jude Bellingham in Bayern Munich kit. Holographic card displaying gamer tag 'TikiTaka_Prime_779', 94 OVR rating, and text 'Reset momentum after 4 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into the dressing room. A personalized tactics board highlights TikiTaka_Prime_779 in 3-5-2 Direct Counter with Jude Bellingham captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00032",
+    "gamer_tag": "FranchiseGaffer_Beast_536",
+    "franchise": "MADDEN25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Manchester, United Kingdom",
+    "lifetime_spend_usd": 69.41,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.27,
+    "telemetry": {
+      "mut_ovr": 89,
+      "superstar_role": "Lockdown CB",
+      "loss_streak": 0
+    },
+    "purchased_items": [
+      {
+        "title": "MADDEN25 Standard Retail Edition",
+        "price": 69.41,
+        "date": "2024-09-27",
+        "category": "Retail Game Purchase",
+        "type": "RETAIL_BASE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "FranchiseGaffer_Beast_536 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'FranchiseGaffer_Beast_536', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights FranchiseGaffer_Beast_536 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00033",
+    "gamer_tag": "Palmer_974",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 949.98,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.7,
+    "telemetry": {
+      "squad_ovr": 97,
+      "division": "Elite Division (Rank 1)",
+      "loss_streak": 1,
+      "favorite_club": "Juventus",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-4-2 Flat",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "TOTY Loan Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-24",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-14",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-10-15",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-12-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-10-10",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-12",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-12-25",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-12-17",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Juventus",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-4-2 Flat",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "TOTY Loan Player Pick",
+      "suggested_headline": "Palmer_974 \u2022 Reset momentum in Elite Division (Rank 1)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Juventus kit. Holographic card displaying gamer tag 'Palmer_974', 97 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Juventus banners into the dressing room. A personalized tactics board highlights Palmer_974 in 4-4-2 Flat with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00035",
+    "gamer_tag": "Pele_FR_154",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Tokyo, Japan",
+    "lifetime_spend_usd": 127.16,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.38,
+    "telemetry": {
+      "squad_ovr": 83,
+      "division": "Pro Clubs & Rush 5v5",
+      "loss_streak": 0,
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-09-21",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-10-23",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-11-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-11-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-12-06",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Pele_FR_154 \u2022 Reset momentum in Pro Clubs & Rush 5v5",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring R9 Ronaldo in FC Barcelona kit. Holographic card displaying gamer tag 'Pele_FR_154', 83 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past FC Barcelona banners into the dressing room. A personalized tactics board highlights Pele_FR_154 in 3-5-2 Direct Counter with R9 Ronaldo captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00039",
+    "gamer_tag": "R9_US_727",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Riyadh & GCC, Saudi Arabia",
+    "lifetime_spend_usd": 439.19,
+    "recent_loss_streak": 2,
+    "tilt_sensitivity": 0.72,
+    "telemetry": {
+      "squad_ovr": 96,
+      "division": "Elite Division (Rank 1)",
+      "loss_streak": 2,
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-09-03",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-12-23",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-12-25",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-09-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-09-15",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-11-05",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-10-25",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-12-17",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token",
+      "suggested_headline": "R9_US_727 \u2022 Reset momentum in Elite Division (Rank 1)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Bukayo Saka in Real Madrid kit. Holographic card displaying gamer tag 'R9_US_727', 96 OVR rating, and text 'Reset momentum after 2 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights R9_US_727 in 5-2-1-2 Wingback with Bukayo Saka captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00040",
+    "gamer_tag": "TinyHomeBuilder_DE_81",
+    "franchise": "SIMS4",
+    "primary_archetype": "CASUAL_WARRIOR",
+    "location": "Riyadh & GCC, Saudi Arabia",
+    "lifetime_spend_usd": 10.98,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.06,
+    "telemetry": {
+      "expansion_packs_owned": 2,
+      "cc_mods_active": false,
+      "primary_focus": "Generations Legacy Storytelling"
+    },
+    "purchased_items": [
+      {
+        "title": "Home Chef Hustle Stuff Pack",
+        "price": 9.99,
+        "date": "2024-11-14",
+        "category": "Stuff Pack DLC",
+        "type": "STUFF_PACK"
+      },
+      {
+        "title": "Urban Homage Fashion Kit",
+        "price": 4.99,
+        "date": "2024-11-14",
+        "category": "Fashion Creator Kit",
+        "type": "CREATOR_KIT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "TinyHomeBuilder_DE_81 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'TinyHomeBuilder_DE_81', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights TinyHomeBuilder_DE_81 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00041",
+    "gamer_tag": "Gullit_God_496",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Manchester, United Kingdom",
+    "lifetime_spend_usd": 97.83,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.37,
+    "telemetry": {
+      "squad_ovr": 83,
+      "division": "Pro Clubs & Rush 5v5",
+      "loss_streak": 1,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-05",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-09-10",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "Draft Entry Token",
+      "suggested_headline": "Gullit_God_496 \u2022 Reset momentum in Pro Clubs & Rush 5v5",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Zinedine Zidane in Bayern Munich kit. Holographic card displaying gamer tag 'Gullit_God_496', 83 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into the dressing room. A personalized tactics board highlights Gullit_God_496 in 5-2-1-2 Wingback with Zinedine Zidane captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00042",
+    "gamer_tag": "Cruyff_JP_271",
+    "franchise": "FC25",
+    "primary_archetype": "CASUAL_SOCIALIZER",
+    "location": "Paris \u00cele-de-France, France",
+    "lifetime_spend_usd": 121.15,
+    "recent_loss_streak": 2,
+    "tilt_sensitivity": 0.32,
+    "telemetry": {
+      "squad_ovr": 82,
+      "division": "Pro Clubs & Rush 5v5",
+      "loss_streak": 2,
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-10-04",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-26",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "FC Barcelona",
+      "favorite_player": "Zinedine Zidane",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "Draft Entry Token",
+      "suggested_headline": "Cruyff_JP_271 \u2022 Reset momentum in Pro Clubs & Rush 5v5",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Zinedine Zidane in FC Barcelona kit. Holographic card displaying gamer tag 'Cruyff_JP_271', 82 OVR rating, and text 'Reset momentum after 2 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past FC Barcelona banners into the dressing room. A personalized tactics board highlights Cruyff_JP_271 in 3-5-2 Direct Counter with Zinedine Zidane captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00044",
+    "gamer_tag": "TrivelaKing_EU_635",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Paris \u00cele-de-France, France",
+    "lifetime_spend_usd": 694.58,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.66,
+    "telemetry": {
+      "squad_ovr": 89,
+      "division": "Elite Division (Rank 1)",
+      "loss_streak": 1,
+      "favorite_club": "Chelsea",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Jumbo Rare Players Pack"
+    },
+    "purchased_items": [
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-23",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-18",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-12-17",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-11-18",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-11-20",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-08",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-11-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Chelsea",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Jumbo Rare Players Pack",
+      "suggested_headline": "TrivelaKing_EU_635 \u2022 Reset momentum in Elite Division (Rank 1)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Bukayo Saka in Chelsea kit. Holographic card displaying gamer tag 'TrivelaKing_EU_635', 89 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Chelsea banners into the dressing room. A personalized tactics board highlights TrivelaKing_EU_635 in 3-5-2 Direct Counter with Bukayo Saka captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00047",
+    "gamer_tag": "DeBruyne_UK_515",
+    "franchise": "FC25",
+    "primary_archetype": "LORE_SEEKER",
+    "location": "Tokyo, Japan",
+    "lifetime_spend_usd": 48.32,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.15,
+    "telemetry": {
+      "squad_ovr": 86,
+      "division": "Manager Career Purist",
+      "loss_streak": 0,
+      "favorite_club": "Paris Saint-Germain",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "TOTY Loan Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-11-14",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Paris Saint-Germain",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "TOTY Loan Player Pick",
+      "suggested_headline": "DeBruyne_UK_515 \u2022 Reset momentum in Manager Career Purist",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Vin\u00edcius Jr. in Paris Saint-Germain kit. Holographic card displaying gamer tag 'DeBruyne_UK_515', 86 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Paris Saint-Germain banners into the dressing room. A personalized tactics board highlights DeBruyne_UK_515 in 4-2-3-1 Balanced with Vin\u00edcius Jr. captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00002",
+    "gamer_tag": "RankedGrinder_Streamer_907",
+    "franchise": "APEX",
+    "primary_archetype": "RANKED_SWEAT",
+    "location": "S\u00e3o Paulo, Brazil",
+    "lifetime_spend_usd": 119.65,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.85,
+    "telemetry": {
+      "rank_tier": "Apex Predator",
+      "kd_ratio": 2.58,
+      "main_legend": "Wraith",
+      "heirloom_unlocked": false
+    },
+    "purchased_items": [
+      {
+        "title": "6,000 (+750 Bonus) Apex Coins Pack",
+        "price": 49.99,
+        "date": "2024-11-12",
+        "category": "Apex Store Currency",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Battle Pass Ultimate+ Edition",
+        "price": 19.99,
+        "date": "2024-11-23",
+        "category": "Major DLC & Progression",
+        "type": "BATTLE_PASS"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-20",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-18",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-06",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Standard Split Battle Pass",
+        "price": 9.99,
+        "date": "2024-12-09",
+        "category": "Seasonal Progression",
+        "type": "BATTLE_PASS"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-22",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Legendary Legend Skin Bundle",
+        "price": 18,
+        "date": "2024-09-08",
+        "category": "Featured Character Skin",
+        "type": "CHARACTER_SKIN"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "RankedGrinder_Streamer_907 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'RankedGrinder_Streamer_907', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights RankedGrinder_Streamer_907 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00007",
+    "gamer_tag": "SuperGlide_Apex_886",
+    "franchise": "APEX",
+    "primary_archetype": "RANKED_SWEAT",
+    "location": "New York DMA, United States",
+    "lifetime_spend_usd": 81.23,
+    "recent_loss_streak": 3,
+    "tilt_sensitivity": 0.77,
+    "telemetry": {
+      "rank_tier": "Master Tier (RP Demotion)",
+      "kd_ratio": 3.06,
+      "main_legend": "Bangalore",
+      "heirloom_unlocked": true
+    },
+    "purchased_items": [
+      {
+        "title": "Battle Pass Ultimate+ Edition",
+        "price": 19.99,
+        "date": "2024-10-10",
+        "category": "Major DLC & Progression",
+        "type": "BATTLE_PASS"
+      },
+      {
+        "title": "Battle Pass Ultimate+ Edition",
+        "price": 19.99,
+        "date": "2024-09-19",
+        "category": "Major DLC & Progression",
+        "type": "BATTLE_PASS"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-09-24",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "2,000 (+150 Bonus) Apex Coins",
+        "price": 19.99,
+        "date": "2024-09-02",
+        "category": "Apex Store Currency",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "1,000 Apex Coins Starter Pack",
+        "price": 4.99,
+        "date": "2024-12-17",
+        "category": "Apex Store Starter",
+        "type": "STARTER_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "SuperGlide_Apex_886 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'SuperGlide_Apex_886', 92 OVR rating, and text 'Reset momentum after 3 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights SuperGlide_Apex_886 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00004",
+    "gamer_tag": "Burrow_781",
+    "franchise": "MADDEN25",
+    "primary_archetype": "LORE_SEEKER",
+    "location": "Los Angeles DMA, United States",
+    "lifetime_spend_usd": 20.89,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.15,
+    "telemetry": {
+      "mut_ovr": 85,
+      "superstar_role": "Deep Threat WR",
+      "loss_streak": 0
+    },
+    "purchased_items": [
+      {
+        "title": "MADDEN25 Standard Retail Edition",
+        "price": 20.89,
+        "date": "2024-09-27",
+        "category": "Retail Game Purchase",
+        "type": "RETAIL_BASE"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "Burrow_781 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'Burrow_781', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights Burrow_781 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00025",
+    "gamer_tag": "MUTWhale_Beast_514",
+    "franchise": "MADDEN25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Dallas / Fort Worth DMA, United States",
+    "lifetime_spend_usd": 722.02,
+    "recent_loss_streak": 3,
+    "tilt_sensitivity": 0.76,
+    "telemetry": {
+      "mut_ovr": 98,
+      "superstar_role": "Field General QB",
+      "loss_streak": 3
+    },
+    "purchased_items": [
+      {
+        "title": "1,050 Madden Points Pack",
+        "price": 9.99,
+        "date": "2024-11-03",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "1,050 Madden Points Pack",
+        "price": 9.99,
+        "date": "2024-09-09",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 Madden Points Vault",
+        "price": 99.99,
+        "date": "2024-12-12",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "2,800 Madden Points Pack",
+        "price": 24.99,
+        "date": "2024-12-27",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "MUT Season Field Pass Premium",
+        "price": 9.99,
+        "date": "2024-09-22",
+        "category": "MUT Progression Pass",
+        "type": "FIELD_PASS"
+      },
+      {
+        "title": "Legends Fantasy Bundle (4x Packs)",
+        "price": 49.99,
+        "date": "2024-12-01",
+        "category": "MUT Legends Drop",
+        "type": "MUT_BUNDLE"
+      },
+      {
+        "title": "MUT Season Field Pass Premium",
+        "price": 9.99,
+        "date": "2024-10-21",
+        "category": "MUT Progression Pass",
+        "type": "FIELD_PASS"
+      },
+      {
+        "title": "12,000 Madden Points Vault",
+        "price": 99.99,
+        "date": "2024-12-23",
+        "category": "MUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Kylian Mbapp\u00e9",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Tiki-Taka High Press",
+      "preferred_reward_type": "88+ Campaign Hero Evo Pick",
+      "suggested_headline": "MUTWhale_Beast_514 \u2022 Reset momentum in Division 1",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Kylian Mbapp\u00e9 in Real Madrid kit. Holographic card displaying gamer tag 'MUTWhale_Beast_514', 92 OVR rating, and text 'Reset momentum after 3 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights MUTWhale_Beast_514 in 4-3-3 Attack with Kylian Mbapp\u00e9 captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00566",
+    "gamer_tag": "WalkoutHunter_Boss_426",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Los Angeles DMA, United States",
+    "lifetime_spend_usd": 12476.44,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.29,
+    "telemetry": {
+      "squad_ovr": 89,
+      "division": "Division 1 (Icon Collector)",
+      "loss_streak": 1,
+      "favorite_club": "Arsenal",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Draft Entry Token"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault #1",
+        "price": 99.99,
+        "date": "2024-09-07",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #2",
+        "price": 99.99,
+        "date": "2024-12-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #3",
+        "price": 99.99,
+        "date": "2024-10-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #4",
+        "price": 99.99,
+        "date": "2024-12-12",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #5",
+        "price": 99.99,
+        "date": "2024-09-04",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #6",
+        "price": 99.99,
+        "date": "2024-12-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #7",
+        "price": 99.99,
+        "date": "2024-12-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #8",
+        "price": 99.99,
+        "date": "2024-09-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #9",
+        "price": 99.99,
+        "date": "2024-10-21",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #10",
+        "price": 99.99,
+        "date": "2024-11-09",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #11",
+        "price": 99.99,
+        "date": "2024-12-04",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #12",
+        "price": 99.99,
+        "date": "2024-11-10",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Arsenal",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Trivela Cutback Winger",
+      "preferred_reward_type": "Draft Entry Token",
+      "suggested_headline": "WalkoutHunter_Boss_426 \u2022 Reset momentum in Division 1 (Icon Collector)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Jude Bellingham in Arsenal kit. Holographic card displaying gamer tag 'WalkoutHunter_Boss_426', 89 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Arsenal banners into the dressing room. A personalized tactics board highlights WalkoutHunter_Boss_426 in 4-2-3-1 Balanced with Jude Bellingham captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-03341",
+    "gamer_tag": "TrivelaKing_Apex_297",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Los Angeles DMA, United States",
+    "lifetime_spend_usd": 12389.98,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.19,
+    "telemetry": {
+      "squad_ovr": 89,
+      "division": "Division 1 (Icon Collector)",
+      "loss_streak": 0,
+      "favorite_club": "Juventus",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "TOTY Loan Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault #1",
+        "price": 99.99,
+        "date": "2024-10-10",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #2",
+        "price": 99.99,
+        "date": "2024-09-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #3",
+        "price": 99.99,
+        "date": "2024-12-16",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #4",
+        "price": 99.99,
+        "date": "2024-10-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #5",
+        "price": 99.99,
+        "date": "2024-12-12",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #6",
+        "price": 99.99,
+        "date": "2024-10-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #7",
+        "price": 99.99,
+        "date": "2024-10-25",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #8",
+        "price": 99.99,
+        "date": "2024-11-09",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #9",
+        "price": 99.99,
+        "date": "2024-11-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #10",
+        "price": 99.99,
+        "date": "2024-11-03",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #11",
+        "price": 99.99,
+        "date": "2024-11-27",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #12",
+        "price": 99.99,
+        "date": "2024-09-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Juventus",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Relentless Midfield Engine",
+      "preferred_reward_type": "TOTY Loan Player Pick",
+      "suggested_headline": "TrivelaKing_Apex_297 \u2022 Reset momentum in Division 1 (Icon Collector)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Cole Palmer in Juventus kit. Holographic card displaying gamer tag 'TrivelaKing_Apex_297', 89 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Juventus banners into the dressing room. A personalized tactics board highlights TrivelaKing_Apex_297 in 5-2-1-2 Wingback with Cole Palmer captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-02546",
+    "gamer_tag": "Cruyff_Captain_964",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 12357.18,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.13,
+    "telemetry": {
+      "squad_ovr": 95,
+      "division": "Division 1 (Icon Collector)",
+      "loss_streak": 0,
+      "favorite_club": "Liverpool",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault #1",
+        "price": 99.99,
+        "date": "2024-12-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #2",
+        "price": 99.99,
+        "date": "2024-09-27",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #3",
+        "price": 99.99,
+        "date": "2024-09-17",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #4",
+        "price": 99.99,
+        "date": "2024-11-24",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #5",
+        "price": 99.99,
+        "date": "2024-09-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #6",
+        "price": 99.99,
+        "date": "2024-12-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #7",
+        "price": 99.99,
+        "date": "2024-10-04",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #8",
+        "price": 99.99,
+        "date": "2024-12-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #9",
+        "price": 99.99,
+        "date": "2024-10-18",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #10",
+        "price": 99.99,
+        "date": "2024-09-22",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #11",
+        "price": 99.99,
+        "date": "2024-09-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #12",
+        "price": 99.99,
+        "date": "2024-09-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Liverpool",
+      "favorite_player": "R9 Ronaldo",
+      "favorite_formation": "4-2-3-1 Balanced",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "Cruyff_Captain_964 \u2022 Reset momentum in Division 1 (Icon Collector)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring R9 Ronaldo in Liverpool kit. Holographic card displaying gamer tag 'Cruyff_Captain_964', 95 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Liverpool banners into the dressing room. A personalized tactics board highlights Cruyff_Captain_964 in 4-2-3-1 Balanced with R9 Ronaldo captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-01947",
+    "gamer_tag": "RushDemon_FR_48",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Madrid, Spain",
+    "lifetime_spend_usd": 12355.76,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.24,
+    "telemetry": {
+      "squad_ovr": 92,
+      "division": "Division 1 (Icon Collector)",
+      "loss_streak": 0,
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault #1",
+        "price": 99.99,
+        "date": "2024-10-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #2",
+        "price": 99.99,
+        "date": "2024-09-12",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #3",
+        "price": 99.99,
+        "date": "2024-09-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #4",
+        "price": 99.99,
+        "date": "2024-09-25",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #5",
+        "price": 99.99,
+        "date": "2024-11-22",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #6",
+        "price": 99.99,
+        "date": "2024-10-13",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #7",
+        "price": 99.99,
+        "date": "2024-11-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #8",
+        "price": 99.99,
+        "date": "2024-12-24",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #9",
+        "price": 99.99,
+        "date": "2024-09-27",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #10",
+        "price": 99.99,
+        "date": "2024-12-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #11",
+        "price": 99.99,
+        "date": "2024-11-26",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #12",
+        "price": 99.99,
+        "date": "2024-11-09",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Real Madrid",
+      "favorite_player": "Jude Bellingham",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "RushDemon_FR_48 \u2022 Reset momentum in Division 1 (Icon Collector)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Jude Bellingham in Real Madrid kit. Holographic card displaying gamer tag 'RushDemon_FR_48', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Real Madrid banners into the dressing room. A personalized tactics board highlights RushDemon_FR_48 in 3-5-2 Direct Counter with Jude Bellingham captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-04119",
+    "gamer_tag": "FutChamps_10_690",
+    "franchise": "FC25",
+    "primary_archetype": "ULTIMATE_TEAM_WHALE",
+    "location": "Chicago DMA, United States",
+    "lifetime_spend_usd": 12040.44,
+    "recent_loss_streak": 1,
+    "tilt_sensitivity": 0.25,
+    "telemetry": {
+      "squad_ovr": 92,
+      "division": "Division 1 (Icon Collector)",
+      "loss_streak": 1,
+      "favorite_club": "Arsenal",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Jumbo Rare Players Pack"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault #1",
+        "price": 99.99,
+        "date": "2024-10-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #2",
+        "price": 99.99,
+        "date": "2024-11-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #3",
+        "price": 99.99,
+        "date": "2024-12-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #4",
+        "price": 99.99,
+        "date": "2024-09-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #5",
+        "price": 99.99,
+        "date": "2024-09-03",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #6",
+        "price": 99.99,
+        "date": "2024-10-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #7",
+        "price": 99.99,
+        "date": "2024-12-10",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #8",
+        "price": 99.99,
+        "date": "2024-10-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #9",
+        "price": 99.99,
+        "date": "2024-12-05",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #10",
+        "price": 99.99,
+        "date": "2024-12-06",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #11",
+        "price": 99.99,
+        "date": "2024-09-18",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault #12",
+        "price": 99.99,
+        "date": "2024-11-02",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Arsenal",
+      "favorite_player": "Bukayo Saka",
+      "favorite_formation": "5-2-1-2 Wingback",
+      "primary_playstyle": "Direct Counter-Attack",
+      "preferred_reward_type": "Jumbo Rare Players Pack",
+      "suggested_headline": "FutChamps_10_690 \u2022 Reset momentum in Division 1 (Icon Collector)",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Bukayo Saka in Arsenal kit. Holographic card displaying gamer tag 'FutChamps_10_690', 92 OVR rating, and text 'Reset momentum after 1 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Arsenal banners into the dressing room. A personalized tactics board highlights FutChamps_10_690 in 5-2-1-2 Wingback with Bukayo Saka captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00521",
+    "gamer_tag": "VanDijk_Elite_141",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Tokyo, Japan",
+    "lifetime_spend_usd": 429.17,
+    "recent_loss_streak": 5,
+    "tilt_sensitivity": 0.95,
+    "telemetry": {
+      "squad_ovr": 96,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 5,
+      "favorite_club": "Arsenal",
+      "favorite_player": "Lionel Messi",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-12-28",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-11-20",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "2,800 FC Points Pack",
+        "price": 24.99,
+        "date": "2024-10-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-11-14",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-12-11",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-11-04",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-12-01",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Arsenal",
+      "favorite_player": "Lionel Messi",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "VanDijk_Elite_141 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Lionel Messi in Arsenal kit. Holographic card displaying gamer tag 'VanDijk_Elite_141', 96 OVR rating, and text 'Reset momentum after 5 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Arsenal banners into the dressing room. A personalized tactics board highlights VanDijk_Elite_141 in 3-5-2 Direct Counter with Lionel Messi captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-00816",
+    "gamer_tag": "Cruyff_07_266",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Tokyo, Japan",
+    "lifetime_spend_usd": 291.86,
+    "recent_loss_streak": 5,
+    "tilt_sensitivity": 0.95,
+    "telemetry": {
+      "squad_ovr": 96,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 5,
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster"
+    },
+    "purchased_items": [
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-22",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-11-09",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "FC 25 Ultimate Edition Upgrade",
+        "price": 99.99,
+        "date": "2024-10-07",
+        "category": "Major Game Edition DLC",
+        "type": "EDITION_UPGRADE"
+      },
+      {
+        "title": "500 FC Points Starter Pack",
+        "price": 4.99,
+        "date": "2024-10-14",
+        "category": "FUT In-Game Store",
+        "type": "STARTER_PACK"
+      },
+      {
+        "title": "Season 2 Premium Pass + Evo Slot",
+        "price": 19.99,
+        "date": "2024-11-24",
+        "category": "Progression & Season",
+        "type": "SEASON_PASS"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-09-05",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      },
+      {
+        "title": "1,050 FC Points Pack",
+        "price": 9.99,
+        "date": "2024-11-20",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "Ultimate Draft Entry Token",
+        "price": 2.99,
+        "date": "2024-09-11",
+        "category": "FUT Draft Mode",
+        "type": "DRAFT_TOKEN"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Bayern Munich",
+      "favorite_player": "Cole Palmer",
+      "favorite_formation": "4-3-3 Attack",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "Double Rush Points Booster",
+      "suggested_headline": "Cruyff_07_266 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Cole Palmer in Bayern Munich kit. Holographic card displaying gamer tag 'Cruyff_07_266', 96 OVR rating, and text 'Reset momentum after 5 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Bayern Munich banners into the dressing room. A personalized tactics board highlights Cruyff_07_266 in 4-3-3 Attack with Cole Palmer captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  },
+  {
+    "player_id": "ea-usr-03253",
+    "gamer_tag": "EliteRank_Prime_514",
+    "franchise": "FC25",
+    "primary_archetype": "COMPETITIVE_GRINDER",
+    "location": "Berlin & DACH, Germany",
+    "lifetime_spend_usd": 351.19,
+    "recent_loss_streak": 5,
+    "tilt_sensitivity": 0.95,
+    "telemetry": {
+      "squad_ovr": 97,
+      "division": "Weekend League Qualifiers",
+      "loss_streak": 5,
+      "favorite_club": "Juventus",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "TOTY Loan Player Pick"
+    },
+    "purchased_items": [
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-10-11",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-09-16",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "5,900 FC Points Pack",
+        "price": 49.99,
+        "date": "2024-09-24",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_PACK"
+      },
+      {
+        "title": "TOTY Campaign Hero Pack",
+        "price": 29.99,
+        "date": "2024-09-03",
+        "category": "FUT Promo Event",
+        "type": "CAMPAIGN_PACK"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-12-15",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      },
+      {
+        "title": "12,000 FC Points Vault",
+        "price": 99.99,
+        "date": "2024-09-08",
+        "category": "FUT In-Game Store",
+        "type": "CURRENCY_VAULT"
+      }
+    ],
+    "personalized_creative_hooks": {
+      "favorite_club": "Juventus",
+      "favorite_player": "Vin\u00edcius Jr.",
+      "favorite_formation": "3-5-2 Direct Counter",
+      "primary_playstyle": "Power Shot Specialist",
+      "preferred_reward_type": "TOTY Loan Player Pick",
+      "suggested_headline": "EliteRank_Prime_514 \u2022 Reset momentum in Weekend League Qualifiers",
+      "imagen_prompt": "EA SPORTS FC 25 dynamic match poster featuring Vin\u00edcius Jr. in Juventus kit. Holographic card displaying gamer tag 'EliteRank_Prime_514', 97 OVR rating, and text 'Reset momentum after 5 match slump'. 4K, broadcast stadium lighting.",
+      "veo_video_prompt": "Cinematic 5-second EA FC stadium tunnel video: Camera swoops past Juventus banners into the dressing room. A personalized tactics board highlights EliteRank_Prime_514 in 3-5-2 Direct Counter with Vin\u00edcius Jr. captain card glowing gold. Ultra-realistic, cinematic motion."
+    }
+  }
+]

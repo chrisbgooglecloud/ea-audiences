@@ -1,0 +1,73 @@
+{
+  "type": "website_analysis",
+  "url": "https://www.theguardian.com/games/2026/aug/07/ea-sports-fc-27-grounds",
+  "focus": "General analysis",
+  "pageTitle": "EA Sports FC 27: what does the next instalment of the world’s biggest football game have in store?",
+  "pageDescription": "The all-conquering franchise's revamps are technically impressive, its transfers more true to life – and its new grassroots social hub is surprising fun",
+  "summary": "The Guardian's exclusive preview provides an in-depth, hands-on general analysis of EA Sports FC 27 following a studio visit to EA Vancouver. The coverage highlights major gameplay overhauls, the new social hub 'The Grounds', Career Mode advancements like Dynamic OVR, and critically assesses the impact of the new PEGI 16+ rating alongside the £139.99 Ultimate Plus Edition.",
+  "score": 9,
+  "findings": {
+    "positive": [
+      "Extensive hands-on coverage of the new social hub: 'It’s a physical hub-type area, similar to the City as seen in 2K’s recent NBA 2K basketball games... split as it is into areas inspired by British, French and Argentinian street-football culture.'",
+      "Direct technical insights into fundamental gameplay fixes: 'We had to completely strip out the existing system for interceptions and build a new one from scratch. We spent six months doing that.'",
+      "Detailed review of Career Mode depth and realism additions: '...in FC 27’s Career Mode they will go up and down depending on form, fitness and general happiness' via Dynamic OVR and xTV (Expected Transfer Value)."
+    ],
+    "negative": [
+      "Critique of EA's monetization and PR response to rating changes: 'Given the game’s enthusiastic young and teenage audience, we asked EA Sports’ top brass to comment, but they blandly responded...'",
+      "Scrutiny over high pricing tiers: '...the bad news is it costs £139.99 and will only be available as a pre-order before 31 August.'",
+      "Platform parity limitations: 'It will also launch on PS4, Xbox One, and Switch, but without some features, such as the new Grounds mode.'"
+    ],
+    "neutral": [
+      "Standard preview structure outlining release date ('25 September'), supported platforms (PS5, Xbox Series X/S, Switch 2, PC, PS4, Xbox One, Switch), and editorial disclosures.",
+      "Clear differentiation between European PEGI 16+ jurisdictional ratings and North American ESRB 'E for Everybody' classifications."
+    ]
+  },
+  "comparison_to_focus": "Regarding general analysis, the article provides a holistic and balanced assessment of EA Sports FC 27. It touches upon every major pillar of the upcoming release: social/multiplayer innovation ('The Grounds'), core match gameplay engine revamps (reduced AI reliance, manual defensive jockeying, overhauled crossing and set-pieces), single-player depth ('Career Mode' and 'Dynamic OVR'), and live-service monetization ('FUT Gallery', SBC streamlining, PEGI 16+ rating shift). It successfully blends developer interviews with hands-on impressions to give players and industry observers an accurate overview of product trajectory.",
+  "comparison_to_company": "The article evaluates EA Games FC's brand reputation and product execution directly. While praise is given to EA for aggressively resolving legacy gameplay issues ('defensive bounce-backs were blissfully absent') and introducing community-driven spaces ('The Grounds'), the publication pushes back on corporate communications regarding microtransactions, labeling EA's defense of the PEGI 16+ rating as 'bland' and calling out predatory monetization structures with the £139.99 edition.",
+  "recommendations": [
+    "Refine the PR and communications strategy surrounding the PEGI 16+ rating and microtransactions to proactively address parental concerns with concrete parental control toolkits rather than dismissive statements.",
+    "Double down on marketing the social and casual gameplay of 'The Grounds', showcasing regional street football culture (British, French, Argentinian) to attract both lapsed and casual players beyond competitive FUT.",
+    "Promote Career Mode's 'Dynamic OVR' and 'xTV' systems through dedicated deep-dive trailers to capture the management simulation audience seeking authentic football operations.",
+    "Ensure clear messaging regarding feature parity between current-gen (PS5/XSX/Switch 2/PC) and legacy consoles to manage consumer expectations around 'The Grounds' availability."
+  ],
+  "word_cloud": [
+    "Grounds",
+    "Gameplay",
+    "Dynamic OVR",
+    "Career Mode",
+    "Transfers",
+    "Pegi 16",
+    "Clubs",
+    "Microtransactions",
+    "Interceptions",
+    "Vancouver",
+    "Gallery",
+    "Responsiveness"
+  ],
+  "scrapedContent": {
+    "title": "EA Sports FC 27: what does the next instalment of the world’s biggest football game have in store?",
+    "description": "The all-conquering franchise&#x2019;s revamps are technically impressive, its transfers more true to life &#x2013; and its new grassroots social hub is surprising fun",
+    "headings": [
+      "H1: EA Sports FC 27: what does the next instalment of the world’s biggest football game have in store?",
+      "H2: Visiting the Grounds",
+      "H2: Gameplay revamps galore",
+      "H2: Making transfers more true-to-life",
+      "H2: Ultimate Transfer: a new showcase",
+      "H2: Now rated 16",
+      "H2: Most viewed",
+      "H2: Most viewed"
+    ],
+    "wordCount": 1653,
+    "previewText": "EA Sports FC 27: what does the next instalment of the world’s biggest football game have in store? | Games | The Guardian\n\nSkip to main content Skip to navigation Close dialogue 1 / 4 Next image Previous image Toggle caption\n\nPrint subscriptions\n\nAustralia edition\n\nInternational edition\n\nThe Guardian - Back to home The Guardian\n\nShow more Hide expanded menu\n\nNews View all News\n\nOpinion View all Opinion\n\nThe Guardian view\n\nSport View all Sport\n\nCulture View all Culture\n\nDesign a better world\n\nLifestyle View all Lifestyle\n\nHealth & fitness\n\nPrint subscriptions\n\nDownload the app\n\nDigital Archive\n\nGuardian Licensing\n\nThe Guardian app\n\nInside the Guardian\n\nGuardian Weekly\n\nDigital Archive\n\nGuardian Licensing\n\nDesign a better world\n\nSomething fresh … EA Sports FC 27. Illustration: Electronic Arts\n\nView image in fullscreen\n\nSomething fresh … EA Sports FC 27. Illustration: Electronic Arts\n\nEA Sports FC 27: what does the next instalment of the world’s biggest football game have in store?\n\nThe all-conquering franchise’s revamps are technically impressive, its transfers more true to life – and its new grassroots social hub is surprising fun\n\nFri 7 Aug 2026 09.00 EDT Last modified on Fri 7 Aug"
+  },
+  "groundedSources": [
+    {
+      "title": "EA Sports FC 27: what does the next instalment of the world’s biggest football game have in store?",
+      "url": "https://www.theguardian.com/games/2026/aug/07/ea-sports-fc-27-grounds",
+      "type": "Direct Page Ingestion"
+    }
+  ],
+  "videos": [
+    "https://www.theguardian.com/games/2026/aug/07/ea-sports-fc-27-grounds"
+  ]
+}

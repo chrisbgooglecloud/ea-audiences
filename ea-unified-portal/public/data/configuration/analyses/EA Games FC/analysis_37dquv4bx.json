@@ -1,0 +1,915 @@
+{
+  "type": "youtube_sentiment",
+  "videoUrl": "https://www.youtube.com/watch?v=GBq8fcpBOTU",
+  "videoId": "GBq8fcpBOTU",
+  "overallScore": 4,
+  "overallScorePercent": 37,
+  "videoScore": 75,
+  "commentsScore": 6,
+  "summary": "The audience response to the video coverage is overwhelmingly critical, reflecting widespread community exhaustion regarding perceived lack of innovation, broken gameplay mechanics, and aggressive monetization. Viewers feel the franchise has stagnated compared to legacy titles, with positive sentiment largely limited to players purchasing the title at steep discounts. Overall, player sentiment indicates a severe deficit in consumer trust that overshadows standard marketing and review coverage.",
+  "alignment": {
+    "status": "Divergent",
+    "explanation": "While standard video review coverage attempts to present a balanced overview of features and gameplay updates, the audience sentiment is intensely negative, prioritizing foundational gameplay flaws, microtransactions, and removed features over standard promotional points.",
+    "creator_stance": "Neutral to informational coverage detailing the current state, gameplay elements, and feature set of the game.",
+    "audience_consensus": "Strongly negative and frustrated by persistent monetization, gameplay scripting, poor defending/AI mechanics, and perceived regression from older franchise iterations."
+  },
+  "strategic_takeaways": [
+    {
+      "priority": "High",
+      "area": "Core Gameplay & Mechanics",
+      "recommendation": "Address foundational gameplay grievances directly through targeted pitch notes and live-tuning updates focusing on defending logic, goalkeeper consistency, and perceived input responsiveness.",
+      "impact": "Reduces community perception of scripting and restores credibility with core and competitive players."
+    },
+    {
+      "priority": "High",
+      "area": "Monetization & Economy Perception",
+      "recommendation": "Rebalance public-facing communication around Ultimate Team packs and emphasize rewarding, accessible progression systems for non-spending players.",
+      "impact": "Mitigates strong pay-to-win backlash and lowers purchase barrier for casual/returning players."
+    },
+    {
+      "priority": "Medium",
+      "area": "Content & Feature Retention",
+      "recommendation": "Clarify the roadmap for fan-favorite modes and licensing gaps, ensuring clear communication on how casual experiences (like Volta or localized tournaments) are being evolved rather than stripped.",
+      "impact": "Combats the persistent 'copy-paste' narrative and justifies full-price value propositions for yearly releases."
+    },
+    {
+      "priority": "Medium",
+      "area": "Onboarding & Promotional Strategy",
+      "recommendation": "Leverage post-launch subscription drops (e.g., PS Plus, Game Pass) and promotional sale windows to onboard lapsed players with simplified onboarding tutorials and refreshed reward tracks.",
+      "impact": "Capitalizes on the positive sentiment observed among discounted and returning players to rebuild the active player base."
+    }
+  ],
+  "videoSentiment": {},
+  "commentsSentiment": {
+    "counts": {
+      "positive": 5,
+      "negative": 59,
+      "neutral": 17
+    },
+    "trends": {
+      "positive": [
+        "Appreciation for discounted/cheap sale price",
+        "Enjoyment from new/returning players after a long hiatus",
+        "Positive reaction to the overall soccer gameplay presentation"
+      ],
+      "negative": [
+        "Frustration over microtransactions, pay-to-win mechanics, and packs",
+        "Complaints about broken gameplay mechanics (defending, goalkeepers, controls, scripting)",
+        "Criticism that the franchise is a yearly 'copy-paste' with outdated graphics",
+        "Removal of beloved modes (e.g., VOLTA) and missing team/league licenses",
+        "General sentiment that older FIFA iterations (e.g., 2013, 2019, 2023) or PES were superior"
+      ],
+      "neutral": [
+        "Discussions around sales promotions and pricing (e.g., $13–$20 discounts)",
+        "Inquiries about value for money compared to older FIFA titles",
+        "Users discovering the game via PlayStation Plus monthly free games",
+        "Mentions and curiosity sparked by the World Cup",
+        "Observations regarding the video's narrator sounding like an AI voice"
+      ]
+    },
+    "summary": "The overwhelming sentiment across the comments is negative, driven by deep dissatisfaction with EA's gameplay changes, lack of innovation, bugs, poor defensive mechanics, missing licenses, and aggressive microtransactions. Neutral comments primarily center around sales/discounts and PlayStation Plus availability, while positive sentiments are extremely rare and mostly tied to playing the game at a heavily discounted price.",
+    "breakdown": [
+      {
+        "text": "The worst version ever terrible awful game rhe worst game genuinley ever",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The graphics look absolutely terrible.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Being punished for playing with kids/morons ,,,great job ea",
+        "sentiment": "negative"
+      },
+      {
+        "text": "It's on sale right now for $13 on the Nintendo Shop.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Dude sounds like an AI voice…",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Everything was good until they decided to give the players super powers 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Just played world cup... Shit sucked tbh game has no life",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Did i hear microtransactions? Im going to pass.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "VOLTA?!?!?! whyyyyyyyyy would you get riddd of something so awesome",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game is horrible",
+        "sentiment": "negative"
+      },
+      {
+        "text": "isn't this just fifa? \nhaven't played in a while",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "This is the first football game I have played since 1997 and yeah. It is not really good. Sorry for buying it guys.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "If I don’t have any fifas at all, is $14.00 worth it? It’s currently on sale. Only plan on playing single player or with friends if they come over",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "What really gets me is when your winning people somehow quit and the game doesn't register the win it's extremely frustrating",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Anyone else here because of the World Cup",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Haven’t bought a fifa game since 2010 South Africa World Cup standalone. Wondering if I should pick this up, it’s like $15 right now. (The fact it’s a question at that price range is telling)",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "This guy in IGN probably never played real life football, ever.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Its crap all fc games are crap this is better but takling the hypermotion goal keeping is FUCKIN AWFUL we need too stop buying games that made in a year they just need one game and call it fifa because these are the biggest con artist in history",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Wasn’t gonna buy it, but it was on sale for 15 bucks 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "This game is so terrible I can't even put it to words. \nD. Rice is mad I'm not playing him - HE IS SUSPENDED FROM A RED CARD I CANT PLAY HIM!!!!! You people are so lazy it's mind boggling how many billions do you need to steal from us just give up this IP and leave it to someone who cares I'm so tired of EA and their incompetence.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Meh",
+        "sentiment": "negative"
+      },
+      {
+        "text": "ps4  god fat slim pro❤❤❤🎉ps5",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Ea should be ashamed of this game. People need to boycott this so we can get a better game in the future.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "\"smarter goalkeeper ai\" 2:10 yeah right",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Today 7 june 2026, it's $18 on steam 85% sale 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Why FC24, fc25, fc26 cannot play LEAGUE SEASON CONTROLLING EVERY PLYERS, WHY I ONLY CAN CONTROL MY OWN AVATAR PLAYER.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Like all EA games. It's a piece of shit",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This franchise has lost the scope",
+        "sentiment": "negative"
+      },
+      {
+        "text": "How tf is a soccer game 94gb😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I’ll never play it because FIFA is the worst football game ever created. And reason why I’m saying it because of FIFA we will never get a good football game again. They ruined football games. I hate them to be honest.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Who’s here from ps plus?😅",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Best FIFA was 2013, then it became disaster",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I play authentic but struggle with it as I usually play careers with low level teams. It’s just not fun. I’m sure it would be good with a top team where you actually play to the team style you have selected however it’s so frustrating not being able to change formations with ease and having world class players not perform well just because they don’t play well as a box to box etc",
+        "sentiment": "negative"
+      },
+      {
+        "text": "WTF IS THIS 💩",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EA games dont get purchased in this house due to their greed on microtransactions.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Who’s here after free drop on PS5? :P",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I miss the pro evo series they need to bring that back!!",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Jockey is the worst thing adding !",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Who's here cause the game is free on PlayStation?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Just here because this game is free for psplus may 2026",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I just want a PES Master League of the day, nothing more....",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "PS PLUS here. Trying to give an oportunity since PES, but, hmmm.... 😢",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Free for PS plus for May but by God this crap isn't worth the money and definitely not even worth my time. Haven't played a Fifa/soccer game since 2004.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Anyone here for the ps free game of the month? ☺️",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I am here after it's free this month on psn lmao crap game, never spending a time on this crap",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Even in competitive mode the game feels slow AF",
+        "sentiment": "negative"
+      },
+      {
+        "text": "They have to add the option that we can start a career as a Youth player",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Efootball ftw until further notice",
+        "sentiment": "negative"
+      },
+      {
+        "text": "From someone who switched from fifa to pes in 2016, I can safely say this game has brought me back. AMAZINGLY GOOD",
+        "sentiment": "positive"
+      },
+      {
+        "text": "It's corrupt. Manipulated shite that wants you to spend spend spend fucking disgraceful company",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Realistic? WTF not even a tesla robot will move like that in the future 😂😂😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FC en general es una basura, sin muchas licencias, realmente era bueno hasta cuándo se llamaba FIFA, a partir de ahora todos los FC son basura",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Glad to see FIFA 09 updates every year😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "game is full of bugs",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Stupid ptw game. Is not even realistic.. players that are fast get  passed by slower players.. every shot on target is a goal. Garbage packs onlu for grinding and paying. F ea. Stupid game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Don't support EA scam !  Save your children from EA games ! Casino slot gambling alert !",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All these gameplay improvements has already been obtained in Winning Eleven 2002 in PS1 😀",
+        "sentiment": "negative"
+      },
+      {
+        "text": "20 bucks rn, only way it’s worth it. Might even wait a little longer lol",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "trashgame",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All I care about is the gameplay, i had to go back to playing fifa 23 because i find the FC 24,25 garbage totally unplayable with overcomplicated controls, glitches and scripted AI making defending impossible at times. Having to score 4 or 5 goals in every game gets boring fast and sucks out any sense of realism.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "E A world cup",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Beat price for this game is a Hypervisor bypass.\nIykyk 😉",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ohhhhhh microtransactions..... Don't need it",
+        "sentiment": "negative"
+      },
+      {
+        "text": "\"We listen to You\" - said EA. \"We listen how fucking stupid you are\". Lets just sue those fothermuckers in ripping off young kids with those gambling boxes, in how fucking stupid the defence is for years already, for how greedy and shit they are and just put them into the gas chamber. Fucking every fucking game is worse then the one before and i havent even played them since 19 but 26 is the biggest crap a guy with diarrhea mixed with orgs and Greta T. cant even shit out",
+        "sentiment": "negative"
+      },
+      {
+        "text": "EA WHY WTF IS WOMAN SO OVERPOWERED ON ULTIMATE TEAM THERES IS NO WAY IN THE REAL WORLD THESE GIRL ARE PUSHING AND HITTING SOMEONE LIKE VIN DIK OR CASIMIRO FOR THEM TO FALL OR PUSH THEM OUT THE WAY WTF IS WRONG WITH THIS GAME DO NOT PUT WOMAN TO PLAY WITH MEN ON THE GAME PUT THEM ON A SAPERATE SHIT",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All fc games have been bad. \nBring FIFA BACK !",
+        "sentiment": "negative"
+      },
+      {
+        "text": "$20 today on steam!  The lowest it will be until next year I bet.\n\nI only buy sports games on sale personally.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "The game is wank. A waste of everybody's time. Don't listen to these ea bum boys. Inconsistent shite. The only thing worse than being an ea bum boy is actually working for ea. Imagine being so shit that you work for the most soulless gaming company on the planet. No one at ea has ever laced a pair of boots & it shows",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I am currently playing Fc 26 on Playstation 5 and I can tell you for free, it's the worst football game experience for me all my life, the game sucks so bad, you can't dribble properly, you can't score a corner kick, you can't score a Finesse shot, when you press the ⭕ button to use a sweeping attack, it doesn't work, it only works once in ten trillion years, no player motions at all, every one has same body motions, it's like ice-hockey movements, AI goalkeepers saves almost every ball played at them, mind you I've been playing fifa games for more than 15 years, the game sucks so bad and I regret buying this game, it's horrible and this is only a few things I've mentioned",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game is so incredibly bad. Do not even consider buying it. I'm in the middle of my career and as bad as the gameplay as I've been sticking with it and randomly in February in my manager career, all of my players have black faces and arms for this game. This is such a horrible product. It's beyond explanation.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "These games are shit.\nThey always change everything",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I love it. Never played these games before and it’s great fun.",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Forget EA FC. Any of the games these EA fuckers produce after FIFA 23 is nothing but shit. Americans should not produce football games lmao",
+        "sentiment": "negative"
+      },
+      {
+        "text": "It’s the best football game since the last 5 years",
+        "sentiment": "positive"
+      },
+      {
+        "text": "This has got to be the WORST FC or FIFA game yet. Do yourself a favor and spend your money on ANYTHING else😭😂 absolutely disgusting game.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I really like this game. However, I've never played a Fifa/FC game before. And I haven't played any other sports games in 20 years.\n  \n So, if you have to have stayed away from an entire genre for decades in order to enjoy the new game in an annually released series, then something has gone catastrophically wrong.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "come on EA",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Worst Fifa ever",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Dead Game… DONT WASTE YOUR MONEY!! 0:03",
+        "sentiment": "negative"
+      },
+      {
+        "text": "i swear on my life the saudi league teams are coded,,i just played as the la liga all stars team with cruyff ronaldo etc,i had the sliders in my favour slightly and they were destroying me, dont get it,and i didnt even play against one of the top teama either,they play like they have a rating of about 100",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game is shvt.....\nFifa 19 was the last best game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "U don’t shit about quality games. Sports games is about gameplay and not special effects. Sports games now are shit. Everything is crap",
+        "sentiment": "negative"
+      },
+      {
+        "text": "worst game ever",
+        "sentiment": "negative"
+      },
+      {
+        "text": "this game sucks!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "why does it look like a ps3 game? I'm not even being facetious, I haven't played a fifa game in more than a decade and expected graphics to have improved in leaps and bounds.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "one of the BEST VERSIONS like always .. LETS BE REAL THIS GAME IS SHIT! ,im playing fifa since childhood and im now 30 just bought fifa 26 after not buying 25 and this game still playes like fifa 20 ,looks like fifa 20 \nTHERES LIKE ONLY 6 COMPETITIONS wich makes career mode shit ,this has been the first time for me since i playted fifa that im selling the game back ,6 competitions of wich usa and sooudi arabie common .. what a nonsence ,my national team belgium and belgian competition are not availible,bayern munchen is the only german team PLAYABLE in germany .. players looks like sims players",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Worse game ever \nJust waste time",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FIFA BETTER FC 26 SUCKS",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Why would FIFA come to the US now? Really? Wtf?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ball physics look rubbish and the players still don't run towards the ball properly.... If only Efootball had licences.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game is disgusting the dribbling tackling everything I genuinely can’t get use to it I’ve tried but I’ve given up you couldn’t pay me to play it again I’ve returned to FIFA 25",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Latest update is so typical defending is now harder so the kids can run and shoot again. What a shock",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Just bought it. Great game for a crazy cheap price",
+        "sentiment": "positive"
+      },
+      {
+        "text": "this looks like a nice soccer game",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Who’s this AI voice hyping up the same garbage every year lol 🤦🏻‍♂️",
+        "sentiment": "negative"
+      },
+      {
+        "text": "game is garbage",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ea: copy paste",
+        "sentiment": "negative"
+      },
+      {
+        "text": "It's crap 😂😂😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "it looks like fifa 22.. how different is it ? should i buy it.. ? thanks in advance",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "they need to improve defense...it is frustrating how defenders are reacting...",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "sentiment": {
+    "positive": [],
+    "negative": [],
+    "neutral": []
+  },
+  "timeline": [],
+  "talking_points": [],
+  "themes": [],
+  "products": [],
+  "word_cloud": [],
+  "counts": {
+    "positive": 5,
+    "negative": 59,
+    "neutral": 17
+  },
+  "trends": {
+    "positive": [
+      "Appreciation for discounted/cheap sale price",
+      "Enjoyment from new/returning players after a long hiatus",
+      "Positive reaction to the overall soccer gameplay presentation"
+    ],
+    "negative": [
+      "Frustration over microtransactions, pay-to-win mechanics, and packs",
+      "Complaints about broken gameplay mechanics (defending, goalkeepers, controls, scripting)",
+      "Criticism that the franchise is a yearly 'copy-paste' with outdated graphics",
+      "Removal of beloved modes (e.g., VOLTA) and missing team/league licenses",
+      "General sentiment that older FIFA iterations (e.g., 2013, 2019, 2023) or PES were superior"
+    ],
+    "neutral": [
+      "Discussions around sales promotions and pricing (e.g., $13–$20 discounts)",
+      "Inquiries about value for money compared to older FIFA titles",
+      "Users discovering the game via PlayStation Plus monthly free games",
+      "Mentions and curiosity sparked by the World Cup",
+      "Observations regarding the video's narrator sounding like an AI voice"
+    ]
+  },
+  "breakdown": [
+    {
+      "text": "The worst version ever terrible awful game rhe worst game genuinley ever",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The graphics look absolutely terrible.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Being punished for playing with kids/morons ,,,great job ea",
+      "sentiment": "negative"
+    },
+    {
+      "text": "It's on sale right now for $13 on the Nintendo Shop.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Dude sounds like an AI voice…",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Everything was good until they decided to give the players super powers 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Just played world cup... Shit sucked tbh game has no life",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Did i hear microtransactions? Im going to pass.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "VOLTA?!?!?! whyyyyyyyyy would you get riddd of something so awesome",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game is horrible",
+      "sentiment": "negative"
+    },
+    {
+      "text": "isn't this just fifa? \nhaven't played in a while",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "This is the first football game I have played since 1997 and yeah. It is not really good. Sorry for buying it guys.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "If I don’t have any fifas at all, is $14.00 worth it? It’s currently on sale. Only plan on playing single player or with friends if they come over",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "What really gets me is when your winning people somehow quit and the game doesn't register the win it's extremely frustrating",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Anyone else here because of the World Cup",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Haven’t bought a fifa game since 2010 South Africa World Cup standalone. Wondering if I should pick this up, it’s like $15 right now. (The fact it’s a question at that price range is telling)",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "This guy in IGN probably never played real life football, ever.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Its crap all fc games are crap this is better but takling the hypermotion goal keeping is FUCKIN AWFUL we need too stop buying games that made in a year they just need one game and call it fifa because these are the biggest con artist in history",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Wasn’t gonna buy it, but it was on sale for 15 bucks 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "This game is so terrible I can't even put it to words. \nD. Rice is mad I'm not playing him - HE IS SUSPENDED FROM A RED CARD I CANT PLAY HIM!!!!! You people are so lazy it's mind boggling how many billions do you need to steal from us just give up this IP and leave it to someone who cares I'm so tired of EA and their incompetence.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Meh",
+      "sentiment": "negative"
+    },
+    {
+      "text": "ps4  god fat slim pro❤❤❤🎉ps5",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Ea should be ashamed of this game. People need to boycott this so we can get a better game in the future.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "\"smarter goalkeeper ai\" 2:10 yeah right",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Today 7 june 2026, it's $18 on steam 85% sale 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Why FC24, fc25, fc26 cannot play LEAGUE SEASON CONTROLLING EVERY PLYERS, WHY I ONLY CAN CONTROL MY OWN AVATAR PLAYER.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Like all EA games. It's a piece of shit",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This franchise has lost the scope",
+      "sentiment": "negative"
+    },
+    {
+      "text": "How tf is a soccer game 94gb😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I’ll never play it because FIFA is the worst football game ever created. And reason why I’m saying it because of FIFA we will never get a good football game again. They ruined football games. I hate them to be honest.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Who’s here from ps plus?😅",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Best FIFA was 2013, then it became disaster",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I play authentic but struggle with it as I usually play careers with low level teams. It’s just not fun. I’m sure it would be good with a top team where you actually play to the team style you have selected however it’s so frustrating not being able to change formations with ease and having world class players not perform well just because they don’t play well as a box to box etc",
+      "sentiment": "negative"
+    },
+    {
+      "text": "WTF IS THIS 💩",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EA games dont get purchased in this house due to their greed on microtransactions.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Who’s here after free drop on PS5? :P",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I miss the pro evo series they need to bring that back!!",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Jockey is the worst thing adding !",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Who's here cause the game is free on PlayStation?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Just here because this game is free for psplus may 2026",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I just want a PES Master League of the day, nothing more....",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "PS PLUS here. Trying to give an oportunity since PES, but, hmmm.... 😢",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Free for PS plus for May but by God this crap isn't worth the money and definitely not even worth my time. Haven't played a Fifa/soccer game since 2004.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Anyone here for the ps free game of the month? ☺️",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I am here after it's free this month on psn lmao crap game, never spending a time on this crap",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Even in competitive mode the game feels slow AF",
+      "sentiment": "negative"
+    },
+    {
+      "text": "They have to add the option that we can start a career as a Youth player",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Efootball ftw until further notice",
+      "sentiment": "negative"
+    },
+    {
+      "text": "From someone who switched from fifa to pes in 2016, I can safely say this game has brought me back. AMAZINGLY GOOD",
+      "sentiment": "positive"
+    },
+    {
+      "text": "It's corrupt. Manipulated shite that wants you to spend spend spend fucking disgraceful company",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Realistic? WTF not even a tesla robot will move like that in the future 😂😂😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FC en general es una basura, sin muchas licencias, realmente era bueno hasta cuándo se llamaba FIFA, a partir de ahora todos los FC son basura",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Glad to see FIFA 09 updates every year😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "game is full of bugs",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Stupid ptw game. Is not even realistic.. players that are fast get  passed by slower players.. every shot on target is a goal. Garbage packs onlu for grinding and paying. F ea. Stupid game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Don't support EA scam !  Save your children from EA games ! Casino slot gambling alert !",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All these gameplay improvements has already been obtained in Winning Eleven 2002 in PS1 😀",
+      "sentiment": "negative"
+    },
+    {
+      "text": "20 bucks rn, only way it’s worth it. Might even wait a little longer lol",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "trashgame",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All I care about is the gameplay, i had to go back to playing fifa 23 because i find the FC 24,25 garbage totally unplayable with overcomplicated controls, glitches and scripted AI making defending impossible at times. Having to score 4 or 5 goals in every game gets boring fast and sucks out any sense of realism.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "E A world cup",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Beat price for this game is a Hypervisor bypass.\nIykyk 😉",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ohhhhhh microtransactions..... Don't need it",
+      "sentiment": "negative"
+    },
+    {
+      "text": "\"We listen to You\" - said EA. \"We listen how fucking stupid you are\". Lets just sue those fothermuckers in ripping off young kids with those gambling boxes, in how fucking stupid the defence is for years already, for how greedy and shit they are and just put them into the gas chamber. Fucking every fucking game is worse then the one before and i havent even played them since 19 but 26 is the biggest crap a guy with diarrhea mixed with orgs and Greta T. cant even shit out",
+      "sentiment": "negative"
+    },
+    {
+      "text": "EA WHY WTF IS WOMAN SO OVERPOWERED ON ULTIMATE TEAM THERES IS NO WAY IN THE REAL WORLD THESE GIRL ARE PUSHING AND HITTING SOMEONE LIKE VIN DIK OR CASIMIRO FOR THEM TO FALL OR PUSH THEM OUT THE WAY WTF IS WRONG WITH THIS GAME DO NOT PUT WOMAN TO PLAY WITH MEN ON THE GAME PUT THEM ON A SAPERATE SHIT",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All fc games have been bad. \nBring FIFA BACK !",
+      "sentiment": "negative"
+    },
+    {
+      "text": "$20 today on steam!  The lowest it will be until next year I bet.\n\nI only buy sports games on sale personally.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "The game is wank. A waste of everybody's time. Don't listen to these ea bum boys. Inconsistent shite. The only thing worse than being an ea bum boy is actually working for ea. Imagine being so shit that you work for the most soulless gaming company on the planet. No one at ea has ever laced a pair of boots & it shows",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I am currently playing Fc 26 on Playstation 5 and I can tell you for free, it's the worst football game experience for me all my life, the game sucks so bad, you can't dribble properly, you can't score a corner kick, you can't score a Finesse shot, when you press the ⭕ button to use a sweeping attack, it doesn't work, it only works once in ten trillion years, no player motions at all, every one has same body motions, it's like ice-hockey movements, AI goalkeepers saves almost every ball played at them, mind you I've been playing fifa games for more than 15 years, the game sucks so bad and I regret buying this game, it's horrible and this is only a few things I've mentioned",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game is so incredibly bad. Do not even consider buying it. I'm in the middle of my career and as bad as the gameplay as I've been sticking with it and randomly in February in my manager career, all of my players have black faces and arms for this game. This is such a horrible product. It's beyond explanation.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "These games are shit.\nThey always change everything",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I love it. Never played these games before and it’s great fun.",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Forget EA FC. Any of the games these EA fuckers produce after FIFA 23 is nothing but shit. Americans should not produce football games lmao",
+      "sentiment": "negative"
+    },
+    {
+      "text": "It’s the best football game since the last 5 years",
+      "sentiment": "positive"
+    },
+    {
+      "text": "This has got to be the WORST FC or FIFA game yet. Do yourself a favor and spend your money on ANYTHING else😭😂 absolutely disgusting game.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I really like this game. However, I've never played a Fifa/FC game before. And I haven't played any other sports games in 20 years.\n  \n So, if you have to have stayed away from an entire genre for decades in order to enjoy the new game in an annually released series, then something has gone catastrophically wrong.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "come on EA",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Worst Fifa ever",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Dead Game… DONT WASTE YOUR MONEY!! 0:03",
+      "sentiment": "negative"
+    },
+    {
+      "text": "i swear on my life the saudi league teams are coded,,i just played as the la liga all stars team with cruyff ronaldo etc,i had the sliders in my favour slightly and they were destroying me, dont get it,and i didnt even play against one of the top teama either,they play like they have a rating of about 100",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game is shvt.....\nFifa 19 was the last best game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "U don’t shit about quality games. Sports games is about gameplay and not special effects. Sports games now are shit. Everything is crap",
+      "sentiment": "negative"
+    },
+    {
+      "text": "worst game ever",
+      "sentiment": "negative"
+    },
+    {
+      "text": "this game sucks!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "why does it look like a ps3 game? I'm not even being facetious, I haven't played a fifa game in more than a decade and expected graphics to have improved in leaps and bounds.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "one of the BEST VERSIONS like always .. LETS BE REAL THIS GAME IS SHIT! ,im playing fifa since childhood and im now 30 just bought fifa 26 after not buying 25 and this game still playes like fifa 20 ,looks like fifa 20 \nTHERES LIKE ONLY 6 COMPETITIONS wich makes career mode shit ,this has been the first time for me since i playted fifa that im selling the game back ,6 competitions of wich usa and sooudi arabie common .. what a nonsence ,my national team belgium and belgian competition are not availible,bayern munchen is the only german team PLAYABLE in germany .. players looks like sims players",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Worse game ever \nJust waste time",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FIFA BETTER FC 26 SUCKS",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Why would FIFA come to the US now? Really? Wtf?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ball physics look rubbish and the players still don't run towards the ball properly.... If only Efootball had licences.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game is disgusting the dribbling tackling everything I genuinely can’t get use to it I’ve tried but I’ve given up you couldn’t pay me to play it again I’ve returned to FIFA 25",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Latest update is so typical defending is now harder so the kids can run and shoot again. What a shock",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Just bought it. Great game for a crazy cheap price",
+      "sentiment": "positive"
+    },
+    {
+      "text": "this looks like a nice soccer game",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Who’s this AI voice hyping up the same garbage every year lol 🤦🏻‍♂️",
+      "sentiment": "negative"
+    },
+    {
+      "text": "game is garbage",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ea: copy paste",
+      "sentiment": "negative"
+    },
+    {
+      "text": "It's crap 😂😂😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "it looks like fifa 22.. how different is it ? should i buy it.. ? thanks in advance",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "they need to improve defense...it is frustrating how defenders are reacting...",
+      "sentiment": "negative"
+    }
+  ],
+  "videos": [
+    "GBq8fcpBOTU"
+  ]
+}

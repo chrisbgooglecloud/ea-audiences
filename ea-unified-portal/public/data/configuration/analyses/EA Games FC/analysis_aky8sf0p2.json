@@ -1,0 +1,913 @@
+{
+  "type": "youtube_sentiment",
+  "videoUrl": "https://www.youtube.com/watch?v=QrID0EA3hhI",
+  "videoId": "QrID0EA3hhI",
+  "overallScore": 4,
+  "overallScorePercent": 39,
+  "videoScore": 75,
+  "commentsScore": 9,
+  "summary": "The promotional coverage for EA Sports FC 25 triggered a largely critical audience reaction, with 58.5% expressing negative sentiment centered on perceived lack of innovation, unresponsive controls, and arcade-like physics. While a minor segment welcomed customization enhancements and audio design, the overwhelming viewer consensus reflects fatigue over iterative annual releases and unaddressed core gameplay mechanics.",
+  "alignment": {
+    "status": "Divergent",
+    "explanation": "The promotional video focuses on driving anticipation and showcasing new features, whereas the audience responded with severe skepticism regarding gameplay authenticity, server stability, and perceived year-over-year stagnation.",
+    "creator_stance": "Promotional and forward-looking, highlighting upcoming feature deep dives and franchise enhancements.",
+    "audience_consensus": "Overwhelmingly frustrated with mechanical issues such as 'skating' movement, scripted outcomes, and poor value-to-price proposition."
+  },
+  "strategic_takeaways": [
+    {
+      "priority": "High",
+      "area": "Core Gameplay & Physics",
+      "recommendation": "Directly address player movement responsiveness and physics in upcoming deep dives to counter the prevalent 'ice skating' and scripting narratives.",
+      "impact": "Restores credibility among simulation-focused players and reduces negative word-of-mouth prior to launch."
+    },
+    {
+      "priority": "High",
+      "area": "Marketing & Value Proposition",
+      "recommendation": "Highlight tangible year-over-year architectural and mechanical upgrades rather than surface-level additions to dismantle the 'copy-paste' perception.",
+      "impact": "Improves conversion rates among fence-sitters and reduces purchase hesitation driven by price-to-value critiques."
+    },
+    {
+      "priority": "Medium",
+      "area": "Feature Amplification",
+      "recommendation": "Lean into verified positive reception areas, specifically career mode customization and audio/soundtrack quality, within secondary promotional beats.",
+      "impact": "Maintains positive engagement clusters and caters to offline/single-player demographics who showed genuine appreciation."
+    }
+  ],
+  "videoSentiment": {},
+  "commentsSentiment": {
+    "counts": {
+      "positive": 5,
+      "negative": 31,
+      "neutral": 17
+    },
+    "trends": {
+      "positive": [
+        "Appreciation for career mode customization improvements",
+        "Praise for FC 25 being viewed as the best game/hyped",
+        "Excitement expressed through emojis and anticipation",
+        "Preference for deep-dive content announcements",
+        "Appreciation for the soundtrack quality"
+      ],
+      "negative": [
+        "Accusations of being a 'copy-paste' or 'iPhone-style' annual release with minimal changes",
+        "Criticism of arcade-like physics, unresponsive controls, and 'ice skating' movements",
+        "Frustration over bugs, glitches, poor server performance, and bad gameplay compared to older titles",
+        "Disappointment over price versus value ('waste of money', calls to boycott)",
+        "Complaints regarding commentary quality and missing realism/features (e.g. player roles, licenses)"
+      ],
+      "neutral": [
+        "Inquiries about hardware compatibility and download methods",
+        "Questions/requests regarding missing leagues, clubs, and updated kits",
+        "Requests for mobile/Nintendo versions and platform features (e.g. Steam upgrade, squad sharing)",
+        "Language/commentary requests (e.g. Turkish commentators, Martin Tyler)",
+        "Resignation/realization that players will still buy the game despite criticism"
+      ]
+    },
+    "summary": "Overall sentiment is overwhelmingly negative (58.5%), driven primarily by gameplay dissatisfaction, accusations of repetitive annual releases without real innovation, physics issues described as 'skating', and server/bug frustrations. Neutral sentiment accounts for 32.1%, consisting largely of questions regarding hardware specs, download links, and feature/kit requests. Positive sentiment is low (9.4%), limited to isolated praise for customization, hype for upcoming features, or simple positive emoji reactions.",
+    "breakdown": [
+      {
+        "text": "Subscribe now to be the first to see the #FC25 Gameplay Deep Dive.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "❤",
+        "sentiment": "positive"
+      },
+      {
+        "text": "For Years, I criticised EA to not give a powerful customization in my career player mode. I'm playing EAFC25 recently and I'm loving many options there. Thanks EA, thanks... (comment for someone who stopped on FIFA 20)",
+        "sentiment": "positive"
+      },
+      {
+        "text": "This “gameplay” looks nothing like real football. It’s all scripted moments, inconsistent AI, and zero real control. Players feel unresponsive, passes don’t register properly, and long shots are basically gone. Instead of a simulation, it feels like a random system where outcomes are decided for you. These so-called “features” and attempts to simulate emotions only create frustration, not enjoyment. Players move like they’re having strokes, and the whole experience is just embarrassing. This game is simply pathetic! Only soundtrack  is alright",
+        "sentiment": "negative"
+      },
+      {
+        "text": "يFCخليfcريخس",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Pleas make  cricket game like this graphics😢",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "محمود الصقر✊",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Why are Fifa games become dark",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FC 25 was the best game forever",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Vedad Ibisevic",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "How do the graphics and gameplay keep developing backwards?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The FC 26 trailer seems a million times better ngl",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This is basically the same thing as FC25 😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bring new commentators 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Same game...Same improvemnts like 3M ago....Nothing change...Same graphic from FC 21 , or low...And i Pay 70US for what?....Still i need i am not a player for online, i just want this game to Change barier from the game mechanics not online settings..",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Worst thing theyve ever added,”player roles”",
+        "sentiment": "negative"
+      },
+      {
+        "text": "My nintendo?🥹",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Brazilian league plsss",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "The biggest garbage of the game, this can't be compared to fifa, why do you always have to ruin the game?!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "How do i get this game @easportsfc",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "What a hot garbage game is this.. There is no single element about the ''real''  and ''realistic'' football, its crazy man. The game looks arcadish but in a 100% bad way, just unbeliveable. I really regret buying the game, still happy with FIFA 17 &18 in every way.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Please do the World Cup in fc26",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Don't bother with this, absolute waste of your time.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "you know what would make the game feel more authentic? the commentary. BRING BACK MARTIN TYLER PLEASE",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Way of download ea sport",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "is FC25 worth  it or just keep FC24",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Kote fichiers jwet la",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "i mean can't get in try me play online server ea fc 25 ps5",
+        "sentiment": "negative"
+      },
+      {
+        "text": "seriously can we all boycott EA. \nEnough is enough.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The servers in Turkey are bad, I will not buy this game again. This game trash🤮🤮",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc 25 is the best!!",
+        "sentiment": "positive"
+      },
+      {
+        "text": "this be fire when it's off 🗣️🔥",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Please who can i download this game please",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Trash trash",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Game only have bugs",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Quero meu dinheiro de volta",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Trash game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fifa 17.6 is looking great. I might buy it and give it a go!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "فزت فلعبه على اعلى صعوبه ضد الكمبيوتر",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "At this point FIFA has to bring in Ray Hudson as a commentator to attract players",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Gameplay is atrocious fc24 is a million times better than this junk",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I hope that the developers make the game graphics more beautiful and smooth for weak phones, especially the stadium graphics. It should be full of fans as well for weak phones, and make the game smoother.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I hope that the developers make the game graphics more beautiful and smooth for weak phones, especially the stadium graphics. It should be full of fans as well for weak phones, and make the game smoother.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Votre gale play il est éclaté en France il est critiquer de malade le game play depuis fifa 20",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Very funny now where’s the actual trailer",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Neden Türkçe spiker eklemiyorsunuz",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Uma porcaria de jogo, roubado, triste desde o fifa 23😢",
+        "sentiment": "negative"
+      },
+      {
+        "text": "I.miss fifa 16 & 18",
+        "sentiment": "negative"
+      },
+      {
+        "text": "This game is pure trash why you promoting trash ?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ea never disappoints when it comes to disappointing🔥🔥🔥💯",
+        "sentiment": "negative"
+      },
+      {
+        "text": "When will you finally add AS Roma's Third Kit? It was officially released a month ago!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Blablabla",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Doll face players 🫥",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Still skating all over the pitch",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bella merd@ di gioco avete peggiorato non si capisce niente. Era tanto più semplice e bello prima. Per non parlare la lentezza del gioco, e i tanti bug che vergogna. 80€ di gioco!!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Nerde lamin yamal ın diştelerı",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "I bought the game on xbox it release at the end of September, the problem is that some clubs teams don't have third kit or alternate kit like FC Barcelona. When will EA Sports update the club teams kits??",
+        "sentiment": "negative"
+      },
+      {
+        "text": "But where is fifa club World Cup????",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "hey guys can someone please tell me if i can play fc25 with ryzen 3 and gtx 1030 with 8gb ram on 60fps but everything to be on low??",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Very very bad don't buy it",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Game does not work save your money",
+        "sentiment": "negative"
+      },
+      {
+        "text": "if id just burnt 65 pounds i would have a tleast had the heat from that instead i really wasted my money on this game",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Extreme rip off",
+        "sentiment": "negative"
+      },
+      {
+        "text": "DO NOT BUY IF YOU HAVE DOWNLOADED THE 10 HOUR DEMO  YOU GET HOURS 3 HOURS  DEMO AND WHEN YOU BUY THE GAME IT WONT WORK  AND THERE NOT BOTHERD",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Put a feature so that someone who bought the standard version can upgrade to the ultimate version [Steam version].",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "FC 24 2.0",
+        "sentiment": "negative"
+      },
+      {
+        "text": "wow how many new things",
+        "sentiment": "negative"
+      },
+      {
+        "text": "stop buying fifa. they dont have to improve it because you keep paying for only a new season roaster.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "FC24 is MILES better than this game. You nerfed the whole game! This is disgusting and I’ve been playing fifa since 08. This is unacceptable!",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Lança no celular por favor eu quero",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Had to rewatch this to see if they mentioned that the gameplay would actually be worse than last year.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Still no online career mode?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "All these “new” stuff and in 2024 the body physics are still so unrealistic. Don’t you guys have a product quality team? How can people working there agree that this looks okay? Pick a ball yourselves and go play in real life. Do your bodies turn like crazy? OFC not. Why? Cause of physics. You have weight and you cannot accelerate and decelerate the body at will in the split of a second. There is this body turning compensation deceleration timing before you can be agile again. In FC bodies turn like they are Dragonball Anime Characters. There is no heavy realistic body and movement feel. Never was and prolly never will.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "The thing is most of us will buy it at the end.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "If they tell you about CLOTH SIMULATION the game is EMPTY",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Fc 25 has the same lore of iphones",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Let’s be real. I’m gonna buy it, you’re gonna buy it. Everyone’s going to buy it.",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Its literally the same game since 2014 lol",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Had a chance to try it on ps plus and gotta say . Will never give you a penny you money hungry losers",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Funny how every year EA steals one or two more features from Football Manager that it has had for years and tries to call it revolutionary.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Ice Skating 25 😂😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "But will lower and weaker rated players just burn and outstrenght my defence ?😂",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Do you add Crvena Zvezda in fc 25",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Is the Mexican league in this ?",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "vay be türkçe",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Everything I do I do for the club",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Looks poo",
+        "sentiment": "negative"
+      },
+      {
+        "text": "How can I set it up",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "How can I set it",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "add the ability to import squads from other people \n\nImagine being able to make like 50 custom players from pc With Mods or custom faces and you list them somewhere and console players can install it and have custom teams like 2018 Madrid with their kits or noodle hair ronaldo or 2012 messi that would be awsome fifa wouldnt need licensing if every player from pc could mod the game and add custom players teams and kits into the game \n\nI genuinely hope Ea read this Message and actually consider it because it could geniunely be the biggest feature they could add to the game",
+        "sentiment": "positive"
+      },
+      {
+        "text": "Study:❌❌❌❌❌❌❌❌\nWatch the whole list of EA FC 25 Details:✅✅✅✅✅✅✅✅✅✅✅✅✔✔✔✔✔✔✔✔✔✔✔✔",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Hello",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Gameplay still mediocre",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Bruh 😂",
+        "sentiment": "neutral"
+      },
+      {
+        "text": "Will we be able to control our players in defence or eill be another waste of money. The EA Ceo should have been dismissed from his position for releasing fc24 in public.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "They following iPhone year by year",
+        "sentiment": "negative"
+      },
+      {
+        "text": "😴🛌thanks I needed help falling asleep , that is truly special. Literally copy and paste this title every year making minor changes and charging full price, it's very smart of you guys taking advantage of the sports community.",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Jogabilidade como sempre uma 💩 pq vocês nunca muda essa jogabilidade horrível? Todo ano a mesma 💩",
+        "sentiment": "negative"
+      },
+      {
+        "text": "Still skiing?",
+        "sentiment": "negative"
+      },
+      {
+        "text": "❤ ok vedremo",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "sentiment": {
+    "positive": [],
+    "negative": [],
+    "neutral": []
+  },
+  "timeline": [],
+  "talking_points": [],
+  "themes": [],
+  "products": [],
+  "word_cloud": [],
+  "counts": {
+    "positive": 5,
+    "negative": 31,
+    "neutral": 17
+  },
+  "trends": {
+    "positive": [
+      "Appreciation for career mode customization improvements",
+      "Praise for FC 25 being viewed as the best game/hyped",
+      "Excitement expressed through emojis and anticipation",
+      "Preference for deep-dive content announcements",
+      "Appreciation for the soundtrack quality"
+    ],
+    "negative": [
+      "Accusations of being a 'copy-paste' or 'iPhone-style' annual release with minimal changes",
+      "Criticism of arcade-like physics, unresponsive controls, and 'ice skating' movements",
+      "Frustration over bugs, glitches, poor server performance, and bad gameplay compared to older titles",
+      "Disappointment over price versus value ('waste of money', calls to boycott)",
+      "Complaints regarding commentary quality and missing realism/features (e.g. player roles, licenses)"
+    ],
+    "neutral": [
+      "Inquiries about hardware compatibility and download methods",
+      "Questions/requests regarding missing leagues, clubs, and updated kits",
+      "Requests for mobile/Nintendo versions and platform features (e.g. Steam upgrade, squad sharing)",
+      "Language/commentary requests (e.g. Turkish commentators, Martin Tyler)",
+      "Resignation/realization that players will still buy the game despite criticism"
+    ]
+  },
+  "breakdown": [
+    {
+      "text": "Subscribe now to be the first to see the #FC25 Gameplay Deep Dive.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "❤",
+      "sentiment": "positive"
+    },
+    {
+      "text": "For Years, I criticised EA to not give a powerful customization in my career player mode. I'm playing EAFC25 recently and I'm loving many options there. Thanks EA, thanks... (comment for someone who stopped on FIFA 20)",
+      "sentiment": "positive"
+    },
+    {
+      "text": "This “gameplay” looks nothing like real football. It’s all scripted moments, inconsistent AI, and zero real control. Players feel unresponsive, passes don’t register properly, and long shots are basically gone. Instead of a simulation, it feels like a random system where outcomes are decided for you. These so-called “features” and attempts to simulate emotions only create frustration, not enjoyment. Players move like they’re having strokes, and the whole experience is just embarrassing. This game is simply pathetic! Only soundtrack  is alright",
+      "sentiment": "negative"
+    },
+    {
+      "text": "يFCخليfcريخس",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Pleas make  cricket game like this graphics😢",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "محمود الصقر✊",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Why are Fifa games become dark",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FC 25 was the best game forever",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Vedad Ibisevic",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "How do the graphics and gameplay keep developing backwards?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The FC 26 trailer seems a million times better ngl",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This is basically the same thing as FC25 😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bring new commentators 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Same game...Same improvemnts like 3M ago....Nothing change...Same graphic from FC 21 , or low...And i Pay 70US for what?....Still i need i am not a player for online, i just want this game to Change barier from the game mechanics not online settings..",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Worst thing theyve ever added,”player roles”",
+      "sentiment": "negative"
+    },
+    {
+      "text": "My nintendo?🥹",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Brazilian league plsss",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "The biggest garbage of the game, this can't be compared to fifa, why do you always have to ruin the game?!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "How do i get this game @easportsfc",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "What a hot garbage game is this.. There is no single element about the ''real''  and ''realistic'' football, its crazy man. The game looks arcadish but in a 100% bad way, just unbeliveable. I really regret buying the game, still happy with FIFA 17 &18 in every way.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Please do the World Cup in fc26",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Don't bother with this, absolute waste of your time.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "you know what would make the game feel more authentic? the commentary. BRING BACK MARTIN TYLER PLEASE",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Way of download ea sport",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "is FC25 worth  it or just keep FC24",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Kote fichiers jwet la",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "i mean can't get in try me play online server ea fc 25 ps5",
+      "sentiment": "negative"
+    },
+    {
+      "text": "seriously can we all boycott EA. \nEnough is enough.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The servers in Turkey are bad, I will not buy this game again. This game trash🤮🤮",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc 25 is the best!!",
+      "sentiment": "positive"
+    },
+    {
+      "text": "this be fire when it's off 🗣️🔥",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Please who can i download this game please",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Trash trash",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Game only have bugs",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Quero meu dinheiro de volta",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Trash game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fifa 17.6 is looking great. I might buy it and give it a go!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "فزت فلعبه على اعلى صعوبه ضد الكمبيوتر",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "At this point FIFA has to bring in Ray Hudson as a commentator to attract players",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Gameplay is atrocious fc24 is a million times better than this junk",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I hope that the developers make the game graphics more beautiful and smooth for weak phones, especially the stadium graphics. It should be full of fans as well for weak phones, and make the game smoother.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I hope that the developers make the game graphics more beautiful and smooth for weak phones, especially the stadium graphics. It should be full of fans as well for weak phones, and make the game smoother.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Votre gale play il est éclaté en France il est critiquer de malade le game play depuis fifa 20",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Very funny now where’s the actual trailer",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Neden Türkçe spiker eklemiyorsunuz",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Uma porcaria de jogo, roubado, triste desde o fifa 23😢",
+      "sentiment": "negative"
+    },
+    {
+      "text": "I.miss fifa 16 & 18",
+      "sentiment": "negative"
+    },
+    {
+      "text": "This game is pure trash why you promoting trash ?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ea never disappoints when it comes to disappointing🔥🔥🔥💯",
+      "sentiment": "negative"
+    },
+    {
+      "text": "When will you finally add AS Roma's Third Kit? It was officially released a month ago!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Blablabla",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Doll face players 🫥",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Still skating all over the pitch",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bella merd@ di gioco avete peggiorato non si capisce niente. Era tanto più semplice e bello prima. Per non parlare la lentezza del gioco, e i tanti bug che vergogna. 80€ di gioco!!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Nerde lamin yamal ın diştelerı",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "I bought the game on xbox it release at the end of September, the problem is that some clubs teams don't have third kit or alternate kit like FC Barcelona. When will EA Sports update the club teams kits??",
+      "sentiment": "negative"
+    },
+    {
+      "text": "But where is fifa club World Cup????",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "hey guys can someone please tell me if i can play fc25 with ryzen 3 and gtx 1030 with 8gb ram on 60fps but everything to be on low??",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Very very bad don't buy it",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Game does not work save your money",
+      "sentiment": "negative"
+    },
+    {
+      "text": "if id just burnt 65 pounds i would have a tleast had the heat from that instead i really wasted my money on this game",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Extreme rip off",
+      "sentiment": "negative"
+    },
+    {
+      "text": "DO NOT BUY IF YOU HAVE DOWNLOADED THE 10 HOUR DEMO  YOU GET HOURS 3 HOURS  DEMO AND WHEN YOU BUY THE GAME IT WONT WORK  AND THERE NOT BOTHERD",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Put a feature so that someone who bought the standard version can upgrade to the ultimate version [Steam version].",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "FC 24 2.0",
+      "sentiment": "negative"
+    },
+    {
+      "text": "wow how many new things",
+      "sentiment": "negative"
+    },
+    {
+      "text": "stop buying fifa. they dont have to improve it because you keep paying for only a new season roaster.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "FC24 is MILES better than this game. You nerfed the whole game! This is disgusting and I’ve been playing fifa since 08. This is unacceptable!",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Lança no celular por favor eu quero",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Had to rewatch this to see if they mentioned that the gameplay would actually be worse than last year.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Still no online career mode?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "All these “new” stuff and in 2024 the body physics are still so unrealistic. Don’t you guys have a product quality team? How can people working there agree that this looks okay? Pick a ball yourselves and go play in real life. Do your bodies turn like crazy? OFC not. Why? Cause of physics. You have weight and you cannot accelerate and decelerate the body at will in the split of a second. There is this body turning compensation deceleration timing before you can be agile again. In FC bodies turn like they are Dragonball Anime Characters. There is no heavy realistic body and movement feel. Never was and prolly never will.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "The thing is most of us will buy it at the end.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "If they tell you about CLOTH SIMULATION the game is EMPTY",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Fc 25 has the same lore of iphones",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Let’s be real. I’m gonna buy it, you’re gonna buy it. Everyone’s going to buy it.",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Its literally the same game since 2014 lol",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Had a chance to try it on ps plus and gotta say . Will never give you a penny you money hungry losers",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Funny how every year EA steals one or two more features from Football Manager that it has had for years and tries to call it revolutionary.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Ice Skating 25 😂😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "But will lower and weaker rated players just burn and outstrenght my defence ?😂",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Do you add Crvena Zvezda in fc 25",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Is the Mexican league in this ?",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "vay be türkçe",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Everything I do I do for the club",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Looks poo",
+      "sentiment": "negative"
+    },
+    {
+      "text": "How can I set it up",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "How can I set it",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "add the ability to import squads from other people \n\nImagine being able to make like 50 custom players from pc With Mods or custom faces and you list them somewhere and console players can install it and have custom teams like 2018 Madrid with their kits or noodle hair ronaldo or 2012 messi that would be awsome fifa wouldnt need licensing if every player from pc could mod the game and add custom players teams and kits into the game \n\nI genuinely hope Ea read this Message and actually consider it because it could geniunely be the biggest feature they could add to the game",
+      "sentiment": "positive"
+    },
+    {
+      "text": "Study:❌❌❌❌❌❌❌❌\nWatch the whole list of EA FC 25 Details:✅✅✅✅✅✅✅✅✅✅✅✅✔✔✔✔✔✔✔✔✔✔✔✔",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Hello",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Gameplay still mediocre",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Bruh 😂",
+      "sentiment": "neutral"
+    },
+    {
+      "text": "Will we be able to control our players in defence or eill be another waste of money. The EA Ceo should have been dismissed from his position for releasing fc24 in public.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "They following iPhone year by year",
+      "sentiment": "negative"
+    },
+    {
+      "text": "😴🛌thanks I needed help falling asleep , that is truly special. Literally copy and paste this title every year making minor changes and charging full price, it's very smart of you guys taking advantage of the sports community.",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Jogabilidade como sempre uma 💩 pq vocês nunca muda essa jogabilidade horrível? Todo ano a mesma 💩",
+      "sentiment": "negative"
+    },
+    {
+      "text": "Still skiing?",
+      "sentiment": "negative"
+    },
+    {
+      "text": "❤ ok vedremo",
+      "sentiment": "neutral"
+    }
+  ],
+  "videos": [
+    "QrID0EA3hhI"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "disclaimerRequired": {
+    "Ultimate Team & In-Game Packs": "Requires EA SPORTS FC 27 (sold separately), internet connection & all game updates. In-game purchases include random digital items; pack probability tables disclosed at point of purchase.",
+    "FC Points & Digital Bundles": "FC Points optional; not required for Ultimate Team or core gameplay. FC Points have no cash value and are non-refundable once redeemed.",
+    "Career Mode & DLC Expansions": "Career Mode & Tactical Masterclass DLC valid for single-player offline and online save files on supported platforms.",
+    "Brand Sponsorships & Virtual Gear": "Sponsorship items and vanity gear are digital cosmetics only and do not alter in-game athlete performance or ratings.",
+    "Esports & Live Tournaments": "FC Pro Open registration requires age 16+ and residency in eligible tournament regions. See official rules for details.",
+    "Community Drops & Free Rewards": "Founder status loan items and XP boosters must be claimed within 14 days of campaign launch. One claim per registered EA Account."
+  },
+  "prohibitedWords": [
+    "guaranteed 99-rated icon in every pack",
+    "pay-to-win unfair matchmaking exploit",
+    "unregulated real-money cashout",
+    "free unlimited FC points generator",
+    "guaranteed match victory hack",
+    "bypassing anti-cheat security"
+  ],
+  "trademarkExclusions": [
+    "eFootball",
+    "Konami",
+    "UFL",
+    "FIFA 2K",
+    "PES",
+    "Football Manager",
+    "Goals",
+    "Strikerz Inc"
+  ]
+}

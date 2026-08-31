@@ -1,0 +1,213 @@
+{
+  "summary": "EA's origin.com platform suffers from deeply negative customer sentiment on Trustpilot, driven by severe friction in digital ownership, launcher performance, and customer support. The overall brand perception is marred by accusations of corporate greed and poor consumer rights management, particularly regarding legacy purchases and game retirements. While some users appreciate the catalog selection and occasional sales, the platform launcher is widely criticized as a resource-heavy, intrusive piece of software. Operational challenges, especially the lack of responsive, humanized support and rigid refund policies, severely undermine player retention and long-term customer satisfaction.",
+  "counts": {
+    "positive": 213,
+    "negative": 650,
+    "neutral": 65
+  },
+  "star_distribution": {
+    "star_5": 167,
+    "star_4": 46,
+    "star_3": 65,
+    "star_2": 74,
+    "star_1": 576
+  },
+  "sentiment_score": 21,
+  "retail_dimensions": [
+    {
+      "dimension": "Customer Service & In-Store Staff",
+      "sentiment": "Negative",
+      "score": 15,
+      "summary": "Customer support is rated as a major operational failure. Users report that resolving account locking, missing games, or billing issues is nearly impossible due to a heavy reliance on unhelpful automated bots [1.1.1].",
+      "strengths": [
+        "Comprehensive online self-service FAQs",
+        "Robust multi-factor authentication setup"
+      ],
+      "pain_points": [
+        "Automated bot-heavy support with generic scripts [1.1.1]",
+        "Difficulty reaching a real human agent",
+        "Support tickets frequently closed without actual resolution"
+      ]
+    },
+    {
+      "dimension": "Order Fulfillment & Shipping",
+      "sentiment": "Negative",
+      "score": 20,
+      "summary": "While initial digital transactions and key delivery are instant, long-term digital game delivery and custody are problematic. Players complain about losing access to older games and DLC they bought.",
+      "strengths": [
+        "Instant digital activation for new titles",
+        "High-speed servers for quick game downloads"
+      ],
+      "pain_points": [
+        "Sudden loss of access to previously purchased legacy games [1.1.3]",
+        "Unannounced retirement of game libraries",
+        "Content synchronization failures locking players out of their games"
+      ]
+    },
+    {
+      "dimension": "Product Quality & Selection",
+      "sentiment": "Negative",
+      "score": 25,
+      "summary": "Though the library of AAA titles is extensive, the product quality of the launcher software is highly criticized. Users experience platform lag, high resource usage, and a lack of support for operating systems like Linux.",
+      "strengths": [
+        "Diverse catalog of massive AAA franchises",
+        "Impressive graphics and gameplay mechanics in modern titles"
+      ],
+      "pain_points": [
+        "Launcher software is bloated and poorly optimized [1.1.3]",
+        "Complete lack of native Linux support",
+        "Frequent system performance lag and stuttering"
+      ]
+    },
+    {
+      "dimension": "Pricing & Price Matching",
+      "sentiment": "Negative",
+      "score": 18,
+      "summary": "EA's pricing model is viewed with hostility, with users describing the brand as 'greed hungry'. High base prices are exacerbated by heavy microtransactions and subscription paywalls to play older games.",
+      "strengths": [
+        "Deep discounts during holiday sales",
+        "EA Play subscription provides decent trial value"
+      ],
+      "pain_points": [
+        "Heavy reliance on aggressive microtransactions",
+        "Perceived double-charging via subscription paywalls for owned titles [1.1.3]",
+        "Decommissioning paid DLC without compensation"
+      ]
+    },
+    {
+      "dimension": "Returns & Refund Experience",
+      "sentiment": "Negative",
+      "score": 15,
+      "summary": "The digital return policy is considered restrictive. Users feel cheated when games they purchased are removed or made unplayable with zero options for refunds or store credits.",
+      "strengths": [
+        "Clear 'Great Game Guarantee' refund policy details"
+      ],
+      "pain_points": [
+        "Restrictive and narrow return windows for digital purchases",
+        "No refund pathway for retired or unplayable games [1.1.3]",
+        "Slow financial processing times back to the payment method"
+      ]
+    },
+    {
+      "dimension": "Website, App & Checkout Experience",
+      "sentiment": "Negative",
+      "score": 22,
+      "summary": "The platform's client desktop app is a major point of friction. It is described as intrusive and poorly designed, with behaviors that slow down systems and block computer shutdowns.",
+      "strengths": [
+        "Clean store layout for browsing",
+        "Simple and secure checkout funnel"
+      ],
+      "pain_points": [
+        "Annoying launcher auto-startup behavior [1.1.3]",
+        "Launcher actively blocks system shutdowns",
+        "Resource-heavy client causing overall system slowdowns"
+      ]
+    }
+  ],
+  "reviews": {
+    "positive": [
+      "The EA Play subscription is a good deal to try out new games before committing to a full purchase.",
+      "I've had no issues with download speeds; games download very fast on my gigabit connection.",
+      "The storefront is clean, and purchasing EA Sports FC was quick and seamless.",
+      "The digital checkout process is very straightforward, and my game activated instantly.",
+      "The sales are actually decent sometimes, letting you pick up classics for a few dollars.",
+      "Account security features like two-factor authentication work perfectly to keep my profile safe."
+    ],
+    "negative": [
+      "EA is just the public enemy of all the pragmatic users and free minds... Never been Linux friendly [1.1.3].",
+      "30 years ago I bought all the Command & conquer games... Some years after Origin started, you could not anymore access your games, without paying.",
+      "It should be flat out illegal to remove a game from their store if there is downloadable content available to purchase.",
+      "Worst than epic games when starting up my computer it automatically opens... always prevents your pc from shutting down.",
+      "Customer support is just a brick wall of bots and automated replies that never actually help with missing games.",
+      "They deleted my entire library of games that I spent hundreds of dollars on, and refuse to give me access back.",
+      "The client is a bloated, laggy piece of software that hogs system resources and crashes during updates."
+    ],
+    "neutral": [
+      "The games themselves are high quality and fun, but the launcher you are forced to use is a nightmare [1.1.3].",
+      "Decent sales and a good selection of games, but the customer support is hard to reach if something goes wrong.",
+      "The launcher works fine most of the time, but the auto-startup and shutdown-blocking bugs are really annoying.",
+      "I love the Battlefield series, but having to run it through Origin instead of launching directly from Steam is a hassle.",
+      "Pricing is okay during major holiday sales, but the base prices and push for microtransactions are a bit much.",
+      "Decent selection of classic games, but many of them lack optimization for modern operating systems."
+    ]
+  },
+  "strategic_recommendations": [
+    {
+      "priority": "High",
+      "area": "Launcher Optimization",
+      "recommendation": "Optimize the EA Client launcher to reduce CPU/RAM usage, fix the PC shutdown-blocking bug, and introduce native Linux support.",
+      "expected_impact": "Resolves top technical complaints, prevents system lag, and captures the growing Linux and Steam Deck gaming market [1.1.3]."
+    },
+    {
+      "priority": "High",
+      "area": "Digital Rights Management (DRM)",
+      "recommendation": "Establish a permanent legacy access policy ensuring players who bought classic titles can always download them without subscription paywalls.",
+      "expected_impact": "Directly rebuilds consumer trust, mitigates legal risks regarding digital ownership, and improves brand perception."
+    },
+    {
+      "priority": "High",
+      "area": "Customer Support System",
+      "recommendation": "Transition away from automated script-heavy bots and deploy trained human support agents with the authority to resolve missing game bugs.",
+      "expected_impact": "Converts the main source of frustration into a positive touchpoint, increasing CSAT and TrustScore."
+    },
+    {
+      "priority": "Medium",
+      "area": "Content Retirement Policies",
+      "recommendation": "If a game or DLC is decommissioned from the store, automatically provide store credit or equivalent modern titles to affected buyers.",
+      "expected_impact": "Prevents allegations of content 'theft' and corporate greed, protecting consumer goodwill."
+    },
+    {
+      "priority": "Medium",
+      "area": "Returns & Refunds",
+      "recommendation": "Expand the Great Game Guarantee to support automated, hassle-free self-service refunds within a 14-day / 2-hour play window, matching Steam.",
+      "expected_impact": "Reduces customer service ticket volume and aligns the checkout experience with industry standards."
+    },
+    {
+      "priority": "Medium",
+      "area": "Pricing Strategy",
+      "recommendation": "Rebalance monetization in premium AAA releases to ensure full-priced games do not gate critical content behind aggressive microtransactions.",
+      "expected_impact": "Softens negative brand reputation and improves long-term player sentiment."
+    }
+  ],
+  "word_cloud": [
+    "Launcher",
+    "EA Client",
+    "Linux Compatibility",
+    "Missing Games",
+    "Microtransactions",
+    "Customer Support",
+    "Digital Ownership",
+    "Command & Conquer",
+    "Need For Speed",
+    "Greed",
+    "Auto-Startup",
+    "Shutdown Block",
+    "Refunds",
+    "EA Play",
+    "Subscription Paywall",
+    "System Lag",
+    "AAA Games",
+    "EA Sports FC",
+    "Battlefield",
+    "Server Connection",
+    "Account Lockout",
+    "Great Game Guarantee",
+    "DLC Removal",
+    "Bloatware",
+    "DRM",
+    "Steam Integration"
+  ],
+  "business_info": {
+    "domain": "origin.com",
+    "name": "EA Games FC (Origin)",
+    "url": "https://www.trustpilot.com/review/origin.com",
+    "trustScore": "2.1",
+    "rating": "Poor",
+    "reviewCount": 928,
+    "logo": "https://cdn.trustpilot.net/brand-assets/4.3.0/favicons/apple-touch-icon.png"
+  },
+  "type": "trustpilot_sentiment",
+  "videos": [
+    "https://www.trustpilot.com/review/origin.com"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "default_optimist",
+    "name": "Optimist",
+    "personaName": "Joy Sun",
+    "bio": "Always looks on the bright side. Expects the best from people and products.",
+    "demographics": "Ages 20-35, $45k - $70k annual income",
+    "whyPerfect": "Aon's Employee Wellness Program is the perfect fit for your company. It offers a comprehensive approach to improve health and engagement, guaranteed to make your team feel good.",
+    "description": "Tailored wellness solutions with digital tracking and expert coaching.",
+    "imagePrompt": "Portrait of a smiling, cheerful woman in her 20s, bright colors, sunny day.",
+    "imageUrl": "/audimages/aud1.jpg",
+    "isDefault": true,
+    "isStandard": true,
+    "details": {
+      "age": 27,
+      "job_title": "HR Manager",
+      "bio": "Joy is enthusiastic and loves trying new things. She is drawn to positive messaging and bright aesthetics.",
+      "income": "$55,000",
+      "lifestyle_tags": ["Positive", "Cheerful", "Social"]
+    }
+  },
+  {
+    "id": "default_pessimist",
+    "name": "Pessimist",
+    "personaName": "Arthur Vance",
+    "bio": "Highly skeptical of marketing claims. Expects products to fail and looks for flaws.",
+    "demographics": "Ages 45-60, $50k - $80k annual income",
+    "whyPerfect": "Durable and reliable risk management. Aon's Cyber Risk Analysis is built to handle unexpected threats, giving you peace of mind.",
+    "description": "Rigorous vulnerability assessment and robust insurance coverage.",
+    "imagePrompt": "Portrait of a serious man in his 50s, skeptical expression, natural lighting.",
+    "imageUrl": "/audimages/aud2.jpg",
+    "isDefault": true,
+    "isStandard": true,
+    "details": {
+      "age": 52,
+      "job_title": "Chief Risk Officer",
+      "bio": "Arthur values durability and transparency above all. He is hard to please and quick to spot failures.",
+      "income": "$75,000",
+      "lifestyle_tags": ["Skeptical", "Practical", "Durable"]
+    }
+  }
+]

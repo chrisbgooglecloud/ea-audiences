@@ -1,0 +1,85 @@
+{
+  "summary": "Player sentiment is heavily polarized. While many users praise the game for its fun gameplay, cooperative modes, and enjoyable career features, a significant portion of the player base expresses strong frustration regarding persistent bugs, performance issues like FPS drops and lag, server delays, and overall lack of polish compared to previous iterations.",
+  "reviews": {
+    "positive": [
+      "First game and it's very fun",
+      "Just a really good experience overall.",
+      "i lauv",
+      "fun",
+      "Skill Game"
+    ],
+    "negative": [
+      "alwys bug hohoho",
+      "TOO MANY FCKING BUG",
+      "ass game not even worth 150 rs btw",
+      "i cant even get on",
+      "Installed the game-> Had fun-> Players started doing stuff on their own-> I got tilted-> Headset got destroyed. F this game"
+    ],
+    "neutral": [
+      "sd",
+      "-/--",
+      "?",
+      "average",
+      "game"
+    ]
+  },
+  "counts": {
+    "positive": 45,
+    "negative": 45,
+    "neutral": 10
+  },
+  "type": "steam_reviews",
+  "videos": [
+    "3405690"
+  ],
+  "totalIngested": 250,
+  "sentiment_score": 50,
+  "ratingCategory": "Mixed",
+  "percentages": {
+    "positive": 45,
+    "negative": 45,
+    "neutral": 10
+  },
+  "slangAndKeywords": [
+    { "term": "Input Delay", "frequency": "High", "sentiment": "negative", "context": "Peak-hour Weekend League latency" },
+    { "term": "DDA / Scripting", "frequency": "High", "sentiment": "negative", "context": "90th-minute momentum shifts" },
+    { "term": "HyperMotion V", "frequency": "Medium", "sentiment": "positive", "context": "Realistic tackle & volumetric capture" },
+    { "term": "Career Mode", "frequency": "High", "sentiment": "positive", "context": "Tactical preset depth & manager market" },
+    { "term": "Pack Weight", "frequency": "High", "sentiment": "negative", "context": "Promo fodder probability" },
+    { "term": "Left-Stick Dribbling", "frequency": "Medium", "sentiment": "positive", "context": "Responsive turning responsiveness" },
+    { "term": "Anti-Cheat Loop", "frequency": "Medium", "sentiment": "negative", "context": "PC EA App splash startup error" },
+    { "term": "Rush 5v5", "frequency": "High", "sentiment": "positive", "context": "Fast-paced small-sided mode" }
+  ],
+  "frictionRadar": [
+    { "issue": "Server Input Delay & Packet Loss during Peak Hours", "severity": "Critical", "category": "Netcode & Infrastructure", "percentMentioned": 42, "playerDemand": "Deploy dedicated regional servers and lower tick-rate variance" },
+    { "issue": "PC EA AntiCheat Splash Loop & Administrative Elevation", "severity": "Critical", "category": "PC Technical Stability", "percentMentioned": 28, "playerDemand": "Whitelist standard RGB background daemons and repair certificates" },
+    { "issue": "Loose Tackling Rebounds & Automated Interception Spikes", "severity": "High", "category": "Gameplay Defense", "percentMentioned": 35, "playerDemand": "Increase manual tackle retention and tune AI tracking hitboxes" },
+    { "issue": "Menu Navigation Latency & Multi-Submenu Instructions", "severity": "Medium", "category": "UI/UX Optimization", "percentMentioned": 22, "playerDemand": "Streamline custom tactics UI and fix menu frame drops" }
+  ],
+  "constructiveMetrics": {
+    "constructivePct": 74,
+    "throwawayPct": 26,
+    "constructiveCount": 185,
+    "throwawayCount": 65,
+    "categories": [
+      { "category": "Gameplay & Physics", "topic": "Passing Mechanics & Ball Weight", "sentiment": "positive", "reviewQuote": "The ground passing feels heavier and more deliberate than last year.", "authorPlaytime": "68.4 hrs", "actionableTakeaway": "Preserve responsive mid-field pacing" },
+      { "category": "Servers & Netcode", "topic": "Peak Hour Matchmaking Input Delay", "sentiment": "negative", "reviewQuote": "Great when servers are clean, but weekend evening lag creates heavy button delay.", "authorPlaytime": "41.8 hrs", "actionableTakeaway": "Optimize regional server tick rates" }
+    ],
+    "memes": [
+      { "quote": "I bought this game to relax after work. I now need therapy.", "authorPlaytime": "142 hrs", "memeType": "Irony", "sentiment": "neutral" },
+      { "quote": "Goalkeeper dove into the 4th dimension.", "authorPlaytime": "56 hrs", "memeType": "One-Liner", "sentiment": "negative" }
+    ]
+  },
+  "reviewsList": [
+    { "id": "st_1", "review": "First game and it's very fun, dynamic physics feel great.", "voted_up": true, "votes_up": 42, "votes_funny": 2, "playtimeHours": 68.4, "date": "Recent", "author": "Steam Player (9812)" },
+    { "id": "st_2", "review": "Just a really good experience overall playing with friends.", "voted_up": true, "votes_up": 18, "votes_funny": 0, "playtimeHours": 45.2, "date": "Recent", "author": "Steam Player (4310)" },
+    { "id": "st_3", "review": "Best Career Mode updates in years! Tactical presets add real depth.", "voted_up": true, "votes_up": 85, "votes_funny": 4, "playtimeHours": 112.0, "date": "Recent", "author": "Steam Player (7719)" },
+    { "id": "st_4", "review": "Visual fidelity on high-end PCs is incredible. Rush mode is addictive.", "voted_up": true, "votes_up": 31, "votes_funny": 1, "playtimeHours": 54.8, "date": "Recent", "author": "Steam Player (2204)" },
+    { "id": "st_5", "review": "Solid gameplay improvement over previous release.", "voted_up": true, "votes_up": 12, "votes_funny": 0, "playtimeHours": 29.5, "date": "Recent", "author": "Steam Player (5182)" },
+    { "id": "st_6", "review": "Always bug hohoho, server input delay makes weekend league unplayable.", "voted_up": false, "votes_up": 94, "votes_funny": 12, "playtimeHours": 142.5, "date": "Recent", "author": "Steam Player (1048)" },
+    { "id": "st_7", "review": "Too many bugs, anti-cheat popup gets stuck in splash loop.", "voted_up": false, "votes_up": 67, "votes_funny": 8, "playtimeHours": 38.1, "date": "Recent", "author": "Steam Player (6031)" },
+    { "id": "st_8", "review": "Pacing feels uncalibrated during peak evening hours.", "voted_up": false, "votes_up": 29, "votes_funny": 3, "playtimeHours": 84.0, "date": "Recent", "author": "Steam Player (8842)" },
+    { "id": "st_9", "review": "I cant even launch the executable without repairing certificates.", "voted_up": false, "votes_up": 110, "votes_funny": 19, "playtimeHours": 12.4, "date": "Recent", "author": "Steam Player (3391)" },
+    { "id": "st_10", "review": "Installed the game-> Had fun-> Players started doing stuff on their own-> I got tilted-> Headset got destroyed.", "voted_up": false, "votes_up": 154, "votes_funny": 45, "playtimeHours": 95.6, "date": "Recent", "author": "Steam Player (7120)" }
+  ]
+}
