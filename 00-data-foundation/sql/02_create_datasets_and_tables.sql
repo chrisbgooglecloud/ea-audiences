@@ -1,25 +1,25 @@
 -- ==============================================================================
 -- 02: Create BigQuery Datasets and Target Fact / Dimension Tables
--- Covers all 4 acts: ea_measurement, ea_audiences, ea_creative, ea_commerce
+-- Covers all 4 acts: twok_measurement, twok_audiences, twok_creative, twok_commerce
 -- ==============================================================================
 
 -- 1. Create Datasets
-CREATE SCHEMA IF NOT EXISTS `ea_measurement`
+CREATE SCHEMA IF NOT EXISTS `twok_measurement`
 OPTIONS (location = 'US', description = 'Act 3: Measurement, Geo-Spine & 3-Year MMM Data Warehouse');
 
-CREATE SCHEMA IF NOT EXISTS `ea_audiences`
+CREATE SCHEMA IF NOT EXISTS `twok_audiences`
 OPTIONS (location = 'US', description = 'Act 1: Audiences Identity Graph & 10M Player Telemetry');
 
-CREATE SCHEMA IF NOT EXISTS `ea_creative`
+CREATE SCHEMA IF NOT EXISTS `twok_creative`
 OPTIONS (location = 'US', description = 'Act 2: Creative Studio & 500k Community Sentiment Stream');
 
-CREATE SCHEMA IF NOT EXISTS `ea_commerce`
+CREATE SCHEMA IF NOT EXISTS `twok_commerce`
 OPTIONS (location = 'US', description = 'Act 4: Commerce Media Network & 100k 3D Ad Impressions');
 
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: Geographic Backbone Dimension (25 Top Nielsen DMAs & 210 DMA Spine)
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.dim_metro_geospine` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.dim_metro_geospine` (
   dma_code INT64 NOT NULL OPTIONS(description = 'Google Ads Metro Criteria ID / DMA Code (e.g., 501, 803)'),
   google_ads_metro_code INT64 NOT NULL OPTIONS(description = 'Google Ads Criteria ID (e.g., 21149, 21175)'),
   dma_name STRING NOT NULL OPTIONS(description = 'Metro Market Name (e.g., New York, NY, Los Angeles, CA)'),
@@ -41,7 +41,7 @@ CLUSTER BY state, dma_code;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: Daily Geo-Spine Facts (WeatherNext 2.0 Shocks + Trends + Demographics)
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.fct_geospine_daily_metro` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.fct_geospine_daily_metro` (
   dma_code INT64 NOT NULL OPTIONS(description = 'DMA Criteria Code'),
   date DATE NOT NULL OPTIONS(description = 'Fact observation date'),
   franchise STRING NOT NULL OPTIONS(description = 'EA Title Franchise'),
@@ -66,7 +66,7 @@ CLUSTER BY dma_code, franchise;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: Cross-Franchise Schedule Collision & Fatigue Fact Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.fct_cross_franchise_fatigue` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.fct_cross_franchise_fatigue` (
   campaign_id STRING NOT NULL OPTIONS(description = 'Unique campaign identifier (e.g., camp-fc27-toty-001)'),
   target_franchise STRING NOT NULL OPTIONS(description = 'Target campaign franchise (e.g., EA Sports FC)'),
   conflicting_franchise STRING NOT NULL OPTIONS(description = 'Conflicting overlapping franchise (e.g., Apex Legends)'),
@@ -85,7 +85,7 @@ CLUSTER BY target_franchise, conflicting_franchise;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: 2D Creative Shapley Marginal Lift Attribution Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.fct_creative_shapley_marginal_lift` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.fct_creative_shapley_marginal_lift` (
   asset_id STRING NOT NULL OPTIONS(description = 'Creative asset identifier (e.g., asset-fc27-bellingham-001)'),
   franchise STRING NOT NULL OPTIONS(description = 'EA Franchise (e.g., EA Sports FC, Apex Legends)'),
   feature_name STRING NOT NULL OPTIONS(description = 'Creative mechanic or visual hook name (e.g., FUT Pack Walkout Jude Bellingham)'),
@@ -102,7 +102,7 @@ CLUSTER BY franchise, feature_category, funnel_tier;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: 3-Year Econometric MMM Daily Channel Spend Fact Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.fct_daily_channel_spend` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.fct_daily_channel_spend` (
   spend_id STRING NOT NULL OPTIONS(description = 'Unique daily spend fact identifier'),
   date DATE NOT NULL OPTIONS(description = 'Calendar date (2023-08-01 to 2026-08-01, 1095 days)'),
   franchise STRING NOT NULL OPTIONS(description = 'EA Franchise (Apex Legends, EA Sports FC, Battlefield 6, The Sims 4)'),
@@ -126,7 +126,7 @@ CLUSTER BY franchise, channel, country_code;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: Feature Attribution & Tactical 9-Grid SHAP Records
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.fct_creative_shap_attributions` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.fct_creative_shap_attributions` (
   attribution_id STRING NOT NULL OPTIONS(description = 'Attribution run ID'),
   snapshot_date DATE NOT NULL OPTIONS(description = 'Attribution evaluation snapshot date'),
   campaign_id STRING NOT NULL OPTIONS(description = 'Associated campaign ID'),
@@ -149,7 +149,7 @@ CLUSTER BY franchise, tactical_quadrant;
 -- ------------------------------------------------------------------------------
 -- EA_MEASUREMENT: Causal Lift Experiments for Bayesian Meridian Priors
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_measurement.causal_lift_experiments` (
+CREATE TABLE IF NOT EXISTS `twok_measurement.causal_lift_experiments` (
   experiment_id STRING NOT NULL OPTIONS(description = 'Experiment unique ID'),
   experiment_name STRING NOT NULL OPTIONS(description = 'Human-readable experiment name'),
   franchise STRING NOT NULL OPTIONS(description = 'EA Franchise'),
@@ -177,7 +177,7 @@ CLUSTER BY franchise, channel;
 -- ------------------------------------------------------------------------------
 -- EA_AUDIENCES: 10M Player Telemetry Fact Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_audiences.fct_player_telemetry_events` (
+CREATE TABLE IF NOT EXISTS `twok_audiences.fct_player_telemetry_events` (
   event_id STRING NOT NULL OPTIONS(description = 'Unique telemetry event ID'),
   session_id STRING NOT NULL OPTIONS(description = 'Gamer session UUID'),
   xuid STRING NOT NULL OPTIONS(description = 'Cross-platform Xbox/EA User ID'),
@@ -198,7 +198,7 @@ CLUSTER BY franchise, behavioral_state;
 -- ------------------------------------------------------------------------------
 -- EA_AUDIENCES: Player Identity Resolution Graph Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_audiences.fct_player_identity_graph` (
+CREATE TABLE IF NOT EXISTS `twok_audiences.fct_player_identity_graph` (
   unified_player_id STRING NOT NULL OPTIONS(description = 'Unified Resolved EA Player Profile UUID'),
   ea_id STRING NOT NULL OPTIONS(description = 'EA Global Core Account ID'),
   xuid STRING OPTIONS(description = 'Xbox Live Account Identifier'),
@@ -218,7 +218,7 @@ CLUSTER BY primary_franchise, primary_archetype, primary_dma_code;
 -- ------------------------------------------------------------------------------
 -- EA_CREATIVE: 500k Community Sentiment Stream Fact Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_creative.fct_community_sentiment_stream` (
+CREATE TABLE IF NOT EXISTS `twok_creative.fct_community_sentiment_stream` (
   message_id STRING NOT NULL OPTIONS(description = 'Unique community message UUID'),
   timestamp TIMESTAMP NOT NULL OPTIONS(description = 'Message posting timestamp'),
   platform STRING NOT NULL OPTIONS(description = 'Platform source: Steam, Reddit, Discord, Twitch Chat, EA Forums'),
@@ -235,7 +235,7 @@ CLUSTER BY franchise, platform, detected_issue;
 -- ------------------------------------------------------------------------------
 -- EA_COMMERCE: 100k 3D Ad Impressions & IAS Verification Fact Table
 -- ------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ea_commerce.fct_3d_ad_impressions_ias` (
+CREATE TABLE IF NOT EXISTS `twok_commerce.fct_3d_ad_impressions_ias` (
   impression_id STRING NOT NULL OPTIONS(description = 'Unique 3D ad impression UUID'),
   match_id STRING NOT NULL OPTIONS(description = 'Multiplayer match identifier'),
   franchise STRING NOT NULL OPTIONS(description = 'EA Franchise (EA Sports FC, Apex Legends, Battlefield 6)'),

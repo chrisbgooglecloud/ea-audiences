@@ -3,7 +3,7 @@
 -- Enforces structured output schema using OUTPUT_SCHEMA parameter with gemini-3.7-flash
 -- ==============================================================================
 
-INSERT INTO `ea_measurement.fct_creative_shap_attributions` (
+INSERT INTO `twok_measurement.fct_creative_shap_attributions` (
   attribution_id,
   snapshot_date,
   campaign_id,
@@ -22,10 +22,10 @@ INSERT INTO `ea_measurement.fct_creative_shap_attributions` (
 )
 WITH input_features AS (
   SELECT
-    ['Apex Legends', 'EA Sports FC', 'Battlefield 6', 'The Sims 4'][OFFSET(CAST(FLOOR(RAND() * 4) AS INT64))] AS franchise,
-    ['EA_APP_LAUNCHER', 'IN_GAME_STORE', 'STADIUM_BOARDS', 'PAUSE_SCREENS', 'MOBILE_COMPANION', 'STREAMING_OVERLAYS'][OFFSET(CAST(FLOOR(RAND() * 6) AS INT64))] AS surface,
+    ['NBA 2K26', 'Borderlands 4', 'Civilization VII', 'WWE 2K25'][OFFSET(CAST(FLOOR(RAND() * 4) AS INT64))] AS franchise,
+    ['2K_STOREFRONT', 'THE_CITY_BILLBOARDS', 'MYCAREER_FACILITY', 'MYTEAM_MARKETPLACE', 'MOBILE_COMPANION', 'TWITCH_EXTENSION'][OFFSET(CAST(FLOOR(RAND() * 6) AS INT64))] AS surface,
     CONCAT('camp-', CAST(FLOOR(RAND() * 10) + 1 AS INT64)) AS campaign_id,
-    'Generate authentic creative gameplay mechanics, visual hooks, audio cues, and SHAP attribution values mapped to the Tactical 9-Grid.' AS prompt
+    'Generate authentic 2K creative gameplay mechanics, visual hooks, audio cues, and SHAP attribution values mapped to the Tactical 9-Grid.' AS prompt
   FROM UNNEST(GENERATE_ARRAY(1, 10))
 )
 SELECT
@@ -45,13 +45,13 @@ SELECT
   gen.creative_reasoning,
   CURRENT_TIMESTAMP() AS updated_at
 FROM AI.GENERATE_TABLE(
-  MODEL `ea_measurement.gemini_flash_model`,
+  MODEL `twok_measurement.gemini_flash_model`,
   TABLE input_features,
   STRUCT(
     0.7 AS temperature,
     8192 AS max_output_tokens,
     '''
-    feature_name STRING OPTIONS(description = 'Creative mechanic or visual hook name e.g. Squad Breach & Clear, Dynamic Weather Drop, Finessed Bicycle Kick, Kinetic Superglide'),
+    feature_name STRING OPTIONS(description = 'Creative mechanic or visual hook name e.g. ProPLAY Step-Back Iso, The REC 5v5 Squad Highlight, Mayhem 10 Raid Boss, Age of Antiquity Leader Transition'),
     feature_category STRING OPTIONS(description = 'Category: GAMEPLAY_MECHANIC, VISUAL_HOOK, AUDIO_CUE, SURFACE_ALIGNMENT'),
     funnel_stage STRING OPTIONS(description = 'Funnel stage: ToFu_Exploration, MoFu_Progression, BoFu_Conversion'),
     frequency_count INT64 OPTIONS(description = 'Historical frequency occurrence in creative asset library (1 to 80)'),

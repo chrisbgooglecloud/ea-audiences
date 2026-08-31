@@ -74,12 +74,16 @@ class MMMMathEngine:
             month = dt.month
             month_mult = 1.30 if month in (11, 12) else (1.10 if month == 1 else (0.90 if month == 6 else 1.0))
 
-            # Major launch event spikes (Season launches, FIFA/FC release in late Sept)
+            # Major launch event spikes (NBA 2K in Sept, Borderlands, Civ VII, WWE 2K in March)
             event_mult = 1.0
-            if month == 9 and 20 <= dt.day <= 30:
-                event_mult = 1.40  # EA Sports FC Launch
+            if month == 9 and 5 <= dt.day <= 15:
+                event_mult = 1.40  # NBA 2K26 Global Launch
+            elif month == 9 and 20 <= dt.day <= 30:
+                event_mult = 1.35  # Borderlands 4 Fall Launch
             elif month == 2 and 5 <= dt.day <= 15:
-                event_mult = 1.25  # Apex Legends Anniversary Season
+                event_mult = 1.25  # Civilization VII Global Launch
+            elif month == 3 and 10 <= dt.day <= 20:
+                event_mult = 1.20  # WWE 2K25 WrestleMania Window
 
             seasonality_factors[i] = dow_mult * month_mult * event_mult
 

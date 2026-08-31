@@ -10,15 +10,15 @@ class DataFoundationConfig:
     """Configuration parameters for the EA EBC Synthetic Data Engine."""
 
     # GCP Project & Regions
-    project_id: str = os.getenv("GOOGLE_CLOUD_PROJECT", "eagames-ebc-demo-app")
+    project_id: str = os.getenv("GOOGLE_CLOUD_PROJECT", "agent-engine-468716")
     bq_location: str = os.getenv("BQ_LOCATION", "US")
     gcp_region: str = os.getenv("GOOGLE_CLOUD_REGION", "us-central1")
 
     # BigQuery Target Datasets across the 4 Acts
-    dataset_measurement: str = os.getenv("DATASET_MEASUREMENT", "ea_measurement")
-    dataset_audiences: str = os.getenv("DATASET_AUDIENCES", "ea_audiences")
-    dataset_creative: str = os.getenv("DATASET_CREATIVE", "ea_creative")
-    dataset_commerce: str = os.getenv("DATASET_COMMERCE", "ea_commerce")
+    dataset_measurement: str = os.getenv("DATASET_MEASUREMENT", "twok_measurement")
+    dataset_audiences: str = os.getenv("DATASET_AUDIENCES", "twok_audiences")
+    dataset_creative: str = os.getenv("DATASET_CREATIVE", "twok_creative")
+    dataset_commerce: str = os.getenv("DATASET_COMMERCE", "twok_commerce")
 
     # BigQuery Vertex AI Remote Connection & Model Settings
     remote_connection_id: str = os.getenv("REMOTE_CONNECTION_ID", "vertex-ai-connection")
@@ -47,21 +47,21 @@ class DataFoundationConfig:
     target_roas_min: float = 3.0
     target_roas_max: float = 5.0
 
-    # EA Franchises & Spend Shares
+    # 2K Franchises & Spend Shares
     franchises: List[str] = field(
         default_factory=lambda: [
-            "Apex Legends",
-            "EA Sports FC",
-            "Battlefield 6",
-            "The Sims 4",
+            "NBA 2K26",
+            "Borderlands 4",
+            "Civilization VII",
+            "WWE 2K25",
         ]
     )
     franchise_budget_shares: dict = field(
         default_factory=lambda: {
-            "Apex Legends": 0.30,
-            "EA Sports FC": 0.35,
-            "Battlefield 6": 0.20,
-            "The Sims 4": 0.15,
+            "NBA 2K26": 0.40,
+            "Borderlands 4": 0.30,
+            "Civilization VII": 0.18,
+            "WWE 2K25": 0.12,
         }
     )
 

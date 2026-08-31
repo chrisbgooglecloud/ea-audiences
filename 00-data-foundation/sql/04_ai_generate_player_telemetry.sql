@@ -3,7 +3,7 @@
 -- Enforces structured output schema using OUTPUT_SCHEMA parameter with gemini-3.7-flash
 -- ==============================================================================
 
-INSERT INTO `ea_audiences.fct_player_telemetry_events` (
+INSERT INTO `twok_audiences.fct_player_telemetry_events` (
   event_id,
   session_id,
   xuid,
@@ -22,13 +22,13 @@ WITH input_sessions AS (
   SELECT
     CONCAT('sess-', GENERATE_UUID()) AS session_id,
     CONCAT('xuid-', CAST(FLOOR(RAND() * 1000000) AS INT64)) AS xuid,
-    CONCAT('ea-user-', CAST(FLOOR(RAND() * 1000000) AS INT64)) AS ea_id,
-    ['Apex Legends', 'EA Sports FC', 'Battlefield 6', 'The Sims 4'][OFFSET(CAST(FLOOR(RAND() * 4) AS INT64))] AS franchise,
+    CONCAT('2k-user-', CAST(FLOOR(RAND() * 1000000) AS INT64)) AS ea_id,
+    ['NBA 2K26', 'Borderlands 4', 'Civilization VII', 'WWE 2K25'][OFFSET(CAST(FLOOR(RAND() * 4) AS INT64))] AS franchise,
     TIMESTAMP_ADD(
       TIMESTAMP '2026-07-01 00:00:00 UTC',
       INTERVAL CAST(FLOOR(RAND() * 2592000) AS INT64) SECOND
     ) AS timestamp,
-    'Generate realistic telemetry metrics and behavioral state transitions for an EA gamer session.' AS prompt
+    'Generate realistic telemetry metrics and behavioral state transitions for a 2K gamer session.' AS prompt
   FROM UNNEST(GENERATE_ARRAY(1, 10))
 )
 SELECT
@@ -46,7 +46,7 @@ SELECT
   gen.behavioral_state,
   gen.state_transition_reason
 FROM AI.GENERATE_TABLE(
-  MODEL `ea_measurement.gemini_flash_model`,
+  MODEL `twok_measurement.gemini_flash_model`,
   TABLE input_sessions,
   STRUCT(
     0.7 AS temperature,

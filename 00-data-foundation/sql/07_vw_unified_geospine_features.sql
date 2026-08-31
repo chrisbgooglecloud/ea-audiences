@@ -3,7 +3,7 @@
 -- Joins 210 DMA Spine with WeatherNext 2.0, Google Trends, and WorldPop Demographics
 -- ==============================================================================
 
-CREATE OR REPLACE VIEW `ea_measurement.vw_unified_geospine_features` AS
+CREATE OR REPLACE VIEW `twok_measurement.vw_unified_geospine_features` AS
 WITH dma_base AS (
   SELECT
     dma_code,
@@ -19,7 +19,7 @@ WITH dma_base AS (
     gaming_density_index,
     esports_cluster_tag,
     timezone
-  FROM `ea_measurement.dim_metro_geospine`
+  FROM `twok_measurement.dim_metro_geospine`
 ),
 daily_facts AS (
   SELECT
@@ -39,7 +39,7 @@ daily_facts AS (
     lead_shock_t15_elasticity,
     pop_adjusted_gaming_hours,
     estimated_active_gamers
-  FROM `ea_measurement.fct_geospine_daily_metro`
+  FROM `twok_measurement.fct_geospine_daily_metro`
 )
 SELECT
   d.dma_code,

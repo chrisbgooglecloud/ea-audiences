@@ -3,7 +3,7 @@
 -- Enforces structured output schema using OUTPUT_SCHEMA parameter with gemini-3.7-flash
 -- ==============================================================================
 
-INSERT INTO `ea_commerce.fct_3d_ad_impressions_ias` (
+INSERT INTO `twok_commerce.fct_3d_ad_impressions_ias` (
   impression_id,
   match_id,
   franchise,
@@ -20,14 +20,14 @@ INSERT INTO `ea_commerce.fct_3d_ad_impressions_ias` (
 WITH input_impressions AS (
   SELECT
     CONCAT('match-', CAST(FLOOR(RAND() * 50000) AS INT64)) AS match_id,
-    ['EA Sports FC', 'Apex Legends', 'Battlefield 6'][OFFSET(CAST(FLOOR(RAND() * 3) AS INT64))] AS franchise,
+    ['NBA 2K26', 'Borderlands 4', 'WWE 2K25'][OFFSET(CAST(FLOOR(RAND() * 3) AS INT64))] AS franchise,
     [501, 803, 602, 506, 504, 623, 511, 524, 618][OFFSET(CAST(FLOOR(RAND() * 9) AS INT64))] AS dma_code,
-    ['STADIUM_BOARDS', 'PAUSE_SCREENS', 'ROAD_BILLBOARDS'][OFFSET(CAST(FLOOR(RAND() * 3) AS INT64))] AS surface,
+    ['COURTSIDE_LEDS', 'JUMBOTRON_SCREENS', 'CITY_BILLBOARDS', 'ARENA_POSTERS'][OFFSET(CAST(FLOOR(RAND() * 4) AS INT64))] AS surface,
     TIMESTAMP_ADD(
       TIMESTAMP '2026-08-01 00:00:00 UTC',
       INTERVAL CAST(FLOOR(RAND() * 864000) AS INT64) SECOND
     ) AS timestamp,
-    'Generate IAS brand safety and camera dwell verification telemetry for a 3D in-game dynamic ad impression.' AS prompt
+    'Generate IAS brand safety and camera dwell verification telemetry for a 3D in-game dynamic ad impression in 2K games.' AS prompt
   FROM UNNEST(GENERATE_ARRAY(1, 10))
 )
 SELECT
@@ -44,7 +44,7 @@ SELECT
   gen.ias_brand_safety_score,
   gen.ias_viewability_status
 FROM AI.GENERATE_TABLE(
-  MODEL `ea_measurement.gemini_flash_model`,
+  MODEL `twok_measurement.gemini_flash_model`,
   TABLE input_impressions,
   STRUCT(
     0.6 AS temperature,
