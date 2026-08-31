@@ -17,56 +17,74 @@ interface GraphControlsProps {
 }
 
 const GAME_OPTIONS: { id: GameFranchise; label: string; icon: string }[] = [
-  { id: "ALL", label: "All Franchises", icon: "🌐" },
-  { id: "FC26", label: "EA SPORTS FC 26", icon: "⚽" },
-  { id: "APEX", label: "Apex Legends", icon: "🎯" },
-  { id: "MADDEN25", label: "Madden NFL 25", icon: "🏈" },
-  { id: "BATTLEFIELD", label: "Battlefield 2042", icon: "🪖" },
-  { id: "SIMS4", label: "The Sims 4", icon: "🏠" },
+  { id: "ALL", label: "All 2K Franchises", icon: "🌐" },
+  { id: "NBA2K26", label: "NBA 2K26", icon: "🏀" },
+  { id: "BORDERLANDS4", label: "Borderlands 4", icon: "💥" },
+  { id: "CIV7", label: "Civilization VII", icon: "🏛️" },
+  { id: "WWE2K25", label: "WWE 2K25", icon: "🤼" },
+  { id: "PGATOUR2K", label: "PGA TOUR 2K25", icon: "⛳" },
 ];
 
 const COHORT_FILTERS_BY_GAME: Record<GameFranchise, { value: string; label: string }[]> = {
   ALL: [
-    { value: "ALL", label: "All Players (Macro Galaxy)" },
-    { value: "ULTIMATE_TEAM_WHALE", label: "Cross-Title Whales ($3,500+ spend)" },
-    { value: "COMPETITIVE_GRINDER", label: "Competitive Sweat Grinders" },
+    { value: "ALL", label: "All 2K Players (Macro Galaxy)" },
+    { value: "MYTEAM_WHALE", label: "Cross-Title Whales ($3,500+ spend)" },
+    { value: "MYCAREER_HOOPER", label: "Competitive Sweat Grinders" },
     { value: "CASUAL_SOCIALIZER", label: "Social Squad Warriors" },
-    { value: "LORE_SEEKER", label: "Single-Player & Franchise Purists" },
+    { value: "4X_GRAND_STRATEGIST", label: "Strategy & Franchise Purists" },
   ],
+  NBA2K26: [
+    { value: "ALL", label: "All NBA 2K26 Cohorts" },
+    { value: "MYCAREER_HOOPER", label: "The City Streetballers (99 OVR)" },
+    { value: "MYTEAM_WHALE", label: "MyTEAM Dark Matter Whales" },
+    { value: "PROPASS_GRINDER", label: "ProPASS Season Grinders" },
+    { value: "CASUAL_SOCIALIZER", label: "The REC & Pro-Am Squads" },
+  ],
+  BORDERLANDS4: [
+    { value: "ALL", label: "All Borderlands 4 Cohorts" },
+    { value: "VAULT_HUNTER_SQUAD", label: "Mayhem 10 Vault Hunters" },
+    { value: "CASUAL_SOCIALIZER", label: "4-Player Co-Op Squads" },
+    { value: "LORE_SEEKER", label: "Legendary Weapon Collectors" },
+  ],
+  CIV7: [
+    { value: "ALL", label: "All Civilization VII Cohorts" },
+    { value: "4X_GRAND_STRATEGIST", label: "Diety Grand Strategists" },
+    { value: "LORE_SEEKER", label: "Historical Age Purists" },
+    { value: "CASUAL_SOCIALIZER", label: "Turn-Based Multiplayer Guilds" },
+  ],
+  WWE2K25: [
+    { value: "ALL", label: "All WWE 2K25 Cohorts" },
+    { value: "WWE_UNIVERSE_CREATOR", label: "Universe Mode Architects" },
+    { value: "MYTEAM_WHALE", label: "MyFACTION Card Whales" },
+  ],
+  PGATOUR2K: [
+    { value: "ALL", label: "All PGA TOUR 2K25 Cohorts" },
+    { value: "CLUBHOUSE_GOLFER", label: "Clubhouse Pass Champions" },
+    { value: "BUILDER_CREATOR", label: "Course Designers" },
+  ],
+  // Legacy mappings for backwards compatibility
   FC26: [
     { value: "ALL", label: "All FC 26 Cohorts" },
     { value: "COMPETITIVE_GRINDER", label: "FUT Champions Grinders" },
-    { value: "ULTIMATE_TEAM_WHALE", label: "Ultimate Team Whales" },
-    { value: "CASUAL_SOCIALIZER", label: "Pro Clubs & Rush 5v5" },
-    { value: "LORE_SEEKER", label: "Manager Career Purists" },
   ],
   APEX: [
     { value: "ALL", label: "All Apex Legends Cohorts" },
     { value: "RANKED_SWEAT", label: "Ranked Predator Sweats" },
-    { value: "HEIRLOOM_WHALE", label: "Heirloom Shards Whales ($500+)" },
-    { value: "CASUAL_SOCIALIZER", label: "Trios Social Squads" },
-    { value: "CASUAL_WARRIOR", label: "Mixtape Pub Stompers" },
   ],
   MADDEN25: [
     { value: "ALL", label: "All Madden NFL Cohorts" },
     { value: "COMPETITIVE_GRINDER", label: "MUT Champions & WL Sweats" },
-    { value: "MUT_WHALE", label: "Madden Ultimate Team Whales" },
-    { value: "CASUAL_SOCIALIZER", label: "Superstar Showdown 3v3" },
-    { value: "LORE_SEEKER", label: "Connected Franchise Gaffers" },
   ],
   BATTLEFIELD: [
     { value: "ALL", label: "All Battlefield Cohorts" },
     { value: "CONQUEST_LEADER", label: "Conquest Squad Leaders" },
-    { value: "CASUAL_SOCIALIZER", label: "Breakthrough Co-op Squads" },
-    { value: "LORE_SEEKER", label: "Hardcore Mil-Sim Purists" },
   ],
   SIMS4: [
     { value: "ALL", label: "All The Sims 4 Cohorts" },
-    { value: "SIMS_COLLECTOR", label: "DLC Pack Whales (12+ Packs)" },
-    { value: "BUILDER_CREATOR", label: "Architectural & CC Builders" },
-    { value: "LORE_SEEKER", label: "Legacy Generations Storycrafters" },
+    { value: "SIMS_COLLECTOR", label: "DLC Pack Whales" },
   ],
 };
+
 
 export default function GraphControls({
   currentView,

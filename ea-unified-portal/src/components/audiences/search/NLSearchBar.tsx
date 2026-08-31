@@ -17,42 +17,54 @@ interface NLSearchBarProps {
 
 const SAMPLE_PROMPTS_BY_GAME: Record<GameFranchise, string[]> = {
   ALL: [
-    "Cross-title Whales with spend over $3,500 across FC and Apex",
-    "Competitive players with 3+ loss streaks & high frustration",
-    "Social Squad Warriors active in Clubs and Apex Trios",
-    "Legacy players who migrated across multiple EA franchises",
+    "Cross-title 2K Whales with spend over $3,500 across NBA 2K and Borderlands",
+    "Competitive hoopers with 3+ loss streaks & high frustration in The REC",
+    "Social Squad Warriors active in Pro-Am and Borderlands Co-Op",
+    "Legacy players who migrated across multiple 2K franchises",
   ],
+  NBA2K26: [
+    "The City MyCAREER hoopers with 3+ loss streaks in The REC (99 OVR)",
+    "MyTEAM Dark Matter Whales ($3,500+ spend) in New York DMA",
+    "ProPASS Season 4 Grinders seeking Double Rep boosters",
+    "Casual streetballers at high risk of 14-day churn",
+  ],
+  BORDERLANDS4: [
+    "Mayhem 10 Vault Hunters with 4-player co-op squad history",
+    "Legendary weapon collectors with 300+ raid boss completions",
+    "Active co-op squads seeking seasonal DLC expansions",
+    "Casual looter-shooters churn risk post-campaign",
+  ],
+  CIV7: [
+    "Civilization VII 4X grand strategists with 500+ hours",
+    "Diety difficulty turn-based multiplayer tacticians",
+    "Historical leader DLC buyers seeking Age transitions",
+  ],
+  WWE2K25: [
+    "MyFACTION Card Whales and Championship pack collectors",
+    "Universe Mode custom storyline creators with 200+ hours",
+  ],
+  PGATOUR2K: [
+    "Clubhouse Pass subscribers with weekly tournament completions",
+    "Custom course architects and multiplayer society hosts",
+  ],
+  // Legacy aliases
   FC26: [
-    "FUT Champions players with 3+ loss streaks & high tilt in London",
-    "Ultimate Team Whales ($3,500+ spend)",
-    "Pro Clubs and Rush 5v5 active squads",
-    "Career Mode purists who migrated from FC 24",
+    "The City MyCAREER hoopers with 3+ loss streaks in The REC",
   ],
   APEX: [
-    "Apex Ranked Predators with 3+ RP demotion losses",
-    "Heirloom Whales with spend over $1,000",
-    "Active Trios premade squads playing Friday nights",
-    "Casual Mixtape players with high churn risk",
+    "Mayhem 10 Vault Hunters with 4-player co-op squad history",
   ],
   MADDEN25: [
-    "MUT Champions players with 3+ loss streaks",
-    "Madden Ultimate Team Whales ($2,000+ spend)",
-    "Superstar Showdown 3v3 active players",
-    "Connected Franchise league managers",
+    "The City MyCAREER hoopers with 3+ loss streaks in The REC",
   ],
   BATTLEFIELD: [
-    "Conquest squad leaders with 500+ hours",
-    "Vehicle specialists with Tier 1 tank mastery",
-    "Breakthrough attack squad veterans",
-    "Hardcore tactical players seeking XP boosters",
+    "Mayhem 10 Vault Hunters with 4-player co-op squad history",
   ],
   SIMS4: [
-    "DLC Whales with 10+ Expansion Packs owned",
-    "Architectural & Custom Content (CC) builders",
-    "Legacy Generations storycrafters with 1000+ hours",
-    "Casual players who haven't bought Lovestruck DLC",
+    "Civilization VII 4X grand strategists with 500+ hours",
   ],
 };
+
 
 export default function NLSearchBar({
   selectedGame = "ALL",

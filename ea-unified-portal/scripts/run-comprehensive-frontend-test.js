@@ -13,7 +13,7 @@ const UI_ROUTES = [
   { path: '/measurement/multimodal', name: 'Act 3: Multimodal Ad Analyzer' },
   { path: '/measurement/intake', name: 'Act 3: Campaign Intake' },
   { path: '/measurement/shapley', name: 'Act 3: Shapley Decomposition' },
-  { path: '/commerce', name: 'Act 4: In-Game Commerce & 3D Stadium' },
+  { path: '/commerce', name: 'Act 4: The City & Arena Commerce' },
 ];
 
 const API_ROUTES = [
@@ -21,14 +21,14 @@ const API_ROUTES = [
   {
     path: '/api/audiences/nl-query',
     method: 'POST',
-    body: JSON.stringify({ query: 'Show ultimate team players with high tilt', franchise: 'EA Sports FC' }),
+    body: JSON.stringify({ query: 'Show The City MyCAREER players with high tilt and high VC spend', franchise: 'NBA 2K26' }),
     name: 'Audience NL Query API',
     validate: (d) => d && (d.nodes || d.insights || d.explanation || d.answer || Array.isArray(d))
   },
   {
     path: '/api/synthetic/deepsona/debate',
     method: 'POST',
-    body: JSON.stringify({ prompt: 'Should we offer a $4.99 loss streak shield pack?', franchise: 'EA SPORTS FC 26', price: 4.99 }),
+    body: JSON.stringify({ prompt: 'Should we offer a $4.99 The City Streak-Shield pack with 5,000 VC?', franchise: 'NBA 2K26', price: 4.99 }),
     name: 'DeepSona Synthetic Debate API',
     validate: (d) => d && (d.debate_turns || d.synthesis)
   }
@@ -77,7 +77,7 @@ function fetchRoute(path, method = 'GET', body = null) {
 
 async function runAllTests() {
   console.log('\n======================================================');
-  console.log('🚀 RUNNING COMPREHENSIVE FRONTEND TEST SUITE');
+  console.log('🚀 RUNNING 2K EXECUTIVE BRIEFING CENTER TEST SUITE');
   console.log('======================================================\n');
 
   let passed = 0;

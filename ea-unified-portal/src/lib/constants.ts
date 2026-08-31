@@ -1,20 +1,26 @@
 import { Franchise, EASurface, TacticalQuadrant, GeoSpineMetro, NielsenDMA, WeatherTrajectoryPoint } from '@/types';
 
-export const EA_FRANCHISES: Franchise[] = [
-  'EA Sports FC',
-  'Apex Legends',
-  'Battlefield',
-  'The Sims',
+export const TWO_K_FRANCHISES: Franchise[] = [
+  'NBA 2K26',
+  'Borderlands 4',
+  "Sid Meier's Civilization VII",
+  'WWE 2K25',
+  'PGA TOUR 2K25',
 ];
 
-export const EA_SURFACES: { id: EASurface; label: string; description: string }[] = [
-  { id: 'EA_APP_LAUNCHER', label: 'EA App Launcher', description: 'Desktop hero banner & direct purchase overlay' },
-  { id: 'IN_GAME_STORE', label: 'In-Game Store', description: 'Real-time contextual cosmetic showcase' },
-  { id: 'STADIUM_BOARDS', label: 'Stadium Boards', description: 'Virtual pitch-side & arena perimeter dynamic banners' },
-  { id: 'PAUSE_SCREENS', label: 'Pause Screens', description: 'Tactical intermission promo cards' },
-  { id: 'MOBILE_COMPANION', label: 'Mobile Companion', description: 'Ultimate Team app squad builder notifications' },
-  { id: 'STREAMING_OVERLAYS', label: 'Streaming Overlays', description: 'Twitch & YouTube interactive drops & overlays' },
+export const EA_FRANCHISES: Franchise[] = TWO_K_FRANCHISES;
+
+export const TWO_K_SURFACES: { id: EASurface; label: string; description: string }[] = [
+  { id: 'THE_CITY_BILLBOARDS', label: 'The City Dynamic Billboards', description: 'Open-world streetball & neon boulevard high-impact LED displays' },
+  { id: 'ARENA_JUMBOTRON', label: 'Arena Jumbotron & Ribbon', description: 'Court-side 360 LED ribbon & center-hung 8K scoreboard takeovers' },
+  { id: 'MYCAREER_PAUSE', label: 'MyCAREER Tactical Pause', description: 'Contextual timeout, halftime & post-game brand sponsor cards' },
+  { id: 'MYTEAM_APP', label: 'MyTEAM Mobile Companion', description: 'Pack drop push alerts & auction house real-time banner promos' },
+  { id: '2K_HUB_LAUNCHER', label: '2K Hub Launcher', description: 'Cross-franchise launcher hero banner & seasonal pre-order carousel' },
+  { id: 'STREAMING_OVERLAYS', label: 'Twitch & 2K League Drops', description: 'Interactive broadcast viewer quest overlays & locker code popups' },
 ];
+
+export const EA_SURFACES = TWO_K_SURFACES;
+
 
 export const TACTICAL_QUADRANTS: {
   id: TacticalQuadrant;

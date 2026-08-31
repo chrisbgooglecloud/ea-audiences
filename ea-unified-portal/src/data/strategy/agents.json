@@ -4,16 +4,16 @@
     "name": "Intake Agent",
     "sub": "Natural Language Parser",
     "color": "from-blue-500/10 to-indigo-500/10 text-blue-600 border-blue-200/60",
-    "description": "Intercepts raw conversational marketing directives. Employs Gemini 3.5 Flash to parse semantic category bounds, flight timelines, and specific EA SPORTS FC 27 game divisions and live-service editions.",
-    "inputs": "Raw text brief from game franchise brand manager, client context headers",
+    "description": "Intercepts raw conversational marketing directives. Employs Gemini 1.5 Pro to parse semantic category bounds, flight timelines, and specific NBA 2K26 game modes, The City seasons, and VC bundles.",
+    "inputs": "Raw text brief from 2K franchise brand manager, client context headers",
     "outputs": "Structured Campaign Parameters JSON payload",
     "toolsNeeded": [
-      "Gemini 3.5 Flash Model",
+      "Gemini 1.5 Pro Model",
       "JSON parser stubs"
     ],
     "dataNeeded": [
       "Game edition taxonomy hierarchies",
-      "EA SPORTS FC 27 product divisions & live-service catalog"
+      "NBA 2K26 product divisions & live-service catalog"
     ]
   },
   {
@@ -21,7 +21,7 @@
     "name": "Feasibility Agent",
     "sub": "Audience & Reach Inspector",
     "color": "from-emerald-500/10 to-teal-500/10 text-emerald-600 border-emerald-250/60",
-    "description": "Calculates feasibility limits and contact boundaries across console, PC, and mobile companion app telemetry. Evaluates gamer contact frequency caps and suppresses over-messaged player segments.",
+    "description": "Calculates feasibility limits and contact boundaries across console, PC, and MyTEAM mobile companion app telemetry. Evaluates gamer contact frequency caps and suppresses over-messaged player segments.",
     "inputs": "Structured Campaign Parameters JSON",
     "outputs": "Estimated target gamer cohort reach size",
     "toolsNeeded": [
@@ -29,7 +29,7 @@
       "Cohort evaluator stubs"
     ],
     "dataNeeded": [
-      "C360 Gamer Opt-in lists",
+      "2K Account Gamer Opt-in lists",
       "Player rolling contact frequency counters"
     ]
   },
@@ -38,7 +38,7 @@
     "name": "Prioritization Agent",
     "sub": "Conflict & Queue Ranking Manager",
     "color": "from-rose-500/10 to-purple-500/10 text-rose-600 border-rose-250/60",
-    "description": "Resolves priority overlaps when multiple live-service in-game events and pre-order promotions clash. Evaluates campaign tiers, seasonal multipliers, and player loyalty status.",
+    "description": "Resolves priority overlaps when multiple live-service in-game events and ProPASS promotions clash. Evaluates campaign tiers, seasonal multipliers, and 2K VIP loyalty status.",
     "inputs": "Estimated cohort stats, prioritization rules weights",
     "outputs": "Ranked campaign schedule, adjusted priority scores",
     "toolsNeeded": [
@@ -46,7 +46,7 @@
     ],
     "dataNeeded": [
       "Active in-game promo registries",
-      "EA Play & Founder Status loyalty multipliers"
+      "2K Account & Season Level loyalty multipliers"
     ]
   },
   {
@@ -54,7 +54,7 @@
     "name": "Research Agent",
     "sub": "Market Trends Grounding",
     "color": "from-blue-500/10 to-sky-500/10 text-blue-600 border-blue-200/60",
-    "description": "Performs real-time search grounding to validate proposed campaigns. Benchmarks pricing and concepts against major digital storefronts (PlayStation Store, Xbox Store, Steam, EA App) and sports gaming trends.",
+    "description": "Performs real-time search grounding to validate proposed campaigns. Benchmarks pricing and concepts against major digital storefronts (PlayStation Store, Xbox Store, Steam, 2K Store) and sports gaming trends.",
     "inputs": "Theme objectives, target items, competitor exclusion briefs",
     "outputs": "Market validation logs, trend alignment scores",
     "toolsNeeded": [
@@ -71,17 +71,17 @@
     "name": "Creative Gen Agent",
     "sub": "Copywriter & Asset Compiler",
     "color": "from-purple-500/10 to-pink-500/10 text-purple-600 border-purple-250/60",
-    "description": "Assembles dynamic display banners and marketing copy templates. Triggers Vertex AI Image Generation for photorealistic match action and superstar player visuals and saves them to GCS.",
-    "inputs": "Approved concept specs, tone options (e.g. Competitive, Tactical, Exciting)",
+    "description": "Assembles dynamic display banners and marketing copy templates. Triggers Imagen 3 Image Generation for photorealistic court action and superstar player visuals and saves them to GCS.",
+    "inputs": "Approved concept specs, tone options (e.g. Competitive, Hype, Streetball)",
     "outputs": "WebP Banners (GCS URL references) + Display copies",
     "toolsNeeded": [
-      "Gemini 3.5 Flash (Text copy)",
-      "Gemini 3.1 Image generation API",
+      "Gemini 1.5 Pro (Text copy)",
+      "Imagen 3 Image generation API",
       "GCS SDK connector"
     ],
     "dataNeeded": [
       "Google Cloud Storage buckets",
-      "Game branding assets, athlete imagery prompts"
+      "2K branding assets, athlete imagery prompts"
     ]
   },
   {
@@ -97,7 +97,7 @@
       "Vertex safety guardrails"
     ],
     "dataNeeded": [
-      "Gaming trademark registries",
+      "2K trademark registries",
       "ESRB & PEGI compliance rule books"
     ]
   },
@@ -106,7 +106,7 @@
     "name": "Integration Agent",
     "sub": "Dispatch Gateway Transit",
     "color": "from-teal-500/10 to-emerald-500/10 text-teal-600 border-teal-250/60",
-    "description": "Validates double supervisor electronic signatures, seals finalized payloads, and delivers verified packages directly to live-service push and CRM channel routers.",
+    "description": "Validates double supervisor electronic signatures, seals finalized payloads, and delivers verified packages directly to live-service push and 2K CRM channel routers.",
     "inputs": "Completed campaign assets + verified franchise producer signoff keys",
     "outputs": "Signed outbound REST payload transfer packet",
     "toolsNeeded": [
@@ -140,11 +140,11 @@
     "name": "Judge Agent",
     "sub": "Campaign Critic & Strategist",
     "color": "from-amber-500/10 to-orange-500/10 text-amber-700 border-amber-200/60",
-    "description": "Examines final campaign strategy, creatives, feasibility, and compliance to identify gaps, pros/cons, and analytics insights for EA SPORTS FC 27.",
+    "description": "Examines final campaign strategy, creatives, feasibility, and compliance to identify gaps, pros/cons, and analytics insights for NBA 2K26.",
     "inputs": "Cumulative preceding agent inputs, logs, and artifacts",
     "outputs": "HTML Judgement and Critic Report",
     "toolsNeeded": [
-      "Gemini 3.5 Flash Model",
+      "Gemini 1.5 Pro Model",
       "Campaign Critic Evaluator"
     ],
     "dataNeeded": [

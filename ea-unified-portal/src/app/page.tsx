@@ -32,14 +32,14 @@ export default function MissionControlPage() {
       tag: 'Audiences & Personas',
       title: 'Audience Discovery',
       description:
-        'Explore player communities and segment cohorts with natural language. Test campaign messaging against synthetic focus groups before launch.',
+        'Explore 2K player communities and segment cohorts with natural language. Test campaign messaging against synthetic player archetypes before launch.',
       href: '/audiences',
       icon: Users,
       color: '#00F0FF',
       accentBg: 'bg-[#00F0FF]/10',
       borderColor: 'border-[#00F0FF]/30',
       badge: 'Spanner & DeepSona',
-      kpi: '5,000+ Profiles Mapped',
+      kpi: '5,000+ 2K Profiles Mapped',
       intent: 'DISPATCH_AUDIENCE_BRIEF',
     },
     {
@@ -47,12 +47,12 @@ export default function MissionControlPage() {
       tag: 'Creative Studio',
       title: 'Generative Creative',
       description:
-        'Monitor live community sentiment and generate multi-format marketing assets from audience briefs with automated brand and legal safety checks.',
+        'Monitor live community sentiment and generate multi-format marketing assets from audience briefs with automated 2K brand and VC compliance checks.',
       href: '/creative',
       icon: Palette,
-      color: '#E6FF00',
-      accentBg: 'bg-[#E6FF00]/10',
-      borderColor: 'border-[#E6FF00]/30',
+      color: '#FFD200',
+      accentBg: 'bg-[#FFD200]/10',
+      borderColor: 'border-[#FFD200]/30',
       badge: 'Gemini Multi-Surface',
       kpi: '6 Formats Supported',
       intent: 'ACK_REVISE_CREATIVE',
@@ -72,6 +72,21 @@ export default function MissionControlPage() {
       kpi: '+24.6% Projected Lift',
       intent: 'ALLOCATE_PROGRAMMATIC_SPEND',
     },
+    {
+      act: 'Act 4',
+      tag: 'In-Game Commerce',
+      title: 'The City & Arena Ads',
+      description:
+        'Deploy dynamic virtual billboard placements and courtside LED media takeovers inside NBA 2K and 2K live service titles in real-time.',
+      href: '/commerce',
+      icon: Layers,
+      color: '#FF2E38',
+      accentBg: 'bg-[#FF2E38]/10',
+      borderColor: 'border-[#FF2E38]/30',
+      badge: 'Dynamic 3D Media',
+      kpi: 'Sub-100ms Ad Delivery',
+      intent: 'DEPLOY_INGAME_ADS',
+    },
   ];
 
   const handleSimulateHandoff = async (idx: number) => {
@@ -80,7 +95,7 @@ export default function MissionControlPage() {
     const item = workspaces[idx];
     await publishMessage({
       correlation_id: `sim-step-${idx + 1}-${Date.now()}`,
-      sender: `ExecutiveDemoOrchestrator (${item.act})`,
+      sender: `2KExecutiveOrchestrator (${item.act})`,
       recipient: 'GlobalExecutiveConsole',
       intent: item.intent,
       payload: {
@@ -95,25 +110,25 @@ export default function MissionControlPage() {
   return (
     <div className="max-w-[1720px] mx-auto px-4 sm:px-6 py-8 space-y-10 relative">
       {/* Ambient lighting */}
-      <div className="apple-ambient-glow -top-20 -left-20 bg-[#0072BC]" />
-      <div className="apple-ambient-glow top-1/2 -right-20 bg-[#00F0FF]" />
+      <div className="apple-ambient-glow -top-20 -left-20 bg-[#E51B24]" />
+      <div className="apple-ambient-glow top-1/2 -right-20 bg-[#FF2E38]" />
 
       {/* Hero Section */}
       <div className="relative apple-glass-card rounded-3xl p-8 sm:p-10 overflow-hidden">
         <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
           <div className="space-y-3.5 max-w-3xl">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/[0.06] border border-white/[0.12] text-white text-xs font-semibold">
-              <Sparkles className="w-3.5 h-3.5 text-[#00F0FF]" />
-              <span>EA Marketing Platform • {franchiseInfo.label}</span>
+              <Sparkles className="w-3.5 h-3.5 text-[#FF2E38]" />
+              <span>2K Marketing Platform • {franchiseInfo.label}</span>
             </div>
             <h1 className="apple-display text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
               Intelligent Marketing,{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#0072BC] to-[#38BDF8]">
-                Powered by AI
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF4B53] via-[#E51B24] to-[#FFA500]">
+                Powered by 2K AI
               </span>
             </h1>
             <p className="text-sm sm:text-base text-[#8FA3BC] apple-subhead leading-relaxed">
-              Discover player insights, create on-brand campaigns, and continuously optimize marketing performance across every channel.
+              Discover player insights, create on-brand campaigns, audit monetization compliance, and continuously optimize marketing performance across every channel.
             </p>
           </div>
 
@@ -148,7 +163,7 @@ export default function MissionControlPage() {
         </div>
       </div>
 
-      {/* 3 Core Interactive Workspaces */}
+      {/* 4 Core Interactive Workspaces */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2.5">
@@ -168,7 +183,7 @@ export default function MissionControlPage() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {workspaces.map((ws, idx) => {
             const Icon = ws.icon;
             return (
@@ -213,7 +228,7 @@ export default function MissionControlPage() {
                     href={ws.href}
                     className="apple-press flex items-center gap-1 px-3.5 py-1.5 rounded-xl text-xs font-bold text-white transition-all shadow-md group-hover:brightness-110"
                     style={{
-                      backgroundColor: ws.color === '#E6FF00' ? '#0072BC' : ws.color === '#00F0FF' ? '#0072BC' : '#0072BC',
+                      backgroundColor: '#E51B24',
                     }}
                   >
                     <span>Launch</span>
@@ -248,9 +263,9 @@ export default function MissionControlPage() {
 
           <div className="apple-glass-card rounded-2xl p-5 space-y-2">
             <div className="text-xs font-semibold text-[#8FA3BC]">Production Speed</div>
-            <div className="text-3xl font-black text-[#E6FF00] tabular-nums">10x</div>
+            <div className="text-3xl font-black text-[#FFD200] tabular-nums">10x</div>
             <p className="text-xs text-[#8FA3BC] apple-subhead leading-relaxed">
-              Faster multi-format creative production with automated brand and legal compliance checks.
+              Faster multi-format creative production with automated brand and VC compliance checks.
             </p>
           </div>
 
@@ -266,3 +281,4 @@ export default function MissionControlPage() {
     </div>
   );
 }
+

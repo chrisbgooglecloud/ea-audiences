@@ -65,14 +65,14 @@ interface DebateTurn {
   sentiment_delta: string;
 }
 
-const DEFAULT_EA_PERSONAS: PersonaReaction[] = [
+const DEFAULT_TWO_K_PERSONAS: PersonaReaction[] = [
   {
-    id: 'marcus_vance',
-    name: 'Marcus Vance',
-    avatar: '⚡',
-    archetype: 'Competitive Grinder',
-    division: 'FUT Champions Elite (Rank II)',
-    ltv: 1250,
+    id: 'marcus_hayes',
+    name: 'Marcus "Buckets" Hayes',
+    avatar: '🏀',
+    archetype: 'The City Streetballer & MyCAREER Grinder',
+    division: 'The REC & Pro-Am Elite (99 OVR PG)',
+    ltv: 1450,
     tilt: 88,
     lossStreak: 3,
     resonanceScore: 94,
@@ -80,83 +80,83 @@ const DEFAULT_EA_PERSONAS: PersonaReaction[] = [
     action: 'CONVERT',
     sentiment: 'HYPED',
     radar: {
-      gameplayExcitement: 92,
-      visualFidelity: 85,
-      pricingFairness: 78,
-      fomoIntensity: 95,
-      communityTrust: 80,
+      gameplayExcitement: 95,
+      visualFidelity: 90,
+      pricingFairness: 82,
+      fomoIntensity: 96,
+      communityTrust: 84,
     },
-    feedback: 'If I just lost 3 Weekend League games to 90th-minute bouncebacks, dropping $4.99 to immediately reset tilt with a loan Icon card and 500 FC points is an absolute no-brainer.',
-    quote: '"I need momentum back right after a loss streak. Make the purchase frictionless on the defeat screen."'
+    feedback: 'If I just dropped 3 straight games in The REC to squad cheese, spending $4.99 for an instant 2-hour Double Rep & Gatorade Skill Boost pack to protect my season rep is an absolute no-brainer.',
+    quote: '"I need instant momentum back right after a loss streak in The City. Make the VC purchase frictionless on the defeat screen."'
   },
   {
-    id: 'kaito_takahashi',
-    name: 'Kaito Takahashi',
-    avatar: '🎯',
-    archetype: 'Esports Hardware Sweat',
-    division: 'PC Competitive / 240Hz Grinder',
-    ltv: 680,
-    tilt: 45,
+    id: 'kaito_tanaka',
+    name: 'Kaito "Collector" Tanaka',
+    avatar: '🃏',
+    archetype: 'MyTEAM Pack Whale & Auction Master',
+    division: 'Unlimited Leaderboard / 100 OVR Holo Collector',
+    ltv: 2100,
+    tilt: 55,
     lossStreak: 1,
-    resonanceScore: 82,
-    wtp: 4.99,
-    action: 'CONSIDER',
+    resonanceScore: 86,
+    wtp: 14.99,
+    action: 'CONVERT',
     sentiment: 'FAIR_VALUE',
     radar: {
       gameplayExcitement: 88,
-      visualFidelity: 96,
-      pricingFairness: 70,
-      fomoIntensity: 75,
-      communityTrust: 72,
+      visualFidelity: 94,
+      pricingFairness: 72,
+      fomoIntensity: 92,
+      communityTrust: 76,
     },
-    feedback: 'The visual execution in 4K looks clean, but highlight frame pacing and input latency benefits. Don’t make it look like a pay-to-win microtransaction gimmick.',
-    quote: '"Focus on competitive fairness and skill-based responsiveness over pure cosmetic RNG."'
+    feedback: 'The ProPLAY visual animations on signature dunk packages look incredible. Ensure guaranteed Holo badge toppers and transparent drop rates in the creative.',
+    quote: '"Showcase guaranteed value and clear pack odds instead of generic VC bundles."'
   },
   {
     id: 'chloe_bennett',
-    name: 'Chloe Bennett',
-    avatar: '🧠',
-    archetype: 'Career Mode Tactician',
-    division: 'Single Player & Manager Tactician',
-    ltv: 140,
-    tilt: 15,
+    name: 'Chloe "VaultHunter" Bennett',
+    avatar: '💥',
+    archetype: 'Borderlands 4 Co-Op Mayhem Raider',
+    division: 'Mayhem Level 10 / 4-Player Squad Host',
+    ltv: 380,
+    tilt: 20,
     lossStreak: 0,
-    resonanceScore: 68,
-    wtp: 2.99,
+    resonanceScore: 78,
+    wtp: 9.99,
     action: 'CONSIDER',
     sentiment: 'SKEPTICAL',
     radar: {
-      gameplayExcitement: 65,
-      visualFidelity: 80,
-      pricingFairness: 85,
-      fomoIntensity: 40,
-      communityTrust: 88,
+      gameplayExcitement: 92,
+      visualFidelity: 95,
+      pricingFairness: 80,
+      fomoIntensity: 65,
+      communityTrust: 86,
     },
-    feedback: 'I rarely buy points packs, but if the creative emphasizes deep tactical realism (FC IQ manager playbooks or youth scouting upgrades), I would consider expanding my campaign.',
-    quote: '"Give me depth, strategic storyline progression, and authentic club mechanics."'
+    feedback: 'I hate aggressive pay-to-win mechanics, but exclusive Vault Hunter head skins, cel-shaded weapon wraps, and season story DLC packs are an instant squad buy on launch day.',
+    quote: '"Focus on co-op raid fun, insane gun variety, and zero pay-to-win barriers."'
   },
   {
     id: 'alexandre_silva',
-    name: 'Alexandre Silva',
-    avatar: '🎮',
-    archetype: 'Clubs & Street Socializer',
-    division: '11v11 Clubs Division 1 & VOLTA',
-    ltv: 420,
-    tilt: 35,
-    lossStreak: 1,
-    resonanceScore: 89,
-    wtp: 5.99,
-    action: 'CONVERT',
-    sentiment: 'HYPED',
+    name: 'Alexandre "Emperor" Silva',
+    avatar: '🏛️',
+    archetype: 'Civilization VII 4X Grand Strategist',
+    division: 'Diety Difficulty & Turn-Based Multiplayer',
+    ltv: 290,
+    tilt: 10,
+    lossStreak: 0,
+    resonanceScore: 84,
+    wtp: 12.99,
+    action: 'CONSIDER',
+    sentiment: 'FAIR_VALUE',
     radar: {
-      gameplayExcitement: 90,
-      visualFidelity: 92,
-      pricingFairness: 82,
-      fomoIntensity: 85,
-      communityTrust: 75,
+      gameplayExcitement: 85,
+      visualFidelity: 88,
+      pricingFairness: 89,
+      fomoIntensity: 50,
+      communityTrust: 92,
     },
-    feedback: 'Our squad plays every Friday on Discord. Having licensed streetwear drops, custom club crests, and Rush 5v5 XP boosters bundled in the creative is instant squad purchase fuel.',
-    quote: '"If my whole squad can flex custom kits in Rush 5v5, we will all grab it immediately."'
+    feedback: 'Give me deep historical leaders, new Age of Exploration civs, and authentic soundtrack packs. Civ players value longevity, strategic depth, and expansions over cosmetics.',
+    quote: '"Highlight historical authenticity, new civ bonuses, and tactical age transitions."'
   }
 ];
 
@@ -165,20 +165,21 @@ export function SyntheticTesting() {
   const { activeBrief } = useCampaign();
 
   const [activeTab, setActiveTab] = useState<'creative' | 'debate' | 'interview' | 'offers'>('creative');
-  const [selectedPersonaId, setSelectedPersonaId] = useState<string>('marcus_vance');
+  const [selectedPersonaId, setSelectedPersonaId] = useState<string>('marcus_hayes');
   const [isSimulating, setIsSimulating] = useState(false);
 
   // Creative test form state
   const [testDirective, setTestDirective] = useState<string>(
-    'Squad Breach 2s Action Hook with Defeat-Streak Tilt Shield ($4.99 Micro-Vault Reload)'
+    'The City ProPASS Season 4 Booster with 5,000 VC + Gatorade Skill Boost ($4.99 Instant Reload)'
   );
   const [testPrice, setTestPrice] = useState<number>(4.99);
-  const [personaReactions, setPersonaReactions] = useState<PersonaReaction[]>(DEFAULT_EA_PERSONAS);
+  const [personaReactions, setPersonaReactions] = useState<PersonaReaction[]>(DEFAULT_TWO_K_PERSONAS);
 
   // Live debate state
   const [debateQuestion, setDebateQuestion] = useState<string>(
-    'Would you purchase a $4.99 Loss-Shield reset pack after losing 3 Weekend League matches in a row?'
+    'Would you purchase a $4.99 The City Streak-Shield pack with 5,000 VC after losing 3 consecutive REC games in NBA 2K?'
   );
+
   const [isDebating, setIsDebating] = useState<boolean>(false);
   const [debateHistory, setDebateHistory] = useState<
     Array<{

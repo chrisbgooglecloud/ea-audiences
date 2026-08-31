@@ -1,9 +1,36 @@
 export type NodeType = "PLAYER" | "IDENTITY" | "GAME" | "CLAN" | "OFFER" | "CREATOR";
 
-export type GameFranchise = "ALL" | "FC26" | "APEX" | "MADDEN25" | "BATTLEFIELD" | "SIMS4";
-export type Franchise = "Apex Legends" | "EA Sports FC" | "EA SPORTS FC 26" | "Battlefield" | "Battlefield 2042" | "The Sims" | "The Sims 4" | "Madden NFL 25" | "EA Live Service" | GameFranchise | string;
+export type GameFranchise = "ALL" | "NBA2K26" | "BORDERLANDS4" | "CIV7" | "WWE2K25" | "PGATOUR2K" | "FC26" | "APEX" | "MADDEN25" | "BATTLEFIELD" | "SIMS4";
+export type Franchise = 
+  | "NBA 2K" 
+  | "NBA 2K26" 
+  | "Borderlands" 
+  | "Borderlands 4" 
+  | "Sid Meier's Civilization VII" 
+  | "Civilization VII" 
+  | "WWE 2K25" 
+  | "PGA TOUR 2K25" 
+  | "2K Live Network"
+  | "Apex Legends" 
+  | "EA Sports FC" 
+  | "EA SPORTS FC 26" 
+  | "Battlefield" 
+  | "Battlefield 2042" 
+  | "The Sims" 
+  | "The Sims 4" 
+  | "Madden NFL 25" 
+  | "EA Live Service" 
+  | GameFranchise 
+  | string;
 
 export type Archetype =
+  | "MYCAREER_HOOPER"
+  | "MYTEAM_WHALE"
+  | "VAULT_HUNTER_SQUAD"
+  | "4X_GRAND_STRATEGIST"
+  | "WWE_UNIVERSE_CREATOR"
+  | "CLUBHOUSE_GOLFER"
+  | "PROPASS_GRINDER"
   | "COMPETITIVE_GRINDER"
   | "ULTIMATE_TEAM_WHALE"
   | "CASUAL_SOCIALIZER"
@@ -15,6 +42,7 @@ export type Archetype =
   | "CONQUEST_LEADER"
   | "SIMS_COLLECTOR"
   | "BUILDER_CREATOR";
+
 
 export type ContextualViewType =
   | "audience-cohorts"
@@ -207,12 +235,18 @@ export interface A2AMessageType {
 export type FunnelStage = 'ToFu_Exploration' | 'MoFu_Progression' | 'BoFu_Conversion';
 
 export type EASurface = 
-  | 'EA_APP_LAUNCHER' 
+  | 'THE_CITY_BILLBOARDS'
+  | 'ARENA_JUMBOTRON'
+  | 'MYCAREER_PAUSE'
+  | 'MYTEAM_APP'
+  | '2K_HUB_LAUNCHER'
   | 'IN_GAME_STORE' 
   | 'STADIUM_BOARDS' 
+  | 'EA_APP_LAUNCHER' 
   | 'PAUSE_SCREENS' 
   | 'MOBILE_COMPANION' 
   | 'STREAMING_OVERLAYS';
+
 
 export type TacticalQuadrant = 
   | 'GOLD_MINES' 

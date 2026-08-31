@@ -33,7 +33,16 @@ export function ActStepper() {
       icon: BarChart3,
       color: '#00C48C',
     },
+    {
+      act: 'Act 4',
+      title: 'In-Game Commerce',
+      subtitle: 'The City & Arena Media',
+      href: '/commerce',
+      icon: Box,
+      color: '#FF2E38',
+    },
   ];
+
 
   return (
     <div className="w-full bg-[#0E1A29]/80 backdrop-blur-md border-b border-white/[0.06] px-4 py-2">

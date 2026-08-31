@@ -29,7 +29,7 @@ export default function CommerceMediaPage() {
   const { publishMessage, setIsDrawerOpen } = useA2AEventBus();
 
   const [activeSponsor, setActiveSponsor] = useState<string>('Nike');
-  const [selectedSurfaces, setSelectedSurfaces] = useState<string[]>(['STADIUM_BOARDS', 'PAUSE_SCREENS']);
+  const [selectedSurfaces, setSelectedSurfaces] = useState<string[]>(['THE_CITY_BILLBOARDS', 'ARENA_JUMBOTRON']);
   const [targetDmas, setTargetDmas] = useState<number[]>([501, 803, 602, 506]);
   const [bidCpm, setBidCpm] = useState<number>(28.5);
   const [allocatedBudget, setAllocatedBudget] = useState<number>(85000);
@@ -41,7 +41,7 @@ export default function CommerceMediaPage() {
   const [liveAngle, setLiveAngle] = useState<number>(24.5);
   const [liveOcclusion, setLiveOcclusion] = useState<number>(4.2);
 
-  const sponsors = ['Nike', 'Mountain Dew', 'PlayStation', 'Red Bull'];
+  const sponsors = ['Nike', 'Gatorade', 'Jordan Brand', 'Ruffles', 'State Farm', 'PlayStation'];
 
   const handleToggleSurface = (surface: string) => {
     if (selectedSurfaces.includes(surface)) {
@@ -63,7 +63,7 @@ export default function CommerceMediaPage() {
     setIsSubmitting(true);
     await publishMessage({
       correlation_id: `corr-commerce-spend-${Date.now()}`,
-      sender: 'Surya_CommerceMediaAgent (Act 4)',
+      sender: 'TwoK_CommerceMediaAgent (Act 4)',
       recipient: 'MediaBuyingAgent (Act 3)',
       intent: 'ACK_ALLOCATE_PROGRAMMATIC_SPEND',
       payload: {
@@ -82,7 +82,7 @@ export default function CommerceMediaPage() {
     });
     setIsSubmitting(false);
     setSubmissionNotice(
-      `Flight submitted for ${activeSponsor}! 420 Frostbite 3D matches serving across ${targetDmas.length} DMAs.`
+      `Flight submitted for ${activeSponsor}! 420 2K live server matches serving across ${targetDmas.length} DMAs.`
     );
     setTimeout(() => setSubmissionNotice(null), 6000);
   };
@@ -93,11 +93,11 @@ export default function CommerceMediaPage() {
       <div className="bg-[#16263A] border border-[rgba(255,255,255,0.08)] rounded-2xl p-5 shadow-[0_4px_20px_rgba(0,0,0,0.35)] flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#FF7A00]/15 text-[#FF7A00] border border-[#FF7A00]/30">
+            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#E51B24]/15 text-[#FF2E38] border border-[#E51B24]/30">
               ACT 4 • COMMERCE MEDIA NETWORK
             </span>
             <span className="text-xs text-[#8FA3BC]">
-              Frostbite Middleware Programmatic 3D In-Game Ad Engine
+              2K Dynamic 3D In-Game Ad Engine & The City Media
             </span>
           </div>
           <h1 className="text-xl font-heading font-bold text-white mt-1">
@@ -107,14 +107,14 @@ export default function CommerceMediaPage() {
 
         <div className="flex items-center gap-2">
           <div className="text-xs text-[#8FA3BC] font-mono">Active Sponsor:</div>
-          <div className="flex items-center gap-1 bg-[#0E1A29] p-1 rounded-xl border border-[#253D5B]">
+          <div className="flex items-center gap-1 bg-[#0E1A29] p-1 rounded-xl border border-[#253D5B] flex-wrap">
             {sponsors.map((sp) => (
               <button
                 key={sp}
                 onClick={() => setActiveSponsor(sp)}
                 className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all ${
                   activeSponsor === sp
-                    ? 'bg-[#0072BC] text-white shadow-md'
+                    ? 'bg-[#E51B24] text-white shadow-md'
                     : 'text-[#8FA3BC] hover:text-white hover:bg-[#1E334D]'
                 }`}
               >
@@ -134,19 +134,20 @@ export default function CommerceMediaPage() {
 
       {/* Main Two-Column Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-        {/* Left: 3D Frostbite Stadium Canvas (7 Cols) */}
+        {/* Left: 3D The City & Arena Canvas (7 Cols) */}
         <div className="lg:col-span-7 space-y-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <Box className="w-4 h-4 text-[#00F0FF]" />
+              <Box className="w-4 h-4 text-[#FF2E38]" />
               <h2 className="text-sm font-heading font-bold text-white uppercase tracking-wider">
-                Live 3D Frostbite In-Game Stadium Hoardings
+                Live 3D The City & Arena Courtside LED Ribbons
               </h2>
             </div>
             <span className="text-xs text-[#8FA3BC] font-mono">
               Real-time WebGL Simulation
             </span>
           </div>
+
 
           <Frostbite3DStadiumCanvas
             activeSponsor={activeSponsor}

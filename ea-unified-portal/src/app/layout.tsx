@@ -15,8 +15,8 @@ import { A2AProtocolDrawer } from '@/components/shell/A2AProtocolDrawer';
 
 
 export const metadata: Metadata = {
-  title: 'EA Executive Briefing Center • Unified AI Platform',
-  description: 'Closed-loop AI platform across Audiences, Creative Studio, Predictive Measurement & 3D In-Game Commerce Media.',
+  title: '2K Executive Briefing Center • Take-Two Interactive AI Platform',
+  description: 'Closed-loop AI platform across Audiences, Creative Studio, Predictive Measurement & Dynamic 3D In-Game Commerce Media for 2K Games.',
   icons: {
     icon: '/favicon.svg',
   },
@@ -29,7 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-[#0E1A29] text-white min-h-screen flex flex-col antialiased selection:bg-[#0072BC] selection:text-white">
+      <body className="bg-[#0E1A29] text-white min-h-screen flex flex-col antialiased selection:bg-[#E51B24] selection:text-white">
+
         <AppConfigProvider>
           <CompanyProvider>
             <FranchiseProvider>

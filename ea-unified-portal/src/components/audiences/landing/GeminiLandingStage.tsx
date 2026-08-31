@@ -39,46 +39,73 @@ interface GeminiLandingStageProps {
 }
 
 const FRANCHISES: { id: GameFranchise; label: string; dotColor: string }[] = [
-  { id: "ALL", label: "All Titles", dotColor: "#00F0FF" },
-  { id: "FC26", label: "FC 26", dotColor: "#E6FF00" },
-  { id: "APEX", label: "Apex Legends", dotColor: "#00F0FF" },
-  { id: "MADDEN25", label: "Madden NFL", dotColor: "#00FF88" },
-  { id: "BATTLEFIELD", label: "Battlefield", dotColor: "#FF7A00" },
-  { id: "SIMS4", label: "The Sims 4", dotColor: "#A855F7" },
+  { id: "ALL", label: "All 2K Titles", dotColor: "#E51B24" },
+  { id: "NBA2K26", label: "NBA 2K26", dotColor: "#FF2E38" },
+  { id: "BORDERLANDS4", label: "Borderlands 4", dotColor: "#FFD200" },
+  { id: "CIV7", label: "Civilization VII", dotColor: "#38BDF8" },
+  { id: "WWE2K25", label: "WWE 2K25", dotColor: "#F59E0B" },
+  { id: "PGATOUR2K", label: "PGA TOUR 2K25", dotColor: "#10B981" },
 ];
 
 const AURA_THEMES: Record<GameFranchise, { primary: string; secondary: string; pulse: string }> = {
   ALL: {
-    primary: "rgba(0, 240, 255, 0.14)",     // Cyan
-    secondary: "rgba(16, 185, 129, 0.12)",   // Emerald
-    pulse: "rgba(168, 85, 247, 0.10)",      // Purple
+    primary: "rgba(229, 27, 36, 0.16)",     // 2K Red
+    secondary: "rgba(255, 46, 56, 0.14)",   // Crimson
+    pulse: "rgba(255, 210, 0, 0.10)",       // Gold
   },
+  NBA2K26: {
+    primary: "rgba(255, 46, 56, 0.18)",     // 2K Crimson
+    secondary: "rgba(255, 165, 0, 0.14)",   // Court Gold
+    pulse: "rgba(229, 27, 36, 0.12)",       // Red accent
+  },
+  BORDERLANDS4: {
+    primary: "rgba(255, 210, 0, 0.18)",     // Cel-shade Yellow
+    secondary: "rgba(255, 69, 0, 0.14)",    // Mayhem Orange
+    pulse: "rgba(168, 85, 247, 0.10)",      // Eridium Purple
+  },
+  CIV7: {
+    primary: "rgba(56, 189, 248, 0.18)",    // Discovery Cyan
+    secondary: "rgba(212, 175, 55, 0.14)",  // Imperial Gold
+    pulse: "rgba(16, 185, 129, 0.10)",      // Earth Green
+  },
+  WWE2K25: {
+    primary: "rgba(245, 158, 11, 0.18)",    // Championship Gold
+    secondary: "rgba(229, 27, 36, 0.14)",   // Ring Red
+    pulse: "rgba(255, 46, 56, 0.10)",       // Crimson
+  },
+  PGATOUR2K: {
+    primary: "rgba(16, 185, 129, 0.18)",    // Fairway Green
+    secondary: "rgba(6, 95, 70, 0.14)",     // Deep Forest
+    pulse: "rgba(56, 189, 248, 0.10)",      // Water Blue
+  },
+  // Legacy aliases for backward compatibility
   FC26: {
-    primary: "rgba(230, 255, 0, 0.16)",     // Volt Neon
-    secondary: "rgba(16, 185, 129, 0.14)",  // Pitch Green
-    pulse: "rgba(0, 240, 255, 0.08)",       // Cyan accent
+    primary: "rgba(255, 46, 56, 0.18)",
+    secondary: "rgba(255, 165, 0, 0.14)",
+    pulse: "rgba(229, 27, 36, 0.12)",
   },
   APEX: {
-    primary: "rgba(0, 240, 255, 0.18)",     // Electric Cyan
-    secondary: "rgba(139, 92, 246, 0.14)",  // Phase Void Violet
-    pulse: "rgba(255, 71, 87, 0.10)",       // Red Pred accent
+    primary: "rgba(255, 210, 0, 0.18)",
+    secondary: "rgba(255, 69, 0, 0.14)",
+    pulse: "rgba(168, 85, 247, 0.10)",
   },
   MADDEN25: {
-    primary: "rgba(0, 255, 136, 0.16)",     // Turf Emerald
-    secondary: "rgba(255, 184, 0, 0.14)",   // Trophy Gold
-    pulse: "rgba(0, 240, 255, 0.08)",       // Cyan accent
+    primary: "rgba(245, 158, 11, 0.18)",
+    secondary: "rgba(229, 27, 36, 0.14)",
+    pulse: "rgba(255, 46, 56, 0.10)",
   },
   BATTLEFIELD: {
-    primary: "rgba(255, 122, 0, 0.16)",     // Tactical Orange
-    secondary: "rgba(0, 240, 255, 0.12)",   // HUD Cyan
-    pulse: "rgba(255, 71, 87, 0.10)",       // Crimson accent
+    primary: "rgba(255, 210, 0, 0.18)",
+    secondary: "rgba(255, 69, 0, 0.14)",
+    pulse: "rgba(168, 85, 247, 0.10)",
   },
   SIMS4: {
-    primary: "rgba(16, 185, 129, 0.18)",    // Plumbob Green
-    secondary: "rgba(236, 72, 153, 0.14)",  // Whimsical Pink
-    pulse: "rgba(168, 85, 247, 0.12)",      // Magic Purple
+    primary: "rgba(56, 189, 248, 0.18)",
+    secondary: "rgba(212, 175, 55, 0.14)",
+    pulse: "rgba(16, 185, 129, 0.10)",
   },
 };
+
 
 interface MasterFunctionPillar {
   id: "audiences" | "creative" | "measurement" | "advertising" | "insights";

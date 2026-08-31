@@ -1,8 +1,15 @@
 export type NodeType = "PLAYER" | "IDENTITY" | "GAME" | "CLAN" | "OFFER" | "CREATOR";
 
-export type GameFranchise = "ALL" | "FC26" | "APEX" | "MADDEN25" | "BATTLEFIELD" | "SIMS4";
+export type GameFranchise = "ALL" | "NBA2K26" | "BORDERLANDS4" | "CIV7" | "WWE2K25" | "PGATOUR2K" | "FC26" | "APEX" | "MADDEN25" | "BATTLEFIELD" | "SIMS4";
 
 export type Archetype =
+  | "MYCAREER_HOOPER"
+  | "MYTEAM_WHALE"
+  | "VAULT_HUNTER_SQUAD"
+  | "4X_GRAND_STRATEGIST"
+  | "WWE_UNIVERSE_CREATOR"
+  | "CLUBHOUSE_GOLFER"
+  | "PROPASS_GRINDER"
   | "COMPETITIVE_GRINDER"
   | "ULTIMATE_TEAM_WHALE"
   | "CASUAL_SOCIALIZER"
@@ -14,6 +21,7 @@ export type Archetype =
   | "CONQUEST_LEADER"
   | "SIMS_COLLECTOR"
   | "BUILDER_CREATOR";
+
 
 export type ContextualViewType =
   | "audience-cohorts"

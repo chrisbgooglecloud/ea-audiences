@@ -41,17 +41,19 @@ export function GlobalHeader() {
         {/* Left: Brand Monogram & Title */}
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group apple-press-subtle">
-            <div className="relative flex items-center justify-center w-8 h-8 rounded-full bg-white/[0.06] border border-white/[0.12] group-hover:border-[#0072BC]/60 group-hover:bg-[#0072BC]/10 transition-all duration-spring shadow-sm">
-              <img
-                src="/ea_logo.webp"
-                alt="EA"
-                className="w-5 h-auto object-contain brightness-110 group-hover:scale-105 transition-transform duration-spring"
-              />
+            <div className="relative flex items-center justify-center w-8 h-8 rounded-xl bg-gradient-to-br from-[#E51B24] via-[#D11820] to-[#990D13] border border-[#FF4B53]/50 group-hover:border-[#FF2E38] group-hover:shadow-[0_0_16px_rgba(229,27,36,0.6)] transition-all duration-spring shadow-sm">
+              <span className="font-black text-xs text-white tracking-tight">2K</span>
             </div>
-            <span className="apple-title font-bold text-sm text-white tracking-tight">
-              EA Growth Engine
-            </span>
+            <div className="flex flex-col">
+              <span className="apple-title font-bold text-sm text-white tracking-tight leading-none">
+                2K Growth Engine
+              </span>
+              <span className="text-[9px] font-mono text-[#FF858A] tracking-wider uppercase font-semibold mt-0.5">
+                Executive Briefing Center
+              </span>
+            </div>
           </Link>
+
 
           {/* Franchise Selector Dropdown */}
           <div className="relative">
