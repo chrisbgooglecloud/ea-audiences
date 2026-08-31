@@ -1438,8 +1438,8 @@ export const extractImageMetadataForVideo = async (imageB64OrUrl: string): Promi
         const extractionPrompt = `You are an expert visual director. Thoroughly analyze this image to extract essential visual metadata required for generating a high-fidelity, photorealistic motion video.
 
 Extract and describe:
-1. SUBJECTS & ATHLETES: Recognizable players/athletes (e.g. Jude Bellingham, Kylian Mbappé, Erling Haaland), facial features, skin tone, hairstyle, and body posture/action.
-2. APPAREL & KITS: Exact jersey/apparel colors, patterns, collars, sponsor logos (e.g. EA SPORTS, Nike, Adidas, club crests), shorts, socks, and footwear.
+1. SUBJECTS & ATHLETES: Recognizable players/athletes (e.g. Shai Gilgeous-Alexander, Kobe Bryant, Luka Dončić, Victor Wembanyama), facial features, skin tone, hairstyle, and body posture/action.
+2. APPAREL & KITS: Exact jersey/apparel colors, patterns, collars, sponsor logos (e.g. 2K Games, Nike, Jordan Brand, NBA team crests), shorts, socks, and footwear.
 3. ENVIRONMENT & SCENERY: Stadium pitch, grass textures, floodlights, dynamic spectator crowds, smoke/confetti effects, time of day, and weather.
 4. BRANDING & PACKAGING: Platform headers (Xbox, PC, PS5), official game logos, edition badges (Ultimate, Standard), and typography.
 5. CINEMATOGRAPHY: Lighting angles, high-contrast stadium shadows, volumetric lighting, lens flare, and color grading.
@@ -2124,7 +2124,7 @@ export const generatePersonalizedHeadlines = async (userProfile: any, audienceCo
     }
 };
 
-export const generatePersonalizedPDPContent = async (audience: string, productName: string = "EA SPORTS FC 27", companyName: string = "EA Games FC"): Promise<any> => {
+export const generatePersonalizedPDPContent = async (audience: string, productName: string = "NBA 2K26", companyName: string = "2K Games (Take-Two Interactive)"): Promise<any> => {
     try {
         const response = await callGenAiProxy("generateContent", {
             model: GEMINI_MODELS.FLASH,
@@ -2135,11 +2135,11 @@ export const generatePersonalizedPDPContent = async (audience: string, productNa
                     Task: Create personalized video game Product Detail Page (PDP) content and box art direction for "${productName}" tailored specifically to this region, country, or gamer cohort: "${audience}".
                     
                     Instructions:
-                    1. Star Athlete Selection: If "${audience}" represents a location, country, city, or club (e.g. USA, Brazil, France, Argentina, England, Spain, Germany, Japan, Colombia, Portland Timbers, Real Madrid), identify the single premier superstar or marquee icon representing that region (e.g. USA -> Christian Pulisic / Sophia Smith; Brazil -> Vinicius Jr.; France -> Kylian Mbappé; Argentina -> Lionel Messi; England -> Jude Bellingham; Spain -> Lamine Yamal; Germany -> Jamal Musiala; Norway -> Erling Haaland). If "${audience}" is a gamer persona, select an iconic global football star matching their playstyle.
-                    2. Iconic City & Landmark Resolution: Identify the most iconic, globally recognizable city and prominent landmarks corresponding to the player / team / region combo with AT MOST ONE single realistic stadium/arena accurate to the location (e.g. Spain / Lamine Yamal -> "Barcelona with Sagrada Família & Camp Nou"; Brazil / Vinicius Jr. -> "Rio de Janeiro with Christ the Redeemer, Sugarloaf Mountain & Maracanã"; Argentina / Lionel Messi -> "Buenos Aires with the Obelisco & Estadio Monumental"; England / Jude Bellingham -> "London with Big Ben, Tower Bridge & Wembley Stadium Arch"; Japan / Kaoru Mitoma -> "Tokyo with Tokyo Tower, Shibuya Crossing & Japan National Stadium"; USA / Christian Pulisic -> "New York / Miami with iconic skyline & stadium").
-                    3. Regional Perks: Detail 3-4 authentic localized pre-order bonuses (e.g. "Untradeable 88-Rated {Star Player} Ultimate Team Loan Item (20 Matches)", "Hometown League Hero Player Pick Pack", "4,600 FC Points", "Signature {Star Player} PlayStyle+ unlock").
-                    4. Localized Description: Highlight authentic local commentary teams, licensed domestic stadiums, and next-gen HypermotionV+ gameplay.
-                    5. Game Box Art Image Prompt: Create a vivid, photorealistic prompt to generate the official EA SPORTS FC 27 video game cover box art featuring the star player standing in center hero pose wearing their official team kit/jersey, overlooking the panoramic skyline, monuments, and AT MOST ONE single realistic football stadium of {iconicCity} (NO multiple arenas or duplicate stadiums), with the bold white EA SPORTS FC 27 logo across the sky and official PS5 packshot branding (3:4 aspect ratio).
+                    1. Star Athlete Selection: If "${audience}" represents a location, country, city, or team (e.g. USA, Canada, France, Dallas, Los Angeles, Boston, New York), identify the single premier basketball superstar or marquee 2K athlete representing that region (e.g. Oklahoma City -> Shai Gilgeous-Alexander; Dallas -> Luka Dončić; France -> Victor Wembanyama; Los Angeles -> Kobe Bryant / LeBron James; Boston -> Jayson Tatum; Denver -> Nikola Jokić; Milwaukee -> Giannis Antetokounmpo). If "${audience}" is a gamer persona, select an iconic global basketball star matching their playstyle.
+                    2. Iconic City & Landmark Resolution: Identify the most iconic, globally recognizable city and prominent landmarks corresponding to the player / team / region combo with AT MOST ONE single realistic arena accurate to the location (e.g. Los Angeles / Kobe Bryant -> "Los Angeles with Hollywood Hills & Crypto.com Arena"; Oklahoma City / Shai Gilgeous-Alexander -> "Oklahoma City skyline with Paycom Center"; Dallas / Luka Dončić -> "Dallas skyline with Reunion Tower & American Airlines Center"; Paris / Victor Wembanyama -> "Paris with Eiffel Tower & Accor Arena").
+                    3. Regional Perks: Detail 3-4 authentic localized pre-order bonuses (e.g. "Guaranteed 100 OVR Holo Dark Matter {Star Player} Card Topper", "100,000 Virtual Currency (VC)", "12-Month NBA League Pass Subscription", "Signature ProPLAY Animation Package").
+                    4. Localized Description: Highlight authentic local broadcast commentary teams, ProPLAY 1-to-1 signature motion capture, and dynamic The City streetball ecosystems.
+                    5. Game Box Art Image Prompt: Create a vivid, photorealistic prompt to generate the official NBA 2K26 video game cover box art featuring the star player standing in center hero pose wearing their official team jersey, overlooking the panoramic skyline, landmarks, and AT MOST ONE single realistic basketball arena of {iconicCity}, with the bold white NBA 2K26 logo across the sky and official PS5 packshot branding (3:4 aspect ratio).
 
                     Input Product: ${productName}
                     Target Region / Audience: ${audience}
@@ -2147,17 +2147,17 @@ export const generatePersonalizedPDPContent = async (audience: string, productNa
                     Return ONLY valid JSON matching this schema:
                     {
                         "starPlayer": "Name of the featured cover star",
-                        "teamOrClub": "National team or club",
-                        "iconicCity": "Iconic city name and famous landmarks with at most 1 stadium (e.g. 'Barcelona with Sagrada Família and Camp Nou' or 'Rio de Janeiro with Christ the Redeemer and Maracanã')",
+                        "teamOrClub": "NBA team name",
+                        "iconicCity": "Iconic city name and famous landmarks with at most 1 arena (e.g. 'Los Angeles with Hollywood Hills and Crypto.com Arena' or 'Paris with Eiffel Tower and Accor Arena')",
                         "whyPerfect": "Single punchy sentence (max 18 words) explaining why this regional edition & star player resonates with fans.",
-                        "description": "Engaging 2-3 sentence localized edition description highlighting gameplay features, commentary, and regional licenses.",
+                        "description": "Engaging 2-3 sentence localized edition description highlighting ProPLAY gameplay features, The City parks, and authentic commentary.",
                         "regionalPerks": [
-                            "Perk 1 (e.g. Untradeable Star Player Loan Item)",
-                            "Perk 2 (e.g. Local League Hero Pack)",
-                            "Perk 3 (e.g. 4,600 FC Points)",
-                            "Perk 4 (e.g. Signature PlayStyle+ Unlock)"
+                            "Perk 1 (e.g. 100 OVR Holo Dark Matter Card Topper)",
+                            "Perk 2 (e.g. 100,000 Virtual Currency)",
+                            "Perk 3 (e.g. 12-Month NBA League Pass)",
+                            "Perk 4 (e.g. ProPLAY Signature Step-Back Unlock)"
                         ],
-                        "imagePrompt": "Official video game box art cover for EA SPORTS FC 27 featuring {starPlayer} in center hero pose wearing {teamOrClub} kit, standing above the panoramic cityscape of {iconicCity} with at most one single realistic stadium, bright daytime lighting, bold white EA SPORTS FC 27 logo across sky, 3:4 aspect ratio packshot cover art"
+                        "imagePrompt": "Official video game box art cover for NBA 2K26 featuring {starPlayer} in center hero pose wearing {teamOrClub} jersey, standing above the panoramic cityscape of {iconicCity} with at most one single realistic arena, bright daytime lighting, bold white NBA 2K26 logo across sky, 3:4 aspect ratio packshot cover art"
                     }
                 ` }]
             },
@@ -2170,18 +2170,18 @@ export const generatePersonalizedPDPContent = async (audience: string, productNa
     } catch (error) {
         console.error("PDP content generation error:", error);
         return {
-            starPlayer: "Jude Bellingham",
-            teamOrClub: "Real Madrid & England",
-            iconicCity: "London with Big Ben and Wembley Stadium",
-            whyPerfect: "Experience the next chapter of The World's Game with revolutionary gameplay and authentic club immersion.",
-            description: "EA SPORTS FC 27 delivers groundbreaking HypermotionV+ realism, FC IQ tactical overhauls, and deep Ultimate Team seasons.",
+            starPlayer: "Shai Gilgeous-Alexander",
+            teamOrClub: "Oklahoma City Thunder",
+            iconicCity: "Oklahoma City with Paycom Center Arena",
+            whyPerfect: "Showcase MVP candidate Shai Gilgeous-Alexander with signature ProPLAY step-back animations.",
+            description: "NBA 2K26 Hall of Fame Edition delivers next-gen ProPLAY motion capture, 12-Month NBA League Pass, 100,000 VC, and dynamic The City streetball immersion.",
             regionalPerks: [
-                "Untradeable Cover Star Ultimate Team Loan Item",
-                "4,600 FC Points (Ultimate Edition)",
-                "7-Day Early Access",
-                "Clubs PlayStyle+ Slot"
+                "Guaranteed 100 OVR Holo Dark Matter Kobe Bryant Card Topper",
+                "100,000 Virtual Currency (VC)",
+                "12-Month NBA League Pass Subscription",
+                "ProPASS Season 1 Premium Pass Track"
             ],
-            imagePrompt: `Official video game box art cover for ${productName} featuring world-class football superstar in dynamic match action on illuminated stadium pitch, neon emerald geometric graphics, 3:4 aspect ratio packshot`
+            imagePrompt: `Official video game box art cover for ${productName} featuring world-class basketball superstar in dynamic match action on illuminated arena court, neon gold and crimson graphics, 3:4 aspect ratio packshot`
         };
     }
 };
@@ -6042,7 +6042,7 @@ const runTrustpilotAgent = async (query: string, cleanTag: string, guidance: str
 export const analyzeMultiChannelSocialIntelligence = async (
     queryOrData: string | any,
     guidanceOrCompany: string = '',
-    companyNameParam: string = 'EA Sports FC'
+    companyNameParam: string = '2K Games (Take-Two Interactive)'
 ): Promise<any> => {
     try {
         let queryStr = '';
@@ -6050,11 +6050,11 @@ export const analyzeMultiChannelSocialIntelligence = async (
         let companyName = companyNameParam;
 
         if (typeof queryOrData === 'object' && queryOrData !== null) {
-            queryStr = queryOrData.tag || queryOrData.query || queryOrData.hashtag || 'fc26';
+            queryStr = queryOrData.tag || queryOrData.query || queryOrData.hashtag || 'nba2k26';
             guidanceStr = queryOrData.guidance || queryOrData.focus || '';
             companyName = typeof guidanceOrCompany === 'string' && guidanceOrCompany ? guidanceOrCompany : companyNameParam;
         } else {
-            queryStr = String(queryOrData || 'fc26');
+            queryStr = String(queryOrData || 'nba2k26');
             guidanceStr = guidanceOrCompany;
             companyName = companyNameParam;
         }
@@ -6272,7 +6272,7 @@ export const analyzeMultiChannelSocialIntelligence = async (
  */
 export const analyzeRedditSentiment = async (
     queryOrData: string | any,
-    companyNameParam: string = 'EA Sports FC',
+    companyNameParam: string = '2K Games (Take-Two Interactive)',
     guidanceParam: string = ''
 ): Promise<any> => {
     try {
@@ -6281,11 +6281,11 @@ export const analyzeRedditSentiment = async (
         let companyName = companyNameParam;
 
         if (typeof queryOrData === 'object' && queryOrData !== null) {
-            queryStr = queryOrData.tag || queryOrData.query || queryOrData.url || 'EASportsFC';
+            queryStr = queryOrData.tag || queryOrData.query || queryOrData.url || 'NBA2k';
             guidanceStr = queryOrData.guidance || queryOrData.focus || guidanceParam;
             if (queryOrData.companyName) companyName = queryOrData.companyName;
         } else {
-            queryStr = String(queryOrData || 'EASportsFC');
+            queryStr = String(queryOrData || 'NBA2k');
         }
 
         const cleanTag = queryStr.replace(/^#/, '').replace(/^r\//, '').trim();
@@ -6338,7 +6338,7 @@ export const analyzeRedditSentiment = async (
  */
 export const analyzeTikTokSentiment = async (
     queryOrData: string | any,
-    companyNameParam: string = 'EA Sports FC',
+    companyNameParam: string = '2K Games (Take-Two Interactive)',
     guidanceParam: string = ''
 ): Promise<any> => {
     try {
@@ -6347,11 +6347,11 @@ export const analyzeTikTokSentiment = async (
         let companyName = companyNameParam;
 
         if (typeof queryOrData === 'object' && queryOrData !== null) {
-            queryStr = queryOrData.tag || queryOrData.query || queryOrData.url || 'fc26';
+            queryStr = queryOrData.tag || queryOrData.query || queryOrData.url || 'nba2k26';
             guidanceStr = queryOrData.guidance || queryOrData.focus || guidanceParam;
             if (queryOrData.companyName) companyName = queryOrData.companyName;
         } else {
-            queryStr = String(queryOrData || 'fc26');
+            queryStr = String(queryOrData || 'nba2k26');
         }
 
         const cleanTag = queryStr.replace(/^#/, '').trim();
@@ -7264,22 +7264,22 @@ export interface PersonalizedStorefrontData {
 
 export const generatePersonalizedStorefront = async (
     persona: any, 
-    companyName: string = "EA Games FC", 
+    companyName: string = "2K Games (Take-Two Interactive)", 
     customGuidance: string = ""
 ): Promise<PersonalizedStorefrontData | null> => {
     try {
         const personaName = persona?.name || "Target Player";
         const personaCohort = persona?.cohortTitle || persona?.name || "Gamer Cohort";
-        const personaDemographics = persona?.demographics || (persona?.age ? `${persona.age} y/o, ${persona.occupation || 'Gamer'}` : "EA Sports FC Dedicated Player");
-        const personaInterests = Array.isArray(persona?.interests) ? persona.interests.join(", ") : (persona?.interests || persona?.preferred_products || "Ultimate Team, Career Mode, Clubs, FC Points");
+        const personaDemographics = persona?.demographics || (persona?.age ? `${persona.age} y/o, ${persona.occupation || 'Gamer'}` : "2K Dedicated Hooper");
+        const personaInterests = Array.isArray(persona?.interests) ? persona.interests.join(", ") : (persona?.interests || persona?.preferred_products || "The City, MyCAREER, MyTEAM, 450K VC");
         const personaAffinities = persona?.intentScores?.categoryAffinity || persona?.categoryAffinity || personaCohort;
         const personaTags = Array.isArray(persona?.behavioralTags) ? persona.behavioralTags.join(", ") : "Competitive Grinder";
-        const personaObservations = persona?.observations || persona?.details?.bio || persona?.bio || "Engages deeply with competitive modes, squad building, and digital player upgrades.";
+        const personaObservations = persona?.observations || persona?.details?.bio || persona?.bio || "Engages deeply with competitive streetball, badge builds, and 99 OVR Cap Breakers.";
 
         const prompt = `
         You are the Principal Merchandising Director & Campaign Strategist for "${companyName}".
         
-        Your task is to generate a high-converting, personalized digital storefront experience tailored specifically to this EA SPORTS FC customer persona:
+        Your task is to generate a high-converting, personalized digital storefront experience tailored specifically to this 2K Games customer persona:
         - Player Name: ${personaName}
         - Cohort / Archetype: ${personaCohort}
         - Demographics / Life Stage: ${personaDemographics}
@@ -7288,82 +7288,82 @@ export const generatePersonalizedStorefront = async (
         - Player Journey & Playstyle: ${personaObservations}
         ${customGuidance ? `- Merchandising Strategy / Campaign Direction: ${customGuidance}` : ''}
 
-        **EA SPORTS FC STOREFRONT STRUCTURE REQUIREMENTS:**
-        1. Top Announcement Bar: A punchy promotional ticker (e.g. "Pre-Order EA SPORTS FC 27 • Get 4,600 FC Points + 7-Day Early Access with Ultimate Edition • Local Club Hero Item Included • Free Cross-Gen Upgrade").
-        2. Search Placeholder: Contextual gaming search query matching player's top mode (e.g. "Search for EA SPORTS FC 27, Ultimate Team Points, Player Packs...", "Search for Manager Career DLC, Scouting Guides...", "Search for Clubs Kits & Avatar Gear...").
+        **2K GAMES STOREFRONT STRUCTURE REQUIREMENTS:**
+        1. Top Announcement Bar: A punchy promotional ticker (e.g. "Pre-Order NBA 2K26 • Get 100,000 VC + 12-Month NBA League Pass with Hall of Fame Edition • Guaranteed 100 OVR Holo Dark Matter Box Topper • Free Cross-Gen Upgrade").
+        2. Search Placeholder: Contextual gaming search query matching player's top mode (e.g. "Search for NBA 2K26, Virtual Currency, ProPASS...", "Search for MyPLAYER Cap Breakers, Jumpshot Animations...", "Search for The City Jordan Sneaker Drops...").
         3. Massive 16:9 Full-Bleed Hero Banner:
-           - Title: Epic, cinematic football headline (e.g. "The World's Game. Evolved.", "Lead Your Squad To Glory", "Master The Virtual Pitch", "Built For The Champions")
-           - Subtitle: Dynamic gameplay and feature story tailored to ${personaName}'s favorite modes (e.g. "Feel closer to the game with HypermotionV+ volumetric capture, FC IQ tactical overhauls, and authentic matchday atmosphere.")
-           - CTA Text: "Pre-Order Now" or "Explore Ultimate Edition"
-           - Hero Image Prompt (16:9 Aspect Ratio): Highly descriptive prompt for a breathtaking, photorealistic promotional banner of world-class football superstars celebrating under electric stadium floodlights, emerald green and neon EA SPORTS FC geometric laser graphics, 16:9 aspect ratio commercial visual.
-        4. Chiclet Section Header: Catchy section title (e.g. "Curated For Your Playstyle", "Recommended Editions & Packs For ${personaName}", "Unlock Your Season Advantage").
+           - Title: Epic, cinematic basketball headline (e.g. "The City Is Yours. ProPLAY Evolved.", "Build Your Legend", "Own The Hardwood", "Every Motion Counts")
+           - Subtitle: Dynamic gameplay and feature story tailored to ${personaName}'s favorite modes (e.g. "Feel closer to the game with ProPLAY 1-to-1 motion capture, dynamic The City streetball ecosystems, and MyTEAM Dark Matter drops.")
+           - CTA Text: "Pre-Order Now" or "Explore Hall of Fame Edition"
+           - Hero Image Prompt (16:9 Aspect Ratio): Highly descriptive prompt for a breathtaking, photorealistic promotional banner of world-class basketball superstars executing signature dunks and step-backs under arena floodlights, crimson red and electric gold 2K laser graphics, 16:9 aspect ratio commercial visual.
+        4. Chiclet Section Header: Catchy section title (e.g. "Curated For Your Playstyle", "Recommended Editions & VC Bundles For ${personaName}", "Unlock Your Season Advantage").
         5. 4 Personalized Gaming Product Chiclets (Tailored to this player's preferences):
-           - Chiclet 1: EA SPORTS FC 27 Ultimate or Standard Edition
-           - Chiclet 2: Mode-specific Pack or Currency Bundle (e.g. "12,000 FC Point Power Bundle", "Ultimate Team Hero Player Pick Pack")
-           - Chiclet 3: Mode DLC or Gameplay Expansion (e.g. "FC IQ Tactical & Coaching Masterclass DLC", "Youth Academy Scouting Upgrade")
-           - Chiclet 4: Club Customization or Apparel Bundle (e.g. "Official Licensed Club Kit & Stadium Bundle", "Volta Streetwear Apparel Pack")
+           - Chiclet 1: NBA 2K26 Hall of Fame or Standard Edition
+           - Chiclet 2: Mode-specific Pack or Currency Bundle (e.g. "450,000 VC Master Vault Bundle", "MyTEAM 100 OVR Holo Dark Matter Box")
+           - Chiclet 3: Mode DLC or Gameplay Expansion (e.g. "The REC Loss-Streak Tilt Shield & Boost Pack", "MyCAREER Cap Breaker 99 OVR Pack")
+           - Chiclet 4: Streetwear Customization or Season Pass (e.g. "ProPASS Season 4 All-Star Access Pass", "Jordan Brand Capsule Collection")
            Each chiclet MUST include:
            - title: Full product title
-           - categoryName: e.g. "Full Game + Early Access", "Digital Currency Bundle", "Career Mode Expansion", "Customization Pack"
+           - categoryName: e.g. "Full Game + Early Access", "Virtual Currency Bundle", "The City Perk Pack", "Season Pass"
            - fragranceNotes: 3-4 key product features or in-game perks
-           - offer: Authentic pricing/promotion (e.g. "$99.99 (Pre-Order)", "$49.99 Bundle", "$29.99 DLC", "Included with EA Play")
-           - badge: e.g. "MOST POPULAR", "BEST VALUE", "NEW DLC", "EARLY ACCESS", "EXCLUSIVE"
+           - offer: Authentic pricing/promotion (e.g. "$99.99 (Pre-Order)", "$49.99 Bundle", "$4.99 Pack", "$19.99 ProPASS")
+           - badge: e.g. "MOST POPULAR", "BEST VALUE", "NEW DROP", "EARLY ACCESS", "EXCLUSIVE"
            - primaryCta: "Pre-Order", "Add to Bag", or "Unlock Now"
-           - imagePrompt: Official video game packshot cover art or digital card pack packaging on a clean, dark premium studio backdrop with neon emerald accents, 3:4 aspect ratio.
+           - imagePrompt: Official video game packshot cover art or digital card pack packaging on a clean, dark premium studio backdrop with crimson red and gold accents, 3:4 aspect ratio.
         6. Persona Match Reason: 1-2 concise sentences explaining why these game editions and digital bundles resonate with ${personaName}.
 
         **OUTPUT SCHEMA (Strict JSON):**
         {
-            "announcement": "Pre-Order EA SPORTS FC 27 • Get 4,600 FC Points + 7-Day Early Access with Ultimate Edition • Local Club Hero Item Included",
-            "searchPlaceholder": "Search for EA SPORTS FC 27, Ultimate Team Points, Player Packs...",
+            "announcement": "Pre-Order NBA 2K26 • Get 100,000 VC + 12-Month NBA League Pass with Hall of Fame Edition • Guaranteed 100 OVR Holo Dark Matter Box Topper",
+            "searchPlaceholder": "Search for NBA 2K26, Virtual Currency, ProPASS...",
             "hero": {
-                "title": "The World's Game. Evolved.",
-                "subtitle": "Experience next-gen HypermotionV+ volumetric capture, FC IQ tactical intelligence, and authentic matchday atmosphere.",
+                "title": "The City Is Yours. ProPLAY Evolved.",
+                "subtitle": "Experience next-gen ProPLAY 1-to-1 volumetric capture, dynamic The City streetball ecosystems, and MyTEAM Dark Matter drops.",
                 "ctaText": "Pre-Order Now",
-                "heroImagePrompt": "Cinematic promotional hero banner for EA SPORTS FC 27 video game, world-class football superstars celebrating a championship goal on an illuminated pitch under electric floodlights, emerald green and neon geometric laser lighting, ultra-high resolution, 16:9 aspect ratio",
-                "heroThemeColor": "from-emerald-950/80 via-slate-900/90 to-black"
+                "heroImagePrompt": "Cinematic promotional hero banner for NBA 2K26 video game, world-class basketball superstars executing signature plays on an illuminated arena court under electric floodlights, crimson red and gold geometric laser lighting, ultra-high resolution, 16:9 aspect ratio",
+                "heroThemeColor": "from-red-950/80 via-slate-900/90 to-black"
             },
             "chicletSectionTitle": "Recommended For Your Playstyle",
             "chiclets": [
                 {
                     "id": "chiclet-1",
-                    "title": "EA SPORTS FC 27 Ultimate Edition",
-                    "categoryName": "Full Game + 7-Day Early Access",
-                    "fragranceNotes": "4,600 FC Points, Untradeable Local Hero Item, Dual Entitlement",
+                    "title": "NBA 2K26 Hall of Fame Edition",
+                    "categoryName": "Full Game + 12-Month NBA League Pass",
+                    "fragranceNotes": "100,000 VC, 100 OVR Holo Kobe Bryant Topper, ProPASS Season 1 Track",
                     "offer": "$99.99 (Pre-Order)",
                     "badge": "MOST POPULAR",
-                    "primaryCta": "Pre-Order Ultimate",
-                    "imagePrompt": "Official game cover packaging for EA SPORTS FC 27 Ultimate Edition on modern premium dark background with neon emerald football graphics, 3:4 aspect ratio video game packshot cover art"
+                    "primaryCta": "Pre-Order Hall of Fame",
+                    "imagePrompt": "Official game cover packaging for NBA 2K26 Hall of Fame Edition on modern premium dark background with gold and red basketball graphics, 3:4 aspect ratio video game packshot cover art"
                 },
                 {
                     "id": "chiclet-2",
-                    "title": "12,000 FC Point Power Bundle",
-                    "categoryName": "Ultimate Team Digital Currency",
-                    "fragranceNotes": "Instant In-Game Delivery, Bonus Draft Tokens, Season Pass XP Boost",
+                    "title": "450,000 VC Master Vault Bundle",
+                    "categoryName": "Virtual Currency Bundle",
+                    "fragranceNotes": "Instant In-Game Delivery, 99 OVR Cap Breaker Unlocks, Legend Badges",
                     "offer": "$99.99 Bundle",
                     "badge": "BEST VALUE",
                     "primaryCta": "Add to Bag",
-                    "imagePrompt": "Digital Ultimate Team FC Points currency card pack with glowing gold and neon green geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
+                    "imagePrompt": "Digital 2K Virtual Currency vault pack with glowing gold and crimson red geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
                 },
                 {
                     "id": "chiclet-3",
-                    "title": "FC IQ Tactical & Coaching Masterclass DLC",
-                    "categoryName": "Career Mode Expansion",
-                    "fragranceNotes": "Advanced AI Tactics Engine, 50+ Real Manager Playbooks, Scouting Upgrades",
-                    "offer": "$29.99 Expansion",
-                    "badge": "NEW DLC",
+                    "title": "The REC Loss-Streak Tilt Shield & Boost Pack",
+                    "categoryName": "The City Live Ops",
+                    "fragranceNotes": "Slump Protection Shield, 10x Gatorade Boosts, 2-Hour 2x Rep Token",
+                    "offer": "$4.99 Pack",
+                    "badge": "NEW DROP",
                     "primaryCta": "Add to Bag",
-                    "imagePrompt": "Futuristic digital tactical board with glowing player position holograms and tactical chalkboard arrows on premium stadium background, 3:4 aspect ratio"
+                    "imagePrompt": "Futuristic neon shield badge with glowing energy particles on sleek hardwood basketball court background, 3:4 aspect ratio"
                 },
                 {
                     "id": "chiclet-4",
-                    "title": "Official Licensed Club Kit & Stadium Bundle",
-                    "categoryName": "Clubs & Customization",
-                    "fragranceNotes": "Exclusive Retro Match Kits, Custom Stadium Tifo, Dynamic Crowd Anthems",
-                    "offer": "$19.99 Bundle",
+                    "title": "ProPASS Season 4 All-Star Access Pass",
+                    "categoryName": "Season Pass Track",
+                    "fragranceNotes": "45 Premium Reward Tiers, Exclusive Jordan Streetwear Drip, Automatic 45K VC",
+                    "offer": "$19.99 Pass",
                     "badge": "EXCLUSIVE",
                     "primaryCta": "Add to Bag",
-                    "imagePrompt": "Authentic licensed football jerseys and match balls displayed in sleek modern locker room under dramatic spotlight, 3:4 aspect ratio"
+                    "imagePrompt": "Authentic Jordan Brand sneakers and streetwear hoodies displayed in sleek modern arena locker room under dramatic spotlight, 3:4 aspect ratio"
                 }
             ],
             "personaMatchReason": "Curated for ${personaName} based on high engagement in their preferred game modes and digital content preferences."
@@ -7390,11 +7390,11 @@ export const generatePersonalizedStorefront = async (
         // Validate and sanitize essential fields
         if (!parsed.hero || typeof parsed.hero !== 'object') {
             parsed.hero = {
-                title: "The World's Game. Evolved.",
-                subtitle: `Personalized for ${personaName} with next-gen HypermotionV+ gameplay and authentic matchday atmosphere.`,
+                title: "The City Is Yours. ProPLAY Evolved.",
+                subtitle: `Personalized for ${personaName} with next-gen ProPLAY gameplay and authentic The City streetball atmosphere.`,
                 ctaText: "Pre-Order Now",
-                heroImagePrompt: `Cinematic promotional hero banner for EA SPORTS FC 27 video game, world-class football superstars celebrating on an illuminated pitch under electric stadium floodlights, emerald green and neon geometric laser lighting, ultra-high resolution, 16:9 aspect ratio`,
-                heroThemeColor: "from-emerald-950/80 via-slate-900/90 to-black"
+                heroImagePrompt: `Cinematic promotional hero banner for NBA 2K26 video game, world-class basketball superstars executing signature plays on an illuminated arena court under electric floodlights, crimson red and gold geometric laser lighting, ultra-high resolution, 16:9 aspect ratio`,
+                heroThemeColor: "from-red-950/80 via-slate-900/90 to-black"
             };
         }
 
@@ -7402,43 +7402,43 @@ export const generatePersonalizedStorefront = async (
             parsed.chiclets = [
                 {
                     id: "chiclet-1",
-                    title: "EA SPORTS FC 27 Ultimate Edition",
-                    categoryName: "Full Game + Early Access",
-                    fragranceNotes: "4,600 FC Points, Untradeable Local Hero Item, Dual Entitlement",
+                    title: "NBA 2K26 Hall of Fame Edition",
+                    categoryName: "Full Game + 12-Month NBA League Pass",
+                    fragranceNotes: "100,000 VC, 100 OVR Holo Kobe Bryant Topper, ProPASS Season 1 Track",
                     offer: "$99.99 (Pre-Order)",
                     badge: "MOST POPULAR",
-                    primaryCta: "Pre-Order Ultimate",
-                    imagePrompt: "Official game cover packaging for EA SPORTS FC 27 Ultimate Edition on modern premium dark background with neon emerald football graphics, 3:4 aspect ratio packshot"
+                    primaryCta: "Pre-Order Hall of Fame",
+                    imagePrompt: "Official game cover packaging for NBA 2K26 Hall of Fame Edition on modern premium dark background with gold and red basketball graphics, 3:4 aspect ratio packshot"
                 },
                 {
                     id: "chiclet-2",
-                    title: "12,000 FC Point Power Bundle",
-                    categoryName: "Ultimate Team Digital Currency",
-                    fragranceNotes: "Instant Delivery, Bonus Draft Tokens, Season Pass XP Boost",
+                    title: "450,000 VC Master Vault Bundle",
+                    categoryName: "Virtual Currency Bundle",
+                    fragranceNotes: "Instant Delivery, 99 OVR Cap Breaker Unlocks, Legend Badges",
                     offer: "$99.99 Bundle",
                     badge: "BEST VALUE",
                     primaryCta: "Add to Bag",
-                    imagePrompt: "Digital Ultimate Team FC Points currency card pack with glowing gold and neon green geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
+                    imagePrompt: "Digital 2K Virtual Currency vault pack with glowing gold and crimson red geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
                 },
                 {
                     id: "chiclet-3",
-                    title: "FC IQ Tactical & Coaching Masterclass DLC",
-                    categoryName: "Career Mode Expansion",
-                    fragranceNotes: "Advanced AI Tactics Engine, 50+ Real Manager Playbooks, Scouting Upgrades",
-                    offer: "$29.99 Expansion",
-                    badge: "NEW DLC",
+                    title: "The REC Loss-Streak Tilt Shield & Boost Pack",
+                    categoryName: "The City Live Ops",
+                    fragranceNotes: "Slump Protection Shield, 10x Gatorade Boosts, 2-Hour 2x Rep Token",
+                    offer: "$4.99 Pack",
+                    badge: "NEW DROP",
                     primaryCta: "Add to Bag",
-                    imagePrompt: "Futuristic digital tactical board with glowing player position holograms and tactical chalkboard arrows on premium stadium background, 3:4 aspect ratio"
+                    imagePrompt: "Futuristic neon shield badge with glowing energy particles on sleek hardwood basketball court background, 3:4 aspect ratio"
                 },
                 {
                     id: "chiclet-4",
-                    title: "Official Licensed Club Kit & Stadium Bundle",
-                    categoryName: "Clubs & Customization",
-                    fragranceNotes: "Exclusive Retro Match Kits, Custom Stadium Tifo, Dynamic Crowd Anthems",
-                    offer: "$19.99 Bundle",
+                    title: "ProPASS Season 4 All-Star Access Pass",
+                    categoryName: "Season Pass Track",
+                    fragranceNotes: "45 Premium Reward Tiers, Exclusive Jordan Streetwear Drip, Automatic 45K VC",
+                    offer: "$19.99 Pass",
                     badge: "EXCLUSIVE",
                     primaryCta: "Add to Bag",
-                    imagePrompt: "Authentic licensed football jerseys and match balls displayed in sleek modern locker room under dramatic spotlight, 3:4 aspect ratio"
+                    imagePrompt: "Authentic Jordan Brand sneakers and streetwear hoodies displayed in sleek modern arena locker room under dramatic spotlight, 3:4 aspect ratio"
                 }
             ];
         }
@@ -7457,7 +7457,7 @@ export const generatePersonalizedStorefront = async (
  * while uncovering high-value in-game opportunities.
  */
 export const generateFullAudit = async (
-    companyName: string = "EA Games FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     auditContext: {
         insights?: any;
         profiles?: any;
@@ -7502,7 +7502,7 @@ export const generateFullAudit = async (
 
         const prompt = `
 You are the Chief Gaming Brand, Legal, Financial & Marketing Growth Auditor for "${companyName}".
-Perform a comprehensive, highly critical full audit across the entire EA SPORTS FC 27 marketing and customer intelligence pipeline.
+Perform a comprehensive, highly critical full audit across the entire NBA 2K26 marketing and customer intelligence pipeline.
 
 AUDIT CONTEXT INPUTS:
 - Company / Brand: "${companyName}"
@@ -7524,14 +7524,14 @@ ${customInstructions ? `ADMIN AUDIT GUIDELINES & CUSTOM RULES:\n${customInstruct
 CRITICAL AUDIT INSTRUCTIONS:
 1. **BE AGGRESSIVELY CRITICAL OF NEGATIVE INSIGHTS & VULNERABILITIES**:
    - Scrutinize the ingested review sentiment, video intelligence, and player feedback for ANY negative sentiment, bugs, microtransaction friction, server latency, or compliance risks.
-   - Look for issues such as: FTC/ESRB random loot box disclosures, pay-to-win pacing concerns, server tick rate stability, misleading gameplay trailers, or lack of early access pricing clarity.
+   - Look for issues such as: FTC/ESRB random pack odds disclosures, pay-to-win pacing concerns, The REC server tick rate stability, misleading gameplay trailers, or lack of early access pricing clarity.
    - If negative sentiment or missing disclosures are found, CRITIQUE THEM SHARPLY in the Legal, Financial, and Brand risk sections, deduct category scores, and mandate concrete corrective actions.
 
 2. **SYNTHESIZE HIGH-IMPACT IN-GAME COMMERCIAL OPPORTUNITIES**:
    - Audit the ingested telemetry and gaming trends for 3 to 4 high-upside in-game opportunities:
-     * **Brand Sponsorships & Marketing from Outside Companies** (e.g. Nike/Adidas virtual footwear drops, Pepsi/Monster Energy pitchside sponsorships, luxury lifestyle brand stadium kits).
-     * **In-Game Item Sales & High-Margin Bundles** (e.g. FC Points value bundles, retro club nostalgia kits, FC IQ tactical masterclass DLC).
-     * **Player Free Rewards & Community Engagement Drops** (e.g. Weekend League free trial loan items, founder status stadium tifos, seasonal XP community boosters).
+     * **Brand Sponsorships & Marketing from Outside Companies** (e.g. Jordan Brand/Nike virtual sneaker drops, Gatorade Training Facility energy boosts, State Farm Assist courtside LED sponsorships).
+     * **In-Game Item Sales & High-Margin Bundles** (e.g. 450K VC Master Vaults, The REC Loss-Streak Tilt Shields, ProPASS Season Pass tracks).
+     * **Player Free Rewards & Community Engagement Drops** (e.g. Weekend Double Rep Tokens, Daily VC check-ins, Mamba Mentality cosmetic gear).
 
 YOUR MISSION:
 Synthesize all 6 pipeline stages (Insights, Ingested Profiles, Personas, Brief, Creative Content, Synthetic Focus Group Testing).
@@ -7543,13 +7543,13 @@ Produce a deeply analytical, highly structured JSON report following these manda
    - \`executiveSummary\`: 2-3 concise sentences summarizing status, key commercial strength, and primary friction point.
 
 2. **Core Risk Audits (\`categories\`)**:
-   - **Legal & Regulatory**: Evaluate ESRB/PEGI in-game purchases notices, random item drop odds disclosures, FTC sponsorship disclosures, and international gaming regulations.
-   - **Financial Feasibility**: Scrutinize FC Points digital margins, promotional discount floors, pre-order edition tier packaging, and player LTV vs CAC.
-   - **Brand & Operational Alignment**: Assess matchday realism, community trust regarding matchmaking and server stability, and persona playstyle alignment.
+   - **Legal & Regulatory**: Evaluate ESRB/PEGI in-game purchases notices, random pack drop odds disclosures, FTC sponsorship disclosures, and international gaming regulations.
+   - **Financial Feasibility**: Scrutinize Virtual Currency (VC) digital margins, promotional discount floors, pre-order edition tier packaging, and player LTV vs CAC.
+   - **Brand & Operational Alignment**: Assess hardwood realism, community trust regarding matchmaking and server stability, and persona playstyle alignment.
    For each category provide: \`id\` ("legal"|"financial"|"brand"), \`title\`, \`riskLevel\` ("Low"|"Medium"|"High"|"Critical"), \`score\` (0-100), \`summary\`, \`issues\` (array of strings), and \`mitigations\` (array of strings).
 
 3. **Low-Probability / High-Value Audience Opportunities (\`asymmetricInsights\`)**:
-   - Identify 3 to 4 non-obvious, high-upside ("hidden gem") gamer sub-segments or use cases (e.g. Tactical Duos, Retro Football Kit Nostalgists, Nighttime Weekend League Grinders).
+   - Identify 3 to 4 non-obvious, high-upside ("hidden gem") gamer sub-segments or use cases (e.g. Pro-Am Competitive Squads, Retro MyNBA Eras Purists, Late-Night The REC Grinders).
    - For each item provide: \`id\`, \`audienceName\`, \`tagline\`, \`rationale\`, \`probability\`, \`upsidePayoff\`, \`signals\`, \`actionableMicroTest\`, \`estimatedImpact\`.
 
 4. **In-Game Opportunities (\`inGameOpportunities\`)**:
@@ -7559,11 +7559,11 @@ Produce a deeply analytical, highly structured JSON report following these manda
      - \`opportunityName\`: title of the opportunity
      - \`opportunityType\`: exactly one of "Brand Sponsorship / Marketing" | "In-Game Item Sales & Bundles" | "Player Free Rewards & Community Drops" | "Live Event & Esports"
      - \`tagline\`: punchy commercial hook
-     - \`targetGamerCohort\`: e.g. "Competitive Ultimate Team & Street VOLTA Players"
+     - \`targetGamerCohort\`: e.g. "Competitive MyCAREER & The City Players"
      - \`marketDemandRationale\`: why player sentiment and telemetry support this
-     - \`keyDeliverables\`: array of 3 key deliverables (e.g. ["Co-branded Nike Mercurial digital kit item", "In-game stadium billboard branding", "Weekend League reward pick"])
+     - \`keyDeliverables\`: array of 3 key deliverables (e.g. ["Co-branded Jordan digital sneaker item", "In-game arena LED billboard branding", "The REC weekend reward pick"])
      - \`actionableConcept\`: concrete launch execution plan
-     - \`estimatedMarketPayoff\`: commercial upside estimate (e.g. "+$3.8M In-Game Revenue & Brand Sponsorship Lift")
+     - \`estimatedMarketPayoff\`: commercial upside estimate (e.g. "+$4.5M In-Game Revenue & Brand Sponsorship Lift")
 
 5. **Stage-by-Stage Cross-Check Health Matrix (\`stageMatrix\`)**:
    You MUST provide an array of EXACTLY 6 objects covering each pipeline stage:
@@ -7577,7 +7577,7 @@ Produce a deeply analytical, highly structured JSON report following these manda
 6. **Prioritized Executive Action Ledger (\`actionLedger\`)**:
    Provide 4 to 6 concrete, prioritized action items spanning all pipeline dimensions:
    - Item 1: "P0 Critical" or "P1 High" focusing on Legal / ESRB disclosures or FTC guidelines.
-   - Item 2: "P1 High" or "P2 Medium" focusing on FC Points Margins / Pricing Guardrails.
+   - Item 2: "P1 High" or "P2 Medium" focusing on VC Margins / Pricing Guardrails.
    - Item 3: "P2 Medium" focusing on Creative Assets / Regional Box Art accuracy.
    - Items 4 & 5: "P3 Opportunity" focusing on testing Asymmetric Audience vectors or In-Game Brand Drops.
    
@@ -7617,14 +7617,14 @@ Return ONLY valid JSON matching this schema. Do not wrap in markdown or code blo
         if (!parsed.inGameOpportunities && (parsed as any).scentOpportunities) {
             parsed.inGameOpportunities = (parsed as any).scentOpportunities.map((s: any, idx: number) => ({
                 id: `game-opp-${idx + 1}`,
-                opportunityName: s.scentName || "Nike x EA SPORTS Virtual Boot Drop",
+                opportunityName: s.scentName || "Jordan Brand x The City Sneaker Drop",
                 opportunityType: "Brand Sponsorship / Marketing",
                 tagline: s.tagline || "Exclusive in-game performance gear crossover",
-                targetGamerCohort: s.targetOccasion || "Competitive Ultimate Team Players",
-                marketDemandRationale: s.marketDemandRationale || "High player interest in authentic sportswear collabs",
-                keyDeliverables: Array.isArray(s.scentNotes) ? s.scentNotes : ["Exclusive digital boots", "In-game billboard branding", "Weekend League reward pick"],
+                targetGamerCohort: s.targetOccasion || "Competitive The City Players",
+                marketDemandRationale: s.marketDemandRationale || "High player interest in authentic streetwear collabs",
+                keyDeliverables: Array.isArray(s.scentNotes) ? s.scentNotes : ["Exclusive digital sneakers", "In-game billboard branding", "The REC reward pick"],
                 actionableConcept: s.actionableProductConcept || "Deploy 7-day limited edition in-game pack drop",
-                estimatedMarketPayoff: s.estimatedMarketPayoff || "+$2.5M digital revenue"
+                estimatedMarketPayoff: s.estimatedMarketPayoff || "+$3.5M digital revenue"
             }));
         }
 
@@ -7632,48 +7632,48 @@ Return ONLY valid JSON matching this schema. Do not wrap in markdown or code blo
             parsed.inGameOpportunities = [
                 {
                     id: "game-opp-1",
-                    opportunityName: "Nike Mercurial Virtual Boot Drop & Creator Cup",
+                    opportunityName: "Jordan Brand x The City Sneaker Drop & Pro-Am Showcase",
                     opportunityType: "Brand Sponsorship / Marketing",
-                    tagline: "High-speed in-game performance apparel & creator tournament",
-                    targetGamerCohort: "Competitive Ultimate Team & Street VOLTA Players",
-                    marketDemandRationale: "Review sentiment and social clickstreams show massive demand for authentic sportswear collabs and exclusive virtual kits.",
+                    tagline: "High-top performance footwear & weekend tournament",
+                    targetGamerCohort: "Competitive MyCAREER & The City Players",
+                    marketDemandRationale: "Review sentiment and social clickstreams show massive demand for authentic streetwear collabs and exclusive virtual drip.",
                     keyDeliverables: [
-                        "Exclusive Nike Mercurial Digital Boot Item with +1 Pace Visual Flair",
-                        "In-Game Dynamic Stadium LED Billboards across Premier League pitches",
-                        "Weekend Creator Cup Twitch Drops with 100K+ concurrent viewer potential"
+                        "Exclusive Jordan Retro Digital Sneaker Item with +1 Speed Visual Flair",
+                        "In-Game Dynamic 3D LED Courtside Billboards across NBA arenas",
+                        "Weekend Pro-Am Twitch Drops with 150K+ concurrent viewer potential"
                     ],
                     actionableConcept: "Deploy a 10-day co-branded in-game event featuring exclusive vanity items and creator stream rewards.",
-                    estimatedMarketPayoff: "+$4.2M In-Game Revenue & Brand Sponsorship Lift"
+                    estimatedMarketPayoff: "+$4.8M In-Game Revenue & Brand Sponsorship Lift"
                 },
                 {
                     id: "game-opp-2",
-                    opportunityName: "FC IQ Tactical Masterclass DLC & Manager Pack",
+                    opportunityName: "450,000 VC Master Vault & Cap Breaker Pack",
                     opportunityType: "In-Game Item Sales & Bundles",
-                    tagline: "Deep tactical coaching playbooks & legend manager items",
-                    targetGamerCohort: "Career Mode Strategists & Tactical Enthusiasts",
-                    marketDemandRationale: "Telemetry shows a 34% surge in single-player career mode retention when paired with advanced tactical customization.",
+                    tagline: "Instant MyPLAYER 99 OVR milestone accelerator & legend badges",
+                    targetGamerCohort: "MyCAREER Grinders & Competitive Pro-Am Squads",
+                    marketDemandRationale: "Telemetry shows a 42% surge in player engagement when attribute cap progression is accelerated with clear milestone rewards.",
                     keyDeliverables: [
-                        "50+ Authentic Manager Playbooks from Pep Guardiola, Carlo Ancelotti & Jürgen Klopp",
-                        "Youth Academy Scouting Accelerator Boost Pack",
-                        "High-res Tactical Dugout Stadium Cutscenes"
+                        "450,000 Virtual Currency In-Game Vault Delivery",
+                        "Tier-1 Legend Posterizer & Deadeye Badge Booster Pack",
+                        "High-res The City Rooftop Fast-Travel Hoverboard"
                     ],
-                    actionableConcept: "Release standalone $19.99 Tactical Expansion bundle with immediate pre-order entitlement.",
-                    estimatedMarketPayoff: "+$2.8M Incremental Add-On Revenue"
+                    actionableConcept: "Release standalone $99.99 VC Vault bundle with instant pre-order entitlement.",
+                    estimatedMarketPayoff: "+$6.5M Incremental Add-On Revenue"
                 },
                 {
                     id: "game-opp-3",
-                    opportunityName: "Founder Status Community Rewards & Weekend Trial",
+                    opportunityName: "The REC Loss-Streak Tilt Shield & Weekend 2x Rep Token",
                     opportunityType: "Player Free Rewards & Community Drops",
-                    tagline: "Rewarding loyal players with untradeable club vanity items",
-                    targetGamerCohort: "Longtime Franchise Veterans & Returning Players",
-                    marketDemandRationale: "Focus group feedback indicates free vanity items and weekend loan drops reduce day-30 churn by 18%.",
+                    tagline: "Protecting competitive players from bad luck slumps",
+                    targetGamerCohort: "Solo The REC Grinders & Returning Hoopers",
+                    marketDemandRationale: "Focus group feedback indicates loss-mitigation shields reduce rage-quit churn by 24%.",
                     keyDeliverables: [
-                        "Untradeable 90-Rated Cover Athlete Loan Item (10 Matches)",
-                        "Custom Founder Stadium Tifo, Goal Cannon Pyrotechnics & VIP Anthem",
-                        "Double Season Pass XP Token for Season 1"
+                        "3-Match Defeat Rep Shield (Preserves Season Tier Ranking)",
+                        "10x Gatorade Stamina & Energy Boosts",
+                        "2-Hour 2x Season Pass XP Token"
                     ],
-                    actionableConcept: "Grant automatically on first login during launch week to all registered EA accounts.",
-                    estimatedMarketPayoff: "+22% Player Retention / +15% Organic Word-of-Mouth"
+                    actionableConcept: "Deploy situational trigger pop-up after any 3-game defeat streak in The REC.",
+                    estimatedMarketPayoff: "+28% Session Retention / +18% In-Game Engagement"
                 }
             ];
         }
@@ -7880,7 +7880,7 @@ Return ONLY valid JSON matching this schema. Do not wrap in markdown or code blo
 
 // --- Real-Time Sentiment Anomaly Spike Detection Service ---
 export const analyzeSentimentAnomalySpike = async (
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     options?: { threshold?: number; scenarioContext?: string; rawComments?: any[]; rows?: any[]; timeWindowDays?: number }
 ): Promise<any> => {
     const rawCommentsData = options?.rawComments || [];
@@ -8007,9 +8007,9 @@ Return a valid JSON object matching this exact structure:
       "id": "feed-steam-01",
       "source": "steam",
       "author": "Steam Player (52.4 hrs on record)",
-      "title": "Steam Verified Review: EA SPORTS FC",
-      "content": "Recent patch is good for passing physics, but the Winter Wildcard objectives are unbearable. 15 wins with 75 rated players against full icon teams in Division Rivals is impossible.",
-      "sentiment": "negative",
+      "title": "Steam Verified Review: NBA 2K26",
+      "content": "Recent patch improved ProPLAY animation transitions, but The REC matchmaking queues need 128-tick servers to prevent input latency.",
+      "sentiment": "neutral",
       "upvotes": 812,
       "timestamp": "3 days ago"
     },
@@ -8171,7 +8171,7 @@ Return a valid JSON object matching this exact structure:
 
 // --- Daily Brief Audio Podcast & Executive Memo Synthesis Service ---
 export const generateDailyAudioBriefing = async (
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     combinedContext?: any
 ): Promise<any> => {
     try {
@@ -8322,7 +8322,7 @@ Return valid JSON only. No markdown fences.`;
  */
 export const generateKeywordGroundedAlerts = async (
     keyword: string,
-    companyName: string = "EA SPORTS FC"
+    companyName: string = "2K Games (Take-Two Interactive)"
 ): Promise<any> => {
     try {
         console.log(`
@@ -8455,7 +8455,7 @@ export const generateKeywordGroundedAlerts = async (
  */
 export const synthesizeAlertsReportAndTalkTrack = async (
     keyword: string,
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     groundedData: any,
     youtubeData: any,
     steamData: any
@@ -8715,7 +8715,7 @@ Return valid JSON only. No markdown, no backticks.`;
 export const generatePodcastTTS = async (
     transcript: string,
     voiceName: string = "Zephyr",
-    companyName: string = "EA SPORTS FC"
+    companyName: string = "2K Games (Take-Two Interactive)"
 ): Promise<{ audioUrl: string | null; durationSeconds: number; voiceName: string }> => {
     try {
         console.log(`🎙️ [CLIENT TTS] Requesting Gemini TTS podcast audio for voice '${voiceName}'...`);

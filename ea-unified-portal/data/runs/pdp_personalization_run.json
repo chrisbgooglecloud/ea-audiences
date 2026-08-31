@@ -1,0 +1,38 @@
+{
+  "editions": [
+    {
+      "id": "edition_default_sga",
+      "name": "Default",
+      "starPlayer": "Shai Gilgeous-Alexander",
+      "teamOrClub": "Oklahoma City Thunder",
+      "whyPerfect": "Showcases MVP finalist Shai Gilgeous-Alexander executing his signature ProPLAY step-back jumper against illuminated arena lights.",
+      "description": "NBA 2K26 Hall of Fame Edition delivers next-gen ProPLAY motion capture, 12-Month NBA League Pass, 100,000 VC, and dynamic The City streetball immersion.",
+      "regionalPerks": [
+        "Guaranteed 100 OVR Holo Dark Matter Kobe Bryant Card Topper",
+        "100,000 Virtual Currency (VC)",
+        "12-Month NBA League Pass Subscription",
+        "ProPASS Season 1 Premium Pass Track"
+      ],
+      "image": "/images/2k_logo.png",
+      "isDefault": true
+    },
+    {
+      "id": "edition_kobe_legend",
+      "name": "Hall of Fame Edition",
+      "starPlayer": "Kobe Bryant",
+      "teamOrClub": "Los Angeles Lakers",
+      "whyPerfect": "Honors the legendary 5-time NBA Champion with exclusive Mamba Mentality gear, signature shoe drops, and Hall of Fame badge perks.",
+      "description": "Celebrate basketball greatness with the NBA 2K26 Hall of Fame Edition featuring 100,000 VC, ProPLAY signature animations, and full NBA League Pass access.",
+      "regionalPerks": [
+        "100 OVR Holo Dark Matter Kobe Bryant Item",
+        "100,000 Virtual Currency (VC)",
+        "12-Month NBA League Pass Subscription",
+        "The City Exclusive Mamba Hoverboard"
+      ],
+      "image": "/images/2k_logo.png",
+      "isDefault": false
+    }
+  ],
+  "selectedEditionId": "edition_default_sga",
+  "timestamp": "8/31/2026, 12:14:28 PM"
+}

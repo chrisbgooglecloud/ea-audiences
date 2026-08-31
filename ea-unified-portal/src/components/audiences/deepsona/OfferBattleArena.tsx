@@ -29,46 +29,46 @@ export default function OfferBattleArena({
   onSelectWinningOffer,
 }: OfferBattleArenaProps) {
   const [selectedOffer, setSelectedOffer] = useState<"A" | "B">("A");
-  const isWhaleCohort = cohortContext?.dominantArchetype === "ULTIMATE_TEAM_WHALE";
+  const isWhaleCohort = cohortContext?.dominantArchetype === "MYTEAM_WHALE" || cohortContext?.dominantArchetype === "ULTIMATE_TEAM_WHALE";
 
   const variantA: OfferVariant = isWhaleCohort
     ? {
         id: "A",
-        name: "Offer A: Guaranteed 88+ Campaign Icon Flash Selection",
+        name: "Offer A: Guaranteed 100 OVR Holo Dark Matter Flash Selection",
         price: 49.99,
-        perks: ["1 of 3 Prime Icon Player Pick", "500 Bonus FC Points", "Untradeable Trade-In Token"],
+        perks: ["1 of 3 Holo Dark Matter Player Pick", "200,000 Bonus VC", "Untradeable Cap Breaker Token"],
         conversionLift: 34.2,
         churnMitigation: 18.5,
         projectedRevenue: 420000,
         sentimentRisk: "5.2%",
         votes: [
           {
-            persona: "Icon_Collector_Prime",
-            reason: "Guaranteed 88+ selection eliminates pack variance. Instant buy.",
+            persona: "DarkMatter_Collector",
+            reason: "Guaranteed 100 OVR selection eliminates pack variance. Instant buy.",
           },
           {
-            persona: "Mbappe_Elite_99",
-            reason: "Player pick allows targeting meta squad positions for Weekend League.",
+            persona: "SGA_Elite_99",
+            reason: "Player pick allows targeting meta squad positions for Unlimited tournaments.",
           },
         ],
       }
     : {
         id: "A",
-        name: "Offer A: FUT Champions Loss Shield & Loan Icon",
+        name: "Offer A: The REC Loss-Streak Tilt Shield & Boost Pack",
         price: 4.99,
-        perks: ["1x Loss Re-entry Shield", "10-Match Loan Prime R9", "5x 82+ Rare Gold Players"],
+        perks: ["1x Loss-Streak Rep Shield", "10x Gatorade Boosts", "2-Hour 2x Rep Token"],
         conversionLift: 28.4,
         churnMitigation: 26.2,
         projectedRevenue: 185000,
         sentimentRisk: "3.8%",
         votes: [
           {
-            persona: "Mbappe_Elite_99",
-            reason: "After an extra-time defeat, $4.99 is the ideal rage-mitigation price.",
+            persona: "SGA_Elite_99",
+            reason: "After a tough REC loss, $4.99 is the ideal tilt-mitigation price.",
           },
           {
-            persona: "Friday_Rush_Squad",
-            reason: "Accessible impulse purchase for Friday night sessions.",
+            persona: "City_Streetball_Squad",
+            reason: "Accessible impulse purchase for Friday night park sessions.",
           },
         ],
       };
@@ -76,33 +76,33 @@ export default function OfferBattleArena({
   const variantB: OfferVariant = isWhaleCohort
     ? {
         id: "B",
-        name: "Offer B: 5,900 FC Points + 85+ Walkout Megapack",
-        price: 39.99,
-        perks: ["5,900 FC Points", "1x 85+ Walkout Pack", "2x Evolution Tokens"],
+        name: "Offer B: 450,000 VC Vault + 99 OVR Walkout Box",
+        price: 99.99,
+        perks: ["450,000 VC", "1x 99 OVR Dark Matter Box", "2x Legend Badge Tokens"],
         conversionLift: 22.1,
         churnMitigation: 12.0,
         projectedRevenue: 310000,
         sentimentRisk: "14.2%",
         votes: [
           {
-            persona: "Friday_Rush_Squad",
-            reason: "Good volume of points, but lacks specific icon guarantees.",
+            persona: "City_Streetball_Squad",
+            reason: "Good volume of VC, but lacks specific 100 OVR card guarantees.",
           },
         ],
       }
     : {
         id: "B",
-        name: "Offer B: 1,050 FC Points + 84+ Campaign Pack",
-        price: 9.99,
-        perks: ["1,050 FC Points", "1x 84+ Walkout Pack", "1x Draft Entry Token"],
+        name: "Offer B: 75,000 VC Starter Drop + ProPASS Track",
+        price: 19.99,
+        perks: ["75,000 VC", "ProPASS Season Track", "Jordan Streetwear Kit"],
         conversionLift: 14.5,
         churnMitigation: 11.2,
         projectedRevenue: 130000,
         sentimentRisk: "12.4%",
         votes: [
           {
-            persona: "Icon_Collector_Prime",
-            reason: "Points are acceptable, but lacks loss-shield mechanics.",
+            persona: "DarkMatter_Collector",
+            reason: "VC is acceptable, but lacks loss-shield mechanics.",
           },
         ],
       };

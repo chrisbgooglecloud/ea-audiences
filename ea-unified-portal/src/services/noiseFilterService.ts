@@ -262,7 +262,7 @@ export const sendTerminalLog = async (
 };
 
 // Generic GCS Save & Load Helpers for Checkpoint States
-export const saveStageDataToGCS = async (featureId: string, data: any, companyName: string = "EA SPORTS FC"): Promise<boolean> => {
+export const saveStageDataToGCS = async (featureId: string, data: any, companyName: string = "2K Games (Take-Two Interactive)"): Promise<boolean> => {
     try {
         const res = await fetch(`/api/save-run/${featureId}`, {
             method: 'POST',
@@ -283,7 +283,7 @@ export const saveStageDataToGCS = async (featureId: string, data: any, companyNa
     }
 };
 
-export const loadStageDataFromGCS = async (featureId: string, companyName: string = "EA SPORTS FC"): Promise<any | null> => {
+export const loadStageDataFromGCS = async (featureId: string, companyName: string = "2K Games (Take-Two Interactive)"): Promise<any | null> => {
     try {
         const res = await fetch(`/api/load-run/${featureId}?companyName=${encodeURIComponent(companyName)}`);
         if (res.ok) {
@@ -329,7 +329,7 @@ export const chunkArray = <T>(array: T[], chunkSize: number = 50): T[][] => {
 // ============================================================================
 // DYNAMIC LISTEN TABLE SOURCE SYNCHRONIZATION
 // ============================================================================
-export const getSourcesFromListenTable = async (companyName: string = "EA SPORTS FC"): Promise<NoiseSourceConfig[]> => {
+export const getSourcesFromListenTable = async (companyName: string = "2K Games (Take-Two Interactive)"): Promise<NoiseSourceConfig[]> => {
     try {
         const res = await fetch(`/api/insights/table?companyName=${encodeURIComponent(companyName)}`);
         if (!res.ok) return [];
@@ -438,7 +438,7 @@ export const mergeListenTableSources = (
 // ============================================================================
 export const stage1_harvestRawComments = async (
     sources: NoiseSourceConfig[],
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<{ rawComments: RawComment[]; sourcesUsed: NoiseSourceConfig[] }> => {
     // Automatically harvest from all sources listed on the Listen page merged with user sources
@@ -682,7 +682,7 @@ Return JSON array only.`;
 
 export const stage2_filterNoiseComments = async (
     rawComments: RawComment[],
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<Stage2FilteredResult> => {
     const CHUNK_SIZE = 50;
@@ -850,7 +850,7 @@ Return JSON only.`;
 
 export const stage3_convertToKeywords = async (
     signalComments: FilteredComment[],
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<Stage3KeywordResult> => {
     const CHUNK_SIZE = 50;
@@ -1040,7 +1040,7 @@ export const stage4_buildRelationshipGraph = async (
     noiseCount: number,
     signalCount: number,
     sourcesUsed: NoiseSourceConfig[] = DEFAULT_NOISE_SOURCES,
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<NoiseFilterResult> => {
     await sendTerminalLog(`STAGE 4 DUAL-ENGINE SYNTHESIS STARTING: Spawning 2 dedicated parallel Gemini 3.7 Flash analyses...`, 'header');
@@ -1072,7 +1072,7 @@ export const stage4_buildRelationshipGraph = async (
         }));
 
         const nodeGraphPrompt = `You are the Lead Gameplay Network Architect for ${companyName}.
-Synthesize an EXPANDED, HIGH-DENSITY MASTER RELATIONSHIP GRAPH containing **50 to 75+ granular game mechanic and feature nodes** across FC 24, FC 25, FC 26, and FC 27 based on the saved community feedback topics.
+Synthesize an EXPANDED, HIGH-DENSITY MASTER RELATIONSHIP GRAPH containing **50 to 75+ granular game mechanic and feature nodes** across NBA 2K24, NBA 2K25, NBA 2K26, and NBA 2K27 based on the saved community feedback topics.
 
 DATA INPUTS FROM SAVED STAGE 3 TOPIC ENRICHMENT:
 - Total Signal Harvested: ${signalCount} across ${sourcesUsed.length} sources
@@ -1082,26 +1082,26 @@ DATA INPUTS FROM SAVED STAGE 3 TOPIC ENRICHMENT:
 
 TASK:
 Build the comprehensive Relationship Graph with:
-1. Release Hubs: "FC 24", "FC 25", "FC 26", "FC 27" (type = "release").
+1. Release Hubs: "NBA 2K24", "NBA 2K25", "NBA 2K26", "NBA 2K27" (type = "release").
 2. 50-75+ Feature Nodes classified into 8 Categories:
-   - "Passing & Ball Physics", "Defensive Balance", "Dribbling & Skill Moves", "Goalkeeping & AI", "FUT Economy & SBCs", "PC Stability & Anti-Cheat", "Matchmaking & Netcode", "Game Modes & Career".
-   - Use the REAL discovered topics above (e.g. directx 12 splash stutter, dualsense analog deadzone, manual ground pass deceleration, rush drop-in matchmaking, untradeable duplicate storage, etc.) as the feature node labels.
+   - "Shooting & Shot Meter", "ProPLAY Animations & Defense", "Dribbling & Ball Handling", "MyCAREER & The City", "MyTEAM Economy & Auction", "PC Stability & Next-Gen Parity", "Matchmaking & Netcode", "Game Modes & Seasons".
+   - Use the REAL discovered topics above (e.g. proplay step-back latency, green release visual cue, the rec server tick-rate, badge regression removal, untradeable duplicate storage, etc.) as the feature node labels.
    - Each node must include: id, label, type ("feature" or "release"), category, tier ("core" or "micro"), sentiment ("positive" | "negative" | "mixed"), size (14-34), mentionCount, releaseDistribution { fc24, fc25, fc26, fc27 }, positiveRatio (0-100).
-3. 50+ Weighted Relationship Links between Releases (FC 24, FC 25, FC 26, FC 27), Mechanics, and Interdependent Features (source, target, weight, sentiment).
+3. 50+ Weighted Relationship Links between Releases (NBA 2K24, NBA 2K25, NBA 2K26, NBA 2K27), Mechanics, and Interdependent Features (source, target, weight, sentiment).
 4. Feature clusters across all 8 domains.
 
 REQUIRED OUTPUT SCHEMA (JSON only):
 {
   "nodes": [
-    { "id": "FC 24", "label": "EA SPORTS FC 24", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.20)} },
-    { "id": "FC 25", "label": "EA SPORTS FC 25", "type": "release", "size": 34, "mentionCount": ${Math.round(totalHarvested * 0.30)} },
-    { "id": "FC 26", "label": "EA SPORTS FC 26", "type": "release", "size": 38, "mentionCount": ${Math.round(totalHarvested * 0.35)} },
-    { "id": "FC 27", "label": "EA SPORTS FC 27", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.15)} },
-    { "id": "directx 12 splash stutter", "label": "DirectX 12 Splash Stutter", "type": "feature", "category": "PC Stability & Anti-Cheat", "tier": "core", "sentiment": "negative", "size": 26, "mentionCount": 42, "releaseDistribution": { "fc24": 12, "fc25": 8, "fc26": 28, "fc27": 6 }, "positiveRatio": 14 }
+    { "id": "NBA 2K24", "label": "NBA 2K24", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.20)} },
+    { "id": "NBA 2K25", "label": "NBA 2K25", "type": "release", "size": 34, "mentionCount": ${Math.round(totalHarvested * 0.30)} },
+    { "id": "NBA 2K26", "label": "NBA 2K26", "type": "release", "size": 38, "mentionCount": ${Math.round(totalHarvested * 0.35)} },
+    { "id": "NBA 2K27", "label": "NBA 2K27", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.15)} },
+    { "id": "proplay step back latency", "label": "ProPLAY Step-Back Latency", "type": "feature", "category": "Shooting & Shot Meter", "tier": "core", "sentiment": "negative", "size": 26, "mentionCount": 42, "releaseDistribution": { "fc24": 12, "fc25": 8, "fc26": 28, "fc27": 6 }, "positiveRatio": 14 }
   ],
   "links": [
-    { "source": "FC 24", "target": "directx 12 splash stutter", "weight": 14, "sentiment": "negative" },
-    { "source": "FC 26", "target": "directx 12 splash stutter", "weight": 28, "sentiment": "negative" }
+    { "source": "NBA 2K24", "target": "proplay step back latency", "weight": 14, "sentiment": "negative" },
+    { "source": "NBA 2K26", "target": "proplay step back latency", "weight": 28, "sentiment": "negative" }
   ],
   "featureClusters": ${JSON.stringify(stage3Data.featureClusters)}
 }
@@ -1127,10 +1127,10 @@ Return JSON only.`;
 
         return {
             nodes: [
-                { id: "FC 24", label: "EA SPORTS FC 24", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.20) },
-                { id: "FC 25", label: "EA SPORTS FC 25", type: "release", size: 34, mentionCount: Math.round(totalHarvested * 0.30) },
-                { id: "FC 26", label: "EA SPORTS FC 26", type: "release", size: 38, mentionCount: Math.round(totalHarvested * 0.35) },
-                { id: "FC 27", label: "EA SPORTS FC 27", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.15) }
+                { id: "NBA 2K24", label: "NBA 2K24", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.20) },
+                { id: "NBA 2K25", label: "NBA 2K25", type: "release", size: 34, mentionCount: Math.round(totalHarvested * 0.30) },
+                { id: "NBA 2K26", label: "NBA 2K26", type: "release", size: 38, mentionCount: Math.round(totalHarvested * 0.35) },
+                { id: "NBA 2K27", label: "NBA 2K27", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.15) }
             ],
             links: [],
             featureClusters: stage3Data.featureClusters
@@ -1185,7 +1185,7 @@ Return JSON only.`;
 export const stage4_reanalyzeGraphOnly = async (
     stage3Data: Stage3KeywordResult,
     existingGraphData?: NoiseFilterResult | null,
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<NoiseFilterResult> => {
     await sendTerminalLog(`STAGE 4 GRAPH RE-ANALYSIS STARTING: Re-synthesizing network graph from saved Stage 3 topics...`, 'header');
@@ -1225,26 +1225,26 @@ DATA INPUTS FROM SAVED STAGE 3 TOPIC ENRICHMENT:
 
 TASK:
 Build the comprehensive Relationship Graph with:
-1. Release Hubs: "FC 24", "FC 25", "FC 26", "FC 27" (type = "release").
+1. Release Hubs: "NBA 2K24", "NBA 2K25", "NBA 2K26", "NBA 2K27" (type = "release").
 2. 50-75+ Feature Nodes classified into 8 Categories:
-   - "Passing & Ball Physics", "Defensive Balance", "Dribbling & Skill Moves", "Goalkeeping & AI", "FUT Economy & SBCs", "PC Stability & Anti-Cheat", "Matchmaking & Netcode", "Game Modes & Career".
+   - "Shooting & Shot Meter", "ProPLAY Animations & Defense", "Dribbling & Ball Handling", "MyCAREER & The City", "MyTEAM Economy & Auction", "PC Stability & Next-Gen Parity", "Matchmaking & Netcode", "Game Modes & Seasons".
    - Ground feature nodes in the REAL discovered topics provided in the data above.
    - Each node must include: id, label, type ("feature" or "release"), category, tier ("core" or "micro"), sentiment ("positive" | "negative" | "mixed"), size (14-34), mentionCount, releaseDistribution { fc24, fc25, fc26, fc27 }, positiveRatio (0-100).
-3. 50+ Weighted Relationship Links between Releases (FC 24, FC 25, FC 26, FC 27), Mechanics, and Interdependent Features (source, target, weight, sentiment).
+3. 50+ Weighted Relationship Links between Releases (NBA 2K24, NBA 2K25, NBA 2K26, NBA 2K27), Mechanics, and Interdependent Features (source, target, weight, sentiment).
 4. Feature clusters across all 8 domains.
 
 REQUIRED OUTPUT SCHEMA (JSON only):
 {
   "nodes": [
-    { "id": "FC 24", "label": "EA SPORTS FC 24", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.20)} },
-    { "id": "FC 25", "label": "EA SPORTS FC 25", "type": "release", "size": 34, "mentionCount": ${Math.round(totalHarvested * 0.30)} },
-    { "id": "FC 26", "label": "EA SPORTS FC 26", "type": "release", "size": 38, "mentionCount": ${Math.round(totalHarvested * 0.35)} },
-    { "id": "FC 27", "label": "EA SPORTS FC 27", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.15)} },
-    { "id": "directx 12 splash stutter", "label": "DirectX 12 Splash Stutter", "type": "feature", "category": "PC Stability & Anti-Cheat", "tier": "core", "sentiment": "negative", "size": 26, "mentionCount": 42, "releaseDistribution": { "fc24": 12, "fc25": 8, "fc26": 28, "fc27": 6 }, "positiveRatio": 14 }
+    { "id": "NBA 2K24", "label": "NBA 2K24", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.20)} },
+    { "id": "NBA 2K25", "label": "NBA 2K25", "type": "release", "size": 34, "mentionCount": ${Math.round(totalHarvested * 0.30)} },
+    { "id": "NBA 2K26", "label": "NBA 2K26", "type": "release", "size": 38, "mentionCount": ${Math.round(totalHarvested * 0.35)} },
+    { "id": "NBA 2K27", "label": "NBA 2K27", "type": "release", "size": 30, "mentionCount": ${Math.round(totalHarvested * 0.15)} },
+    { "id": "proplay step back latency", "label": "ProPLAY Step-Back Latency", "type": "feature", "category": "Shooting & Shot Meter", "tier": "core", "sentiment": "negative", "size": 26, "mentionCount": 42, "releaseDistribution": { "fc24": 12, "fc25": 8, "fc26": 28, "fc27": 6 }, "positiveRatio": 14 }
   ],
   "links": [
-    { "source": "FC 24", "target": "directx 12 splash stutter", "weight": 14, "sentiment": "negative" },
-    { "source": "FC 26", "target": "directx 12 splash stutter", "weight": 28, "sentiment": "negative" }
+    { "source": "NBA 2K24", "target": "proplay step back latency", "weight": 14, "sentiment": "negative" },
+    { "source": "NBA 2K26", "target": "proplay step back latency", "weight": 28, "sentiment": "negative" }
   ],
   "featureClusters": ${JSON.stringify(stage3Data.featureClusters)}
 }
@@ -1271,10 +1271,10 @@ Return JSON only.`;
 
     if (generatedNodes.length === 0) {
         generatedNodes = existingGraphData?.nodes || [
-            { id: "FC 24", label: "EA SPORTS FC 24", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.20) },
-            { id: "FC 25", label: "EA SPORTS FC 25", type: "release", size: 34, mentionCount: Math.round(totalHarvested * 0.30) },
-            { id: "FC 26", label: "EA SPORTS FC 26", type: "release", size: 38, mentionCount: Math.round(totalHarvested * 0.35) },
-            { id: "FC 27", label: "EA SPORTS FC 27", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.15) }
+            { id: "NBA 2K24", label: "NBA 2K24", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.20) },
+            { id: "NBA 2K25", label: "NBA 2K25", type: "release", size: 34, mentionCount: Math.round(totalHarvested * 0.30) },
+            { id: "NBA 2K26", label: "NBA 2K26", type: "release", size: 38, mentionCount: Math.round(totalHarvested * 0.35) },
+            { id: "NBA 2K27", label: "NBA 2K27", type: "release", size: 30, mentionCount: Math.round(totalHarvested * 0.15) }
         ];
     }
 
@@ -1304,7 +1304,7 @@ Return JSON only.`;
 // ============================================================================
 export const stage5_rebuildTrajectoryData = async (
     stage3Data: Stage3KeywordResult,
-    companyName: string = "EA SPORTS FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<CrossReleaseEvolution[]> => {
     await sendTerminalLog(`STAGE 5 TRAJECTORY REBUILD STARTING: Synthesizing longitudinal trajectory from saved topic analysis with ${GEMINI_MODELS.FLASH}...`, 'header');

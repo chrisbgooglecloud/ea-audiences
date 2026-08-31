@@ -456,7 +456,7 @@ export default function PlaygroundConsole() {
           </span>
           <h3 className="text-base font-bold text-white tracking-tight">Campaign Playground</h3>
           <p className="text-xs text-slate-400 mt-1">
-            Build {companyName || 'EA Games FC'} campaigns in real time. Submit your instructions and watch the agent mesh run.
+            Build {companyName || '2K Games (Take-Two Interactive)'} campaigns in real time. Submit your instructions and watch the agent mesh run.
           </p>
         </div>
 
@@ -985,7 +985,7 @@ export default function PlaygroundConsole() {
                             <div className="p-4 flex-1 text-xs">
                               {asset.type === "SMS" ? (
                                 <div className="bg-slate-900 text-white rounded-2xl p-3 max-w-[220px] mx-auto text-left font-sans shadow-md border border-slate-800">
-                                  <div className="text-[10px] font-semibold text-slate-400 mb-1 border-b border-slate-800 pb-1">{companyName || "EA Games FC"} Gamer Alerts</div>
+                                  <div className="text-[10px] font-semibold text-slate-400 mb-1 border-b border-slate-800 pb-1">{companyName || "2K Games"} Gamer Alerts</div>
                                   <p className="text-[11px] leading-relaxed">{asset.body}</p>
                                 </div>
                               ) : (

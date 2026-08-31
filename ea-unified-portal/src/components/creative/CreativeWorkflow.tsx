@@ -154,10 +154,10 @@ const VIDEO_MOTION_PRESETS = [
     prompt: 'Dramatic stadium floodlight sweep across the product, energetic lens flare, arena haze, 4k sports commercial. Maintain 100% exact product style and branding.'
   },
   {
-    id: 'hypermotion_burst',
-    title: 'Hypermotion Particle Burst',
-    desc: 'Energetic geometric particle trail and match motion in the background.',
-    prompt: 'Cinematic volumetric particle burst and glowing geometric telemetry lines in background behind the product, next-gen sports studio ambiance, ultra HD. Maintain 100% exact product style and branding.'
+    id: 'proplay_burst',
+    title: 'ProPLAY Volumetric Motion Burst',
+    desc: 'Energetic geometric particle trail and motion capture in the background.',
+    prompt: 'Cinematic volumetric particle burst and glowing geometric telemetry lines in background behind the product, next-gen basketball arena ambiance, ultra HD. Maintain 100% exact product style and branding.'
   }
 ];
 
@@ -172,7 +172,7 @@ interface AuditResult {
 export const CreativeWorkflow: React.FC = () => {
   const { name: companyName } = useCompanyContext();
   const { config } = useAppConfig();
-  const activeCompany = companyName || config?.branding?.companyName || 'EA Games FC';
+  const activeCompany = companyName || config?.branding?.companyName || '2K Games (Take-Two Interactive)';
 
   // Step 1: Base Asset & Brand Audit State
   const [currentStep, setCurrentStep] = useState<number>(1);

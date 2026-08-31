@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const featureId = body.featureId || "general_run";
     const data = body.data || body;
-    const companyName = body.companyName || "EA Games FC";
+    const companyName = body.companyName || "2K Games (Take-Two Interactive)";
 
     const runsDir = path.join(process.cwd(), "data", "runs");
     if (!fs.existsSync(runsDir)) {

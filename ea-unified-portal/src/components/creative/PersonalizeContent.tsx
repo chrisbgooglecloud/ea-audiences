@@ -12,7 +12,7 @@ import { SyntheticUserProfile } from '@/types';
 export const PersonalizeContent: React.FC = () => {
   const { name } = useCompanyContext();
   const { config } = useAppConfig();
-  const companyName = config?.branding?.companyName || name || 'EA Games FC';
+  const companyName = config?.branding?.companyName || name || '2K Games (Take-Two Interactive)';
 
   const [users, setUsers] = useState<SyntheticUserProfile[]>([]);
   const [activeBrief, setActiveBrief] = useState<any>(null);
@@ -96,20 +96,20 @@ export const PersonalizeContent: React.FC = () => {
     }
 
     const currentBrief = activeBrief || {
-      title: "EA SPORTS FC 27 Global Launch & Pre-Order Campaign",
-      campaignGoal: "Drive 1-to-1 pre-orders and engagement across Ultimate Team, Manager Career, and FC IQ Tactical gameplay",
-      productName: "EA SPORTS FC 27 (Ultimate & Standard Editions)",
-      assumptions: { focus: "HypermotionV+ Volumetric Simulation, FC IQ Tactical Strategy, Ultimate Team Packs, Regional Hero Perks" }
+      title: "NBA 2K26 Hall of Fame Edition Launch Campaign",
+      campaignGoal: "Drive 1-to-1 pre-orders and engagement across MyCAREER, The City, MyTEAM, and ProPLAY gameplay",
+      productName: "NBA 2K26 (Hall of Fame & Standard Editions)",
+      assumptions: { focus: "ProPLAY Volumetric Motion, The City Streetball Parks, 100 OVR Holo Dark Matter Packs, 99 OVR Cap Breakers" }
     };
 
     setIsGenerating(true);
-    setStatusMessage("Running AI personalization text analysis & parallel football scene generation for all users...");
+    setStatusMessage("Running AI personalization text analysis & parallel basketball scene generation for all users...");
 
     try {
       const personalizationPromises = users.map(async (user) => {
         const prompt = `
 You are the Lead 1-to-1 Personalization Director & Creative Strategist for "${companyName}".
-We have an active Marketing Brief for EA SPORTS FC 27 and a specific target synthetic gamer profile.
+We have an active Marketing Brief for NBA 2K26 and a specific target synthetic gamer profile.
 
 --- Marketing Brief ---
 Campaign: ${currentBrief.title}
@@ -128,32 +128,32 @@ Psychographic Flavor: ${JSON.stringify(user.psychographicFlavor)}
 
 --- TASK ---
 1. Analyze this player's specific gaming archetypes and style preferences:
-   - **Tactical Strategy & Manager Masterminds (Strategy Gaming)**: Focus on FC IQ tactical masterclass, coaching blueprints, formation strategy, manager dugout perspective overlooking the pitch, and scouting wonderkids.
-   - **Volumetric Simulation & Realism (Simulation Gaming)**: Focus on next-gen HypermotionV+ pitch physics, matchday stadium floodlights, authentic league licenses, and marquee football stars (e.g. Mbappé, Bellingham, Haaland, Vinicius Jr., Messi).
-   - **Street Football & Freestyle (Exploration & Casual Social)**: Focus on rooftop VOLTA cage matches in Rio, Tokyo, or London at sunset, neon turf lines, trick skill moves, and exclusive streetwear kits.
-   - **Ultimate Team & Squad Building (Competitive / Collectors)**: Focus on pack opening reveals, glowing walkout player animations, untradeable hero items, and 4,600 FC Points bundles.
+   - **Tactical Hoopers & MyNBA Strategists**: Focus on MyNBA Eras, coach playbooks, salary cap mastery, and deep roster building.
+   - **Volumetric Simulation & Realism**: Focus on next-gen ProPLAY 1-to-1 motion capture, arena lighting, broadcast camera angles, and marquee superstars (e.g. Shai Gilgeous-Alexander, Kobe Bryant, Luka Dončić, Victor Wembanyama).
+   - **The City & Streetball Grinders**: Focus on rooftop 3v3 parks, hoverboard transit, signature animations, and exclusive Jordan/Nike streetwear apparel drops.
+   - **MyTEAM Whales & Card Collectors**: Focus on holographic pack reveals, 100 OVR Dark Matter box toppers, and 450K VC Vault bundles.
 2. Choose the single most effective marketing channel for this user ("Email", "SMS", or "Web").
 3. Write a high-converting, personalized marketing message (Headline & Copy Body) tailored to their gaming passion, playstyle, and favorite mode.
 4. Craft a tailored value proposition or in-game perk offer.
 5. Create a VIVID, CINEMATIC IMAGE PROMPT for a 16:9 photorealistic visual.
 
 *** CRITICAL VISUAL DIRECTIVES FOR 'imagePrompt' ***
-- The image MUST be deeply focused on authentic EA SPORTS FC 27 action, iconic football players, or gameplay immersion (Strategy, Simulation, Street Exploration, or Ultimate Team pack openings).
+- The image MUST be deeply focused on authentic NBA 2K26 action, iconic basketball superstars, or gameplay immersion (ProPLAY step-backs, The City streetball parks, or MyTEAM holographic card reveals).
 - Examples of great prompts:
-  * For Strategy / Tactical players: "Cinematic overhead view of an illuminated football stadium pitch with glowing neon green tactical arrows, formation lines, and a manager in a tailored suit orchestrating plays from the dugout, 16:9 aspect ratio commercial visual"
-  * For Simulation / Competitive players: "Photorealistic dynamic match action of a world-class superstar athlete striking a soccer ball into the top corner under bright stadium floodlights in a packed championship arena, high resolution, 16:9 aspect ratio"
-  * For Exploration / Street VOLTA players: "Vibrant sunset rooftop cage football match in Tokyo overlooking neon skyscrapers, athletic players executing skill tricks on a glowing turf pitch, 16:9 aspect ratio"
-  * For Ultimate Team / Pack Collectors: "Epic digital player item walkout stage with glowing gold holographic light beams, pyrotechnics, confetti, and neon green EA SPORTS FC branding, 16:9 aspect ratio"
+  * For Strategy / MyNBA players: "Cinematic overhead view of an illuminated NBA arena court with glowing tactical play diagrams, clipboard arrows, and head coach orchestrating plays from the sidelines, 16:9 aspect ratio commercial visual"
+  * For Simulation / Competitive players: "Photorealistic dynamic match action of an NBA superstar striking a signature step-back 3-pointer under bright arena floodlights with green release particle flash, 16:9 aspect ratio"
+  * For The City Streetball players: "Vibrant sunset rooftop basketball park in The City overlooking neon skyscrapers, customized squads flexing authentic Jordan streetwear, 16:9 aspect ratio"
+  * For MyTEAM / Pack Collectors: "Epic digital player card walkout stage with glowing holographic purple flame beams, pyrotechnics, and golden NBA 2K26 branding, 16:9 aspect ratio"
 - NEVER generate generic computer setups, office desks, PC monitors, keyboards, or people sitting in front of laptops. It must be an epic, cinematic video game marketing scene.
 
 Return ONLY a valid JSON object matching this schema:
 {
   "channel": "Email" | "SMS" | "Web",
   "headline": "Personalized subject line or header tailored to their favorite gameplay mode and player passion",
-  "copyBody": "Engaging personalized copy highlighting FC 27 features that match their gaming playstyle",
-  "offer": "Tailored promotional offer (e.g. 'Pre-Order Ultimate Edition: 4,600 FC Points + 7-Day Early Access + Hometown Hero Item')",
+  "copyBody": "Engaging personalized copy highlighting NBA 2K26 features that match their gaming playstyle",
+  "offer": "Tailored promotional offer (e.g. 'Pre-Order Hall of Fame Edition: 100,000 VC + 12-Month NBA League Pass + 100 OVR Holo Kobe Item')",
   "reasoning": "1-sentence strategic rationale why this specific angle resonates with this gamer profile",
-  "imagePrompt": "Detailed 16:9 prompt describing an epic in-game football action scene, tactical strategy overview, or street soccer match matching their playstyle, with NO computer monitors or desk setups"
+  "imagePrompt": "Detailed 16:9 prompt describing an epic in-game basketball action scene, tactical court overview, or streetball park match matching their playstyle, with NO computer monitors or desk setups"
 }
 `;
 
@@ -162,18 +162,18 @@ Return ONLY a valid JSON object matching this schema:
           const textRes = await generateText(prompt, 'gemini-3.5-flash');
           const parsed = safeJsonParse(textRes, {
             channel: "Email",
-            headline: `Lead Your Squad in EA SPORTS FC 27, ${user.name.split(' ')[0]}`,
-            copyBody: "Experience the next evolution of football simulation with HypermotionV+ volumetric capture, FC IQ tactical overhauls, and deep squad customization.",
-            offer: "Pre-Order Ultimate Edition: 4,600 FC Points + 7-Day Early Access",
-            reasoning: "Resonates with competitive playstyle and squad management preferences.",
-            imagePrompt: "Photorealistic dynamic match action of a world-class superstar athlete striking a soccer ball under bright stadium floodlights in a packed championship arena, 16:9 aspect ratio"
+            headline: `Own The Hardwood in NBA 2K26, ${user.name.split(' ')[0]}`,
+            copyBody: "Experience the next evolution of basketball simulation with ProPLAY 1-to-1 motion capture, The City streetball ecosystems, and 99 OVR Cap Breakers.",
+            offer: "Pre-Order Hall of Fame Edition: 100,000 VC + 12-Month NBA League Pass",
+            reasoning: "Resonates with competitive playstyle and MyCAREER progression preferences.",
+            imagePrompt: "Photorealistic dynamic match action of an NBA superstar executing a signature step-back jumper under bright arena floodlights, 16:9 aspect ratio"
           });
 
           // 2. Image generation using gemini-3.1-flash-lite-image in 16:9 format
           let imageUrl = "";
           if (parsed.imagePrompt) {
-            const imgPrompt = `${parsed.imagePrompt}, cinematic lighting, photorealistic, official EA SPORTS FC 27 visual style, 16:9 aspect ratio`;
-            console.log(`[PersonalizeContent] Generating football scene for ${user.name} with prompt: ${imgPrompt}`);
+            const imgPrompt = `${parsed.imagePrompt}, cinematic lighting, photorealistic, official NBA 2K26 visual style, 16:9 aspect ratio`;
+            console.log(`[PersonalizeContent] Generating basketball scene for ${user.name} with prompt: ${imgPrompt}`);
             const prefix = `personalize_${user.name.toLowerCase().replace(/\s+/g, '_')}`;
             const generatedUrl = await generateImage(imgPrompt, 'gemini-3.1-flash-lite-image', '16:9', prefix, companyName);
             imageUrl = generatedUrl || "";

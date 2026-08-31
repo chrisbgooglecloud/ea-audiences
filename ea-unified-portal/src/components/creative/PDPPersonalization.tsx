@@ -36,36 +36,36 @@ export interface RegionalEdition {
   isDefault?: boolean;
 }
 
-const DEFAULT_PRODUCT_NAME = "EA SPORTS FC 27";
+const DEFAULT_PRODUCT_NAME = "NBA 2K26";
 const DEFAULT_EDITIONS = [
-  { name: "Standard Edition", price: "$69.99", desc: "Base game + 500 FC Points + Cover Star Loan Item" },
-  { name: "Ultimate Edition", price: "$99.99", desc: "7-Day Early Access + 4,600 FC Points + Untradeable Hero Item + Dual Entitlement" },
-  { name: "Champions Club Edition", price: "$119.99", desc: "Ultimate Perks + Season Pass 1 Premium + Hometown Stadium Kit & VIP Anthems" }
+  { name: "Standard Edition", price: "$69.99", desc: "Base game + 5,000 VC + Cover Star MyTEAM Card" },
+  { name: "Hall of Fame Edition", price: "$99.99", desc: "12-Month NBA League Pass + 100,000 VC + 100 OVR Holo Dark Matter Kobe + Dual Entitlement" },
+  { name: "All-Star Collector Edition", price: "$129.99", desc: "Hall of Fame Perks + ProPASS Season 1 Track + The City Mamba Hoverboard & Jordan Drip" }
 ];
 
 const DEFAULT_PLATFORMS = [
   "PlayStation®5",
   "Xbox Series X|S",
-  "PC (EA App / Steam)",
+  "PC (Steam / 2K Direct)",
   "Nintendo Switch™ 2"
 ];
 
-// Pre-seeded Default Global Edition featuring Kylian Mbappé on PS5
+// Pre-seeded Default Global Edition featuring Shai Gilgeous-Alexander on PS5
 const DEFAULT_REGIONAL_EDITIONS: RegionalEdition[] = [
   {
-    id: "edition_default_mbappe",
+    id: "edition_default_sga",
     name: "Default",
-    starPlayer: "Kylian Mbappé",
-    teamOrClub: "Real Madrid & France",
-    whyPerfect: "Showcases world superstar Kylian Mbappé in his official Real Madrid kit standing atop the world's football capitals.",
-    description: "EA SPORTS FC 27 Global Edition delivers next-gen volumetric HypermotionV+ realism, full UEFA Champions League licensing, and authentic matchday atmospheres from the Bernabéu to Wembley.",
+    starPlayer: "Shai Gilgeous-Alexander",
+    teamOrClub: "Oklahoma City Thunder",
+    whyPerfect: "Showcases MVP finalist Shai Gilgeous-Alexander executing his signature ProPLAY step-back jumper against illuminated arena lights.",
+    description: "NBA 2K26 Hall of Fame Edition delivers next-gen ProPLAY motion capture, 12-Month NBA League Pass, 100,000 VC, and dynamic The City streetball immersion.",
     regionalPerks: [
-      "Untradeable 91-rated Kylian Mbappé Ultimate Team Loan Item (25 Matches)",
-      "4,600 FC Points (Ultimate Edition Pre-Order)",
-      "Founder Status Stadium Kit & Tifo",
-      "Signature PlayStyle+ Rapid Dribbler Perk"
+      "Guaranteed 100 OVR Holo Dark Matter Kobe Bryant Card Topper",
+      "100,000 Virtual Currency (VC)",
+      "12-Month NBA League Pass Subscription",
+      "ProPASS Season 1 Premium Pass Track"
     ],
-    image: "/images/fc27_default_cover.jpg",
+    image: "/images/2k_logo.png",
     isDefault: true
   }
 ];
@@ -73,13 +73,13 @@ const DEFAULT_REGIONAL_EDITIONS: RegionalEdition[] = [
 export const PDPPersonalization: React.FC = () => {
   const { name } = useCompanyContext();
   const { config } = useAppConfig();
-  const companyName = config?.branding?.companyName || name || 'EA Games FC';
+  const companyName = config?.branding?.companyName || name || '2K Games (Take-Two Interactive)';
 
   const [editions, setEditions] = useState<RegionalEdition[]>(DEFAULT_REGIONAL_EDITIONS);
   const [selectedEditionId, setSelectedEditionId] = useState<string>(DEFAULT_REGIONAL_EDITIONS[0].id);
   const [locationInput, setLocationInput] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
-  const [selectedFormat, setSelectedFormat] = useState(DEFAULT_EDITIONS[1].name); // Default to Ultimate Edition
+  const [selectedFormat, setSelectedFormat] = useState(DEFAULT_EDITIONS[1].name); // Default to Hall of Fame Edition
   const [selectedPlatform, setSelectedPlatform] = useState(DEFAULT_PLATFORMS[0]);
   const [statusMessage, setStatusMessage] = useState<string>('');
 
@@ -121,12 +121,12 @@ export const PDPPersonalization: React.FC = () => {
       if (res.ok) {
         const data = await res.json();
         if (data.editions && Array.isArray(data.editions) && data.editions.length > 0) {
-          // Ensure the Default Mbappé edition is always present at index 0
-          const loadedCustomEditions = data.editions.filter((e: any) => e.id !== 'edition_default_mbappe' && e.name !== 'Default');
+          // Ensure the Default SGA edition is always present at index 0
+          const loadedCustomEditions = data.editions.filter((e: any) => e.id !== 'edition_default_sga' && e.name !== 'Default');
           const merged = [DEFAULT_REGIONAL_EDITIONS[0], ...loadedCustomEditions];
           setEditions(merged);
 
-          // Always ensure the default Mbappé edition is shown first when reloading the page
+          // Always ensure the default SGA edition is shown first when reloading the page
           setSelectedEditionId(DEFAULT_REGIONAL_EDITIONS[0].id);
 
           if (!silent) {

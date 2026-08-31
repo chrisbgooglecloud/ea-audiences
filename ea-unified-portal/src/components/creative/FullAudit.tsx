@@ -67,7 +67,7 @@ export const FullAudit: React.FC = () => {
     focusGroup: null
   });
 
-  const activeCompany = config?.branding?.companyName || companyName || 'EA Games FC';
+  const activeCompany = config?.branding?.companyName || companyName || '2K Games (Take-Two Interactive)';
 
   // Hydrate all upstream pipeline data on mount and check for saved audit run
   useEffect(() => {
@@ -172,7 +172,7 @@ export const FullAudit: React.FC = () => {
       return {
         overallScore: 90,
         readinessLevel: 'Ready to Launch',
-        executiveSummary: `The ${fallbackCompany} campaign exhibits robust multi-channel alignment, HypermotionV+ gameplay resonance, and high synthetic gamer purchase intent (90/100).`,
+        executiveSummary: `The ${fallbackCompany} campaign exhibits robust multi-channel alignment, ProPLAY 1-to-1 gameplay resonance, and high synthetic gamer purchase intent (90/100).`,
         companyName: fallbackCompany,
         timestamp: new Date().toLocaleString(),
         categories: [],
@@ -191,7 +191,7 @@ export const FullAudit: React.FC = () => {
         opportunityName: typeof o.opportunityName === 'string' ? o.opportunityName : (o.title || o.name || 'In-Game Commercial Drop'),
         opportunityType: o.opportunityType || 'Brand Sponsorship / Marketing',
         tagline: typeof o.tagline === 'string' ? o.tagline : String(o.tagline || ''),
-        targetGamerCohort: typeof o.targetGamerCohort === 'string' ? o.targetGamerCohort : (o.targetOccasion || 'Competitive Ultimate Team Players'),
+        targetGamerCohort: typeof o.targetGamerCohort === 'string' ? o.targetGamerCohort : (o.targetOccasion || 'Competitive The City & MyCAREER Players'),
         marketDemandRationale: typeof o.marketDemandRationale === 'string' ? o.marketDemandRationale : '',
         keyDeliverables: Array.isArray(o.keyDeliverables) ? o.keyDeliverables : (Array.isArray(o.scentNotes) ? o.scentNotes : ['Exclusive in-game vanity item', 'Stadium billboard branding', 'Event XP Booster']),
         actionableConcept: typeof o.actionableConcept === 'string' ? o.actionableConcept : (o.actionableProductConcept || ''),
@@ -316,20 +316,20 @@ export const FullAudit: React.FC = () => {
       {
         stage: 'insights',
         label: 'Insights & Video Sentiment Feed',
-        defaultKeyFinding: 'Strong player excitement for HypermotionV+ gameplay and marquee cover athletes; community sentiment highlights need for responsive server tick rates.',
+        defaultKeyFinding: 'Strong player excitement for ProPLAY 1-to-1 motion capture and marquee cover athletes; community sentiment highlights need for responsive The REC server tick rates.',
         defaultSummary: 'Video analysis and review telemetry indicate high consumer trust for core gameplay improvements and regional athlete authenticity.'
       },
       {
         stage: 'profiles',
         label: 'Resolved Behavioral Profiles',
         defaultKeyFinding: 'Deterministic gamer identity resolution across PC, console, and companion app telemetry.',
-        defaultSummary: 'Accurate segmentation between Competitive Grinders, Career Strategists, and Casual Social Players with high intent correlation.'
+        defaultSummary: 'Accurate segmentation between The City Grinders, MyNBA Strategists, and Casual Social Players with high intent correlation.'
       },
       {
         stage: 'personas',
         label: 'Target Buyer Personas',
         defaultKeyFinding: 'Gamer personas accurately mirror modern playstyles, squad building habits, and digital item preferences.',
-        defaultSummary: 'Personas cover diverse gaming cohorts from esports competitors to casual VOLTA street football fans.'
+        defaultSummary: 'Personas cover diverse gaming cohorts from Pro-Am competitors to casual The City streetball hoopers.'
       },
       {
         stage: 'brief',

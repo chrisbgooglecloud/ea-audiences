@@ -58,99 +58,75 @@ export interface FeatureClusterOverview {
 
 export const DEFAULT_FEATURE_CLUSTERS: FeatureClusterOverview[] = [
     {
-        category: 'Controls & Input Latency',
-        keywordCount: 745,
-        sentimentBreakdown: { positive: 36, negative: 145, neutral: 49 },
-        topKeywords: ['Career Mode', 'player career transfers', 'zero transfer fee bug', 'career mode realism', 'unrealistic player club moves']
+        category: 'ProPLAY & Animation Physics',
+        keywordCount: 1245,
+        sentimentBreakdown: { positive: 145, negative: 42, neutral: 68 },
+        topKeywords: ['ProPLAY 1-to-1 capture', 'step-back 3pt physics', 'contested layup animations', 'collision hitboxes', 'signature dribble packages']
     },
     {
-        category: 'Performance & Crashes',
+        category: 'The City & Streetball Ecosystem',
         keywordCount: 1198,
-        sentimentBreakdown: { positive: 52, negative: 270, neutral: 60 },
-        topKeywords: ['Career Mode', 'Performance & Crashes', 'team sheet freeze', 'missing national licenses', 'tactics screen lockup']
+        sentimentBreakdown: { positive: 98, negative: 180, neutral: 60 },
+        topKeywords: ['The City streetball parks', 'hoverboard fast-travel', 'squad affiliation rep', 'Jordan streetwear drip', 'dynamic park weather']
     },
     {
-        category: 'Matchmaking & Netcode',
-        keywordCount: 582,
-        sentimentBreakdown: { positive: 13, negative: 123, neutral: 34 },
-        topKeywords: ['Matchmaking & Netcode', 'cross-region matchmaking', 'high latency servers', 'intercontinental routing', 'regional matchmaking filter']
-    },
-    {
-        category: 'Anti-Cheat & Security',
-        keywordCount: 209,
-        sentimentBreakdown: { positive: 3, negative: 50, neutral: 8 },
-        topKeywords: ['Anti-Cheat & Security', 'Performance & Crashes', 'anti-cheat launch error', 'software conflict detection', 'third-party app false positives']
-    },
-    {
-        category: 'Passing & Ball Physics',
-        keywordCount: 846,
-        sentimentBreakdown: { positive: 101, negative: 131, neutral: 31 },
-        topKeywords: ['Defensive Balance', 'Matchmaking & Netcode', 'player pace inconsistency', 'defensive recovery speed', 'input response delay']
-    },
-    {
-        category: 'Defensive Balance',
+        category: 'Matchmaking & 128-Tick Netcode',
         keywordCount: 882,
-        sentimentBreakdown: { positive: 37, negative: 198, neutral: 33 },
-        topKeywords: ['Defensive Balance', 'Goalkeeping & AI', 'referee foul strictness', 'slide tackle missed red', 'aerial collision foul']
+        sentimentBreakdown: { positive: 24, negative: 220, neutral: 45 },
+        topKeywords: ['The REC matchmaking', '128-tick servers', 'peak-hour input latency', 'crossplay matchmaking filters', 'loss-streak tilt protection']
     },
     {
-        category: 'Goalkeeping & AI',
-        keywordCount: 494,
-        sentimentBreakdown: { positive: 28, negative: 103, neutral: 19 },
-        topKeywords: ['Goalkeeping & AI', 'FUT Economy & SBCs', 'scripted gameplay randomness', 'pay to win progression', 'manager career stagnation']
+        category: 'MyTEAM Economy & Dark Matter Packs',
+        keywordCount: 946,
+        sentimentBreakdown: { positive: 45, negative: 210, neutral: 55 },
+        topKeywords: ['100 OVR Holo Dark Matter odds', 'auction house transparency', 'salary cap mode balance', 'collector level rewards', 'untradeable card recycling']
     },
     {
-        category: 'FUT Economy & SBCs',
-        keywordCount: 811,
-        sentimentBreakdown: { positive: 43, negative: 154, neutral: 53 },
-        topKeywords: ['FUT Economy & SBCs', 'Career Mode', 'ultimate team monetization', 'shallow career immersion', 'couch multiplayer utility']
+        category: 'MyCAREER & Cap Breakers',
+        keywordCount: 1320,
+        sentimentBreakdown: { positive: 160, negative: 95, neutral: 110 },
+        topKeywords: ['99 OVR Cap Breakers', 'zero badge regression', 'jumpshot creator visual cues', 'Gatorade training facility', 'Endorsement contracts']
     },
     {
-        category: 'Career Mode',
-        keywordCount: 1191,
-        sentimentBreakdown: { positive: 125, negative: 138, neutral: 121 },
-        topKeywords: ['Career Mode', 'Controls & Input Latency', 'player playstyle assignment', 'career mode progression', 'player rating scaling']
+        category: 'MyNBA & Grand Strategy',
+        keywordCount: 654,
+        sentimentBreakdown: { positive: 88, negative: 32, neutral: 40 },
+        topKeywords: ['MyNBA Eras historical realism', 'salary cap trade logic', 'draft class scouting depth', 'coaching staff playbooks', 'dynamic expansion teams']
     },
     {
-        category: 'Audio & Visual Presentation',
-        keywordCount: 782,
-        sentimentBreakdown: { positive: 50, negative: 112, neutral: 84 },
-        topKeywords: ['Audio & Visual Presentation', 'arabic commentary download bug', 'audio pack language reset', 'localized broadcast commentary', 'Goalkeeping & AI']
+        category: 'PC Next-Gen Parity & Performance',
+        keywordCount: 780,
+        sentimentBreakdown: { positive: 65, negative: 140, neutral: 50 },
+        topKeywords: ['DirectX 12 splash stutter', '144Hz borderless fullscreen', 'shader cache compilation', 'ray tracing optimization', 'DualSense haptic feedback']
     },
     {
-        category: 'Rush Mode',
-        keywordCount: 341,
-        sentimentBreakdown: { positive: 44, negative: 37, neutral: 20 },
-        topKeywords: ['Rush Mode', 'Matchmaking & Netcode', 'clubs progression engagement', 'cooperative team play', 'positive replayability']
-    },
-    {
-        category: 'Gameplay Mechanics',
-        keywordCount: 2,
-        sentimentBreakdown: { positive: 0, negative: 0, neutral: 3 },
-        topKeywords: ['Gameplay Balance', 'Tactical Controls']
+        category: 'Co-Op & Live Ops (Borderlands / Civ)',
+        keywordCount: 540,
+        sentimentBreakdown: { positive: 78, negative: 44, neutral: 38 },
+        topKeywords: ['Borderlands 4 Mayhem 10 raids', 'Civ VII Age transitions', 'legendary weapon drop rates', '4-player netcode synchronization']
     }
 ];
 
 export const DEFAULT_TOP_TOPICS: TopicItem[] = [
-    { id: 'top-1', rank: 1, title: 'manual driven pass deceleration', commentFrequency: 1420, frequencyPercentage: 100, velocityChange: 14, category: 'Passing & Ball Physics', country: 'United States' },
-    { id: 'top-2', rank: 2, title: 'directx 12 splash stutter pc', commentFrequency: 1280, frequencyPercentage: 90, velocityChange: -6, category: 'Performance & Crashes', country: 'United Kingdom' },
-    { id: 'top-3', rank: 3, title: 'rush 5v5 drop-in matchmaking', commentFrequency: 1140, frequencyPercentage: 80, velocityChange: 22, category: 'Rush Mode', country: 'Germany' },
-    { id: 'top-4', rank: 4, title: 'winter wildcard duplicate storage', commentFrequency: 980, frequencyPercentage: 69, velocityChange: 8, category: 'FUT Economy & SBCs', country: 'France' },
-    { id: 'top-5', rank: 5, title: 'jockey acceleration angle fix', commentFrequency: 890, frequencyPercentage: 62, velocityChange: -18, category: 'Defensive Balance', country: 'Brazil' },
-    { id: 'top-6', rank: 6, title: 'goalkeeper near-post AI reflex', commentFrequency: 820, frequencyPercentage: 58, velocityChange: 12, category: 'Goalkeeping & AI', country: 'Canada' },
-    { id: 'top-7', rank: 7, title: 'tactical preset auto-sub ladder', commentFrequency: 740, frequencyPercentage: 52, velocityChange: -4, category: 'Controls & Input Latency', country: 'Japan' },
-    { id: 'top-8', rank: 8, title: 'evolution upgrade boost stack', commentFrequency: 680, frequencyPercentage: 48, velocityChange: 45, category: 'FUT Economy & SBCs', country: 'Australia' }
+    { id: 'top-1', rank: 1, title: 'proplay step-back green release', commentFrequency: 1420, frequencyPercentage: 100, velocityChange: 14, category: 'ProPLAY & Animation Physics', country: 'United States' },
+    { id: 'top-2', rank: 2, title: 'the rec 5v5 input delay 128-tick', commentFrequency: 1280, frequencyPercentage: 90, velocityChange: -6, category: 'Matchmaking & 128-Tick Netcode', country: 'United Kingdom' },
+    { id: 'top-3', rank: 3, title: 'the city fast-travel hoverboard transit', commentFrequency: 1140, frequencyPercentage: 80, velocityChange: 22, category: 'The City & Streetball Ecosystem', country: 'Germany' },
+    { id: 'top-4', rank: 4, title: 'myteam 100 ovr dark matter drop odds', commentFrequency: 980, frequencyPercentage: 69, velocityChange: 8, category: 'MyTEAM Economy & Dark Matter Packs', country: 'France' },
+    { id: 'top-5', rank: 5, title: 'perimeter contest cone defense balance', commentFrequency: 890, frequencyPercentage: 62, velocityChange: -18, category: 'ProPLAY & Animation Physics', country: 'Brazil' },
+    { id: 'top-6', rank: 6, title: 'mynba eras salary cap trade logic', commentFrequency: 820, frequencyPercentage: 58, velocityChange: 12, category: 'MyNBA & Grand Strategy', country: 'Canada' },
+    { id: 'top-7', rank: 7, title: '99 ovr cap breaker milestone progression', commentFrequency: 740, frequencyPercentage: 52, velocityChange: -4, category: 'MyCAREER & Cap Breakers', country: 'Japan' },
+    { id: 'top-8', rank: 8, title: 'borderlands 4 mayhem 10 co-op raids', commentFrequency: 680, frequencyPercentage: 48, velocityChange: 45, category: 'Co-Op & Live Ops (Borderlands / Civ)', country: 'Australia' }
 ];
 
 export const DEFAULT_RISING_TOPICS: TopicItem[] = [
-    { id: 'rise-1', rank: 1, title: 'anti-cheat server status error 117', commentFrequency: 1150, frequencyPercentage: 92, velocityChange: 480, isBreakout: true, category: 'Anti-Cheat & Security', country: 'Germany' },
-    { id: 'rise-2', rank: 2, title: 'playtesting registration wave 3', commentFrequency: 940, frequencyPercentage: 75, velocityChange: 350, isBreakout: true, category: 'Community Engagement', country: 'United States' },
-    { id: 'rise-3', rank: 3, title: 'rush ranked ladder freeze bug', commentFrequency: 810, frequencyPercentage: 65, velocityChange: 280, isBreakout: true, category: 'Rush Mode', country: 'United Kingdom' },
-    { id: 'rise-4', rank: 4, title: 'tactical foul animation cancel', commentFrequency: 720, frequencyPercentage: 58, velocityChange: 210, isBreakout: true, category: 'Defensive Balance', country: 'France' },
-    { id: 'rise-5', rank: 5, title: 'streetwear kit dynamic drop leaks', commentFrequency: 650, frequencyPercentage: 52, velocityChange: 180, isBreakout: true, category: 'Audio & Visual Presentation', country: 'Brazil' },
-    { id: 'rise-6', rank: 6, title: 'controller deadzone micro-drift', commentFrequency: 590, frequencyPercentage: 47, velocityChange: 140, isBreakout: false, category: 'Controls & Input Latency', country: 'Japan' },
-    { id: 'rise-7', rank: 7, title: '144hz g-sync borderless stutter', commentFrequency: 510, frequencyPercentage: 41, velocityChange: 95, isBreakout: false, category: 'Performance & Crashes', country: 'Australia' },
-    { id: 'rise-8', rank: 8, title: 'ea sports fc', commentFrequency: 440, frequencyPercentage: 35, velocityChange: 75, isBreakout: false, category: 'Core Franchise', country: 'Canada' }
+    { id: 'rise-1', rank: 1, title: 'civilization vii age transition diplomacy', commentFrequency: 1150, frequencyPercentage: 92, velocityChange: 480, isBreakout: true, category: 'MyNBA & Grand Strategy', country: 'Germany' },
+    { id: 'rise-2', rank: 2, title: 'nba 2k26 early access playtesting wave 3', commentFrequency: 940, frequencyPercentage: 75, velocityChange: 350, isBreakout: true, category: 'Community Engagement', country: 'United States' },
+    { id: 'rise-3', rank: 3, title: 'the rec loss-streak tilt shield feedback', commentFrequency: 810, frequencyPercentage: 65, velocityChange: 280, isBreakout: true, category: 'Matchmaking & 128-Tick Netcode', country: 'United Kingdom' },
+    { id: 'rise-4', rank: 4, title: 'jordan brand x the city apparel drop leaks', commentFrequency: 720, frequencyPercentage: 58, velocityChange: 210, isBreakout: true, category: 'The City & Streetball Ecosystem', country: 'France' },
+    { id: 'rise-5', rank: 5, title: 'pc directx 12 shader caching stutter fix', commentFrequency: 650, frequencyPercentage: 52, velocityChange: 180, isBreakout: true, category: 'PC Next-Gen Parity & Performance', country: 'Brazil' },
+    { id: 'rise-6', rank: 6, title: 'controller deadzone micro-drift calibration', commentFrequency: 590, frequencyPercentage: 47, velocityChange: 140, isBreakout: false, category: 'ProPLAY & Animation Physics', country: 'Japan' },
+    { id: 'rise-7', rank: 7, title: '144hz g-sync borderless fullscreen stutter', commentFrequency: 510, frequencyPercentage: 41, velocityChange: 95, isBreakout: false, category: 'PC Next-Gen Parity & Performance', country: 'Australia' },
+    { id: 'rise-8', rank: 8, title: '2k games nba 2k26', commentFrequency: 440, frequencyPercentage: 35, velocityChange: 75, isBreakout: false, category: 'Core Franchise', country: 'Canada' }
 ];
 
 import { getLanguageInfo } from '@/services/noiseFilterService';
@@ -563,400 +539,372 @@ export const InsightsHome: React.FC<InsightsHomeProps> = ({ onNavigateToTopic, o
 
 // Comprehensive In-Memory Topic Registry for instant, zero-latency comment evidence lookup
 const IN_MEMORY_TOPIC_REGISTRY: Record<string, any[]> = {
-    'ea sports fc': [
+    '2k games nba 2k26': [
         {
-            id: 'fc-1',
-            author: 'UltimateTactics_YT',
+            id: '2k-1',
+            author: 'ChrisSmoove_Fan',
             source: 'YouTube Comments',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '3 days ago',
             country: 'United States',
             sentiment: 'positive',
             featureCategory: 'Core Franchise',
-            keywords: ['EA Sports FC', 'Franchise Evolution'],
-            rawText: 'FC 26 is by far the most balanced release since the rebranding. The Hypermotion physics are responsive without feeling artificial.',
-            constructiveSummary: 'Rebranding foundation has solidified with physics refinement.',
-            actionableSuggestion: 'Maintain core gameplay rhythm into FC 27 without drastic engine overhauls.'
+            keywords: ['2K Games', 'NBA 2K26', 'Franchise Evolution'],
+            rawText: 'NBA 2K26 is by far the smoothest release in years. ProPLAY motion capture makes step-backs and crossovers feel 1-to-1 with real NBA broadcasts.',
+            constructiveSummary: 'ProPLAY visual fidelity and weight distribution represent a major leap forward.',
+            actionableSuggestion: 'Maintain core gameplay rhythm into future updates without introducing arcade movement sliders.'
         },
         {
-            id: 'fc-2',
-            author: 'TacticalReviewer_Steam',
+            id: '2k-2',
+            author: 'HoopTactician_Steam',
             source: 'Steam Reviews',
-            release: 'FC 25',
+            release: 'NBA 2K25',
             timestamp: 'Jan 15, 2025',
             country: 'Germany',
             sentiment: 'neutral',
             featureCategory: 'Core Franchise',
-            keywords: ['EA Sports FC', 'Pacing'],
-            rawText: 'FC 25 laid good tactical groundwork, but FC 26 made the passing much more rewarding. Menu UI is still slightly sluggish on PC though.',
-            constructiveSummary: 'Gameplay evolved positively while menu caching requires optimization.',
-            actionableSuggestion: 'Refactor frontend menu rendering pipeline to reduce input latency.'
+            keywords: ['NBA 2K25', 'Pacing'],
+            rawText: 'NBA 2K25 had solid animations, but 2K26 made the jump shot visual cues much more consistent. The City navigation is also noticeably faster.',
+            constructiveSummary: 'Shot timing consistency and world traversal improved substantially.',
+            actionableSuggestion: 'Keep visual release cues consistent across all custom jumpshot animations.'
         },
         {
-            id: 'fc-3',
-            author: 'RetroFUT_UK',
+            id: '2k-3',
+            author: 'RetroHoops_UK',
             source: 'Reddit Discussion',
-            release: 'FC 24',
+            release: 'NBA 2K24',
             timestamp: 'Nov 20, 2023',
             country: 'United Kingdom',
             sentiment: 'negative',
             featureCategory: 'Core Franchise',
-            keywords: ['FC 24 Baseline', 'Menu Lag'],
-            rawText: 'FC 24 initial menus suffered heavy freeze frames on opening packs. The progression to FC 26 shows real optimization.',
-            constructiveSummary: 'Historical menu stability was poor in FC 24.',
-            actionableSuggestion: 'Ensure menu asynchronous asset loading stays unblocked in FC 27.'
+            keywords: ['NBA 2K24 Baseline', 'Badge Regression'],
+            rawText: 'NBA 2K24 suffered from punishing badge regression that forced endless grinding. The removal of regression in 2K26 is a massive win.',
+            constructiveSummary: 'Historical badge regression mechanics caused player attrition in 2K24.',
+            actionableSuggestion: 'Never reintroduce badge degradation mechanics in future iterations.'
         }
     ],
-    'manual driven pass deceleration': [
+    'proplay step-back green release': [
         {
-            id: 'pass-1',
-            author: 'PassMaster_99',
+            id: 'shot-1',
+            author: 'GreenMachine_99',
             source: 'YouTube Comments',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: 'Yesterday',
             country: 'United States',
             sentiment: 'positive',
-            featureCategory: 'Passing & Physics',
-            keywords: ['Manual Pass', 'Deceleration', 'First Touch'],
-            rawText: 'The manual driven pass deceleration in FC 26 is outstanding. In FC 24 and 25, players would rocket 50-yard laser passes with zero momentum penalty.',
-            constructiveSummary: 'Deceleration penalty stops unrealistic ping-pong passing chains.',
-            actionableSuggestion: 'Preserve physical deceleration curves for FC 27 competitive tuning.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['ProPLAY', 'Step-Back', 'Green Release', 'Visual Cue'],
+            rawText: 'The ProPLAY step-back jumper animation physics in NBA 2K26 are flawless. When Shai creates separation, the visual release point matches the wrist snap perfectly.',
+            constructiveSummary: 'ProPLAY animations offer clear mechanical visual cues for green releases.',
+            actionableSuggestion: 'Preserve green release purity for competitive Pro-Am tournaments.'
         },
         {
-            id: 'pass-2',
-            author: 'RedditTactician_UK',
+            id: 'shot-2',
+            author: 'RedditHooper_UK',
             source: 'Reddit Discussion',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '4 days ago',
             country: 'United Kingdom',
             sentiment: 'neutral',
-            featureCategory: 'Passing & Physics',
-            keywords: ['Passing', 'First Touch Trajectory'],
-            rawText: 'Driven passes are much better now, but players with <80 ball control still recover a bit too quickly on bad first touches.',
-            constructiveSummary: 'Ball control rating scaling could have higher divergence between elite and bronze cards.',
-            actionableSuggestion: 'Scale first-touch error margins more strictly based on raw player stats.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['Contest Window', 'Green Window'],
+            rawText: 'ProPLAY animations look incredible, but 7-footers with 85+ perimeter defense still close out slightly too fast on corner catch-and-shoots.',
+            constructiveSummary: 'Perimeter contest detection hitbox on corner 3s needs slight fine-tuning.',
+            actionableSuggestion: 'Tune closeout collision vectors to match authentic NBA contest ranges.'
         },
         {
-            id: 'pass-3',
-            author: 'SteamStriker_DE',
+            id: 'shot-3',
+            author: 'SteamDribbler_DE',
             source: 'Steam Reviews',
-            release: 'FC 24',
+            release: 'NBA 2K24',
             timestamp: 'Nov 12, 2023',
             country: 'Germany',
             sentiment: 'negative',
-            featureCategory: 'Passing & Physics',
-            keywords: ['FC 24 Baseline', 'Driven Pass Exploit'],
-            rawText: 'FC 24 driven passes were completely broken with zero deceleration. Glad the team addressed this in subsequent iterations.',
-            constructiveSummary: 'Historical baseline had severe pass velocity unbalance.',
-            actionableSuggestion: 'Use FC 26 deceleration tuning as the baseline standard.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['NBA 2K24 Baseline', 'Unnatural Glides'],
+            rawText: 'In 2K24 players would ice-skate across the hardwood during step-back animations. ProPLAY grounded physics in 2K26 fixed this completely.',
+            constructiveSummary: 'Baseline animations had severe sliding physics.',
+            actionableSuggestion: 'Retain authentic foot-planting algorithms across all archetype heights.'
         }
     ],
-    'directx 12 splash stutter pc': [
+    'the rec 5v5 input delay 128-tick': [
         {
-            id: 'dx-1',
-            author: 'PCMasterRace_DE',
+            id: 'rec-1',
+            author: 'ProAmCenter_US',
             source: 'Reddit Discussion',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '2 days ago',
-            country: 'Germany',
+            country: 'United States',
             sentiment: 'negative',
-            featureCategory: 'PC Stability',
-            keywords: ['DirectX 12', 'Shader Pipeline', 'Splash Screen'],
-            rawText: 'DirectX 12 shader pre-compilation stutters heavily on splash screen launch with Nvidia 40-series cards. Needs async PSO caching.',
-            constructiveSummary: 'Shader compilation occurs synchronously on boot causing frame hitches.',
-            actionableSuggestion: 'Implement asynchronous background pipeline state object (PSO) compilation on game launch.'
+            featureCategory: 'Matchmaking & 128-Tick Netcode',
+            keywords: ['The REC', 'Input Delay', '128-Tick Servers', 'Netcode'],
+            rawText: 'The REC 5v5 online matchmaking needs 128-tick servers. During Friday night peak hours, shot timing has a 150ms variance compared to offline play.',
+            constructiveSummary: 'Peak load server tick rate variance introduces jump shot timing discrepancies.',
+            actionableSuggestion: 'Deploy dedicated 128-tick regional server clusters for The REC and Pro-Am.'
         },
         {
-            id: 'dx-2',
-            author: 'NvidiaDriverGuru',
+            id: 'rec-2',
+            author: 'EuroHoops_Steam',
             source: 'Steam Reviews',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '5 days ago',
-            country: 'United States',
+            country: 'Germany',
             sentiment: 'positive',
-            featureCategory: 'PC Stability',
-            keywords: ['DirectX 12', 'Patch 1.04', 'Frame Pacing'],
-            rawText: 'Title Update 3 fixed 80% of the in-match DX12 frame drops for me, but the initial splash screen still takes 45 seconds to compile.',
-            constructiveSummary: 'In-match frame pacing improved while initial cache warming remains slow.',
-            actionableSuggestion: 'Pre-compile shaders during installation rather than boot time.'
+            featureCategory: 'Matchmaking & 128-Tick Netcode',
+            keywords: ['The REC', 'Matchmaking Speed', 'Crossplay'],
+            rawText: 'Crossplay lobby queues in The REC take under 15 seconds now. Once servers are in off-peak hours, the 5v5 action is super responsive.',
+            constructiveSummary: 'Matchmaking discovery speed and crossplay population density are high.',
+            actionableSuggestion: 'Implement automatic regional ping caps during peak matchmaking.'
         }
     ],
-    'rush 5v5 drop-in matchmaking': [
+    'the city fast-travel hoverboard transit': [
         {
-            id: 'rush-1',
-            author: 'RushCaptain_UK',
-            source: 'Reddit Discussion',
-            release: 'FC 26',
+            id: 'city-1',
+            author: 'StreetballKing_US',
+            source: 'YouTube Comments',
+            release: 'NBA 2K26',
             timestamp: '1 day ago',
+            country: 'United States',
+            sentiment: 'positive',
+            featureCategory: 'The City & Streetball Ecosystem',
+            keywords: ['The City', 'Hoverboard', 'Fast Travel', 'Transit'],
+            rawText: 'The Mamba hoverboard fast-travel transit stations in The City cut travel time between Affiliation parks to zero. Best quality of life update yet.',
+            constructiveSummary: 'Hoverboard transit eliminated tedious walking between park courts.',
+            actionableSuggestion: 'Add extra fast-travel transit gates near the Gatorade Training Facility.'
+        },
+        {
+            id: 'city-2',
+            author: 'CasualDrip_UK',
+            source: 'Reddit Discussion',
+            release: 'NBA 2K26',
+            timestamp: '6 days ago',
             country: 'United Kingdom',
             sentiment: 'positive',
-            featureCategory: 'Rush Mode',
-            keywords: ['Rush 5v5', 'Drop-in', 'Matchmaking Speed'],
-            rawText: 'Rush is the best new mode EA has introduced in a decade. Queue times are under 10 seconds and the tactical 5v5 pace is incredible.',
-            constructiveSummary: 'Rush mode has extremely high engagement and quick queue times.',
-            actionableSuggestion: 'Expand Rush tournament ladders and weekend seasonal cups.'
-        },
-        {
-            id: 'rush-2',
-            author: 'CasualGamer_US',
-            source: 'YouTube Comments',
-            release: 'FC 26',
-            timestamp: '6 days ago',
-            country: 'United States',
-            sentiment: 'negative',
-            featureCategory: 'Rush Mode',
-            keywords: ['AFK Players', 'Drop-in Penalty'],
-            rawText: 'Drop-in matchmaking needs a stricter AFK penalty. When 1 teammate goes idle, the 5v5 dynamic is ruined.',
-            constructiveSummary: 'AFK players degrade match quality in unranked drop-in queues.',
-            actionableSuggestion: 'Add automated 60-second AFK kick timer with bot takeover in Rush drop-ins.'
+            featureCategory: 'The City & Streetball Ecosystem',
+            keywords: ['Streetwear Drip', 'The City Parks'],
+            rawText: 'The rooftop park designs and lighting at sunset look unbelievable. Love showing off the new Jordan capsule gear between 3v3 games.',
+            constructiveSummary: 'Aesthetic presentation of streetball parks drives high lifestyle engagement.',
+            actionableSuggestion: 'Rotate weekly visual themes across all outdoor park courts.'
         }
     ],
-    'winter wildcard duplicate storage': [
+    'myteam 100 ovr dark matter drop odds': [
         {
-            id: 'ww-1',
-            author: 'FUTCoinTracker',
-            source: 'Reddit r/EASportsFC',
-            release: 'FC 26',
+            id: 'mt-1',
+            author: 'PackOpener_US',
+            source: 'Reddit r/MyTeam',
+            release: 'NBA 2K26',
             timestamp: '2 days ago',
             country: 'United States',
             sentiment: 'positive',
-            featureCategory: 'FUT Economy',
-            keywords: ['Duplicate Storage', 'SBC Crafting', 'Winter Wildcards'],
-            rawText: 'The 100-card duplicate storage for untradeables completely revolutionized SBC crafting during Winter Wildcards promo. Huge quality of life win.',
-            constructiveSummary: 'Untradeable duplicate storage eliminated SBC discard friction.',
-            actionableSuggestion: 'Expand storage capacity to 150 slots for Team of the Season promo.'
+            featureCategory: 'MyTEAM Economy & Dark Matter Packs',
+            keywords: ['MyTEAM', '100 OVR', 'Dark Matter', 'Drop Rates', 'Transparency'],
+            rawText: 'Displaying exact pack odds down to the decimal for 100 OVR Holo Dark Matter cards is a huge step in the right direction for 2K.',
+            constructiveSummary: 'Transparent probability disclosures have increased collector trust.',
+            actionableSuggestion: 'Maintain transparent odds across all special promo box drops.'
         },
         {
-            id: 'ww-2',
+            id: 'mt-2',
             author: 'CardCollector_FR',
             source: 'Steam Reviews',
-            release: 'FC 25',
+            release: 'NBA 2K25',
             timestamp: 'Dec 22, 2024',
             country: 'France',
             sentiment: 'negative',
-            featureCategory: 'FUT Economy',
-            keywords: ['FC 25 Storage Limits', 'Duplicate Quick Sell'],
-            rawText: 'In FC 25 we had to quick-sell high rated untradeables constantly. The storage mechanic is much improved now.',
-            constructiveSummary: 'Prior iteration caused user frustration around discard waste.',
-            actionableSuggestion: 'Retain persistent duplicate storage across all future title cycles.'
+            featureCategory: 'MyTEAM Economy & Dark Matter Packs',
+            keywords: ['NBA 2K25 Auction House', 'Duplicate Cards'],
+            rawText: 'In 2K25 the card market was restricted. The return of the full open auction house in 2K26 makes squad building fun again.',
+            constructiveSummary: 'Open auction market restores player agency in team building.',
+            actionableSuggestion: 'Keep the auction house fully operational with robust anti-bot measures.'
         }
     ],
-    'jockey acceleration angle fix': [
+    'perimeter contest cone defense balance': [
         {
-            id: 'jock-1',
-            author: 'DefensiveSpecialist_BR',
+            id: 'def-1',
+            author: 'LockdownDefender_BR',
             source: 'Steam Reviews',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: 'Yesterday',
             country: 'Brazil',
             sentiment: 'positive',
-            featureCategory: 'Defensive AI',
-            keywords: ['Jockey Angle', 'Defensive Transition', 'Agility'],
-            rawText: 'The jockey acceleration angle fix makes manual defending actually viable against speed boost wingers. Defending feels 100x more skill-based.',
-            constructiveSummary: 'Angle corrections prevent defensive ice-skating against fast wingers.',
-            actionableSuggestion: 'Do not buff AI auto-blocks; keep the focus on rewarding manual jockeying.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['Perimeter Defense', 'Contest Cone', 'On-Ball'],
+            rawText: 'The perimeter contest cone fix rewards good on-ball positioning. Hands-up defense actually registers contests without having to jump and foul.',
+            constructiveSummary: 'Hands-up defensive registrations are accurate and reduce cheap fouls.',
+            actionableSuggestion: 'Do not buff pump-fake collision fouls; keep manual contesting rewarded.'
         },
         {
-            id: 'jock-2',
-            author: 'ProPlayer_DE',
+            id: 'def-2',
+            author: 'ProHooper_DE',
             source: 'YouTube Comments',
-            release: 'FC 25',
+            release: 'NBA 2K25',
             timestamp: 'Feb 14, 2025',
             country: 'Germany',
             sentiment: 'negative',
-            featureCategory: 'Defensive AI',
-            keywords: ['FC 25 Speed Boost', 'Jockey Glitch'],
-            rawText: 'In FC 24/25 defenders would get locked in 180-degree turn animation stutters. The current fix restores responsive recovery runs.',
-            constructiveSummary: 'Prior defensive recovery animations suffered from angular locking.',
-            actionableSuggestion: 'Validate defender recovery turn rates across all body types.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['NBA 2K25 Ghost Contests'],
+            rawText: 'In 2K24/25 there were too many ghost contests from defenders 6 feet away. 2K26 contest logic is much more truthful to actual physical distance.',
+            constructiveSummary: 'Ghost contest anomalies have been resolved.',
+            actionableSuggestion: 'Maintain physical distance contest calculations.'
         }
     ],
-    'goalkeeper near-post AI reflex': [
+    'mynba eras salary cap trade logic': [
         {
-            id: 'gk-1',
-            author: 'KeeperClub_UK',
-            source: 'YouTube Comments',
-            release: 'FC 26',
-            timestamp: '3 days ago',
-            country: 'United Kingdom',
-            sentiment: 'negative',
-            featureCategory: 'Goalkeeping',
-            keywords: ['Goalkeeper AI', 'Near-Post Reflex', 'Trivela Shots'],
-            rawText: 'Keepers still dive under near-post driven finesse shots when the attacker is within 8 yards. The reflex animation triggers 200ms too late.',
-            constructiveSummary: 'Near-post save animation has delayed trigger timing on tight angles.',
-            actionableSuggestion: 'Reduce goalie response latency by 15% on shots originating inside the 6-yard box.'
-        },
-        {
-            id: 'gk-2',
-            author: 'TacticalSave_US',
+            id: 'nba-1',
+            author: 'FranchiseGM_CA',
             source: 'Reddit Discussion',
-            release: 'FC 26',
-            timestamp: '5 days ago',
-            country: 'United States',
+            release: 'NBA 2K26',
+            timestamp: '3 days ago',
+            country: 'Canada',
             sentiment: 'positive',
-            featureCategory: 'Goalkeeping',
-            keywords: ['Cross Claims', 'Goalkeeper Positioning'],
-            rawText: 'On the other hand, keeper positioning on corner kicks and cross claims is vastly better than FC 24. They actually catch the ball now.',
-            constructiveSummary: 'Aerial claim AI is robust and prevents corner glitch goals.',
-            actionableSuggestion: 'Maintain aerial claim parameters while isolating near-post ground saves.'
+            featureCategory: 'MyNBA & Grand Strategy',
+            keywords: ['MyNBA Eras', 'Salary Cap', 'Trade Logic', 'CBA Rules'],
+            rawText: 'MyNBA Eras with the new second apron luxury tax CBA rules is incredible. AI GMs now make realistic financial trades instead of hoarding max contracts.',
+            constructiveSummary: 'Realistic CBA apron logic enhances franchise management depth.',
+            actionableSuggestion: 'Add extra historical draft class depth for the 2000s and 2010s Eras.'
         }
     ],
-    'tactical preset auto-sub ladder': [
+    '99 ovr cap breaker milestone progression': [
         {
-            id: 'sub-1',
-            author: 'ManagerTactics_JP',
+            id: 'cap-1',
+            author: 'CapBreakerGuru_JP',
             source: 'Steam Reviews',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '2 days ago',
             country: 'Japan',
             sentiment: 'positive',
-            featureCategory: 'Tactics & Management',
-            keywords: ['Tactical Presets', 'Auto-Sub', 'Fatigue Management'],
-            rawText: 'The preset auto-sub ladder saves so much time in competitive matches. You can program fatigue thresholds and tactical switches in advance.',
-            constructiveSummary: 'Automated conditional substitutions streamline match pacing.',
-            actionableSuggestion: 'Add extra sub triggers based on yellow cards and stamina percentage.'
+            featureCategory: 'MyCAREER & Cap Breakers',
+            keywords: ['Cap Breakers', '99 OVR', 'MyPLAYER', 'Build Diversity'],
+            rawText: 'The Cap Breaker system lets you push attributes beyond the normal build caps through rep milestones. Gives true endgame motivation for MyCAREER.',
+            constructiveSummary: 'Cap Breakers create meaningful long-term progression for hardcore hoopers.',
+            actionableSuggestion: 'Maintain balanced attribute caps so hybrid builds remain competitive.'
         }
     ],
-    'anti-cheat server status error 117': [
+    'borderlands 4 mayhem 10 co-op raids': [
         {
-            id: 'ac-1',
-            author: 'AntiCheatSupport_US',
-            source: 'Reddit & Web',
-            release: 'FC 26',
-            timestamp: '1 hour ago',
-            country: 'United States',
-            sentiment: 'negative',
-            featureCategory: 'PC Stability',
-            keywords: ['Anti-Cheat 117', 'Kernel Driver', 'Secure Boot'],
-            rawText: 'Error 117 is popping up after Windows 11 24H2 security update. EA Anti-Cheat kernel driver fails certificate verification on some systems.',
-            constructiveSummary: 'Windows 11 update conflicts with anti-cheat kernel signature verification.',
-            actionableSuggestion: 'Push an emergency whitelisted driver update via EA App installer.'
-        },
+            id: 'bl-1',
+            author: 'VaultHunter_AU',
+            source: 'Reddit Discussion',
+            release: 'Borderlands 4',
+            timestamp: '1 day ago',
+            country: 'Australia',
+            sentiment: 'positive',
+            featureCategory: 'Co-Op & Live Ops (Borderlands / Civ)',
+            keywords: ['Borderlands 4', 'Mayhem 10', 'Co-Op Raids', 'Loot Shower'],
+            rawText: 'Mayhem 10 raid bosses dropping targeted orange legendary weapons is peak Borderlands. 4-player netcode synchronization is rock solid.',
+            constructiveSummary: 'Co-op raid boss encounters and targeted loot drops are generating high community excitement.',
+            actionableSuggestion: 'Schedule weekly raid boss rotation events with exclusive cosmetic heads.'
+        }
+    ],
+    'civilization vii age transition diplomacy': [
         {
-            id: 'ac-2',
-            author: 'PCGamingTech_DE',
-            source: 'Steam Reviews',
-            release: 'FC 26',
-            timestamp: '3 hours ago',
+            id: 'civ-1',
+            author: 'GrandStrategist_DE',
+            source: 'Web Search & Reddit',
+            release: 'Civilization VII',
+            timestamp: '5 hours ago',
             country: 'Germany',
-            sentiment: 'neutral',
-            featureCategory: 'PC Stability',
-            keywords: ['Error 117 Workaround', 'Run as Administrator'],
-            rawText: 'Running EAAntiCheat.GameServiceLauncher as admin temporarily resolves 117, but a permanent hotfix is urgently required.',
-            constructiveSummary: 'Privilege escalation workaround exists but automated client fix is required.',
-            actionableSuggestion: 'Automate launcher privilege elevation in next client patch.'
+            sentiment: 'positive',
+            featureCategory: 'MyNBA & Grand Strategy',
+            keywords: ['Civilization VII', 'Age Transitions', 'Diplomacy', 'Leaders'],
+            rawText: 'The Age transition mechanic between Antiquity, Exploration, and Modern in Civ VII breathes totally fresh strategic life into the 4X genre.',
+            constructiveSummary: 'Age transition mechanics keep late-game pacing engaging and dynamic.',
+            actionableSuggestion: 'Provide comprehensive interactive tutorial walkthroughs for new Age transition systems.'
         }
     ],
-    'playtesting registration wave 3': [
+    'nba 2k26 early access playtesting wave 3': [
         {
             id: 'pt-1',
-            author: 'BetaTester_US',
+            author: 'BetaHooper_US',
             source: 'Web Search',
-            release: 'FC 27',
+            release: 'NBA 2K26',
             timestamp: '5 hours ago',
             country: 'United States',
             sentiment: 'positive',
-            featureCategory: 'Franchise Intel',
-            keywords: ['Playtesting Wave 3', 'FC 27 Beta', 'Community Feedback'],
-            rawText: 'Registration wave 3 for the upcoming closed playtest opened today. Exciting to see early feedback being incorporated for FC 27.',
-            constructiveSummary: 'High anticipation and engagement for forward franchise testing.',
-            actionableSuggestion: 'Open playtesting slots to regional competitive players across EU and LATAM.'
+            featureCategory: 'Community Engagement',
+            keywords: ['Playtesting Wave 3', 'NBA 2K26 Beta', 'Community Feedback'],
+            rawText: 'Registration wave 3 for the NBA 2K26 closed community playtest opened today. Developers are actively taking feedback on jumpshot cues and badge balance.',
+            constructiveSummary: 'High anticipation and positive reception for transparent beta testing.',
+            actionableSuggestion: 'Expand playtesting invitations to competitive Pro-Am squad captains.'
         }
     ],
-    'rush ranked ladder freeze bug': [
+    'the rec loss-streak tilt shield feedback': [
         {
-            id: 'rf-1',
-            author: 'RankedGrinder_UK',
+            id: 'tilt-1',
+            author: 'RecGrinder_UK',
             source: 'Reddit Discussions',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '6 hours ago',
             country: 'United Kingdom',
-            sentiment: 'negative',
-            featureCategory: 'Rush Mode',
-            keywords: ['Ranked Ladder Freeze', 'Match End', 'Points Loss'],
-            rawText: 'If a player disconnects in the 90th minute of Rush Ranked, the post-match summary screen freezes on loading wheel and points are not awarded.',
-            constructiveSummary: 'End-match handshake protocol hangs when client disconnects during whistle.',
-            actionableSuggestion: 'Implement server-authoritative match settlement that does not depend on all 10 client ACK packets.'
-        }
-    ],
-    'tactical foul animation cancel': [
-        {
-            id: 'tf-1',
-            author: 'CompetitiveFIFA_DE',
-            source: 'YouTube Comments',
-            release: 'FC 26',
-            timestamp: '12 hours ago',
-            country: 'Germany',
-            sentiment: 'negative',
-            featureCategory: 'Gameplay Mechanics',
-            keywords: ['Tactical Foul Cancel', 'Animation Exploit', 'Shirt Pull'],
-            rawText: 'Players are canceling shirt-pull tactical fouls with R2+L2 to stop counter-attacks without drawing yellow cards. Needs immediate patch.',
-            constructiveSummary: 'Animation cancel exploit circumvents referee foul detection logic.',
-            actionableSuggestion: 'Lock input state during intentional shirt-pull animations and mandate yellow card trigger.'
-        }
-    ],
-    'streetwear kit dynamic drop leaks': [
-        {
-            id: 'sw-1',
-            author: 'VOLTA_Drip_JP',
-            source: 'TikTok & Reddit',
-            release: 'FC 26',
-            timestamp: '8 hours ago',
-            country: 'Japan',
             sentiment: 'positive',
-            featureCategory: 'In-Game Drops',
-            keywords: ['Streetwear Drop', 'BAPE Collab', 'Dynamic Kits'],
-            rawText: 'The leaked streetwear collaboration kits look sick! High-fashion in-game dynamic drops are a huge hit in Rush and VOLTA.',
-            constructiveSummary: 'Strong demographic appeal for streetwear sponsorship activations.',
-            actionableSuggestion: 'Align streetwear drops with real-world fashion calendar releases.'
+            featureCategory: 'Matchmaking & 128-Tick Netcode',
+            keywords: ['Tilt Shield', 'Loss Streak', 'The REC', 'Rep Protection'],
+            rawText: 'The REC Loss-Streak Tilt Shield drop is a lifesaver when queuing solo with random teammates. Prevents you from losing your Gold/Purple plate status after 3 tough games.',
+            constructiveSummary: 'Tilt Shield item effectively reduces rage-quits and session churn.',
+            actionableSuggestion: 'Package Tilt Shields with weekend 2x Rep token bundles.'
         }
     ],
-    'controller deadzone micro-drift': [
+    'jordan brand x the city apparel drop leaks': [
+        {
+            id: 'jordan-1',
+            author: 'SneakerHead_FR',
+            source: 'TikTok & Reddit',
+            release: 'NBA 2K26',
+            timestamp: '8 hours ago',
+            country: 'France',
+            sentiment: 'positive',
+            featureCategory: 'The City & Streetball Ecosystem',
+            keywords: ['Jordan Brand', 'The City Apparel', 'Sneaker Drops', 'Drip'],
+            rawText: 'The leaked Jordan Brand x The City apparel capsule with retro Jordan 1s and oversized hoodies looks insane. Best cosmetic collaboration 2K has done.',
+            constructiveSummary: 'Authentic footwear and streetwear collaborations drive viral social excitement.',
+            actionableSuggestion: 'Align in-game sneaker drops with real-world SNKRS release dates.'
+        }
+    ],
+    'pc directx 12 shader caching stutter fix': [
+        {
+            id: 'dx-1',
+            author: 'PCMasterRace_BR',
+            source: 'Steam Reviews',
+            release: 'NBA 2K26',
+            timestamp: '2 days ago',
+            country: 'Brazil',
+            sentiment: 'positive',
+            featureCategory: 'PC Next-Gen Parity & Performance',
+            keywords: ['DirectX 12', 'Shader Caching', 'PC Stutter Fix'],
+            rawText: 'The latest patch pre-compiles DirectX 12 shaders on first startup. Court transitions and arena intro sequences are now buttery smooth 60fps.',
+            constructiveSummary: 'Asynchronous shader compilation eliminated in-game frametime hitches.',
+            actionableSuggestion: 'Retain pre-caching pipeline across all future PC title updates.'
+        }
+    ],
+    'controller deadzone micro-drift calibration': [
         {
             id: 'cd-1',
-            author: 'HardwareGamer_JP',
+            author: 'StickShooter_JP',
             source: 'Steam Reviews',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '1 day ago',
             country: 'Japan',
             sentiment: 'neutral',
-            featureCategory: 'Input & Netcode',
-            keywords: ['Controller Deadzone', 'Analog Drift', 'Input Response'],
-            rawText: 'Please add customizable inner and outer stick deadzones in game settings. Some DualSense controllers have minor center drift.',
-            constructiveSummary: 'Lack of custom deadzone sliders causes unintended player movements.',
-            actionableSuggestion: 'Add 0-20% deadzone calibration slider in Accessibility and Controller settings.'
+            featureCategory: 'ProPLAY & Animation Physics',
+            keywords: ['Controller Deadzone', 'Pro Stick', 'Shot Aiming'],
+            rawText: 'Please add customizable 0-10% inner stick deadzone sliders for Pro Stick shot timing. Helps prevent accidental rhythm shot triggers on older controllers.',
+            constructiveSummary: 'Players request granular stick deadzone sliders for precise Pro Stick shooting.',
+            actionableSuggestion: 'Add 0-20% deadzone calibration slider in Controller Settings.'
         }
     ],
-    '144hz g-sync borderless stutter': [
+    '144hz g-sync borderless fullscreen stutter': [
         {
             id: 'gs-1',
-            author: 'FrametimeEnthusiast_DE',
+            author: 'FrametimeEnthusiast_AU',
             source: 'Steam Reviews',
-            release: 'FC 26',
+            release: 'NBA 2K26',
             timestamp: '2 days ago',
-            country: 'Germany',
+            country: 'Australia',
             sentiment: 'negative',
-            featureCategory: 'PC Stability',
+            featureCategory: 'PC Next-Gen Parity & Performance',
             keywords: ['144Hz G-Sync', 'Borderless Windowed', 'Frametime Pacing'],
-            rawText: 'Borderless windowed mode caps monitor refresh rate at 60Hz unless full-screen exclusive is selected in ini configuration.',
+            rawText: 'Borderless windowed mode caps monitor refresh rate at 60Hz unless full-screen exclusive is selected in video configuration.',
             constructiveSummary: 'DWM refresh rate synchronization glitch locks high-refresh displays.',
             actionableSuggestion: 'Fix DXGI swapchain presentation flags for borderless full-screen.'
-        }
-    ],
-    'evolution upgrade boost stack': [
-        {
-            id: 'evo-1',
-            author: 'EvolutionsMaster_BR',
-            source: 'Reddit Discussions',
-            release: 'FC 26',
-            timestamp: '3 days ago',
-            country: 'Brazil',
-            sentiment: 'positive',
-            featureCategory: 'FUT Evolutions',
-            keywords: ['Evolutions Stacking', 'Club Legends', 'Stat Boosts'],
-            rawText: 'Stacking double evolutions on silver academy players is the most rewarding progression system ever added to Ultimate Team.',
-            constructiveSummary: 'High engagement and emotional investment in non-meta player progression.',
-            actionableSuggestion: 'Introduce themed club-legend evolutions for nostalgic retired players.'
         }
     ]
 };

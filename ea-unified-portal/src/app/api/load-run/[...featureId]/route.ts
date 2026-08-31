@@ -35,7 +35,7 @@ export async function GET(
   if (feature === 'company_context') {
     return NextResponse.json({
       name: companyName,
-      description: 'EA SPORTS premier gaming title and live-service ecosystem.',
+      description: '2K Games premier gaming portfolio and live-service ecosystem.',
     });
   }
 
@@ -44,10 +44,10 @@ export async function GET(
       totalComments: 1420,
       totalEnriched: 380,
       topKeywords: [
-        { keyword: 'HyperMotion V', mentions: 184, sentiment: 'positive', category: 'Gameplay' },
-        { keyword: 'FC IQ Tactics', mentions: 142, sentiment: 'positive', category: 'Tactics' },
-        { keyword: 'Server Latency', mentions: 96, sentiment: 'negative', category: 'Infrastructure' },
-        { keyword: 'Weekend League Rewards', mentions: 112, sentiment: 'neutral', category: 'Progression' },
+        { keyword: 'ProPLAY Volumetric Motion', mentions: 184, sentiment: 'positive', category: 'Gameplay' },
+        { keyword: 'The City Streetball', mentions: 142, sentiment: 'positive', category: 'Live Ops' },
+        { keyword: 'The REC Server Latency', mentions: 96, sentiment: 'negative', category: 'Infrastructure' },
+        { keyword: '99 OVR Cap Breakers', mentions: 112, sentiment: 'positive', category: 'Progression' },
       ],
       enrichedComments: [],
     });

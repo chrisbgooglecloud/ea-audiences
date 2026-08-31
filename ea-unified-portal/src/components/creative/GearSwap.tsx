@@ -23,7 +23,7 @@ import { generateImage, generateImageWithReference, GEMINI_MODELS } from '@/serv
 
 export interface GearOutfit {
   id: string;
-  category: 'Casual City Wear' | 'Fancy Clothing' | 'Soccer Gear';
+  category: 'Casual City Wear' | 'Fancy Clothing' | 'Hoops Gear';
   title: string;
   description: string;
   outfitPrompt: string;
@@ -43,8 +43,8 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     category: "Casual City Wear",
     title: "Parisian Tech Fleece & Tactical Cargo",
     description: "Oversized minimalist grey tech fleece hoodie, black cargo joggers, and retro white leather high-tops.",
-    outfitPrompt: "High-end commercial fashion product flatlay photography of a men's stylish Parisian streetwear outfit: oversized matte grey tech fleece hoodie, relaxed black cargo joggers with tactical straps, and pristine retro white leather high-top sneakers arranged neatly on a dark concrete studio surface, clean studio lighting, 1:1 aspect ratio",
-    tryOnPrompt: "Commercial fashion photoshoot of Kylian Mbappé wearing a stylish oversized grey tech fleece hoodie, black cargo joggers, and retro white sneakers, standing confident on a trendy Paris boulevard at twilight, photorealistic, 4K, 1:1 square portrait"
+    outfitPrompt: "High-end commercial fashion product flatlay photography of a men's stylish streetwear outfit: oversized matte grey tech fleece hoodie, relaxed black cargo joggers with tactical straps, and pristine retro white leather high-top sneakers arranged neatly on a dark concrete studio surface, clean studio lighting, 1:1 aspect ratio",
+    tryOnPrompt: "Commercial fashion photoshoot of Shai Gilgeous-Alexander wearing a stylish oversized grey tech fleece hoodie, black cargo joggers, and retro white sneakers, standing confident on a trendy urban boulevard at twilight, photorealistic, 4K, 1:1 square portrait"
   },
   {
     id: "gear-casual-2",
@@ -52,7 +52,7 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     title: "Cyber Volt Bomber & Relaxed Chinos",
     description: "Sleek obsidian satin bomber jacket with subtle neon volt accents, crisp white tee, and olive relaxed chinos.",
     outfitPrompt: "High-end commercial fashion flatlay of a men's outfit: luxury black satin bomber jacket with subtle neon green volt lining, crisp crewneck white tee, olive green tailored chinos, and low-profile suede sneakers on a minimalist dark studio floor, 1:1 aspect ratio",
-    tryOnPrompt: "Commercial lifestyle portrait of Kylian Mbappé wearing a black satin bomber jacket with volt accents, white t-shirt, and olive chinos, leaning against an illuminated glass architectural wall in Tokyo, cinematic urban lighting, 1:1 square portrait"
+    tryOnPrompt: "Commercial lifestyle portrait of Shai Gilgeous-Alexander wearing a black satin bomber jacket with volt accents, white t-shirt, and olive chinos, leaning against an illuminated glass architectural wall in Tokyo, cinematic urban lighting, 1:1 square portrait"
   },
   {
     id: "gear-casual-3",
@@ -60,7 +60,7 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     title: "Monochromatic Cashmere Knit & Indigo Denim",
     description: "Cream textured ribbed cashmere crewneck sweater, dark raw selvedge denim, and brown suede Chelsea boots.",
     outfitPrompt: "Studio fashion flatlay photography of a men's luxury casual outfit: heavy cream textured ribbed cashmere sweater, dark indigo raw denim jeans, and dark brown suede Chelsea boots neatly laid out on a dark slate background, 1:1 aspect ratio",
-    tryOnPrompt: "Editorial lifestyle portrait of Kylian Mbappé wearing a luxury cream ribbed knit sweater and dark indigo denim jeans, warm natural cafe lighting in Madrid, relaxed confident pose, 1:1 square portrait"
+    tryOnPrompt: "Editorial lifestyle portrait of Shai Gilgeous-Alexander wearing a luxury cream ribbed knit sweater and dark indigo denim jeans, warm natural cafe lighting in Madrid, relaxed confident pose, 1:1 square portrait"
   },
 
   // 2. Fancy Clothing (3)
@@ -70,7 +70,7 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     title: "Midnight Navy Velvet Bespoke Tuxedo",
     description: "Midnight navy velvet dinner jacket with black silk shawl lapel, pleated dress shirt, and black bow tie.",
     outfitPrompt: "Luxury menswear product photography flatlay: bespoke midnight navy velvet tuxedo jacket with black silk satin shawl lapel, white pleated tuxedo shirt, black silk bow tie, gold cufflinks, and polished patent leather oxford shoes on dark marble, 1:1 aspect ratio",
-    tryOnPrompt: "Red carpet gala portrait of Kylian Mbappé wearing a tailored midnight navy velvet tuxedo with black silk shawl lapel and bow tie, holding an award, elegant gala ballroom background with champagne chandeliers, 1:1 square portrait"
+    tryOnPrompt: "Red carpet gala portrait of Shai Gilgeous-Alexander wearing a tailored midnight navy velvet tuxedo with black silk shawl lapel and bow tie, holding an award, elegant gala ballroom background with champagne chandeliers, 1:1 square portrait"
   },
   {
     id: "gear-fancy-2",
@@ -78,7 +78,7 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     title: "Haute Couture Double-Breasted Gala Suit",
     description: "Sharp jet-black double-breasted structured blazer with peak lapels and tailored wool dress trousers.",
     outfitPrompt: "Editorial menswear flatlay: luxury jet-black double-breasted structured blazer with peak lapels, tailored tapered black trousers, silk dress shirt, and Italian leather dress shoes on clean obsidian backdrop, 1:1 aspect ratio",
-    tryOnPrompt: "High-fashion magazine cover shoot of Kylian Mbappé wearing a structured double-breasted black-tie suit with crisp open collar, dramatic spotlighting in a minimalist luxury architectural loft, 1:1 square portrait"
+    tryOnPrompt: "High-fashion magazine cover shoot of Shai Gilgeous-Alexander wearing a structured double-breasted black-tie suit with crisp open collar, dramatic spotlighting in a minimalist luxury architectural loft, 1:1 square portrait"
   },
   {
     id: "gear-fancy-3",
@@ -86,39 +86,39 @@ const DEFAULT_OUTFITS: GearOutfit[] = [
     title: "Bordeaux Satin Evening Cocktail Suit",
     description: "Rich bordeaux wine satin-finish evening suit with matching slim trousers and a black silk turtleneck.",
     outfitPrompt: "High-fashion product flatlay: rich burgundy bordeaux satin tailored suit jacket, black fine-gauge silk turtleneck, matching slim trousers, and black velvet loafers on dark velvet surface, 1:1 aspect ratio",
-    tryOnPrompt: "VIP evening portrait of Kylian Mbappé wearing a tailored bordeaux wine satin suit with black silk turtleneck, luxury VIP lounge overlooking night skyline, atmospheric warm amber lighting, 1:1 square portrait"
+    tryOnPrompt: "VIP evening portrait of Shai Gilgeous-Alexander wearing a tailored bordeaux wine satin suit with black silk turtleneck, luxury VIP lounge overlooking night skyline, atmospheric warm amber lighting, 1:1 square portrait"
   },
 
-  // 3. Soccer Gear (3)
+  // 3. Hoops Gear (3)
   {
-    id: "gear-soccer-1",
-    category: "Soccer Gear",
-    title: "Real Madrid 2026/27 Gold Champions Kit",
-    description: "Official Real Madrid all-white matchday kit with gold championship stripes, shorts, and Predator boots.",
-    outfitPrompt: "Official EA SPORTS FC 27 football kit flatlay: Real Madrid white matchday kit jersey with gold trim and Champions League sleeve badge, matching white shorts, white match socks, and gold metallic football cleats on stadium grass turf, 1:1 aspect ratio",
-    tryOnPrompt: "Full-body dynamic football portrait of Kylian Mbappé wearing the Real Madrid white and gold matchday jersey and shorts, standing proudly on the Santiago Bernabéu pitch under radiant floodlights, 1:1 square portrait"
+    id: "gear-hoops-1",
+    category: "Hoops Gear",
+    title: "OKC Thunder 2026/27 Gold Statement Jersey",
+    description: "Official OKC Thunder midnight blue and gold championship jersey, shorts, and signature sneakers.",
+    outfitPrompt: "Official NBA 2K26 basketball kit flatlay: Oklahoma City Thunder blue and gold matchday jersey with official NBA logo and championship gold trim, matching shorts, compression sleeve, and signature basketball sneakers on hardwood court, 1:1 aspect ratio",
+    tryOnPrompt: "Full-body dynamic basketball portrait of Shai Gilgeous-Alexander wearing the OKC Thunder blue and gold statement jersey, executing a signature crossover on an illuminated arena hardwood court under radiant floodlights, 1:1 square portrait"
   },
   {
-    id: "gear-soccer-2",
-    category: "Soccer Gear",
-    title: "VOLTA Neon Cyber Street 5v5 Kit",
-    description: "Electric cyberpunk blackout jersey with neon volt geometric patterns, compression tights, and turf boots.",
-    outfitPrompt: "Futuristic EA FC VOLTA street football apparel flatlay: blackout athletic jersey with glowing neon green volt fractal patterns, athletic compression shorts, and neon street turf boots on a wet asphalt surface with neon reflections, 1:1 aspect ratio",
-    tryOnPrompt: "Cyberpunk street football portrait of Kylian Mbappé wearing a neon volt and blackout VOLTA street soccer kit, holding a neon glowing soccer ball on a Tokyo rooftop cage pitch at night, 1:1 square portrait"
+    id: "gear-hoops-2",
+    category: "Hoops Gear",
+    title: "The City Neon Streetball 3v3 Fit",
+    description: "Electric cyberpunk blackout jersey with neon red and gold geometric patterns, compression tights, and streetball kicks.",
+    outfitPrompt: "Futuristic 2K The City streetball apparel flatlay: blackout athletic jersey with glowing crimson and gold fractal patterns, compression shorts, and streetball sneakers on wet asphalt court with neon reflections, 1:1 aspect ratio",
+    tryOnPrompt: "Cyberpunk streetball portrait of Shai Gilgeous-Alexander wearing a neon crimson and blackout The City basketball fit, spinning a basketball on a rooftop park court at sunset, 1:1 square portrait"
   },
   {
-    id: "gear-soccer-3",
-    category: "Soccer Gear",
-    title: "Retro Galáctico Heritage Match Kit",
-    description: "Iconic retro-inspired vintage Real Madrid tribute jersey with polo collar, gold crest, and captain's armband.",
-    outfitPrompt: "Vintage heritage football kit product flatlay: classic retro cream-white football jersey with navy polo collar, embroidered heritage club crest, gold captain armband, and classic leather football boots on vintage wooden locker bench, 1:1 aspect ratio",
-    tryOnPrompt: "Cinematic stadium tunnel portrait of Kylian Mbappé wearing a retro-inspired cream white football jersey with navy polo collar and captain armband, walking out toward the roaring championship stadium crowd, 1:1 square portrait"
+    id: "gear-hoops-3",
+    category: "Hoops Gear",
+    title: "Retro Mamba 8/24 Heritage Tribute Jersey",
+    description: "Iconic vintage purple and gold tribute jersey with authentic embroidery, captain patch, and retro Kobe Protro sneakers.",
+    outfitPrompt: "Vintage heritage basketball jersey product flatlay: classic retro purple and gold basketball jersey with embroidered #24 patch, commemorative gold trim, and iconic basketball sneakers on vintage wooden locker bench, 1:1 aspect ratio",
+    tryOnPrompt: "Cinematic arena tunnel portrait of Shai Gilgeous-Alexander wearing a retro purple and gold tribute jersey with championship wristband, walking out toward the roaring arena crowd, 1:1 square portrait"
   }
 ];
 
 export const GearSwap: React.FC = () => {
   const { name } = useCompanyContext();
-  const companyName = name || 'EA Games FC';
+  const companyName = name || '2K Games (Take-Two Interactive)';
 
   // State Management
   const [basePlayerImage, setBasePlayerImage] = useState<string>(DEFAULT_BASE_PLAYER_IMAGE);
@@ -126,7 +126,7 @@ export const GearSwap: React.FC = () => {
   const [isGeneratingAll, setIsGeneratingAll] = useState(false);
   const [currentStep, setCurrentStep] = useState<string>('');
   const [statusMessage, setStatusMessage] = useState<string>('');
-  const [activeCategoryFilter, setActiveCategoryFilter] = useState<'All' | 'Casual City Wear' | 'Fancy Clothing' | 'Soccer Gear'>('All');
+  const [activeCategoryFilter, setActiveCategoryFilter] = useState<'All' | 'Casual City Wear' | 'Fancy Clothing' | 'Hoops Gear'>('All');
   const [selectedOutfitModal, setSelectedOutfitModal] = useState<GearOutfit | null>(null);
 
   // Load Saved Run on Mount
@@ -256,7 +256,7 @@ Setting: High-end commercial photoshoot with dramatic studio floodlighting, phot
   const handleGenerateAll9Outfits = async () => {
     setIsGeneratingAll(true);
     setCurrentStep("Stage 1/2: Generating 9 Outfits via gemini-3.1-flash-lite-image...");
-    setStatusMessage("Step 1: Generating 9 outfit assets across Casual City Wear, Fancy Clothing, and Soccer Gear...");
+    setStatusMessage("Step 1: Generating 9 outfit assets across Casual City Wear, Fancy Clothing, and Hoops Gear...");
 
     try {
       // 1. Stage 1: Generate 9 Outfits concurrently with gemini-3.1-flash-lite-image
@@ -407,9 +407,9 @@ Setting: High-end commercial photoshoot with dramatic studio floodlighting, phot
                   Male Athlete
                 </span>
               </div>
-              <h2 className="text-2xl font-black text-white tracking-tight">Kylian Mbappé</h2>
+              <h2 className="text-2xl font-black text-white tracking-tight">Shai Gilgeous-Alexander</h2>
               <p className="text-xs text-slate-400 max-w-md leading-relaxed">
-                Multi-image neural style transfer transforms the base player photo across <strong className="text-white">Casual City Wear</strong>, <strong className="text-white">Fancy Gala Clothing</strong>, and <strong className="text-white">Authentic Soccer Gear</strong>.
+                Multi-image neural style transfer transforms the base player photo across <strong className="text-white">Casual City Wear</strong>, <strong className="text-white">Fancy Gala Clothing</strong>, and <strong className="text-white">Authentic Hoops Gear</strong>.
               </p>
               <div className="pt-1 flex flex-wrap gap-2 text-[10px] font-mono text-slate-400">
                 <span className="bg-white/5 px-2 py-0.5 rounded border border-white/10">1. Flash Lite Image (Outfits)</span>
@@ -455,7 +455,7 @@ Setting: High-end commercial photoshoot with dramatic studio floodlighting, phot
       {/* 3. CATEGORY FILTER TABS */}
       <div className="flex items-center justify-between border-b border-white/10 pb-4">
         <div className="flex flex-wrap items-center gap-2">
-          {(['All', 'Casual City Wear', 'Fancy Clothing', 'Soccer Gear'] as const).map(cat => {
+          {(['All', 'Casual City Wear', 'Fancy Clothing', 'Hoops Gear'] as const).map(cat => {
             const isActive = activeCategoryFilter === cat;
             const count = cat === 'All' ? outfits.length : outfits.filter(o => o.category === cat).length;
             return (
@@ -487,7 +487,7 @@ Setting: High-end commercial photoshoot with dramatic studio floodlighting, phot
         {filteredOutfits.map((outfit) => {
           const isCasual = outfit.category === 'Casual City Wear';
           const isFancy = outfit.category === 'Fancy Clothing';
-          const isSoccer = outfit.category === 'Soccer Gear';
+          const isHoops = outfit.category === 'Hoops Gear';
 
           const badgeColor = isCasual 
             ? 'bg-[#00F0FF]/15 text-[#00F0FF] border-[#00F0FF]/30' 

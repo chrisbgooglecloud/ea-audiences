@@ -111,8 +111,8 @@ export const IngestionEngine: React.FC = () => {
   const [isRebuilding, setIsRebuilding] = useState(false);
 
   const loadOrGenerateBehaviorRules = async (forceGenerate = false, customPrompt = "") => {
-    const activeCompany = config?.branding.companyName || name || 'EA Games FC';
-    const activeDescription = config?.pages?.MARKETING_BRIEF?.defaultGoal || description || 'Football Club and sports video gaming player telemetry';
+    const activeCompany = config?.branding.companyName || name || '2K Games (Take-Two Interactive)';
+    const activeDescription = config?.pages?.MARKETING_BRIEF?.defaultGoal || description || '2K video gaming franchise and player telemetry';
 
     if (!forceGenerate) {
       try {

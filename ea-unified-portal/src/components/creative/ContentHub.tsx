@@ -68,80 +68,80 @@ export const ContentHub: React.FC = () => {
     {
       id: "var_email_a",
       type: "Email",
-      title: "EA SPORTS FC 27 Ultimate Edition Pre-Order Perks",
-      primaryText: "Secure 7-day early access, 4,600 FC Points, and an untradeable localized Hero Player Pick item.",
-      offer: "Pre-Order & Get 4,600 FC Points",
+      title: "NBA 2K26 Hall of Fame Edition Pre-Order Perks",
+      primaryText: "Secure 12-month NBA League Pass, 100,000 Virtual Currency (VC), and a guaranteed 100 OVR Holo Dark Matter Kobe box topper.",
+      offer: "Pre-Order & Get 100K VC + League Pass",
       targetCategory: "Full Game & Early Access",
-      imagePrompt: "Official EA SPORTS FC 27 Ultimate Edition video game box cover with electric emerald stadium lighting in background, 3:4 aspect ratio."
+      imagePrompt: "Official NBA 2K26 Hall of Fame Edition video game box cover with electric golden arena lighting in background, 3:4 aspect ratio."
     },
     {
       id: "var_email_b",
       type: "Email",
-      title: "Ultimate Team 12,000 FC Point Flash Drop",
-      primaryText: "Power up your squad chemistry before Weekend League kick-off with exclusive point bundles.",
-      offer: "Bonus Draft Tokens with 12K Points",
-      targetCategory: "Ultimate Team Currency",
-      imagePrompt: "Glowing gold and emerald green FC Points digital pack card on a sleek carbon-fiber studio background."
+      title: "MyTEAM 450,000 VC Vault Flash Drop",
+      primaryText: "Max out your 99 OVR MyPLAYER build and rip Dark Matter packs before Weekend Unlimited tournament tip-off.",
+      offer: "Bonus Legend Badge Pack with 450K VC",
+      targetCategory: "Virtual Currency",
+      imagePrompt: "Glowing gold and crimson red 2K Virtual Currency digital vault card on a sleek carbon-fiber court background."
     },
     {
       id: "var_email_c",
       type: "Email",
-      title: "FC IQ Tactical & Coaching Masterclass Expansion",
-      primaryText: "Revamp your club's tactical identity with authentic real-world managerial playbooks and deep AI logic.",
-      offer: "$29.99 DLC Pre-Order",
-      targetCategory: "Career Mode Expansion",
-      imagePrompt: "Futuristic 3D holographic tactics board with player positioning graphics inside a modern football stadium suite."
+      title: "Civilization VII Leaders of Antiquity Expansion",
+      primaryText: "Lead your civilization through historic Age transitions with 3 new Antiquity leaders and 4 world wonders.",
+      offer: "$14.99 DLC Pre-Order",
+      targetCategory: "Grand Strategy Expansion",
+      imagePrompt: "Futuristic 3D holographic hexagonal map board with marble leader busts inside an ancient roman amphitheater."
     },
     {
       id: "var_sms_a",
       type: "SMS",
-      title: "Early Access Web App Launch Alert",
-      primaryText: "EA SPORTS FC 27: The Ultimate Team Web App is now live! Open your returning loyalty packs and start building your starting 11:",
-      offer: "Free Loyalty Welcome Pack",
-      targetCategory: "Ultimate Team Live Ops"
+      title: "Early Access MyNBA Companion Launch Alert",
+      primaryText: "NBA 2K26: The MyNBA Companion App is now live! Complete your face-scan and claim your daily VC bonus:",
+      offer: "Free Daily VC Check-In",
+      targetCategory: "Live Service Check-In"
     },
     {
       id: "var_sms_b",
       type: "SMS",
-      title: "FC Pro Championship Double XP Weekend",
-      primaryText: "Clubs & Ultimate Team: Earn 2x Season Pass XP on all competitive division matches this weekend only. Tap to play:",
-      offer: "2x Season Pass XP",
-      targetCategory: "Esports & Competitive"
+      title: "The REC Double Rep Weekend Active",
+      primaryText: "The City & The REC: Earn 2-Hour 2x Rep Tokens on all competitive 5v5 matches this weekend only. Tap to squad up:",
+      offer: "2x Rep Tokens",
+      targetCategory: "The City Live Ops"
     },
     {
       id: "var_sms_c",
       type: "SMS",
-      title: "EA Play 10-Hour Trial Active",
-      primaryText: "EA Play Members: Your 10-hour full game trial for EA SPORTS FC 27 is now ready to download. Jump onto the pitch today:",
-      offer: "10-Hour Early Trial",
-      targetCategory: "Subscriptions & Access"
+      title: "Borderlands 4 Mayhem Raid Trial Active",
+      primaryText: "Vault Hunters: Your 4-player co-op Mayhem 10 raid boss challenge is live. Download now and hunt legendary orange loot:",
+      offer: "Mayhem Raid Starter Drop",
+      targetCategory: "Co-Op Live Ops"
     },
     {
       id: "var_web_a",
       type: "Web",
-      title: "Next-Gen HypermotionV+ Volumetric Realism",
-      primaryText: "Experience over 11,000 authentic match animations captured directly from elite UEFA Champions League fixtures.",
-      offer: "Explore Gameplay Innovations",
-      targetCategory: "Next-Gen Engine",
-      imagePrompt: "World-class football player in dynamic mid-air volley pose captured with high-tech volumetric motion lines and stadium spotlights."
+      title: "Next-Gen ProPLAY Volumetric Motion Realism",
+      primaryText: "Experience over 15,000 authentic signature animations captured directly from real NBA broadcast footage.",
+      offer: "Explore ProPLAY Gameplay",
+      targetCategory: "Core Simulation Engine",
+      imagePrompt: "High-octane courtside capture of a signature step-back 3-pointer with green release trajectory laser glow."
     },
     {
       id: "var_web_b",
       type: "Web",
-      title: "Clubs & VOLTA Street Football Customization",
-      primaryText: "Take your customized pro to the global street stages with licensed streetwear drops and custom team crests.",
-      offer: "Claim Founder Avatar Pack",
-      targetCategory: "Clubs & VOLTA",
-      imagePrompt: "Trendy football streetwear jerseys, custom cleats, and branded lifestyle apparel on display inside an urban street court."
+      title: "The City Dynamic Streetball Ecosystem",
+      primaryText: "Explore vibrant 3v3 streetball courts, hoverboard transit hubs, and exclusive Jordan Brand apparel drop locations.",
+      offer: "Tour The City",
+      targetCategory: "Social Streetball World",
+      imagePrompt: "Vibrant neon skyline over The City rooftop basketball parks with customized squads flexing authentic streetwear drip."
     },
     {
       id: "var_web_c",
       type: "Web",
-      title: "Official Licensed Stadiums & Ultras Atmosphere",
-      primaryText: "Feel the passion of over 120 authentic licensed stadiums with dynamic pyrotechnics, crowd tifos, and real club chants.",
-      offer: "Free Stadium Customization Pack",
-      targetCategory: "Immersion & Customization",
-      imagePrompt: "Spectacular panoramic view of a packed football stadium illuminated by vibrant crowd flares and massive team tifo under the night sky."
+      title: "MyTEAM 100 OVR Holo Auction Market",
+      primaryText: "Dominate the Unlimited ladder with guaranteed pack drop disclosures and transparent auction trading.",
+      offer: "View Dark Matter Collection",
+      targetCategory: "Card Collecting",
+      imagePrompt: "Dramatic 3D holographic Dark Matter card frame bursting with purple lightning and gold foil finish."
     }
   ], [companyName]);
 

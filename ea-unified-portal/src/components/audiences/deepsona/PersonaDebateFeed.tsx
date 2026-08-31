@@ -11,26 +11,30 @@ export default function PersonaDebateFeed({ reactions }: PersonaDebateFeedProps)
   const getArchetypeMeta = (archetype: string) => {
     switch (archetype) {
       case "COMPETITIVE_GRINDER":
+      case "MYCAREER_HOOPER":
         return {
-          name: "Mbappe_Elite_99 (FUT Champions Sweat)",
-          avatar: "⚔️",
+          name: "SGA_Elite_99 (The REC & The City Sweat)",
+          avatar: "🏀",
           color: "text-ea-red border-ea-red/30 bg-ea-red/10",
         };
       case "LORE_SEEKER":
+      case "4X_GRAND_STRATEGIST":
         return {
-          name: "Pep_Tactics_XI (Career Mode Purist)",
+          name: "Pop_Tactics_XI (MyNBA Eras & Civ Purist)",
           avatar: "📋",
           color: "text-cyber-cyan border-cyber-cyan/30 bg-cyber-cyan/10",
         };
       case "CASUAL_SOCIALIZER":
+      case "VAULT_HUNTER_SQUAD":
         return {
-          name: "Friday_Rush_Squad (Pro Clubs & 5v5 Warrior)",
-          avatar: "⚽",
+          name: "Friday_Park_Squad (The City & Borderlands Co-Op)",
+          avatar: "🎮",
           color: "text-neon-green border-neon-green/30 bg-neon-green/10",
         };
       case "ULTIMATE_TEAM_WHALE":
+      case "MYTEAM_WHALE":
         return {
-          name: "Icon_Collector_Prime (Ultimate Team Whale)",
+          name: "DarkMatter_Prime (MyTEAM 100 OVR Whale)",
           avatar: "💎",
           color: "text-hud-gold border-hud-gold/30 bg-hud-gold/10",
         };

@@ -79,7 +79,7 @@ const loadFromGCS = async (featureId: string, companyName: string): Promise<any 
 };
 
 // 1. Load Last Ad Opportunities from GCS
-export const loadLastAdOpportunities = async (companyName: string = "EA Games FC"): Promise<AdOpportunitiesResult | null> => {
+export const loadLastAdOpportunities = async (companyName: string = "2K Games (Take-Two Interactive)"): Promise<AdOpportunitiesResult | null> => {
     try {
         console.log(`📦 [GCS CACHE] Attempting to hydrate Ad Opportunities for ${companyName}...`);
         const saved = await loadFromGCS("ad_opportunities", companyName);
@@ -94,7 +94,7 @@ export const loadLastAdOpportunities = async (companyName: string = "EA Games FC
 };
 
 // 2. Fetch GCS comments corpus from Noise Filter checkpoints
-export const fetchGcsCommentsCorpus = async (companyName: string = "EA Games FC"): Promise<any[]> => {
+export const fetchGcsCommentsCorpus = async (companyName: string = "2K Games (Take-Two Interactive)"): Promise<any[]> => {
     // Check keywords checkpoint first
     try {
         const kwData = await loadFromGCS("noise_filter_keywords", companyName);
@@ -144,7 +144,7 @@ export const fetchGcsCommentsCorpus = async (companyName: string = "EA Games FC"
 
 // 3. Multi-Threaded Ad Opportunity Discovery Engine
 export const runAdOpportunitiesScan = async (
-    companyName: string = "EA Games FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (status: string, progressMeta?: any) => void
 ): Promise<AdOpportunitiesResult> => {
     const startTime = Date.now();

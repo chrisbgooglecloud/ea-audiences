@@ -131,7 +131,7 @@ export const generateInsightAuditReport = async (
         noiseFilterData: any;
         alertsData: any;
     },
-    companyName: string = "EA Games FC",
+    companyName: string = "2K Games (Take-Two Interactive)",
     onProgress?: (msg: string) => void
 ): Promise<InsightAuditReport> => {
     console.log(`\n======================================================`);

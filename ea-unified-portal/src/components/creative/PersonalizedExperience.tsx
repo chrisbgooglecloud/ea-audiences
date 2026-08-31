@@ -73,68 +73,68 @@ const DEFAULT_PERSONAS = [
   }
 ];
 
-// Fallback Default EA SPORTS FC Storefront Data
+// Fallback Default 2K Games Storefront Data
 const DEFAULT_STOREFRONT: PersonalizedStorefrontData = {
-  announcement: "Pre-Order EA SPORTS FC 27 • Get 4,600 FC Points + 7-Day Early Access with Ultimate Edition • Local Club Hero Item Included • Free Cross-Gen Upgrade",
-  searchPlaceholder: "Search for EA SPORTS FC 27, Ultimate Team Points, Player Packs, Kits...",
+  announcement: "Pre-Order NBA 2K26 • Get 100,000 VC + 12-Month NBA League Pass with Hall of Fame Edition • Guaranteed 100 OVR Holo Dark Matter Box Topper • Free Cross-Gen Upgrade",
+  searchPlaceholder: "Search for NBA 2K26, Virtual Currency, ProPASS, Sneaker Drops...",
   hero: {
-    title: "The World's Game. Evolved.",
-    subtitle: "Feel closer to the game with next-gen HypermotionV+ volumetric capture, FC IQ tactical intelligence, and authentic matchday atmosphere.",
+    title: "The City Is Yours. ProPLAY Evolved.",
+    subtitle: "Feel closer to the game with next-gen ProPLAY 1-to-1 volumetric capture, dynamic The City streetball ecosystems, and MyTEAM Dark Matter drops.",
     ctaText: "Pre-Order Now",
-    heroImagePrompt: "Cinematic promotional hero banner for EA SPORTS FC 27 video game, world-class football superstars celebrating a championship goal on an illuminated stadium pitch under electric floodlights, emerald green and neon geometric laser lighting, ultra-high resolution, 16:9 aspect ratio commercial visual",
-    heroThemeColor: "from-emerald-950/80 via-slate-900/90 to-black"
+    heroImagePrompt: "Cinematic promotional hero banner for NBA 2K26 video game, world-class basketball superstars executing signature plays on an illuminated arena court under electric floodlights, crimson red and gold geometric laser lighting, ultra-high resolution, 16:9 aspect ratio commercial visual",
+    heroThemeColor: "from-red-950/80 via-slate-900/90 to-black"
   },
   chicletSectionTitle: "Recommended For Your Playstyle",
   chiclets: [
     {
       id: "chiclet-1",
-      title: "EA SPORTS FC 27 Ultimate Edition",
-      categoryName: "Full Game + 7-Day Early Access",
-      fragranceNotes: "4,600 FC Points, Untradeable Local Hero Item, Dual Entitlement",
+      title: "NBA 2K26 Hall of Fame Edition",
+      categoryName: "Full Game + 12-Month NBA League Pass",
+      fragranceNotes: "100,000 VC, 100 OVR Holo Kobe Bryant Topper, ProPASS Season 1 Track",
       offer: "$99.99 (Pre-Order)",
       badge: "MOST POPULAR",
-      primaryCta: "Pre-Order Ultimate",
-      imagePrompt: "Official game cover packaging for EA SPORTS FC 27 Ultimate Edition on modern premium dark background with neon emerald football graphics, 3:4 aspect ratio video game packshot cover art"
+      primaryCta: "Pre-Order Hall of Fame",
+      imagePrompt: "Official game cover packaging for NBA 2K26 Hall of Fame Edition on modern premium dark background with gold and red basketball graphics, 3:4 aspect ratio video game packshot cover art"
     },
     {
       id: "chiclet-2",
-      title: "12,000 FC Point Power Bundle",
-      categoryName: "Ultimate Team Digital Currency",
-      fragranceNotes: "Instant In-Game Delivery, Bonus Draft Tokens, Exclusive Season Pass XP Boost",
+      title: "450,000 VC Master Vault Bundle",
+      categoryName: "Virtual Currency Bundle",
+      fragranceNotes: "Instant In-Game Delivery, 99 OVR Cap Breaker Unlocks, Legend Badges",
       offer: "$99.99 Bundle",
       badge: "BEST VALUE",
       primaryCta: "Add to Bag",
-      imagePrompt: "Digital Ultimate Team FC Points currency card pack with glowing gold and neon green geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
+      imagePrompt: "Digital 2K Virtual Currency vault pack with glowing gold and crimson red geometric accents on clean dark studio backdrop, 3:4 aspect ratio"
     },
     {
       id: "chiclet-3",
-      title: "FC IQ Tactical & Coaching Masterclass DLC",
-      categoryName: "Career Mode Expansion",
-      fragranceNotes: "Advanced AI Tactics Engine, 50+ Real Manager Playbooks, Scouting Network Upgrades",
-      offer: "$29.99 Expansion",
-      badge: "NEW DLC",
+      title: "The REC Loss-Streak Tilt Shield & Boost Pack",
+      categoryName: "The City Live Ops",
+      fragranceNotes: "Slump Protection Shield, 10x Gatorade Boosts, 2-Hour 2x Rep Token",
+      offer: "$4.99 Pack",
+      badge: "NEW DROP",
       primaryCta: "Add to Bag",
-      imagePrompt: "Futuristic digital tactical board with glowing player position holograms and tactical chalkboard arrows on premium stadium background, 3:4 aspect ratio"
+      imagePrompt: "Futuristic neon shield badge with glowing energy particles on sleek hardwood basketball court background, 3:4 aspect ratio"
     },
     {
       id: "chiclet-4",
-      title: "Official Licensed Club Kit & Stadium Bundle",
-      categoryName: "Clubs & Ultimate Team Customization",
-      fragranceNotes: "Exclusive Retro Match Kits, Custom Stadium Tifo, Dynamic Crowd Anthems",
-      offer: "$19.99 Bundle",
+      title: "ProPASS Season 4 All-Star Access Pass",
+      categoryName: "Season Pass Track",
+      fragranceNotes: "45 Premium Reward Tiers, Exclusive Jordan Streetwear Drip, Automatic 45K VC",
+      offer: "$19.99 Pass",
       badge: "EXCLUSIVE",
       primaryCta: "Add to Bag",
-      imagePrompt: "Authentic licensed football jerseys and match balls displayed in sleek modern locker room under dramatic spotlight, 3:4 aspect ratio"
+      imagePrompt: "Authentic Jordan Brand sneakers and streetwear hoodies displayed in sleek modern arena locker room under dramatic spotlight, 3:4 aspect ratio"
     }
   ],
-  personaMatchReason: "Curated for Marcus Vance based on high engagement in Ultimate Team competitive seasons and demand for early access digital currency bundles.",
+  personaMatchReason: "Curated for Marcus 'Buckets' Hayes based on high engagement in The City competitive streetball and 99 OVR Cap Breakers.",
   timestamp: new Date().toLocaleString()
 };
 
 export const PersonalizedExperience: React.FC = () => {
   const { name } = useCompanyContext();
   const { config } = useAppConfig();
-  const companyName = config?.branding?.companyName || name || 'EA Games FC';
+  const companyName = config?.branding?.companyName || name || '2K Games (Take-Two Interactive)';
 
   // State Management
   const [personas, setPersonas] = useState<any[]>(DEFAULT_PERSONAS);
@@ -564,11 +564,11 @@ export const PersonalizedExperience: React.FC = () => {
             </div>
 
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tight drop-shadow-md leading-tight text-white">
-              {storefront.hero.title || "The World's Game. Evolved."}
+              {storefront.hero.title || "The City Is Yours. ProPLAY Evolved."}
             </h1>
             
             <p className="text-xs md:text-base text-slate-200 font-medium leading-relaxed drop-shadow max-w-lg">
-              {storefront.hero.subtitle || "Experience HypermotionV+ volumetric capture, FC IQ tactical overhaul, and authentic club atmospheres."}
+              {storefront.hero.subtitle || "Experience ProPLAY 1-to-1 volumetric capture, dynamic The City streetball ecosystems, and MyTEAM Dark Matter drops."}
             </p>
 
             <div className="pt-2 flex items-center gap-3">

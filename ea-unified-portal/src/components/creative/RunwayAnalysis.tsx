@@ -209,7 +209,7 @@ const handleRunFindInsights = async (targetCompany?: string) => {
         const selectedTypes = findInsightsModalState.selectedContentTypes.length > 0
             ? findInsightsModalState.selectedContentTypes
             : ['social_intelligence', 'youtube', 'steam_reviews', 'trustpilot_sentiment', 'website_analysis'];
-        const activeCompany = targetCompany || findInsightsModalState.companyName || 'EA Games FC';
+        const activeCompany = targetCompany || findInsightsModalState.companyName || '2K Games (Take-Two Interactive)';
         const userQuery = findInsightsModalState.prompt.trim() || `Search real-world social topics, YouTube video analyses, Steam community reviews, Trustpilot ratings, and web sentiment for ${activeCompany}`;
         
         const prompt = `

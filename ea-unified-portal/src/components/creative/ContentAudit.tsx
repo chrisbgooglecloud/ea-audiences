@@ -33,10 +33,10 @@ interface ImageAuditState {
 export const ContentAudit: React.FC = () => {
   const { config } = useAppConfig();
   const { name: companyName } = useCompanyContext();
-  const activeCompany = companyName || 'EA Games FC';
+  const activeCompany = companyName || '2K Games (Take-Two Interactive)';
 
   const [guidelines, setGuidelines] = useState("");
-  const [imageStyle, setImageStyle] = useState("Authentic EA SPORTS FC Matchday");
+  const [imageStyle, setImageStyle] = useState("Authentic NBA 2K ProPLAY Hardwood");
   const [customInstructions, setCustomInstructions] = useState("");
   const [auditPrompt, setAuditPrompt] = useState("");
   const [completedCount, setCompletedCount] = useState(0);

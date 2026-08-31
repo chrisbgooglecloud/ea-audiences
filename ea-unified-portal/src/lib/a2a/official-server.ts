@@ -77,11 +77,11 @@ function extractPlayersForA2A(promptText: string, payload: any) {
 
     return matched.map((p: any) => {
       const tel = p.game_telemetry || {};
-      const favClub = tel.favorite_club || "Real Madrid";
-      const favPlayer = tel.favorite_player || "Kylian Mbappé";
-      const formation = tel.favorite_formation || "4-3-3 Attack";
-      const playstyle = tel.primary_playstyle || "Tiki-Taka High Press";
-      const rewardPref = tel.preferred_reward_type || "88+ Campaign Hero Evo Pick";
+      const favClub = tel.favorite_club || "Oklahoma City Thunder";
+      const favPlayer = tel.favorite_player || "Shai Gilgeous-Alexander";
+      const formation = tel.favorite_formation || "5-Out Motion Pace";
+      const playstyle = tel.primary_playstyle || "ProPLAY Step-Back Iso";
+      const rewardPref = tel.preferred_reward_type || "100 OVR Holo Dark Matter Pick";
       const streak = p.recent_loss_streak || 0;
       const ovr = tel.squad_ovr || 92;
 
@@ -89,7 +89,7 @@ function extractPlayersForA2A(promptText: string, payload: any) {
         player_id: p.player_id,
         gamer_tag: p.display_name,
         display_name: p.display_name,
-        primary_email: p.primary_email || `${p.display_name.toLowerCase().replace(/[^a-z0-9]/g, "_")}@ea.sample.com`,
+        primary_email: p.primary_email || `${p.display_name.toLowerCase().replace(/[^a-z0-9]/g, "_")}@2k.sample.com`,
         primary_franchise: p.primary_franchise,
         franchises_played: p.franchises_played || [p.primary_franchise],
         

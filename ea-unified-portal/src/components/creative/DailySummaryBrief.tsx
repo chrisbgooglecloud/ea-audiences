@@ -64,7 +64,7 @@ export const DailySummaryBrief: React.FC<DailySummaryBriefProps> = ({ bulkData, 
         setIsLoading(true);
         if (!isInitial) setStatusMessage('Checking GCS for saved Daily Brief run...');
         try {
-            const companyParam = encodeURIComponent(activeCompany || 'EA Games FC');
+            const companyParam = encodeURIComponent(activeCompany || '2K Games (Take-Two Interactive)');
             const res = await fetch(`/api/load-run/daily_summary?companyName=${companyParam}`);
             if (res.ok) {
                 const data = await res.json();
@@ -112,7 +112,7 @@ export const DailySummaryBrief: React.FC<DailySummaryBriefProps> = ({ bulkData, 
         try {
             let activeAnomalyAlerts: any = null;
             try {
-                const companyParam = encodeURIComponent(activeCompany || 'EA Games FC');
+                const companyParam = encodeURIComponent(activeCompany || '2K Games (Take-Two Interactive)');
                 const alertRes = await fetch(`/api/load-run/alerts?companyName=${companyParam}`);
                 if (alertRes.ok) {
                     const alertJson = await alertRes.json();

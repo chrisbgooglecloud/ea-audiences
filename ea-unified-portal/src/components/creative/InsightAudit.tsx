@@ -125,7 +125,7 @@ export const InsightAudit: React.FC = () => {
         setIsLoading(true);
         if (!isInitial) setStatusMessage('Checking GCS for latest saved Insight Audit...');
         try {
-            const companyParam = encodeURIComponent(companyName || 'EA Games FC');
+            const companyParam = encodeURIComponent(companyName || '2K Games (Take-Two Interactive)');
             const res = await fetch(`/api/load-run/insight_audit?companyName=${companyParam}`);
             if (res.ok) {
                 const data = await res.json();
@@ -581,7 +581,7 @@ export const InsightAudit: React.FC = () => {
                                         <CheckCircle2 size={14} /> Top Franchise Breakthrough
                                     </div>
                                     <p className="text-xs text-white font-semibold leading-relaxed">
-                                        {auditReport.executiveSummary?.topPositiveBreakthrough || 'Hypermotion V animation realism and Rush 5v5 engagement validation.'}
+                                        {auditReport.executiveSummary?.topPositiveBreakthrough || 'ProPLAY 1-to-1 animation realism and The City dynamic streetball engagement validation.'}
                                     </p>
                                 </div>
 
@@ -590,7 +590,7 @@ export const InsightAudit: React.FC = () => {
                                         <AlertTriangle size={14} /> Primary Friction Vector
                                     </div>
                                     <p className="text-xs text-white font-semibold leading-relaxed">
-                                        {auditReport.executiveSummary?.primaryFrictionVector || 'Tactical passing responsiveness and DDA / momentum perception under load.'}
+                                        {auditReport.executiveSummary?.primaryFrictionVector || 'The REC online server input latency and badge progression pacing.'}
                                     </p>
                                 </div>
                             </div>

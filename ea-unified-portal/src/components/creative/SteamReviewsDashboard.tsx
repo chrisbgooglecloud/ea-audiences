@@ -65,21 +65,21 @@ export const SteamReviewsDashboard: React.FC<SteamReviewsDashboardProps> = ({
     };
 
     const DEFAULT_SLANG_KEYWORDS = [
-        { term: "Input Delay", frequency: "High", sentiment: "negative", context: "Peak-hour Weekend League latency" },
-        { term: "DDA / Scripting", frequency: "High", sentiment: "negative", context: "90th-minute momentum shifts" },
-        { term: "HyperMotion V", frequency: "Medium", sentiment: "positive", context: "Realistic tackle & volumetric capture" },
-        { term: "Career Mode", frequency: "High", sentiment: "positive", context: "Tactical preset depth & manager market" },
-        { term: "Pack Weight", frequency: "High", sentiment: "negative", context: "Promo fodder probability" },
-        { term: "Left-Stick Dribbling", frequency: "Medium", sentiment: "positive", context: "Responsive turning responsiveness" },
-        { term: "Anti-Cheat Loop", frequency: "Medium", sentiment: "negative", context: "PC EA App splash startup error" },
-        { term: "Rush 5v5", frequency: "High", sentiment: "positive", context: "Fast-paced small-sided mode" }
+        { term: "Input Delay", frequency: "High", sentiment: "negative", context: "Peak-hour The REC online latency" },
+        { term: "Green Release", frequency: "High", sentiment: "positive", context: "Visual cue shot meter mastery" },
+        { term: "ProPLAY Volumetric", frequency: "High", sentiment: "positive", context: "Realistic 1-to-1 NBA broadcast motion capture" },
+        { term: "Cap Breaker", frequency: "High", sentiment: "positive", context: "MyPLAYER 99 OVR milestone progression" },
+        { term: "Pack Odds", frequency: "High", sentiment: "negative", context: "MyTEAM Holo Dark Matter probability" },
+        { term: "Badge Regression", frequency: "Medium", sentiment: "positive", context: "Zero badge regression community praise" },
+        { term: "PC Next-Gen Parity", frequency: "Medium", sentiment: "positive", context: "Full feature parity with console release" },
+        { term: "The REC 5v5", frequency: "High", sentiment: "positive", context: "Competitive team pro-am play" }
     ];
 
     const DEFAULT_FRICTION_RADAR = [
-        { issue: "Server Input Delay & Packet Loss during Peak Hours", severity: "Critical", category: "Netcode & Infrastructure", percentMentioned: 42, playerDemand: "Deploy dedicated regional servers and lower tick-rate variance" },
-        { issue: "PC EA AntiCheat Splash Loop & Administrative Elevation", severity: "Critical", category: "PC Technical Stability", percentMentioned: 28, playerDemand: "Whitelist standard RGB background daemons and repair certificates" },
-        { issue: "Loose Tackling Rebounds & Automated Interception Spikes", severity: "High", category: "Gameplay Defense", percentMentioned: 35, playerDemand: "Increase manual tackle retention and tune AI tracking hitboxes" },
-        { issue: "Menu Navigation Latency & Multi-Submenu Instructions", severity: "Medium", category: "UI/UX Optimization", percentMentioned: 22, playerDemand: "Streamline custom tactics UI and fix menu frame drops" }
+        { issue: "The REC Server Input Delay & Packet Loss during Peak Hours", severity: "Critical", category: "Netcode & Infrastructure", percentMentioned: 42, playerDemand: "Deploy 128-tick dedicated regional servers and lower tick-rate variance" },
+        { issue: "PC DirectX 12 Splash Startup Stutter & Shader Caching", severity: "Critical", category: "PC Technical Stability", percentMentioned: 28, playerDemand: "Optimize shader pre-caching and GPU driver pipelines" },
+        { issue: "Contested 3-Point Green Window Variance", severity: "High", category: "Gameplay Balance", percentMentioned: 35, playerDemand: "Standardize defensive contest perimeter cones and visual cues" },
+        { issue: "The City Transit Menu Fast-Travel Latency", severity: "Medium", category: "UI/UX Optimization", percentMentioned: 22, playerDemand: "Streamline fast-travel map teleportation and menu frame drops" }
     ];
 
     const constructiveCategories = (constructiveMetrics.categories && constructiveMetrics.categories.length > 0) ? constructiveMetrics.categories : [
