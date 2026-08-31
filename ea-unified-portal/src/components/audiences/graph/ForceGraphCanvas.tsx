@@ -116,7 +116,7 @@ export default function ForceGraphCanvas({
         ctx.fillStyle = isSelected
           ? "rgba(255, 255, 255, 0.45)"
           : isAnchor
-          ? "rgba(230, 255, 0, 0.35)"
+          ? (node.color ? `${node.color}45` : "rgba(229, 27, 36, 0.40)")
           : isCreator
           ? (node.color ? `${node.color}45` : "rgba(0, 240, 255, 0.40)")
           : isOffer
@@ -131,10 +131,11 @@ export default function ForceGraphCanvas({
 
       // 2. Node Core Circle & Outer Glow Ring
       if (isAnchor) {
-        // Bright Neon Lime Anchor Hub
+        // Grand 2K Franchise Anchor Hub
+        const hubColor = node.color || "#E51B24";
         ctx.beginPath();
         ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI, false);
-        ctx.fillStyle = "#E6FF00";
+        ctx.fillStyle = hubColor;
         ctx.fill();
         ctx.lineWidth = 3;
         ctx.strokeStyle = "#FFFFFF";
@@ -197,7 +198,6 @@ export default function ForceGraphCanvas({
         ctx.font = `600 ${Math.max(fontSize, 2.5)}px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif`;
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
-
         const text = isAnchor
           ? node.name
           : isCreator
@@ -227,7 +227,7 @@ export default function ForceGraphCanvas({
         // Stroke Pill with Neon Accent Border
         ctx.lineWidth = 1.2 / globalScale;
         ctx.strokeStyle = isAnchor
-          ? "#00F0FF"
+          ? (node.color || "#00F0FF")
           : isCreator
           ? (node.color || "#00F0FF")
           : isOffer
@@ -239,7 +239,7 @@ export default function ForceGraphCanvas({
 
         // Label Text
         ctx.fillStyle = isAnchor
-          ? "#00F0FF"
+          ? (node.color || "#00F0FF")
           : isCreator
           ? (node.color || "#00F0FF")
           : isOffer

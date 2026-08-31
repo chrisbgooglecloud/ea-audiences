@@ -14,7 +14,7 @@ function loadJson(filename: string) {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const view = searchParams.get("view") || "audience-cohorts";
-  const selectedPlayerId = searchParams.get("playerId") || "ea-usr-00001";
+  const selectedPlayerId = searchParams.get("playerId") || "2k-usr-00001";
   const gameFilter = searchParams.get("game") || "ALL";
   const archetypeFilter = searchParams.get("archetype") || "ALL";
 
@@ -34,49 +34,51 @@ export async function GET(request: NextRequest) {
   if (view === "single-identity") {
     const player = masterPlayers.find((p: any) => p.player_id === selectedPlayerId) || masterPlayers[0];
     
-    nodes.push({
-      id: player.player_id,
-      name: player.display_name,
-      type: "PLAYER",
-      franchise: player.primary_franchise,
-      archetype: player.primary_archetype,
-      spend: player.lifetime_spend_usd,
-      churn_risk: player.churn_risk_score,
-      tilt: player.tilt_sensitivity,
-      val: 28,
-      color: "#00F0FF",
-      fx: 0,
-      fy: 0,
-    });
+    if (player) {
+      nodes.push({
+        id: player.player_id,
+        name: player.display_name,
+        type: "PLAYER",
+        franchise: player.primary_franchise,
+        archetype: player.primary_archetype,
+        spend: player.lifetime_spend_usd,
+        churn_risk: player.churn_risk_score,
+        tilt: player.tilt_sensitivity,
+        val: 28,
+        color: "#00F0FF",
+        fx: 0,
+        fy: 0,
+      });
 
-    const pEdges = hasIdentityEdges.filter((e: any) => e.player_id === player.player_id);
-    for (const e of pEdges) {
-      const ident = platformIdentities.find((i: any) => i.identity_id === e.identity_id);
-      if (ident) {
-        let identColor = "#00F0FF";
-        if (ident.platform.includes("EA")) identColor = "#FF4757";
-        else if (ident.platform.includes("COMPANION")) identColor = "#E6FF00";
-        else if (ident.platform.includes("PLAY")) identColor = "#0070D1";
-        else if (ident.platform.includes("XBOX")) identColor = "#107C10";
-        else if (ident.platform.includes("STEAM")) identColor = "#9146FF";
-        else if (ident.platform.includes("SWITCH")) identColor = "#E60012";
+      const pEdges = hasIdentityEdges.filter((e: any) => e.player_id === player.player_id);
+      for (const e of pEdges) {
+        const ident = platformIdentities.find((i: any) => i.identity_id === e.identity_id);
+        if (ident) {
+          let identColor = "#00F0FF";
+          if (ident.platform.includes("2K")) identColor = "#E51B24";
+          else if (ident.platform.includes("MYNBA")) identColor = "#FFB800";
+          else if (ident.platform.includes("PLAY")) identColor = "#0070D1";
+          else if (ident.platform.includes("XBOX")) identColor = "#107C10";
+          else if (ident.platform.includes("STEAM")) identColor = "#9146FF";
+          else if (ident.platform.includes("SWITCH")) identColor = "#E60012";
 
-        nodes.push({
-          id: ident.identity_id,
-          name: `${ident.platform}: ${ident.platform_handle}`,
-          type: "IDENTITY",
-          platform: ident.platform,
-          confidence: ident.confidence_score,
-          val: 15,
-          color: identColor,
-        });
+          nodes.push({
+            id: ident.identity_id,
+            name: `${ident.platform}: ${ident.platform_handle}`,
+            type: "IDENTITY",
+            platform: ident.platform,
+            confidence: ident.confidence_score,
+            val: 15,
+            color: identColor,
+          });
 
-        links.push({
-          source: player.player_id,
-          target: ident.identity_id,
-          label: `CONFIDENCE: ${(ident.confidence_score * 100).toFixed(0)}%`,
-          value: 3,
-        });
+          links.push({
+            source: player.player_id,
+            target: ident.identity_id,
+            label: `CONFIDENCE: ${(ident.confidence_score * 100).toFixed(0)}%`,
+            value: 3,
+          });
+        }
       }
     }
   }
@@ -109,11 +111,11 @@ export async function GET(request: NextRequest) {
     if (gameFilter === "ALL") {
       // 5 Grand Franchise Hubs
       const macroHubPositions: Record<string, { fx: number; fy: number; color: string }> = {
-        "game-fc26": { fx: -340, fy: -180, color: "#E6FF00" },      // Volt Neon
-        "game-apex": { fx: 340, fy: -180, color: "#00F0FF" },       // Cyan
-        "game-madden25": { fx: -340, fy: 180, color: "#00FF88" },   // Emerald
-        "game-battlefield": { fx: 340, fy: 180, color: "#FF7A00" }, // Orange
-        "game-sims4": { fx: 0, fy: 0, color: "#A855F7" },           // Plumbob Purple
+        "game-nba2k26": { fx: 0, fy: 0, color: "#E51B24" },            // 2K Crimson Red (Centerpiece)
+        "game-borderlands4": { fx: -380, fy: -200, color: "#FFD200" }, // Borderlands Yellow
+        "game-civ7": { fx: 380, fy: -200, color: "#38BDF8" },         // Civ Sky Blue
+        "game-wwe2k25": { fx: -380, fy: 200, color: "#F59E0B" },       // WWE Amber Gold
+        "game-pgatour2k": { fx: 380, fy: 200, color: "#10B981" },     // PGA Emerald Green
       };
 
       const parentGames = games.filter((g: any) => g.is_parent_hub);
@@ -131,34 +133,47 @@ export async function GET(request: NextRequest) {
         });
       }
 
-      // Macro Top Major DLC & Monetization Wells (100% Real Official Store Products)
+      // Macro Top Major DLC & Monetization Wells (2K Digital Goods)
       const macroOfferPositions: Record<string, { fx: number; fy: number }> = {
-        "dlc-fc26-ultimate-edition": { fx: -500, fy: -260 },
-        "item-fc26-points-12000": { fx: -460, fy: -80 },
-        "item-apex-heirloom-event": { fx: 500, fy: -260 },
-        "dlc-apex-ultimate-plus": { fx: 460, fy: -80 },
-        "dlc-madden-deluxe-upgrade": { fx: -480, fy: 260 },
-        "dlc-bf-elite-edition": { fx: 480, fy: 260 },
-        "dlc-sims4-megabundle": { fx: 0, fy: -140 },
-        "item-sims4-lovestruck": { fx: 0, fy: 140 },
+        "dlc-nba2k26-hof-edition": { fx: -140, fy: -140 },
+        "item-nba2k26-vc-450000": { fx: 140, fy: -140 },
+        "offer-nba2k26-rec-streak-shield": { fx: -140, fy: 140 },
+        "offer-nba2k26-propass-season4": { fx: 140, fy: 140 },
+        "offer-nba2k26-myteam-darkmatter-box": { fx: 0, fy: -220 },
+        "item-nba2k26-vc-200000": { fx: 0, fy: 220 },
+        "dlc-borderlands4-deluxe-season-pass": { fx: -540, fy: -280 },
+        "item-bl4-legendary-booster": { fx: -520, fy: -100 },
+        "dlc-civ7-founders-edition": { fx: 540, fy: -280 },
+        "dlc-pgatour2k-clubhouse-pass": { fx: 540, fy: 280 },
+        "item-wwe-myfaction-diamond-pack": { fx: -540, fy: 280 },
       };
 
-      for (const o of offers) {
-        if (macroOfferPositions[o.offer_id]) {
-          const isMajorDlc = o.offer_type.includes("MAJOR_DLC") || o.price_usd >= 60;
-          nodes.push({
-            id: o.offer_id,
-            name: `${o.offer_title} ($${o.price_usd})`,
-            type: "OFFER",
-            franchise: o.target_franchise,
-            spend: o.price_usd,
-            val: isMajorDlc ? 34 : 26,
-            color: isMajorDlc ? "#FFB800" : o.price_usd >= 30 ? "#A855F7" : "#EC4899",
-            offer_data: o,
-            fx: macroOfferPositions[o.offer_id].fx,
-            fy: macroOfferPositions[o.offer_id].fy,
-          });
+      for (let oIdx = 0; oIdx < offers.length; oIdx++) {
+        const o = offers[oIdx];
+        const isMajorDlc = o.offer_type.includes("MAJOR_DLC") || o.price_usd >= 60;
+        let fx = macroOfferPositions[o.offer_id]?.fx;
+        let fy = macroOfferPositions[o.offer_id]?.fy;
+
+        // If not in macro positions, place organically near franchise hub
+        if (fx === undefined || fy === undefined) {
+          const parentHub = macroHubPositions[`game-${o.target_franchise?.toLowerCase().replace(/[^a-z0-9]/g, "")}`] || { fx: 0, fy: 0 };
+          const angle = (oIdx / offers.length) * 2 * Math.PI;
+          fx = parentHub.fx + Math.round(Math.cos(angle) * 140);
+          fy = parentHub.fy + Math.round(Math.sin(angle) * 140);
         }
+
+        nodes.push({
+          id: o.offer_id,
+          name: `${o.offer_title} ($${o.price_usd})`,
+          type: "OFFER",
+          franchise: o.target_franchise,
+          spend: o.price_usd,
+          val: isMajorDlc ? 34 : 26,
+          color: isMajorDlc ? "#FFB800" : o.price_usd >= 30 ? "#A855F7" : "#EC4899",
+          offer_data: o,
+          fx,
+          fy,
+        });
       }
     } else {
       // Specific Game Selected -> Sub-modes and All Game Offers & Major DLCs
@@ -177,7 +192,7 @@ export async function GET(request: NextRequest) {
           type: "GAME",
           franchise: g.franchise,
           val: 32,
-          color: g.franchise === "FC26" ? "#E6FF00" : g.franchise === "APEX" ? "#00F0FF" : g.franchise === "MADDEN25" ? "#00FF88" : g.franchise === "BATTLEFIELD" ? "#FF7A00" : "#A855F7",
+          color: g.franchise === "NBA2K26" ? "#E51B24" : g.franchise === "BORDERLANDS4" ? "#FFD200" : g.franchise === "CIV7" ? "#38BDF8" : g.franchise === "WWE2K25" ? "#F59E0B" : "#10B981",
           fx,
           fy,
         });
@@ -213,17 +228,19 @@ export async function GET(request: NextRequest) {
       const p = sample[idx];
       let nodeColor = "#00FF88";
 
-      if (p.primary_archetype === "COMPETITIVE_GRINDER" || p.primary_archetype === "RANKED_SWEAT") {
+      if (p.primary_archetype === "MYCAREER_HOOPER" || p.primary_archetype === "COMPETITIVE_GRINDER") {
         nodeColor = "#FF4757"; // Sweat / Tilt Red
-      } else if (p.primary_archetype === "ULTIMATE_TEAM_WHALE" || p.primary_archetype === "HEIRLOOM_WHALE" || p.primary_archetype === "MUT_WHALE" || p.primary_archetype === "SIMS_COLLECTOR") {
+      } else if (p.primary_archetype === "MYTEAM_WHALE" || p.primary_archetype === "ULTIMATE_TEAM_WHALE") {
         nodeColor = "#FFB800"; // Whale Gold
-      } else if (p.primary_archetype === "LORE_SEEKER" || p.primary_archetype === "BUILDER_CREATOR") {
-        nodeColor = "#00F0FF"; // Cyan
-      } else if (p.primary_archetype === "CONQUEST_LEADER") {
-        nodeColor = "#FF7A00"; // Battlefield Orange
+      } else if (p.primary_archetype === "VAULT_HUNTER_SQUAD" || p.primary_archetype === "LORE_SEEKER") {
+        nodeColor = "#00F0FF"; // Cyan / Siren
+      } else if (p.primary_archetype === "4X_GRAND_STRATEGIST") {
+        nodeColor = "#38BDF8"; // Sky Blue
+      } else if (p.primary_archetype === "PROPASS_GRINDER") {
+        nodeColor = "#A855F7"; // Purple
       }
 
-      const size = p.lifetime_spend_usd >= 3000 ? 14 : p.lifetime_spend_usd >= 500 ? 9 : 6;
+      const size = p.lifetime_spend_usd >= 2000 ? 14 : p.lifetime_spend_usd >= 400 ? 9 : 6;
 
       nodes.push({
         id: p.player_id,
@@ -252,11 +269,12 @@ export async function GET(request: NextRequest) {
         const isWhale = playerSpend >= 1000;
         const isMidSpender = playerSpend >= 100 && playerSpend < 1000;
         const isLowSpender = playerSpend > 0 && playerSpend < 100;
-        const isBaseGameOnly = playerSpend === 0 || (playerSpend <= 70 && rawPlayer.primary_archetype === "LORE_SEEKER");
+        const isBaseGameOnly = playerSpend === 0 || (playerSpend <= 70 && rawPlayer.primary_archetype === "4X_GRAND_STRATEGIST");
 
         // A. Primary Game Ownership / Play Connection
         if (gameFilter === "ALL") {
-          const parentHubId = `game-${rawPlayer.primary_franchise.toLowerCase()}`;
+          const primFranchiseCode = rawPlayer.primary_franchise.toLowerCase().replace(/[^a-z0-9]/g, "");
+          const parentHubId = `game-${primFranchiseCode}`;
           if (nodes.some((item) => item.id === parentHubId)) {
             links.push({
               source: n.id,
@@ -266,17 +284,18 @@ export async function GET(request: NextRequest) {
             });
           }
 
-          // Cross-Franchise Play Edges (e.g. FC player playing Apex on weekends)
+          // Cross-Franchise Play Edges (e.g. 2K Hooper playing Borderlands 4 on weekends)
           if (rawPlayer.franchises_played && rawPlayer.franchises_played.length > 1) {
             for (let j = 1; j < rawPlayer.franchises_played.length; j++) {
-              const secHubId = `game-${rawPlayer.franchises_played[j].toLowerCase()}`;
+              const secCode = rawPlayer.franchises_played[j].toLowerCase().replace(/[^a-z0-9]/g, "");
+              const secHubId = `game-${secCode}`;
               if (nodes.some((item) => item.id === secHubId)) {
                 links.push({
                   source: n.id,
                   target: secHubId,
                   label: "CROSS_FRANCHISE_PLAY",
                   value: 1,
-                  isTriggerStream: i % 5 === 0,
+                  isTriggerStream: i % 4 === 0,
                 });
               }
             }
@@ -310,20 +329,20 @@ export async function GET(request: NextRequest) {
             links.push({
               source: n.id,
               target: targetOffer.id,
-              label: targetOffer.offer_data?.offer_type.includes("MAJOR_DLC") ? "MAJOR_DLC_PURCHASE" : "MONETIZATION_GRAVITY",
+              label: targetOffer.offer_data?.offer_type?.includes("MAJOR_DLC") ? "MAJOR_DLC_PURCHASE" : "MONETIZATION_GRAVITY",
               value: 3,
               isTriggerStream: true,
             });
           }
         }
 
-        // Category 2: Mid-Tier Spenders ($100 - $999 LTV) -> Connect to Expansion Packs, Collab Skins, and Battle Passes
+        // Category 2: Mid-Tier Spenders ($100 - $999 LTV) -> Connect to Cap Breakers, ProPASS, and Packs
         else if (isMidSpender) {
           const midOffers = availableOffers.filter(
             (off) =>
               off.spend &&
               off.spend >= 10 &&
-              off.spend <= 40 &&
+              off.spend <= 50 &&
               (off.franchise === n.franchise || off.offer_data?.affinity_archetype === n.archetype)
           );
           if (midOffers.length > 0) {
@@ -331,45 +350,43 @@ export async function GET(request: NextRequest) {
             links.push({
               source: n.id,
               target: targetOffer.id,
-              label: targetOffer.offer_data?.offer_type.includes("EXPANSION") ? "EXPANSION_DLC_OWNER" : "SEASONAL_PASS_HOLDER",
+              label: targetOffer.offer_data?.offer_type?.includes("EXPANSION") ? "EXPANSION_DLC_OWNER" : "PROPASS_HOLDER",
               value: 2,
             });
           }
         }
 
-        // Category 3: Low-Tier & Social Spenders ($10 - $90 LTV) -> Connect to Squad Passes, Creator Kits, XP Boosters
+        // Category 3: Low-Tier & Social Spenders ($10 - $90 LTV) -> Connect to Small VC Bundles & Creator Collabs
         else if (isLowSpender) {
-          const lowOffers = availableOffers.filter((off) => off.spend && off.spend <= 10 && off.franchise === n.franchise);
+          const lowOffers = availableOffers.filter((off) => off.spend && off.spend <= 20 && off.franchise === n.franchise);
           if (lowOffers.length > 0) {
             const targetOffer = lowOffers[i % lowOffers.length];
             links.push({
               source: n.id,
               target: targetOffer.id,
-              label: "CREATOR_OR_SQUAD_PASS",
+              label: "STARTER_BUNDLE_PURCHASE",
               value: 1.5,
             });
           }
         }
 
-        // Category 4: Entry Tier Store Packs (For active / loss-streak players seeking quick squad boosters)
-        if ((n.tilt && n.tilt >= 0.60) || (n.loss_streak && n.loss_streak >= 2)) {
-          const starterOffer = availableOffers.find(
+        // Category 4: Entry Tier / Situational Offers (Loss-streak or high tilt players)
+        if ((n.tilt && n.tilt >= 0.55) || (n.loss_streak && n.loss_streak >= 2)) {
+          const situationalOffer = availableOffers.find(
             (off) =>
-              (off.offer_data?.offer_type === "CURRENCY_STARTER" || (off.spend !== undefined && off.spend <= 5)) &&
+              (off.offer_data?.offer_type === "SITUATIONAL_TRIGGER_PACK" || (off.spend !== undefined && off.spend <= 10)) &&
               off.franchise === n.franchise
           );
-          if (starterOffer) {
+          if (situationalOffer) {
             links.push({
               source: n.id,
-              target: starterOffer.id,
-              label: "STARTER_PACK_INTENT",
+              target: situationalOffer.id,
+              label: "TILT_SHIELD_TRIGGER",
               value: 2,
               isTriggerStream: true,
             });
           }
         }
-
-        // Category 5: Zero-MTX / Base Game Purchasers -> Have 0 store links, only the base game node link above!
       }
     }
   }
