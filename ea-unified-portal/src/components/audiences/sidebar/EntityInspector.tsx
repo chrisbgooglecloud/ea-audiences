@@ -67,22 +67,23 @@ export default function EntityInspector({
     return (graphData?.nodes || []).filter((n) => n.type === "PLAYER");
   }, [graphData]);
 
-  // Compute cohort averages
+  // Compute cohort averages with ultra-defensive defaults
   const cohortStats = useMemo(() => {
     if (playerNodes.length === 0) {
       return {
-        count: cohortContext?.matchedCount || 0,
-        estimatedTotal: cohortContext?.estimatedTotal || 0,
+        count: cohortContext?.matchedCount || 450,
+        estimatedTotal: cohortContext?.estimatedTotal || 5400,
         avgSpend: cohortContext?.avgSpend || 850,
-        avgChurn: cohortContext?.avgChurn || 0.45,
-        avgTilt: cohortContext?.avgTilt || 0.65,
+        avgChurn: cohortContext?.avgChurn ?? 0.45,
+        avgTilt: cohortContext?.avgTilt ?? 0.65,
         avgLossStreak: 2.1,
         dominantArchetype: cohortContext?.dominantArchetype || "COMPETITIVE_GRINDER",
         topCreators: [
-          { name: "NICKRTFM", pct: "48%" },
-          { name: "CASTRO1021", pct: "36%" },
+          { name: "CHRIS SMOOVE", pct: "48%" },
+          { name: "TROYDAN", pct: "36%" },
+          { name: "JOLTZDUDE139", pct: "22%" },
         ],
-        topCountries: [{ name: "United Kingdom", flag: "🇬🇧", pct: "58%" }],
+        topCountries: [{ name: "United States", flag: "🇺🇸", pct: "68%" }],
       };
     }
 
@@ -97,10 +98,12 @@ export default function EntityInspector({
 
     playerNodes.forEach((p) => {
       if (p.archetype) archCounts[p.archetype] = (archCounts[p.archetype] || 0) + 1;
-      if (p.followed_creators) {
+      if (p.followed_creators && Array.isArray(p.followed_creators)) {
         p.followed_creators.forEach((c) => {
-          const cName = c.replace("creator-", "").toUpperCase();
-          creatorCounts[cName] = (creatorCounts[cName] || 0) + 1;
+          if (typeof c === "string") {
+            const cName = c.replace("creator-", "").toUpperCase();
+            creatorCounts[cName] = (creatorCounts[cName] || 0) + 1;
+          }
         });
       }
       if (p.country) {
@@ -135,14 +138,17 @@ export default function EntityInspector({
 
     return {
       count: playerNodes.length,
-      estimatedTotal: cohortContext?.estimatedTotal || playerNodes.length * 12,
-      avgSpend: totalSpend / playerNodes.length,
-      avgChurn: totalChurn / playerNodes.length,
-      avgTilt: totalTilt / playerNodes.length,
-      avgLossStreak: totalLossStreak / playerNodes.length,
+      estimatedTotal: cohortContext?.estimatedTotal || playerNodes.length * 12 || 5400,
+      avgSpend: playerNodes.length > 0 ? totalSpend / playerNodes.length : (cohortContext?.avgSpend || 850),
+      avgChurn: playerNodes.length > 0 ? totalChurn / playerNodes.length : (cohortContext?.avgChurn ?? 0.45),
+      avgTilt: playerNodes.length > 0 ? totalTilt / playerNodes.length : (cohortContext?.avgTilt ?? 0.65),
+      avgLossStreak: playerNodes.length > 0 ? totalLossStreak / playerNodes.length : 2.1,
       dominantArchetype: dominantArch,
-      topCreators,
-      topCountries,
+      topCreators: topCreators.length > 0 ? topCreators : [
+        { name: "CHRIS SMOOVE", pct: "48%" },
+        { name: "TROYDAN", pct: "36%" },
+      ],
+      topCountries: topCountries.length > 0 ? topCountries : [{ name: "United States", flag: "🇺🇸", pct: "68%" }],
     };
   }, [playerNodes, cohortContext]);
 
@@ -152,15 +158,12 @@ export default function EntityInspector({
     const q = playerSearchQuery.toLowerCase();
     return playerNodes.filter(
       (p) =>
-        p.name.toLowerCase().includes(q) ||
+        (p.name && p.name.toLowerCase().includes(q)) ||
         (p.country && p.country.toLowerCase().includes(q)) ||
         (p.dma_market && p.dma_market.toLowerCase().includes(q)) ||
         (p.archetype && p.archetype.toLowerCase().includes(q))
     );
   }, [playerNodes, playerSearchQuery]);
-
-  // If no node is selected and no cohort data exists, return null
-  if (!node && playerNodes.length === 0 && !cohortContext) return null;
 
   // Single Node Type Flags
   const isOffer = node?.type === "OFFER";
@@ -581,58 +584,88 @@ export default function EntityInspector({
                     <span className="text-gray-400 font-semibold uppercase text-[10px]">Game Telemetry:</span>
                     <span className="text-emerald-400 font-mono">{node.franchise}</span>
                   </div>
-                  {gameMeta.rank_tier && (
+                  {/* NBA 2K26 */}
+                  {gameMeta.overall_rating && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Rank Tier:</span>
-                      <span className="text-white font-medium">{gameMeta.rank_tier}</span>
+                      <span className="text-gray-400">Overall Rating:</span>
+                      <span className="text-amber-300 font-mono font-bold">{gameMeta.overall_rating} OVR</span>
                     </div>
                   )}
-                  {gameMeta.kd_ratio && (
+                  {gameMeta.archetype_build && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">K/D Ratio:</span>
-                      <span className="text-amber-300 font-mono">{gameMeta.kd_ratio}</span>
+                      <span className="text-gray-400">MyPLAYER Build:</span>
+                      <span className="text-cyan-300 font-medium">{gameMeta.archetype_build}</span>
                     </div>
                   )}
-                  {gameMeta.main_legend && (
+                  {gameMeta.city_affiliation && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Main Legend:</span>
-                      <span className="text-cyan-300">{gameMeta.main_legend}</span>
+                      <span className="text-gray-400">City Affiliation:</span>
+                      <span className="text-purple-300 font-semibold">{gameMeta.city_affiliation}</span>
                     </div>
                   )}
-                  {gameMeta.squad_ovr && (
+                  {gameMeta.rec_win_rate !== undefined && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Squad OVR:</span>
-                      <span className="text-amber-300 font-mono">{gameMeta.squad_ovr} OVR</span>
+                      <span className="text-gray-400">The REC Win Rate:</span>
+                      <span className="text-emerald-400 font-mono">{Math.round(gameMeta.rec_win_rate * 100)}%</span>
                     </div>
                   )}
+                  {/* Borderlands 4 */}
+                  {gameMeta.vault_hunter && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Vault Hunter:</span>
+                      <span className="text-yellow-400 font-medium">{gameMeta.vault_hunter}</span>
+                    </div>
+                  )}
+                  {gameMeta.mayhem_level !== undefined && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Mayhem Level:</span>
+                      <span className="text-pink-400 font-mono font-bold">Mayhem {gameMeta.mayhem_level}</span>
+                    </div>
+                  )}
+                  {/* Civilization VII */}
+                  {gameMeta.favorite_civ && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Civilization:</span>
+                      <span className="text-cyan-300">{gameMeta.favorite_civ}</span>
+                    </div>
+                  )}
+                  {gameMeta.preferred_victory && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Victory Type:</span>
+                      <span className="text-yellow-300">{gameMeta.preferred_victory}</span>
+                    </div>
+                  )}
+                  {/* WWE 2K25 */}
+                  {gameMeta.favorite_superstar && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Favorite Superstar:</span>
+                      <span className="text-amber-300">{gameMeta.favorite_superstar}</span>
+                    </div>
+                  )}
+                  {gameMeta.myfaction_tier && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">MyFACTION Tier:</span>
+                      <span className="text-pink-300 font-medium">{gameMeta.myfaction_tier}</span>
+                    </div>
+                  )}
+                  {/* PGA TOUR 2K25 */}
+                  {gameMeta.handicap !== undefined && (
+                    <div className="flex justify-between text-[11px]">
+                      <span className="text-gray-400">Handicap Index:</span>
+                      <span className="text-emerald-300 font-mono">{gameMeta.handicap > 0 ? `+${gameMeta.handicap}` : gameMeta.handicap}</span>
+                    </div>
+                  )}
+                  {/* Common */}
                   {gameMeta.favorite_club && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Favorite Club:</span>
+                      <span className="text-gray-400">Favorite Team:</span>
                       <span className="text-cyan-300 font-medium">{gameMeta.favorite_club}</span>
                     </div>
                   )}
                   {gameMeta.favorite_player && (
                     <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Star Player:</span>
+                      <span className="text-gray-400">Favorite Player:</span>
                       <span className="text-yellow-300 font-medium">{gameMeta.favorite_player}</span>
-                    </div>
-                  )}
-                  {gameMeta.favorite_formation && (
-                    <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Formation:</span>
-                      <span className="text-emerald-300 font-mono">{gameMeta.favorite_formation}</span>
-                    </div>
-                  )}
-                  {gameMeta.primary_playstyle && (
-                    <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Playstyle:</span>
-                      <span className="text-purple-300">{gameMeta.primary_playstyle}</span>
-                    </div>
-                  )}
-                  {gameMeta.expansion_packs_owned !== undefined && (
-                    <div className="flex justify-between text-[11px]">
-                      <span className="text-gray-400">Expansion Packs:</span>
-                      <span className="text-purple-300 font-mono">{gameMeta.expansion_packs_owned} Packs Owned</span>
                     </div>
                   )}
                   {node.loss_streak !== undefined && node.loss_streak > 0 && (

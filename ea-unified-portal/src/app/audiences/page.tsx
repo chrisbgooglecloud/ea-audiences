@@ -513,7 +513,7 @@ export default function AudiencesPage() {
       )}
 
       {/* Right Drawer: Selected Entity & Cohort Telemetry Inspector */}
-      {isCohortDrawerOpen && (selectedNode || isSegmentedView || cohortContext || graphData.nodes.length > 0) && (
+      {isCohortDrawerOpen && (
         <EntityInspector
           node={selectedNode}
           cohortContext={cohortContext}
