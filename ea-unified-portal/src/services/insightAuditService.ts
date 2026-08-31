@@ -68,7 +68,7 @@ export interface InsightAuditReport {
 }
 
 // Hydrate upstream evidence across all 4 Insights components
-export const hydrateInsightAuditEvidence = async (companyName: string = "EA Games FC") => {
+export const hydrateInsightAuditEvidence = async (companyName: string = "2K Games (Take-Two Interactive)") => {
     let individualAnalyses: any[] = [];
     let bulkAnalysis: any = null;
     let noiseFilterData: any = null;
@@ -297,105 +297,105 @@ Return a valid JSON object matching this schema:
   "fc27DoubleDownFeatures": [
     {
       "id": "dd-1",
-      "name": "Rush 5v5 Game Mode Ecosystem",
-      "category": "Core Mode Innovation",
-      "positiveSignalRate": 88,
-      "whyDoubleDown": "Fastest growing mode with 88% positive signal; unmatched social engagement across casual and creator channels.",
+      "name": "ProPLAY Dynamic Motion & Animation Engine",
+      "category": "Core Simulation Engine",
+      "positiveSignalRate": 91,
+      "whyDoubleDown": "Fastest growing positive signal with 91% acclaim; unmatched authenticity translating real NBA footage into responsive 1-to-1 moves.",
       "recommendedPatchActions": [
-        "Introduce Ranked Rush Ladder with seasonal cosmetics",
-        "Add custom club matchmaking lobbies for 4-player friend squads",
-        "Integrate targeted weekly Rush Evolution challenges"
+        "Expand signature step-backs and contest animations across all 30 NBA rosters",
+        "Add contextual collision physics at the rim for contested layups",
+        "Fine-tune green-release visual windows for custom jumpshots"
       ],
-      "riskIfIgnored": "Player fatigue if matchmaking queue times or matchmaking party sizes remain limited."
+      "riskIfIgnored": "Player fatigue if animation latency or input lag is perceived during competitive online play."
     },
     {
       "id": "dd-2",
-      "name": "Manual Driven Ground Pass Inertia & Ball Physics",
-      "category": "Gameplay Mechanics",
-      "positiveSignalRate": 82,
-      "whyDoubleDown": "Community acclaimed tactical passing weight in FC 26; successfully curbed arcade ping-pong exploits.",
+      "name": "The City Dynamic Parks & Fast Travel Hubs",
+      "category": "Social World Innovation",
+      "positiveSignalRate": 86,
+      "whyDoubleDown": "Acclaimed social streetball immersion; reduced transit dead-time and enhanced squad matchmaking.",
       "recommendedPatchActions": [
-        "Retain deceleration physics curves without artificial speed buffs",
-        "Expand contextual first-touch animations based on body orientation",
-        "Add visual UI trajectory indicators in Training Center"
+        "Retain subway fast-travel nodes and optimize park loading textures",
+        "Expand Pro-Am 3v3 and 5v5 dedicated server courts with zero latency",
+        "Add seasonal night-market events with streetwear brand drops"
       ],
-      "riskIfIgnored": "Reverting to arcade speed under pressure from vocal minority will degrade simulation credibility."
+      "riskIfIgnored": "Oversized maps with empty walking space trigger community backlash."
     },
     {
       "id": "dd-3",
-      "name": "Untradeable Duplicate Storage System",
-      "category": "Live Service & Economy",
-      "positiveSignalRate": 84,
-      "whyDoubleDown": "Highly praised quality-of-life feature that resolved a decade of duplicate card discarding frustration.",
+      "name": "Cap Breaker Attribute System & Zero Badge Regression",
+      "category": "Live Service & Progression",
+      "positiveSignalRate": 89,
+      "whyDoubleDown": "Universal praise for eliminating badge decay while rewarding dedicated MyPLAYER rep grinding.",
       "recommendedPatchActions": [
-        "Increase storage capacity from 100 to 200 items",
-        "Enable direct multi-submit into Squad Building Challenges from storage"
+        "Introduce seasonal Tier-2 Cap Breaker unlock tiers",
+        "Expand attribute milestone cosmetics (exclusive shoes, park animations)"
       ],
-      "riskIfIgnored": "Storage capping creates bottleneck during major promo pack openings."
+      "riskIfIgnored": "Re-introducing badge decay or slow progression will cause massive churn."
     },
     {
       "id": "dd-4",
-      "name": "Career Mode Youth Academy Dynamic Physical Scouting",
-      "category": "Career Mode",
-      "positiveSignalRate": 78,
-      "whyDoubleDown": "Strong revival of Career Mode engagement driven by realistic youth prospect growth models.",
+      "name": "MyTEAM Transparent Drop Rates & Player Market Auction",
+      "category": "Live Economy",
+      "positiveSignalRate": 84,
+      "whyDoubleDown": "Restoring transparent auction trading and clear pack odds restored community trust and spending confidence.",
       "recommendedPatchActions": [
-        "Add expanded scouting regions and dynamic academy tournaments",
-        "Implement realistic youth coaching staff progression"
+        "Maintain guaranteed promo box toppers with verifiable odds",
+        "Implement anti-bot sniping algorithms for fair auction house trades"
       ],
-      "riskIfIgnored": "Single-player mode stagnation will bleed long-term player retention."
+      "riskIfIgnored": "Locking cards behind RNG gambling packs risks severe regulatory scrutiny."
     }
   ],
   "fc28GoNoGoMatrix": [
     {
       "id": "gng-1",
-      "featureName": "Rush 5v5 Mode",
-      "category": "Core Game Mode",
+      "featureName": "ProPLAY Volumetric Motion Engine",
+      "category": "Core Gameplay",
       "decision": "GO",
-      "sentimentScore": 90,
+      "sentimentScore": 94,
       "communityVerdict": "Near-Universal Acclaim • Essential Franchise Pillar",
-      "strategicRationale": "Proven retention driver that appeals across casual, competitive, and social player cohorts.",
-      "fc28Recommendation": "Position as top-billing feature on FC 28 box art and launch dedicated World Tour esports series."
+      "strategicRationale": "Proven realism driver that solidifies 2K's unmatched lead in sports simulation fidelity.",
+      "fc28Recommendation": "Position as headline marketing feature for NBA 2K27 / 2K28 and expand to WWE and PGA franchises."
     },
     {
       "id": "gng-2",
-      "featureName": "Win-Gated Evolution Milestones",
-      "category": "Live Economy",
+      "featureName": "Forced Badge Floor Regression",
+      "category": "Progression Mechanics",
       "decision": "NO-GO",
-      "sentimentScore": 22,
-      "communityVerdict": "Severe Community Backlash & Toxic Matchmaking Friction",
-      "strategicRationale": "Requiring 15 wins with sub-optimal cards in competitive ladders breeds burnout and rage-quits.",
-      "fc28Recommendation": "Completely sunset win-gates; replace with progressive XP, match minutes, and skill milestone gates."
+      "sentimentScore": 14,
+      "communityVerdict": "Severe Community Backlash & Toxic Player Exhaustion",
+      "strategicRationale": "Punishing players for not playing daily destroys casual-to-core retention.",
+      "fc28Recommendation": "Permanently ban badge regression across all future 2K titles; replace with permanent milestone badges."
     },
     {
       "id": "gng-3",
-      "featureName": "Legacy AI Auto-Tackle Radius",
-      "category": "Defensive Mechanics",
+      "featureName": "Unskippable The City Transit Walks",
+      "category": "World Design",
       "decision": "NO-GO",
-      "sentimentScore": 28,
-      "communityVerdict": "Over-Powered AI Handholding",
-      "strategicRationale": "Compresses skill gap and frustrates manual defenders who time tackles accurately.",
-      "fc28Recommendation": "Strip automatic lunge animations; tie tackle success strictly to user input angle and timing."
+      "sentimentScore": 25,
+      "communityVerdict": "Wasted Playtime Friction",
+      "strategicRationale": "Excessive transit times between quest NPCs and courts causes player frustration.",
+      "fc28Recommendation": "Enable instant teleportation to any court, shop, or arena directly from pause menu."
     },
     {
       "id": "gng-4",
-      "featureName": "PC Anti-Cheat & Driver Architecture",
-      "category": "PC Engine Infrastructure",
-      "decision": "RE-ARCHITECT",
-      "sentimentScore": 18,
-      "communityVerdict": "Catastrophic Friction on Steam & PC Platforms",
-      "strategicRationale": "DirectX 12 crashes and splash hang errors cause 80% of negative Steam reviews across release cycles.",
-      "fc28Recommendation": "Build ground-up modular background daemon decoupled from game execution binary."
+      "featureName": "PC Next-Gen & Cross-Play Server Architecture",
+      "category": "Online Infrastructure",
+      "decision": "GO",
+      "sentimentScore": 88,
+      "communityVerdict": "Historic PC Breakthrough",
+      "strategicRationale": "Delivering true next-gen parity and cross-play to PC unlocked +45% PC player base growth.",
+      "fc28Recommendation": "Double down with dedicated 128-tick online tournament servers and Linux/Steam Deck optimization."
     },
     {
       "id": "gng-5",
-      "featureName": "Tactical Ball Inertia & Ground Deceleration",
+      "featureName": "Pure Green Window Shooting Timing",
       "category": "Gameplay Physics",
       "decision": "GO",
-      "sentimentScore": 84,
-      "communityVerdict": "Strategic Gameplay Triumph",
-      "strategicRationale": "Differentiates franchise as true simulation football over arcade competitors.",
-      "fc28Recommendation": "Double down with full volumetric ball spin, weather friction, and turf interaction."
+      "sentimentScore": 86,
+      "communityVerdict": "True Skill-Gap Basketball",
+      "strategicRationale": "Rewards timing precision and shot IQ over RNG contested luck.",
+      "fc28Recommendation": "Maintain customizable visual release cues (Push, Release, Set Point, Jump)."
     }
   ],
   "evidenceSummary": {

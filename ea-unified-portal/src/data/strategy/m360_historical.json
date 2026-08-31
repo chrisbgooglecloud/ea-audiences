@@ -1,65 +1,65 @@
 [
   {
-    "campaignName": "FC 27 Ultimate Edition Pre-Order Early Access",
-    "divisionId": "Ultimate Team & In-Game Packs",
-    "openRate": 0.58,
-    "clickRate": 0.34,
-    "clipRate": 0.28,
-    "redemptionRate": 0.26,
-    "conversionScore": 9.7
-  },
-  {
-    "campaignName": "Team of the Season (TOTS) Promo Launch",
-    "divisionId": "Ultimate Team & In-Game Packs",
-    "openRate": 0.62,
-    "clickRate": 0.39,
-    "clipRate": 0.33,
-    "redemptionRate": 0.31,
-    "conversionScore": 9.9
-  },
-  {
-    "campaignName": "FC IQ Tactical Masterclass DLC Bundle",
-    "divisionId": "Career Mode & DLC Expansions",
-    "openRate": 0.49,
-    "clickRate": 0.27,
-    "clipRate": 0.22,
-    "redemptionRate": 0.20,
-    "conversionScore": 9.2
-  },
-  {
-    "campaignName": "Nike Mercurial Virtual Boot Drop & Creator Cup",
-    "divisionId": "Brand Sponsorships & Virtual Gear",
-    "openRate": 0.54,
-    "clickRate": 0.31,
-    "clipRate": 0.26,
-    "redemptionRate": 0.24,
-    "conversionScore": 9.5
-  },
-  {
-    "campaignName": "Weekend League Double XP Boost & Founder Rewards",
-    "divisionId": "Community Drops & Free Rewards",
-    "openRate": 0.65,
-    "clickRate": 0.44,
-    "clipRate": 0.40,
-    "redemptionRate": 0.38,
+    "campaignName": "NBA 2K26 Hall of Fame Edition Pre-Order Early Access",
+    "divisionId": "MyCAREER & VC Vaults",
+    "openRate": 0.61,
+    "clickRate": 0.38,
+    "clipRate": 0.32,
+    "redemptionRate": 0.30,
     "conversionScore": 9.8
   },
   {
-    "campaignName": "12,000 FC Points Holiday Bundle Flash Offer",
-    "divisionId": "FC Points & Digital Bundles",
-    "openRate": 0.51,
-    "clickRate": 0.29,
-    "clipRate": 0.24,
-    "redemptionRate": 0.22,
-    "conversionScore": 9.3
+    "campaignName": "MyTEAM 100 OVR Holo Dark Matter Promo Launch",
+    "divisionId": "MyTEAM Pack Market",
+    "openRate": 0.64,
+    "clickRate": 0.42,
+    "clipRate": 0.36,
+    "redemptionRate": 0.34,
+    "conversionScore": 9.9
   },
   {
-    "campaignName": "FC Pro Open Regional Qualifiers Stream Drops",
-    "divisionId": "Esports & Live Tournaments",
-    "openRate": 0.47,
-    "clickRate": 0.25,
-    "clipRate": 0.21,
-    "redemptionRate": 0.19,
-    "conversionScore": 9.0
+    "campaignName": "The City Jordan Brand Virtual Sneaker Capsule Drop",
+    "divisionId": "Brand Sponsorships & Virtual Gear",
+    "openRate": 0.56,
+    "clickRate": 0.33,
+    "clipRate": 0.28,
+    "redemptionRate": 0.26,
+    "conversionScore": 9.5
+  },
+  {
+    "campaignName": "The REC Loss-Streak Tilt Shield & 2x Rep Token",
+    "divisionId": "Situational Retention Drops",
+    "openRate": 0.68,
+    "clickRate": 0.46,
+    "clipRate": 0.42,
+    "redemptionRate": 0.40,
+    "conversionScore": 9.9
+  },
+  {
+    "campaignName": "450,000 VC Vault Holiday Black Friday Flash Sale",
+    "divisionId": "Virtual Currency & Digital Goods",
+    "openRate": 0.53,
+    "clickRate": 0.31,
+    "clipRate": 0.26,
+    "redemptionRate": 0.24,
+    "conversionScore": 9.4
+  },
+  {
+    "campaignName": "Borderlands 4 Mayhem 10 Deluxe Season Pass Launch",
+    "divisionId": "Borderlands DLC & Co-Op Expansions",
+    "openRate": 0.58,
+    "clickRate": 0.35,
+    "clipRate": 0.30,
+    "redemptionRate": 0.28,
+    "conversionScore": 9.6
+  },
+  {
+    "campaignName": "Civilization VII Founders Edition Early Access",
+    "divisionId": "Grand Strategy Expansions",
+    "openRate": 0.52,
+    "clickRate": 0.29,
+    "clipRate": 0.25,
+    "redemptionRate": 0.23,
+    "conversionScore": 9.3
   }
 ]

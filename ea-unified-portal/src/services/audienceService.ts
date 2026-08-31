@@ -93,11 +93,11 @@ export const mapA2AToWorkflowPersonas = (players: A2APlayerProfile[], fallback: 
   if (!players || players.length === 0) return fallback;
   return players.map((p) => ({
     id: p.player_id,
-    name: `${p.gamer_tag} (${p.telemetry?.favorite_club || 'FC Club'})`,
-    demographics: `${p.telemetry?.division || 'Division 1'} • ${p.location} • Squad ${p.telemetry?.squad_ovr || 90} OVR`,
-    bio: `${p.recent_loss_streak}-Match Slump | Tilt Risk: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Key Star: ${p.telemetry?.favorite_player || 'Player'} | Spend: $${p.lifetime_spend_usd}`,
-    lifestyleContext: `RGB esports battle station adorned with authentic ${p.telemetry?.favorite_club || 'Football'} banners, tactical whiteboard detailing ${p.telemetry?.favorite_formation || '4-3-3 Attack'}, and glowing ${p.telemetry?.favorite_player || 'Player'} holographic trophy stand.`,
-    affinity: `${p.telemetry?.primary_playstyle || 'Direct Counter'} • Preferred Reward: ${p.telemetry?.preferred_reward_type || 'Pack Booster'}`,
+    name: `${p.gamer_tag} (${p.telemetry?.favorite_club || 'NBA Squad'})`,
+    demographics: `${p.telemetry?.division || 'The REC'} • ${p.location} • MyPLAYER ${p.telemetry?.squad_ovr || 99} OVR`,
+    bio: `${p.recent_loss_streak}-Game Slump | Tilt Risk: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Favorite Athlete: ${p.telemetry?.favorite_player || 'Star'} | Spend: $${p.lifetime_spend_usd}`,
+    lifestyleContext: `RGB gaming setup adorned with authentic ${p.telemetry?.favorite_club || 'NBA'} banners, tactical whiteboard detailing ${p.telemetry?.favorite_formation || '5-Out Iso'}, and glowing ${p.telemetry?.favorite_player || 'Star'} sneaker collection.`,
+    affinity: `${p.telemetry?.primary_playstyle || 'Shot-Creating Playmaker'} • Preferred Reward: ${p.telemetry?.preferred_reward_type || 'Gatorade Boost Pack'}`,
     defaultPrompt: p.personalized_creative_hooks?.imagen_prompt,
     lossStreak: p.recent_loss_streak,
     tiltSensitivity: p.tilt_sensitivity,
@@ -112,9 +112,9 @@ export const mapA2AToStorefrontPersonas = (players: A2APlayerProfile[], fallback
   return players.map((p) => {
     const purchasedTitles = (p.purchased_items || []).map(item => item.title);
     const interests = purchasedTitles.length > 0 ? purchasedTitles : [
-      `${p.telemetry?.favorite_club || 'FC Club'} Official Kit`,
-      `${p.telemetry?.favorite_player || 'Star'} Hero Item`,
-      `${p.telemetry?.favorite_formation || 'Tactics'} Playbook`
+      `${p.telemetry?.favorite_club || 'NBA Team'} City Edition Jersey`,
+      `${p.telemetry?.favorite_player || 'Star'} Signature Shoe Drop`,
+      `The City ProPASS Season Pass`
     ];
 
     const lossStreak = p.recent_loss_streak ?? 0;
@@ -125,46 +125,46 @@ export const mapA2AToStorefrontPersonas = (players: A2APlayerProfile[], fallback
     let observationText = '';
 
     if (lossStreak >= 3) {
-      cohortStatus = `${p.telemetry?.division || 'Weekend League'} • ${lossStreak}-Match Slump`;
-      statusTag = `${lossStreak}-Match Slump`;
-      observationText = p.personalized_creative_hooks?.suggested_headline || `High tilt risk (${tiltPct}%) following ${lossStreak} consecutive losses. Receptive to momentum reset bundles.`;
+      cohortStatus = `${p.telemetry?.division || 'The REC'} • ${lossStreak}-Game Slump`;
+      statusTag = `${lossStreak}-Game Slump`;
+      observationText = p.personalized_creative_hooks?.suggested_headline || `High tilt risk (${tiltPct}%) following ${lossStreak} consecutive losses in The REC. Receptive to momentum reset bundles.`;
     } else if (lossStreak > 0) {
-      cohortStatus = `${p.telemetry?.division || 'Division Rivals'} • ${lossStreak} Match Defeat`;
-      statusTag = `${lossStreak} Match Defeat`;
-      observationText = p.personalized_creative_hooks?.suggested_headline || `Moderate tilt risk (${tiltPct}%). Receptive to tactical coaching and squad upgrades.`;
+      cohortStatus = `${p.telemetry?.division || 'The City'} • ${lossStreak} Game Defeat`;
+      statusTag = `${lossStreak} Game Defeat`;
+      observationText = p.personalized_creative_hooks?.suggested_headline || `Moderate tilt risk (${tiltPct}%). Receptive to Cap Breakers and badge upgrades.`;
     } else if (p.primary_archetype?.includes('WHALE')) {
-      cohortStatus = `${p.telemetry?.division || 'Division 2 Rivals'} • VIP High Spender`;
+      cohortStatus = `${p.telemetry?.division || 'MyTEAM Unlimited'} • VIP High Spender`;
       statusTag = 'Whale Collector';
-      observationText = p.personalized_creative_hooks?.suggested_headline || `High lifetime spend ($${p.lifetime_spend_usd}). Receptive to exclusive Icon picks and points vaults.`;
+      observationText = p.personalized_creative_hooks?.suggested_headline || `High lifetime spend ($${p.lifetime_spend_usd}). Receptive to exclusive 100 OVR Holo Dark Matter boxes and VC vaults.`;
     } else if (p.primary_archetype?.includes('VETERAN')) {
-      cohortStatus = `${p.telemetry?.division || 'Division 5 Rivals'} • Returning Veteran`;
+      cohortStatus = `${p.telemetry?.division || 'The City'} • Returning Veteran`;
       statusTag = 'Returning Player';
-      observationText = p.personalized_creative_hooks?.suggested_headline || `Re-engagement cohort. Receptive to welcome-back loan player items.`;
+      observationText = p.personalized_creative_hooks?.suggested_headline || `Re-engagement cohort. Receptive to welcome-back 2x Rep boosters and VC reloads.`;
     } else if (p.primary_archetype?.includes('SOCIALIZER')) {
-      cohortStatus = `${p.telemetry?.division || 'Pro Clubs & Rush 5v5'} • Casual Co-Op`;
-      statusTag = 'Rush 5v5 Captain';
-      observationText = p.personalized_creative_hooks?.suggested_headline || `Casual socializer. Receptive to XP boosters and co-op kit drops.`;
+      cohortStatus = `${p.telemetry?.division || 'Pro-Am Squads'} • Casual Co-Op`;
+      statusTag = 'Pro-Am Captain';
+      observationText = p.personalized_creative_hooks?.suggested_headline || `Casual socializer. Receptive to squad apparel drops and Double Rep weekend passes.`;
     } else {
-      cohortStatus = `${p.telemetry?.division || 'FUT Champions'} • Win Streak / In-Form`;
-      statusTag = 'In-Form Win Streak';
-      observationText = p.personalized_creative_hooks?.suggested_headline || `Peak momentum (0 losses). Receptive to Champions Rank 1 rewards and milestone victory items.`;
+      cohortStatus = `${p.telemetry?.division || 'The REC'} • Win Streak / On Fire`;
+      statusTag = 'On-Fire Win Streak';
+      observationText = p.personalized_creative_hooks?.suggested_headline || `Peak momentum (0 losses). Receptive to Season Level 40 rewards and milestone victory items.`;
     }
 
     return {
       id: p.player_id,
       name: `${p.gamer_tag}`,
       cohortTitle: cohortStatus,
-      demographics: `${p.location} • $${p.lifetime_spend_usd} Lifetime Spend • Squad ${p.telemetry?.squad_ovr || 90} OVR`,
+      demographics: `${p.location} • $${p.lifetime_spend_usd} Lifetime Spend • MyPLAYER ${p.telemetry?.squad_ovr || 99} OVR`,
       interests,
       intentScores: {
-        categoryAffinity: `${p.telemetry?.favorite_club || 'FC Club'} & ${p.telemetry?.primary_playstyle || 'Tactics'}`,
+        categoryAffinity: `${p.telemetry?.favorite_club || 'NBA Team'} & ${p.telemetry?.primary_playstyle || 'The City Drip'}`,
         purchaseIntent: tiltPct
       },
       behavioralTags: [
-        p.primary_archetype || 'COMPETITIVE_GRINDER',
+        p.primary_archetype || 'MYCAREER_HOOPER',
         statusTag,
-        p.telemetry?.favorite_club || 'FC Club',
-        `OVR ${p.telemetry?.squad_ovr || 90}`
+        p.telemetry?.favorite_club || 'NBA Team',
+        `OVR ${p.telemetry?.squad_ovr || 99}`
       ],
       observations: observationText,
       creativeHooks: p.personalized_creative_hooks,
@@ -179,17 +179,17 @@ export const mapA2AToSyntheticUsers = (players: A2APlayerProfile[], fallback: Sy
   if (!players || players.length === 0) return fallback;
   return players.map((p) => ({
     name: p.gamer_tag,
-    archetype: p.primary_archetype || 'Competitive Grinder',
-    demographics: `${p.location} • ${p.telemetry?.division || 'Weekend League'} (Squad ${p.telemetry?.squad_ovr || 90} OVR)`,
-    bio: `${p.recent_loss_streak}-Match Slump | Tilt Risk: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Club: ${p.telemetry?.favorite_club} | Key Star: ${p.telemetry?.favorite_player} | Spend: $${p.lifetime_spend_usd}`,
-    behavioralSummary: `Tilt Sensitivity: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Current Slump: ${p.recent_loss_streak} Loss Streak | Favorite Club: ${p.telemetry?.favorite_club} | Favorite Star: ${p.telemetry?.favorite_player} | Total Spend: $${p.lifetime_spend_usd}`,
+    archetype: p.primary_archetype || 'The City Streetballer',
+    demographics: `${p.location} • ${p.telemetry?.division || 'The REC'} (MyPLAYER ${p.telemetry?.squad_ovr || 99} OVR)`,
+    bio: `${p.recent_loss_streak}-Game Slump | Tilt Risk: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Team: ${p.telemetry?.favorite_club} | Key Star: ${p.telemetry?.favorite_player} | Spend: $${p.lifetime_spend_usd}`,
+    behavioralSummary: `Tilt Sensitivity: ${Math.round((p.tilt_sensitivity || 0.9) * 100)}% | Current Slump: ${p.recent_loss_streak} Loss Streak | Favorite Team: ${p.telemetry?.favorite_club} | Favorite Star: ${p.telemetry?.favorite_player} | Total Spend: $${p.lifetime_spend_usd}`,
     affinityScores: {
-      "Ultimate Team": 96,
-      "FC IQ Tactics": 92,
-      "Weekend League": 95,
-      "Reward Boosters": 88
+      "MyCAREER & The City": 96,
+      "ProPLAY Animations": 92,
+      "The REC & Pro-Am": 95,
+      "Gatorade Boosters": 88
     },
-    preferredTone: "Tactical redemption, high-energy comeback, momentum reset",
+    preferredTone: "Court redemption, high-energy comeback, momentum reset",
     rawProfile: p,
     telemetry: p.telemetry,
     purchasedItems: p.purchased_items,
@@ -204,3 +204,4 @@ export const mapA2AToSyntheticUsers = (players: A2APlayerProfile[], fallback: Sy
     suggestedHeadline: p.personalized_creative_hooks?.suggested_headline
   }));
 };
+

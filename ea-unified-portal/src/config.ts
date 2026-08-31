@@ -1,20 +1,20 @@
 export const brandConfig = {
-  companyName: "EA Games FC",
+  companyName: "2K Games (Take-Two Interactive)",
   logo: {
-    sidebar: "/images/fc_27_logo_horizontal.png",
+    sidebar: "/images/2k_logo.png",
     width: "w-[160px]",
   },
   colors: {
     primary: "#FFFFFF",
-    secondary: "#111827",
-    accent: "#339DD4",
+    secondary: "#0E1A29",
+    accent: "#E51B24",
   },
   meta: {
-    title: "Brand Sentiment and Reputation Monitoring",
+    title: "2K Brand Sentiment & Live Service Intelligence",
   },
   ui: {
-    welcomeTitle: "EA Games FC Marketing AI Lab",
-    welcomeColor: "text-[#339DD4]",
+    welcomeTitle: "2K Growth Engine • AI Marketing Intelligence Lab",
+    welcomeColor: "text-[#E51B24]",
     button: {
       primary: "btn-primary",
       secondary: "btn-secondary",
@@ -22,6 +22,16 @@ export const brandConfig = {
     },
   },
   examples: {
-    privateBrands: ["FC 25", "FC 26", "FC 27", "Ultimate Team", "Career Mode", "Clubs", "Rush 5v5"],
+    privateBrands: [
+      "NBA 2K26",
+      "Borderlands 4",
+      "Civilization VII",
+      "WWE 2K25",
+      "PGA TOUR 2K25",
+      "The City",
+      "MyCAREER",
+      "MyTEAM",
+      "ProPASS"
+    ],
   }
 };

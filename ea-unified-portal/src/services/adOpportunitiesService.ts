@@ -276,8 +276,8 @@ Return JSON only.`;
 
 // Helper: Contextualize company
 function brandContext(companyName: string): string {
-    if (companyName.toLowerCase().includes("ea") || companyName.toLowerCase().includes("fc")) {
-        return "EA SPORTS FC franchise, Frostbite game engine, Ultimate Team, Clubs, Volta, Rush 5v5, Career Mode";
+    if (companyName.toLowerCase().includes("2k") || companyName.toLowerCase().includes("nba") || companyName.toLowerCase().includes("take-two")) {
+        return "2K Games portfolio: NBA 2K26 (The City, MyCAREER, MyTEAM, ProPLAY), Borderlands 4, Civilization VII, WWE 2K25, PGA TOUR 2K25";
     }
     return `${companyName} digital entertainment ecosystem`;
 }
@@ -307,9 +307,9 @@ function synthesizeAndRankOpportunities(rawOpps: AdOpportunity[]): AdOpportunity
 }
 
 function calculateBrandAlignmentIndex(opps: AdOpportunity[]): number {
-    if (!opps || opps.length === 0) return 92;
+    if (!opps || opps.length === 0) return 94;
     const avgScore = opps.reduce((acc, o) => acc + (o.opportunityScore || 85), 0) / opps.length;
-    return Math.min(Math.round(avgScore * 1.05), 98);
+    return Math.min(Math.round(avgScore * 1.05), 99);
 }
 
 // Fallback high-fidelity opportunities
@@ -317,129 +317,88 @@ function getDefaultOpportunities(): AdOpportunity[] {
     return [
         {
             id: "ad-opp-1",
-            title: "Dynamic Pitch-Side LED & Real-Time Contextual Brand Strips",
-            placementType: "Pitch-Side LED & Stadium Boards",
+            title: "The City 3D LED Courtside Billboards & Real-Time Contextual Hoardings",
+            placementType: "Courtside LED & The City Billboards",
             category: "Matchday Experience",
             opportunityScore: 96,
             revenuePotential: "Transformative",
-            brandFitSuggestions: ["Sony PlayStation", "Nike Football", "Pepsi Max", "Barclays", "EA SPORTS FC Pro"],
-            communityTrigger: "Gamers frequently praise realistic lighting and stadium graphics, but note generic repeating board loops break immersion.",
+            brandFitSuggestions: ["Sony PlayStation", "Nike Basketball", "Jordan Brand", "Gatorade", "State Farm"],
+            communityTrigger: "Gamers frequently praise ProPLAY lighting and arena graphics, but note generic repeating board loops break immersion in The City.",
             gamerQuotes: [
                 {
-                    quote: "The pitch graphics look crisp, but real animated LED boards reacting to match momentum would make it feel like a real UCL broadcast.",
-                    author: "FUT_Champion99",
-                    release: "FC 26",
+                    quote: "The court graphics look crisp, but real animated LED boards reacting to game momentum in The REC would make it feel like a real NBA broadcast.",
+                    author: "Buckets_PointGod_99",
+                    release: "NBA 2K26",
                     channel: "YouTube Comments"
                 }
             ],
-            implementationBlueprint: "Implement lightweight dynamic texture swapping via Frostbite engine streaming pipeline, updating digital board rotations based on home club and tournament tier.",
+            implementationBlueprint: "Implement lightweight dynamic texture swapping via 2K streaming pipeline, updating digital board rotations based on NBA home arena and tournament tier.",
             monetizationModel: "Dynamic In-Game Ad Server (Real-Time Geo-Targeted CPM)",
             playerSentimentRisk: "Negligible"
         },
         {
             id: "ad-opp-2",
-            title: "Volta & Rush 5v5 Streetwear Capsule & Music Label Pitch Murals",
-            placementType: "Volta & Rush 5v5 Streetwear/Lifestyle",
+            title: "The City Streetwear Drip & Signature Sneaker Drop Collabs",
+            placementType: "The City Streetwear & Sneaker Drops",
             category: "Apparel & Culture",
-            opportunityScore: 94,
+            opportunityScore: 95,
             revenuePotential: "Very High",
-            brandFitSuggestions: ["Nike Mercurial", "Adidas Originals", "Supreme", "Stüssy", "Stone Island", "Sony Music"],
-            communityTrigger: "High player engagement with Rush 5v5 and Volta street culture, driving demand for exclusive lifestyle cosmetics, hoodies, and turf murals.",
+            brandFitSuggestions: ["Jordan Brand", "Fear of God", "BAPE", "Nike Sportswear", "Rhude", "Sony Music"],
+            communityTrigger: "High player engagement with The City streetball culture and Park fashion, driving demand for exclusive streetwear apparel and sneaker drops.",
             gamerQuotes: [
                 {
-                    quote: "Rush 5v5 is so fast paced! We need more streetwear drip and custom kit collabs like Nike Mercurial or Supreme to customize our players on the cage pitch.",
-                    author: "VoltaKing",
-                    release: "FC 26",
+                    quote: "The City park is so lively! We need more authentic streetwear drip and custom sneaker collabs like Jordan Retros or Fear of God to flex on the court.",
+                    author: "StreetballKing_2K",
+                    release: "NBA 2K26",
                     channel: "Reddit Discussion"
                 }
             ],
-            implementationBlueprint: "Create seasonal digital cosmetic drops in Rush/Volta storefront with exclusive branded apparel, sneaker models, and stadium cage pitch graffiti.",
-            monetizationModel: "Co-Branded Digital Cosmetic Drop & Season Pass Milestone",
+            implementationBlueprint: "Virtual apparel store drops inside The City with limited-quantity digital twin releases synchronized with real-world physical footwear launches.",
+            monetizationModel: "Co-Branded Digital Vanity Sales & In-Game Brand Activation",
             playerSentimentRisk: "Low"
         },
         {
             id: "ad-opp-3",
-            title: "Broadcast Halftime Tactical Breakdown & 'Play of the Half' Sponsorship",
-            placementType: "Broadcast & Halftime Replays",
-            category: "Broadcast Integration",
-            opportunityScore: 91,
+            title: "MyCAREER Gatorade Training Facility & Energy Recovery Sponsorship",
+            placementType: "In-Game Facility & Energy Recovery",
+            category: "Performance & Wellness",
+            opportunityScore: 92,
             revenuePotential: "Very High",
-            brandFitSuggestions: ["Red Bull", "PlayStation 5", "Gillette Labs", "Bose", "State Farm"],
-            communityTrigger: "Community requests for enhanced broadcast presentation and instant replay packages during halftime intervals.",
+            brandFitSuggestions: ["Gatorade", "BodyArmor", "Red Bull", "Hyperice"],
+            communityTrigger: "MyPLAYER stamina and turbo meter maintenance is critical for competitive The REC and Pro-Am players.",
             gamerQuotes: [
                 {
-                    quote: "Why doesn't the halftime show have actual sponsor breakdowns like real TV matches? Like 'Red Bull Play of the Half' or PlayStation instant replay rewinds.",
-                    author: "TacticalGamer_UK",
-                    release: "FC 25",
+                    quote: "Stamina drains so quickly in the 4th quarter of The REC. The Gatorade gym boost gives such an edge, they should integrate real training mini-games.",
+                    author: "BadgeGrinder_99",
+                    release: "NBA 2K25",
                     channel: "Steam Reviews"
                 }
             ],
-            implementationBlueprint: "Overlay branded motion wipes, split-screen tactical replay sponsor graphic, and lower-third 'Presented by' sponsor card on halftime statistics screen.",
-            monetizationModel: "Seasonal Title Partner Package",
+            implementationBlueprint: "Official brand sponsorship of MyCAREER Gatorade Fuel Bar, granting temporary turbo boosts and branded recovery consumables.",
+            monetizationModel: "Integrated In-Game Brand Partnership (Annual Sponsorship)",
             playerSentimentRisk: "Negligible"
         },
         {
             id: "ad-opp-4",
-            title: "PC Graphics & Engine Performance Co-Marketing (DLSS 4 & Reflex)",
-            placementType: "Hardware & PC Tech Partnerships",
-            category: "Tech & Performance",
-            opportunityScore: 89,
+            title: "NBA Arena Jumbotron 'State Farm Assist of the Game' & Replay Rewind",
+            placementType: "Broadcast & Halftime Replays",
+            category: "Broadcast Presentation",
+            opportunityScore: 90,
             revenuePotential: "High",
-            brandFitSuggestions: ["Nvidia GeForce RTX", "Samsung Odyssey", "Alienware", "Razer Chroma"],
-            communityTrigger: "Steam review feedback regarding PC DirectX 12 driver optimizations, frame drops, and input latency.",
+            brandFitSuggestions: ["State Farm", "Ruffles", "Tissot", "Kia Motors"],
+            communityTrigger: "Broadcast immersion and instant replay packaging elevate realism during televised MyCAREER games.",
             gamerQuotes: [
                 {
-                    quote: "PC DirectX 12 stuttering is ruining online gameplay. EA should partner directly with Nvidia for DLSS 4 frame generation and Reflex ultra-low latency.",
-                    author: "PC_Master_Builds",
-                    release: "FC 26",
-                    channel: "Steam Reviews"
-                }
-            ],
-            implementationBlueprint: "Co-engineer official Nvidia DLSS 4 / Reflex game profile with branded in-game settings toggle, splash screen co-branding, and esports tournament hardware integration.",
-            monetizationModel: "Co-Marketing Technology Partnership & Esports Equipment Sponsor",
-            playerSentimentRisk: "Negligible"
-        },
-        {
-            id: "ad-opp-5",
-            title: "Ultimate Team Stadium Customization & Walkout Tifo Pyrotechnics",
-            placementType: "FUT Stadium Customization & Walkout Tifos",
-            category: "FUT Economy",
-            opportunityScore: 88,
-            revenuePotential: "Very High",
-            brandFitSuggestions: ["Pepsi", "Puma King", "Monster Energy", "Beats by Dre", "EA SPORTS FC Mobile"],
-            communityTrigger: "Enthusiasm around FUT pack opening walkouts and customizable home stadium choreographies.",
-            gamerQuotes: [
-                {
-                    quote: "FUT Pack opening animations are sick when walkout fireworks trigger. Having brand takeovers for special promo events like Black Friday or TOTY would look amazing.",
-                    author: "PackPuller_Official",
-                    release: "FC 26",
+                    quote: "Broadcast camera angles look like real ESPN games. Having authentic State Farm Assist of the Game replay slates makes it feel 100% authentic.",
+                    author: "MyNBAPurist",
+                    release: "NBA 2K26",
                     channel: "YouTube Comments"
                 }
             ],
-            implementationBlueprint: "Introduce unlockable branded stadium themes, goal pyrotechnics, and walkout stage backdrop banners awarded via seasonal Objectives.",
-            monetizationModel: "FUT Promo Event Partner & In-Game Objective Sponsorship",
-            playerSentimentRisk: "Low"
-        },
-        {
-            id: "ad-opp-6",
-            title: "Matchday Audio Commentary & Official VAR Review Sponsorship",
-            placementType: "Audio Commentary & VAR Sponsor",
-            category: "Audio Presentation",
-            opportunityScore: 86,
-            revenuePotential: "High",
-            brandFitSuggestions: ["Rolex / Hublot", "Sony Bravia", "Heineken 0.0", "Emirates"],
-            communityTrigger: "Gamer comments noting realism improvements when commentators reference real-world match events and official referee checks.",
-            gamerQuotes: [
-                {
-                    quote: "VAR offside reviews need more realism. In Premier League they show official sponsor graphics on the stadium jumbo screen during the line-drawing check.",
-                    author: "EPL_Supporter",
-                    release: "FC 25",
-                    channel: "Reddit Discussion"
-                }
-            ],
-            implementationBlueprint: "Program contextual commentary voice lines ('Let us go to the Hublot VAR review') accompanied by on-screen graphical frame during contentious offside calls.",
-            monetizationModel: "Audio Broadcast Sponsorship Package",
+            implementationBlueprint: "Procedural replay package rendering high-leverage alley-oops with branded on-screen graphics bug and commentary VO.",
+            monetizationModel: "Broadcast Overlay Sponsorship Package",
             playerSentimentRisk: "Negligible"
         }
     ];
 }
+

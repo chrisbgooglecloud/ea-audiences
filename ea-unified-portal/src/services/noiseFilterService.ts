@@ -12,7 +12,7 @@ export interface RawComment {
     id: string;
     rawText: string;
     author: string;
-    release: 'FC 24' | 'FC 25' | 'FC 26' | 'FC 27';
+    release: 'NBA 2K24' | 'NBA 2K25' | 'NBA 2K26' | 'NBA 2K27' | 'FC 24' | 'FC 25' | 'FC 26' | 'FC 27';
     source: 'Steam Reviews' | 'YouTube Comments' | 'Reddit Discussion';
     sourceLabel?: string;
     timestamp?: string; // Formatted Date/Time stamp (e.g. 'Oct 14, 2024')
@@ -236,12 +236,13 @@ export interface Stage3KeywordResult {
 
 // Default pre-configured sources across YouTube, Steam, and Reddit
 export const DEFAULT_NOISE_SOURCES: NoiseSourceConfig[] = [
-    { id: 'src-yt-1', type: 'youtube', target: 'https://www.youtube.com/watch?v=GBq8fcpBOTU', label: 'YouTube: EA SPORTS FC 25 / 26 Gameplay Deep Dive', targetCount: 750 },
-    { id: 'src-steam-1', type: 'steam', target: '2669320', label: 'Steam: EA SPORTS FC 25 Store Reviews', targetCount: 750 },
-    { id: 'src-steam-2', type: 'steam', target: '3405690', label: 'Steam: EA SPORTS FC 26 Store Reviews', targetCount: 750 },
-    { id: 'src-reddit-1', type: 'reddit', target: 'r/EASportsFC FC 26 gameplay and evolutions feedback', label: 'Reddit: r/EASportsFC Gameplay & Evolutions', targetCount: 200 },
-    { id: 'src-reddit-2', type: 'reddit', target: 'r/EASportsFC PC DirectX 12 anti cheat crash feedback', label: 'Reddit: r/EASportsFC PC Stability & Anti-Cheat', targetCount: 200 }
+    { id: 'src-yt-1', type: 'youtube', target: 'https://www.youtube.com/watch?v=GBq8fcpBOTU', label: 'YouTube: NBA 2K25 / 2K26 ProPLAY Gameplay Deep Dive', targetCount: 750 },
+    { id: 'src-steam-1', type: 'steam', target: '2669320', label: 'Steam: NBA 2K25 Store Reviews', targetCount: 750 },
+    { id: 'src-steam-2', type: 'steam', target: '3405690', label: 'Steam: NBA 2K26 Store Reviews', targetCount: 750 },
+    { id: 'src-reddit-1', type: 'reddit', target: 'r/NBA2k NBA 2K26 gameplay, The City and ProPLAY feedback', label: 'Reddit: r/NBA2k Gameplay & The City', targetCount: 200 },
+    { id: 'src-reddit-2', type: 'reddit', target: 'r/NBA2k MyTEAM auction house and pack drop rates feedback', label: 'Reddit: r/NBA2k MyTEAM & Pack Odds', targetCount: 200 }
 ];
+
 
 // Helper to stream logs directly to the user's terminal running server.js
 export const sendTerminalLog = async (

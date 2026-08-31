@@ -1,8 +1,8 @@
 [
   {
-    "segmentId": "ultimate_team_grinders",
-    "name": "Competitive Ultimate Team & Weekend League Grinders",
-    "enrolledShoppersCount": 185000,
+    "segmentId": "the_city_streetball_grinders",
+    "name": "The City & The REC 99 OVR Competitive Grinders",
+    "enrolledShoppersCount": 210000,
     "optInSMS": true,
     "optInEmail": true,
     "activeCampaignsCount": 1,
@@ -12,9 +12,21 @@
     }
   },
   {
-    "segmentId": "career_tacticians",
-    "name": "Career Mode Strategists & Tactical Enthusiasts",
-    "enrolledShoppersCount": 120000,
+    "segmentId": "myteam_darkmatter_whales",
+    "name": "MyTEAM 100 OVR Holo Collectors & VIP Auction Traders",
+    "enrolledShoppersCount": 145000,
+    "optInSMS": true,
+    "optInEmail": true,
+    "activeCampaignsCount": 1,
+    "contactFrequencyLimits": {
+      "maxPerWeek": 3,
+      "rollingSent": 1
+    }
+  },
+  {
+    "segmentId": "borderlands_coop_squads",
+    "name": "Borderlands 4 Mayhem 10 Co-Op Vault Hunters",
+    "enrolledShoppersCount": 160000,
     "optInSMS": true,
     "optInEmail": true,
     "activeCampaignsCount": 0,
@@ -24,9 +36,9 @@
     }
   },
   {
-    "segmentId": "volta_street_squads",
-    "name": "VOLTA Street Football & Lifestyle Fans",
-    "enrolledShoppersCount": 75000,
+    "segmentId": "civ_grand_strategists",
+    "name": "Civilization VII Diety Strategists & Expansion Buyers",
+    "enrolledShoppersCount": 115000,
     "optInSMS": false,
     "optInEmail": true,
     "activeCampaignsCount": 0,
@@ -36,21 +48,9 @@
     }
   },
   {
-    "segmentId": "pro_clubs_teams",
-    "name": "Pro Clubs Social Squads & Competitive Leagues",
-    "enrolledShoppersCount": 90000,
-    "optInSMS": true,
-    "optInEmail": false,
-    "activeCampaignsCount": 1,
-    "contactFrequencyLimits": {
-      "maxPerWeek": 2,
-      "rollingSent": 1
-    }
-  },
-  {
-    "segmentId": "casual_mobile_companion",
-    "name": "FC Companion App & Casual Mobile Squad Builders",
-    "enrolledShoppersCount": 140000,
+    "segmentId": "mynba_companion_mobile",
+    "name": "MyNBA Companion App Daily Face-Scan & VC Check-In Users",
+    "enrolledShoppersCount": 180000,
     "optInSMS": true,
     "optInEmail": true,
     "activeCampaignsCount": 2,
@@ -60,11 +60,11 @@
     }
   },
   {
-    "segmentId": "esports_spectators",
-    "name": "FC Pro Open Viewers & Twitch Drop Hunters",
-    "enrolledShoppersCount": 65000,
-    "optInSMS": false,
-    "optInEmail": true,
+    "segmentId": "wwe_myfaction_enthusiasts",
+    "name": "WWE 2K25 MyFACTION & Universe Mode Creators",
+    "enrolledShoppersCount": 85000,
+    "optInSMS": true,
+    "optInEmail": false,
     "activeCampaignsCount": 1,
     "contactFrequencyLimits": {
       "maxPerWeek": 2,

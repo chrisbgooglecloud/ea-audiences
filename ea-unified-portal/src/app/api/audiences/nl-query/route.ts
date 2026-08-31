@@ -46,32 +46,33 @@ export async function POST(request: NextRequest) {
 
     // If generic creator / streamer mention without specific name, include top 4 creators
     if (matchedCreatorIds.length === 0 && (lowerQ.includes("creator") || lowerQ.includes("streamer") || lowerQ.includes("influencer") || lowerQ.includes("youtube") || lowerQ.includes("twitch"))) {
-      matchedCreatorIds = ["creator-nickrtfm", "creator-castro1021", "creator-dannyaarons", "creator-boraslegend"];
+      matchedCreatorIds = ["creator-chris-smoove", "creator-troydan", "creator-agent-00", "creator-joltzdude"];
     }
 
     // Detect franchises in query
-    if (lowerQ.includes("fc") && lowerQ.includes("apex")) {
-      targetFranchises = ["FC26", "APEX"];
-    } else if (lowerQ.includes("apex")) {
-      targetFranchises = ["APEX"];
-    } else if (lowerQ.includes("madden") || lowerQ.includes("mut")) {
-      targetFranchises = ["MADDEN25"];
-    } else if (lowerQ.includes("battlefield") || lowerQ.includes("conquest")) {
-      targetFranchises = ["BATTLEFIELD"];
-    } else if (lowerQ.includes("sims") || lowerQ.includes("expansion")) {
-      targetFranchises = ["SIMS4"];
-    } else if (lowerQ.includes("fc") || lowerQ.includes("fut") || lowerQ.includes("rush")) {
-      targetFranchises = ["FC26"];
+    if ((lowerQ.includes("2k") || lowerQ.includes("nba")) && lowerQ.includes("borderlands")) {
+      targetFranchises = ["NBA2K26", "BORDERLANDS4"];
+    } else if (lowerQ.includes("borderlands") || lowerQ.includes("vault") || lowerQ.includes("mayhem")) {
+      targetFranchises = ["BORDERLANDS4"];
+    } else if (lowerQ.includes("civ") || lowerQ.includes("civilization") || lowerQ.includes("diety") || lowerQ.includes("antiquity")) {
+      targetFranchises = ["CIV7"];
+    } else if (lowerQ.includes("wwe") || lowerQ.includes("wrestling") || lowerQ.includes("myfaction")) {
+      targetFranchises = ["WWE2K25"];
+    } else if (lowerQ.includes("pga") || lowerQ.includes("golf") || lowerQ.includes("clubhouse")) {
+      targetFranchises = ["PGATOUR2K"];
+    } else if (lowerQ.includes("nba") || lowerQ.includes("2k") || lowerQ.includes("city") || lowerQ.includes("rec") || lowerQ.includes("mycareer") || lowerQ.includes("myteam")) {
+      targetFranchises = ["NBA2K26"];
     } else if (selectedGame !== "ALL") {
       targetFranchises = [selectedGame];
     } else {
-      targetFranchises = ["FC26", "APEX"]; // Default cross-franchise pair
+      targetFranchises = ["NBA2K26", "BORDERLANDS4"]; // Default cross-franchise pair
     }
 
     // 1. Live Vertex AI Gemini NL-to-GQL Translation
     try {
       const prompt = `
 ${NL_TO_GQL_SYSTEM_PROMPT}
+
 
 User Prompt: "${query}"
 Active Game Filter: "${selectedGame}"

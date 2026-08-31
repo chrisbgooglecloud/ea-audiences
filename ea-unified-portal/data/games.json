@@ -1,192 +1,142 @@
 [
   {
-    "game_id": "game-fc26",
-    "franchise": "FC26",
-    "title": "EA SPORTS FC 26",
-    "genre": "Football Simulation & Card Collecting",
+    "game_id": "game-nba2k26",
+    "franchise": "NBA2K26",
+    "title": "NBA 2K26",
+    "genre": "Basketball Simulation & Digital Athlete Ecosystem",
     "is_parent_hub": true,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID", "COMPANION_APP"],
-    "base_hours": [100, 2200],
-    "base_spend": [50, 5000]
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID", "MYNBA_APP"],
+    "base_hours": [120, 2500],
+    "base_spend": [70, 5500]
   },
   {
-    "game_id": "game-fc26-ultimate-team",
-    "franchise": "FC26",
-    "title": "FC 26 Ultimate Team (FUT)",
-    "genre": "Competitive Card & Squad Building",
+    "game_id": "game-nba2k26-thecity",
+    "franchise": "NBA2K26",
+    "title": "The City & MyCAREER",
+    "genre": "Open-World Streetball & Competitive Pro-Am",
     "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "COMPANION_APP", "STEAM_ID"],
-    "base_hours": [100, 2200],
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [150, 2200],
     "base_spend": [50, 4500]
   },
   {
-    "game_id": "game-fc26-clubs-rush",
-    "franchise": "FC26",
-    "title": "FC 26 Clubs & Rush 5v5",
-    "genre": "Team Social & 11v11 / 5v5",
+    "game_id": "game-nba2k26-myteam",
+    "franchise": "NBA2K26",
+    "title": "NBA 2K26 MyTEAM",
+    "genre": "Competitive Card Collecting & Unlimited Auction",
     "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [50, 1200],
-    "base_spend": [0, 350]
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "MYNBA_APP", "STEAM_ID"],
+    "base_hours": [80, 1800],
+    "base_spend": [100, 5000]
   },
   {
-    "game_id": "game-fc26-career-mode",
-    "franchise": "FC26",
-    "title": "FC 26 Manager Career",
-    "genre": "Tactical Management Simulation",
+    "game_id": "game-nba2k26-mynba-eras",
+    "franchise": "NBA2K26",
+    "title": "MyNBA Eras & Management",
+    "genre": "Historical Franchise Management Simulation",
     "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
     "base_hours": [40, 900],
     "base_spend": [0, 70]
   },
   {
-    "game_id": "game-fc26-online-seasons",
-    "franchise": "FC26",
-    "title": "FC 26 Online Seasons",
-    "genre": "Head-to-Head Competitive",
+    "game_id": "game-borderlands4",
+    "franchise": "BORDERLANDS4",
+    "title": "Borderlands 4",
+    "genre": "Co-Op Looter-Shooter & Mayhem Action RPG",
+    "is_parent_hub": true,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [80, 1500],
+    "base_spend": [70, 400]
+  },
+  {
+    "game_id": "game-borderlands4-mayhem",
+    "franchise": "BORDERLANDS4",
+    "title": "Borderlands 4 Mayhem Raids",
+    "genre": "4-Player Tactical Endgame Raid Battles",
     "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID"],
-    "base_hours": [20, 600],
-    "base_spend": [0, 50]
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [100, 1200],
+    "base_spend": [20, 250]
+  },
+  {
+    "game_id": "game-civ7",
+    "franchise": "CIV7",
+    "title": "Sid Meier's Civilization VII",
+    "genre": "4X Turn-Based Grand Strategy",
+    "is_parent_hub": true,
+    "platforms": ["2K_ACCOUNT", "STEAM_ID", "PLAYSTATION_PSN", "XBOX_XUID", "NINTENDO_SWITCH"],
+    "base_hours": [150, 3000],
+    "base_spend": [70, 350]
+  },
+  {
+    "game_id": "game-civ7-multiplayer",
+    "franchise": "CIV7",
+    "title": "Civilization VII Multiplayer Leagues",
+    "genre": "Online Competitive Turn-Based Diplomacy",
+    "is_parent_hub": false,
+    "platforms": ["2K_ACCOUNT", "STEAM_ID"],
+    "base_hours": [100, 1800],
+    "base_spend": [0, 150]
+  },
+  {
+    "game_id": "game-wwe2k25",
+    "franchise": "WWE2K25",
+    "title": "WWE 2K25",
+    "genre": "Sports Entertainment & Combat Simulation",
+    "is_parent_hub": true,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [60, 1000],
+    "base_spend": [70, 1200]
+  },
+  {
+    "game_id": "game-wwe2k25-myfaction",
+    "franchise": "WWE2K25",
+    "title": "WWE 2K25 MyFACTION",
+    "genre": "Card Battling & Daily Tower Challenges",
+    "is_parent_hub": false,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [50, 800],
+    "base_spend": [50, 1500]
+  },
+  {
+    "game_id": "game-pgatour2k",
+    "franchise": "PGATOUR2K",
+    "title": "PGA TOUR 2K25",
+    "genre": "Professional Golf Simulation & Course Designer",
+    "is_parent_hub": true,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [40, 750],
+    "base_spend": [60, 600]
+  },
+  {
+    "game_id": "game-pgatour2k-societies",
+    "franchise": "PGATOUR2K",
+    "title": "PGA TOUR 2K25 Online Societies",
+    "genre": "Clubhouse Pass & Society Tournaments",
+    "is_parent_hub": false,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
+    "base_hours": [30, 600],
+    "base_spend": [10, 300]
+  },
+  {
+    "game_id": "game-fc26",
+    "franchise": "FC26",
+    "title": "NBA 2K26 (Legacy Alias)",
+    "genre": "Basketball Simulation",
+    "is_parent_hub": false,
+    "platforms": ["2K_ACCOUNT", "PLAYSTATION_PSN"],
+    "base_hours": [100, 1000],
+    "base_spend": [50, 500]
   },
   {
     "game_id": "game-apex",
     "franchise": "APEX",
-    "title": "Apex Legends",
-    "genre": "Hero Battle Royale & Tactical Shooter",
-    "is_parent_hub": true,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID", "NINTENDO_SWITCH"],
-    "base_hours": [150, 3000],
-    "base_spend": [0, 3200]
-  },
-  {
-    "game_id": "game-apex-ranked-br",
-    "franchise": "APEX",
-    "title": "Apex Ranked Battle Royale",
-    "genre": "Competitive Ranked Ladder (Predator/Master)",
+    "title": "Borderlands 4 (Legacy Alias)",
+    "genre": "Co-Op Looter-Shooter",
     "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [200, 2500],
-    "base_spend": [20, 2500]
-  },
-  {
-    "game_id": "game-apex-trios-squads",
-    "franchise": "APEX",
-    "title": "Apex Trios Social Squads",
-    "genre": "Squad Co-op Battle Royale",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [50, 1000],
-    "base_spend": [0, 400]
-  },
-  {
-    "game_id": "game-apex-mixtape",
-    "franchise": "APEX",
-    "title": "Apex Mixtape (Gun Run / Control)",
-    "genre": "Fast-Paced Casual Arena",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [30, 800],
-    "base_spend": [0, 150]
-  },
-  {
-    "game_id": "game-madden25",
-    "franchise": "MADDEN25",
-    "title": "Madden NFL 25",
-    "genre": "American Football Simulation & MUT",
-    "is_parent_hub": true,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID", "COMPANION_APP"],
-    "base_hours": [80, 1800],
-    "base_spend": [50, 4200]
-  },
-  {
-    "game_id": "game-madden25-mut",
-    "franchise": "MADDEN25",
-    "title": "Madden Ultimate Team (MUT)",
-    "genre": "Card Collecting & Head-to-Head Champions",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "COMPANION_APP"],
-    "base_hours": [120, 2000],
-    "base_spend": [60, 4000]
-  },
-  {
-    "game_id": "game-madden25-franchise",
-    "franchise": "MADDEN25",
-    "title": "Madden Connected Franchise",
-    "genre": "Multi-Season Head Coach Simulation",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID"],
-    "base_hours": [50, 900],
-    "base_spend": [0, 70]
-  },
-  {
-    "game_id": "game-madden25-superstar",
-    "franchise": "MADDEN25",
-    "title": "Madden Superstar Showdown",
-    "genre": "3v3 Arcade Football & Player Progression",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID"],
-    "base_hours": [30, 600],
-    "base_spend": [0, 200]
-  },
-  {
-    "game_id": "game-battlefield",
-    "franchise": "BATTLEFIELD",
-    "title": "Battlefield 2042",
-    "genre": "All-Out Tactical FPS & Vehicle Warfare",
-    "is_parent_hub": true,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [80, 2000],
-    "base_spend": [20, 1500]
-  },
-  {
-    "game_id": "game-bf-conquest",
-    "franchise": "BATTLEFIELD",
-    "title": "Battlefield 64v64 Conquest",
-    "genre": "Large-Scale Combined Arms Warfare",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [100, 1800],
-    "base_spend": [0, 800]
-  },
-  {
-    "game_id": "game-bf-breakthrough",
-    "franchise": "BATTLEFIELD",
-    "title": "Battlefield Breakthrough Squads",
-    "genre": "Attack & Defend Tactical Warfare",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [50, 1200],
-    "base_spend": [0, 500]
-  },
-  {
-    "game_id": "game-sims4",
-    "franchise": "SIMS4",
-    "title": "The Sims 4",
-    "genre": "Life Simulation & Architectural Sandbox",
-    "is_parent_hub": true,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [150, 4000],
-    "base_spend": [0, 1200]
-  },
-  {
-    "game_id": "game-sims4-expansion-dlc",
-    "franchise": "SIMS4",
-    "title": "The Sims 4 Expansion Packs",
-    "genre": "DLC Collection (Lovestruck/For Rent/Growing Together)",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [200, 3500],
-    "base_spend": [100, 1100]
-  },
-  {
-    "game_id": "game-sims4-build-buy",
-    "franchise": "SIMS4",
-    "title": "The Sims 4 Build & Buy Sandbox",
-    "genre": "Architectural Design & Custom Content Mods",
-    "is_parent_hub": false,
-    "platforms": ["EA_ACCOUNT", "PLAYSTATION_PSN", "XBOX_XUID", "STEAM_ID"],
-    "base_hours": [100, 2500],
-    "base_spend": [0, 400]
+    "platforms": ["2K_ACCOUNT", "STEAM_ID"],
+    "base_hours": [100, 1000],
+    "base_spend": [50, 500]
   }
 ]
