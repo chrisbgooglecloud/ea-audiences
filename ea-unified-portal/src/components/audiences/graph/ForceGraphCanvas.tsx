@@ -9,7 +9,7 @@ interface ForceGraphCanvasProps {
   data: GraphData;
   is3D: boolean;
   selectedNode: GraphNode | null;
-  onNodeClick: (node: GraphNode) => void;
+  onNodeClick: (node: GraphNode | null) => void;
   width: number;
   height: number;
 }
@@ -283,6 +283,22 @@ export default function ForceGraphCanvas({
     []
   );
 
+  // Node Pointer Area Paint for accurate, instantaneous click & hover hit-testing
+  const paintNodePointerArea = useCallback(
+    (node: any, color: string, ctx: CanvasRenderingContext2D) => {
+      const isAnchor = node.type === "GAME";
+      const isOffer = node.type === "OFFER";
+      const isCreator = node.type === "CREATOR";
+      const isWhale = (node.archetype && node.archetype.includes("WHALE")) || (node.spend && node.spend >= 1000);
+      const baseRadius = isAnchor ? 28 : isCreator ? 24 : isOffer ? 22 : isWhale ? 14 : 10;
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, baseRadius, 0, 2 * Math.PI, false);
+      ctx.fillStyle = color;
+      ctx.fill();
+    },
+    []
+  );
+
   return (
     <>
       {is3D ? (
@@ -312,6 +328,7 @@ export default function ForceGraphCanvas({
           linkDirectionalParticleColor={getLinkParticleColor}
           linkDirectionalParticleWidth={2.8}
           onNodeClick={(node: any) => onNodeClick(node as GraphNode)}
+          onBackgroundClick={() => onNodeClick(null as any)}
           backgroundColor="#080A0E"
           enableNodeDrag={true}
         />
@@ -323,6 +340,7 @@ export default function ForceGraphCanvas({
           graphData={data}
           nodeCanvasObject={paintNode2D}
           nodeCanvasObjectMode={() => "replace"}
+          nodePointerAreaPaint={paintNodePointerArea}
           linkCanvasObject={paintLink2D}
           linkCanvasObjectMode={() => "after"}
           linkDirectionalParticles={getLinkParticles}
@@ -331,6 +349,7 @@ export default function ForceGraphCanvas({
           linkDirectionalParticleWidth={2.6}
           onNodeClick={(node: any) => onNodeClick(node as GraphNode)}
           onNodeHover={(node: any) => setHoveredNode(node as GraphNode | null)}
+          onBackgroundClick={() => onNodeClick(null as any)}
           enableNodeDrag={true}
           cooldownTicks={120}
           d3AlphaDecay={0.02}

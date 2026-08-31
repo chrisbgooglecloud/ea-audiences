@@ -80,7 +80,7 @@ export default function AudiencesPage() {
     fetchGraphView();
   }, [fetchGraphView]);
 
-  const handleNodeClick = (node: GraphNode) => {
+  const handleNodeClick = (node: GraphNode | null) => {
     setSelectedNode(node);
     setIsCohortDrawerOpen(true);
   };

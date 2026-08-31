@@ -12,7 +12,7 @@ interface GraphStageProps {
   data: GraphData;
   is3D: boolean;
   selectedNode: GraphNode | null;
-  onNodeClick: (node: GraphNode) => void;
+  onNodeClick: (node: GraphNode | null) => void;
 }
 
 export default function GraphStage({
